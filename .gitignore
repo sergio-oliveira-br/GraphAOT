@@ -1,0 +1,16 @@
+#.gitignore
+
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual env
+venv/
+env/
+.venv/
+
+# packages
+dist/
+build/
+*.egg-info/
