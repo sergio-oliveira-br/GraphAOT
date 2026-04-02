@@ -1,0 +1,3 @@
+# requirements.txt
+
+cyclonedx-python-lib
