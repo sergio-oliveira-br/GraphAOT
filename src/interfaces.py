@@ -5,6 +5,9 @@ from abc import ABC, abstractmethod
 class IStorage(ABC):
     @abstractmethod
     def upload_file(self, local_path: str, remote_key: str, bucket_type: str) -> bool:
+        """
+        'analysis' for BOM or 'audit' for POM
+        """
         pass
 
 class IVersionControl(ABC):
