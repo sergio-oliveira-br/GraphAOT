@@ -1,6 +1,7 @@
 # src/interfaces.py
 
 from abc import ABC, abstractmethod
+import networkx as nx
 
 # Contract for storage
 class IStorage(ABC):
@@ -32,4 +33,16 @@ class IBuildTool(ABC):
     @abstractmethod
     def generate_audit_data(self, project_path: str) -> str:
         """Generates the POM"""
+        pass
+
+# Contract for the architecture of Graphs
+class GraphProvider(ABC):
+    @abstractmethod
+    def build_from_bom(self, bom_path: str) -> nx.DiGraph:
+        """Transforms a BOM into a graph"""
+        pass
+
+    @abstractmethod
+    def get_metrics(self, graph: nx.DiGraph) -> dict:
+        """Extract topological metrics graph - (SRQ1)"""
         pass
