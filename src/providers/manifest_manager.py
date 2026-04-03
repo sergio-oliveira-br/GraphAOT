@@ -39,7 +39,7 @@ class ManifestManager:
             self.df.at[idx, 'last_attempt'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             # save
             self.df.to_csv(self.file_path, index=False)
-            self.logger.info(f"Status atualizado para {project_id}: {status}")
+            self.logger.info(f"Status updated to {project_id}: {status}")
 
     def get_successful_projects(self) -> list:
         """Returns only successful projects"""
