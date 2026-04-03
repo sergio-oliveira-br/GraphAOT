@@ -1,0 +1,5 @@
+project_id,node_count,edge_count,density,max_depth,avg_clustering,is_dag,hubs,processed_at
+algo-struct,42,75,0.0435540069686411,5,0.3057256235827664,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,2026-04-03 21:52:48
+algorithms-api-java,42,74,0.0429732868757259,5,0.2914399092970521,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,2026-04-03 21:52:48
+StockWise,104,205,0.0191374159820761,6,0.2864434192629894,True,spring-boot-starter|spring-boot|all,2026-04-03 21:52:48
+sale-service,127,257,0.016060492438445196,5,0.2637425566559425,True,spring-boot-starter|spring-boot-starter-logging|spring-context,2026-04-03 21:52:49
