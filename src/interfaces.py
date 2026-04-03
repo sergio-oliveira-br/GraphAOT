@@ -11,6 +11,8 @@ class IStorage(ABC):
         """
         pass
 
+
+# Contract for version control
 class IVersionControl(ABC):
     @abstractmethod
     def clone(self, url: str, target_path: str) -> bool:
