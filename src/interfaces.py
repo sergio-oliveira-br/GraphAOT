@@ -20,3 +20,16 @@ class IVersionControl(ABC):
         Clone a repository for the destination path.
         """
         pass
+
+
+# Contract for the extraction of artifacts
+class IBuildTool(ABC):
+    @abstractmethod
+    def generate_bom(self, project_path: str) -> str:
+        """Generates the CycloneDX SBOM"""
+        pass
+
+    @abstractmethod
+    def generate_audit_data(self, project_path: str) -> str:
+        """Generates the POM"""
+        pass
