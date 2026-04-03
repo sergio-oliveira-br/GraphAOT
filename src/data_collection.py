@@ -1,4 +1,4 @@
-# src/main.py
+# src/data_collection.py
 
 import shutil
 from pathlib import Path
