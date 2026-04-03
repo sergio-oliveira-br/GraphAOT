@@ -12,6 +12,11 @@ class IStorage(ABC):
         """
         pass
 
+    @abstractmethod
+    def download_file(self, s3_key, local_path):
+        """donwload file from s3 to local path"""
+        pass
+
 
 # Contract for version control
 class IVersionControl(ABC):
