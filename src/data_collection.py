@@ -17,7 +17,7 @@ TEMP_DIR = Path("temp/work_dir")
 def run_harvester():
 
     logger = setup_logger()
-    manifest = ManifestManager("../data/manifest.csv")
+    manifest = ManifestManager("data/manifest.csv")
     git = GitManager()
     mvn = MavenManager()
     storage = S3Storage(BUCKET_NAME)
