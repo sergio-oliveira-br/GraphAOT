@@ -43,9 +43,28 @@ class NetworkXGraphManager(GraphProvider):
         if graph.number_of_nodes() == 0:
             return {}
 
+        # Identify the root node (usually is the zero)
+        roots = [n for n, d in graph.in_degree() if d == 0]
+        root = roots[0] if roots else None
+
+        max_depth = 0
+        if root:
+            path_lengths = nx.single_source_shortest_path_length(graph, root)
+            max_depth = max(path_lengths.values()) if path_lengths else 0
+
+        centrality = nx.betweenness_centrality(graph)
+
+        top_hubs = sorted(centrality.items(), key=lambda x: x[1], reverse=True)[:3]
+        hub_names = [graph.nodes[node].get('name', node) for node, score in top_hubs if score > 0]
+
         return {
             "node_count": graph.number_of_nodes(),
             "edge_count": graph.number_of_edges(),
-            "avg_clustering": nx.average_clustering(graph.to_undirected()),
-            "density": nx.density(graph)
+            "density": nx.density(graph),
+            "max_depth": max_depth,
+            "avg_coefficient": nx.average_clustering(graph.to_undirected()),
+            "top_hubs": hub_names,
+            # If it’s not a DAG (Directed Acyclic Graph), there are circular dependencies,
+            # which is a nightmare for static compilation
+            "is_dag": nx.is_directed_acyclic_graph(graph)
         }
