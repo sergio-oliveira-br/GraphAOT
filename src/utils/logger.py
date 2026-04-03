@@ -2,6 +2,8 @@
 
 import logging
 import os
+import sys
+
 
 def setup_logger():
     if not os.path.exists('logs'):
@@ -12,7 +14,7 @@ def setup_logger():
         format='%(asctime)s [%(levelname)s] %(message)s',
         handlers=[
             logging.FileHandler("logs/harvester.log"),
-            logging.StreamHandler()
+            logging.StreamHandler(sys.stdout)
         ]
     )
     return logging.getLogger("GraphAOT")
