@@ -1,10 +1,10 @@
 # src/graph_processor.py
 
 from pathlib import Path
-
 from src.providers.manifest_manager import ManifestManager
 from src.providers.graph_manager import NetworkXGraphManager
 from src.providers.s3_storage import S3Storage
+from src.providers.stats_manager import StatsManager
 
 
 # What it does: It transforms the "lake" into graphs and calculates SRQ1 metrics.
@@ -17,6 +17,7 @@ def run_analysis():
     graph_service = NetworkXGraphManager()
     BUCKET_NAME = "graphaot-research"
     storage = S3Storage(BUCKET_NAME)
+    stats_service = StatsManager("data/analysis_results.csv")
 
     # 2. Upload only projects that have been SUCCESSFUL
     projects = manifest.get_successful_projects()
@@ -27,29 +28,27 @@ def run_analysis():
 
     for project in projects:
         p_id = project['project_id']
-
-        # 1. temp save
         local_temp_path = Path(f"temp/analysis_cache/{p_id}_bom.json")
         local_temp_path.parent.mkdir(parents=True, exist_ok=True)
 
-        print(f">>> Downloading BOM from S3: {p_id}")
-        s3_key = f"analysis/{p_id}/bom.json"
+        print(f">>> Processing Topology: {p_id}")
 
         try:
-            storage.download_file(s3_key, str(local_temp_path))
-
-            # 3. Build Graph
+            # download and build
+            storage.download_file(f"analysis/{p_id}/bom.json", str(local_temp_path))
             graph = graph_service.build_from_bom(str(local_temp_path))
+
+            # extracting metrics
             metrics = graph_service.get_metrics(graph)
 
-            print(f"[OK] Project {p_id} ")
-            print(f"  > Structure: {metrics['node_count']} node | Max Depth: {metrics['max_depth']}")
-            print(f"  > Critical Hubs: {', '.join(metrics['top_hubs'])}")
-            print(f"  > Density: {metrics['density']:.4f}")
-            print("-" * 50)
+            # data Persistence
+            stats_service.save_metrics(p_id, metrics)
 
-            # 4. cleanup
-            local_temp_path.unlink()
+            print(f" [V] Data saved: {p_id}")
+
+            # cleanup
+            if local_temp_path.exists():
+                local_temp_path.unlink()
 
         except Exception as e:
             print(f" [!] Error processing {p_id}: {e}")
