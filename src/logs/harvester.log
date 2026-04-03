@@ -1,0 +1,78 @@
+2026-04-03 10:28:37,474 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-03 10:29:19,543 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-03 10:29:19,625 [INFO] Starting processing of 5 project.
+2026-04-03 10:35:07,768 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-03 10:35:07,846 [INFO] Starting processing of 5 project.
+2026-04-03 10:40:34,087 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-03 10:40:34,165 [INFO] Starting processing of 5 project.
+2026-04-03 10:42:33,050 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-03 10:42:33,129 [INFO] Starting processing of 5 project.
+2026-04-03 10:42:33,129 [INFO] >>> Processing: safetrade_client_service
+2026-04-03 10:42:33,129 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/safetrade_client_service
+2026-04-03 10:42:33,881 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-03 10:42:35,630 [ERROR] Maven error: 
+2026-04-03 10:42:35,630 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/safetrade_client_service/target/effective-pom.xml
+2026-04-03 10:42:36,396 [ERROR] Maven error: 
+2026-04-03 10:42:36,396 [ERROR] Audit file not found in: temp/work_dir/safetrade_client_service/target/effective-pom.xml
+2026-04-03 10:42:36,397 [ERROR] Critical error in the project safetrade_client_service: Invalid value 'FAILED_MAVEN' for dtype 'float64'
+2026-04-03 10:42:36,401 [INFO] Purge completed: safetrade_client_service
+2026-04-03 10:47:01,777 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-03 10:47:01,855 [INFO] Starting processing of 5 project.
+2026-04-03 10:47:01,855 [INFO] >>> Processing: safetrade_client_service
+2026-04-03 10:47:01,855 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/safetrade_client_service
+2026-04-03 10:47:02,480 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-03 10:47:03,617 [ERROR] Maven error: 
+2026-04-03 10:47:03,617 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/safetrade_client_service/target/effective-pom.xml
+2026-04-03 10:47:04,383 [ERROR] Maven error: 
+2026-04-03 10:47:04,384 [ERROR] Audit file not found in: temp/work_dir/safetrade_client_service/target/effective-pom.xml
+2026-04-03 10:47:04,384 [ERROR] Critical error in the project safetrade_client_service: Invalid value 'FAILED_MAVEN' for dtype 'float64'
+2026-04-03 10:47:04,389 [INFO] Purge completed: safetrade_client_service
+2026-04-03 11:02:22,829 [ERROR] Manifesto not found: data/manifest.csv
+2026-04-03 11:03:55,058 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-03 11:03:55,134 [INFO] Starting processing of 5 projects.
+2026-04-03 11:04:01,097 [ERROR] Manifesto not found: ./data/manifest.csv
+2026-04-03 11:04:06,462 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-03 11:04:06,506 [INFO] Starting processing of 5 projects.
+2026-04-03 11:05:43,502 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-03 11:05:43,579 [INFO] Starting processing of 5 projects.
+2026-04-03 11:05:43,579 [INFO] >>> Processando: safetrade_client_service
+2026-04-03 11:05:43,579 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/safetrade_client_service
+2026-04-03 11:05:44,285 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-03 11:05:45,515 [ERROR] Maven error: 
+2026-04-03 11:05:45,515 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/safetrade_client_service/target/effective-pom.xml
+2026-04-03 11:05:46,282 [ERROR] Maven error: 
+2026-04-03 11:05:46,282 [ERROR] Audit file not found in: temp/work_dir/safetrade_client_service/target/effective-pom.xml
+2026-04-03 11:05:46,286 [INFO] Status atualizado para safetrade_client_service: FAILED_MAVEN
+2026-04-03 11:05:46,290 [INFO] Purge completed: safetrade_client_service
+2026-04-03 11:05:46,290 [INFO] >>> Processando: algo-struct
+2026-04-03 11:05:46,291 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/algo-struct
+2026-04-03 11:05:47,031 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-03 11:05:49,662 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/algo-struct/target/effective-pom.xml
+2026-04-03 11:05:51,270 [INFO] Success: temp/work_dir/algo-struct/target/bom.json -> s3://graphaot-research/analysis/algo-struct/bom.json
+2026-04-03 11:05:51,862 [INFO] Success: temp/work_dir/algo-struct/target/effective-pom.xml -> s3://graphaot-research/audit-logs/algo-struct/effective-pom.xml
+2026-04-03 11:05:51,868 [INFO] Status atualizado para algo-struct: SUCCESS
+2026-04-03 11:05:51,891 [INFO] Purge completed: algo-struct
+2026-04-03 11:05:51,891 [INFO] >>> Processando: algorithms-api-java
+2026-04-03 11:05:51,891 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/algorithms-api-java
+2026-04-03 11:05:52,658 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-03 11:05:54,769 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/algorithms-api-java/target/effective-pom.xml
+2026-04-03 11:05:56,786 [INFO] Success: temp/work_dir/algorithms-api-java/target/bom.json -> s3://graphaot-research/analysis/algorithms-api-java/bom.json
+2026-04-03 11:05:57,401 [INFO] Success: temp/work_dir/algorithms-api-java/target/effective-pom.xml -> s3://graphaot-research/audit-logs/algorithms-api-java/effective-pom.xml
+2026-04-03 11:05:57,406 [INFO] Status atualizado para algorithms-api-java: SUCCESS
+2026-04-03 11:05:57,422 [INFO] Purge completed: algorithms-api-java
+2026-04-03 11:05:57,422 [INFO] >>> Processando: StockWise
+2026-04-03 11:05:57,422 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/StockWise
+2026-04-03 11:05:58,086 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-03 11:06:20,428 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/StockWise/target/effective-pom.xml
+2026-04-03 11:06:22,857 [INFO] Success: temp/work_dir/StockWise/target/bom.json -> s3://graphaot-research/analysis/StockWise/bom.json
+2026-04-03 11:06:23,377 [INFO] Success: temp/work_dir/StockWise/target/effective-pom.xml -> s3://graphaot-research/audit-logs/StockWise/effective-pom.xml
+2026-04-03 11:06:23,382 [INFO] Status atualizado para StockWise: SUCCESS
+2026-04-03 11:06:23,395 [INFO] Purge completed: StockWise
+2026-04-03 11:06:23,396 [INFO] >>> Processando: sale-service
+2026-04-03 11:06:23,396 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/sale-service
+2026-04-03 11:06:23,958 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-03 11:06:49,394 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/sale-service/target/effective-pom.xml
+2026-04-03 11:06:53,236 [INFO] Success: temp/work_dir/sale-service/target/bom.json -> s3://graphaot-research/analysis/sale-service/bom.json
+2026-04-03 11:06:54,210 [INFO] Success: temp/work_dir/sale-service/target/effective-pom.xml -> s3://graphaot-research/audit-logs/sale-service/effective-pom.xml
+2026-04-03 11:06:54,216 [INFO] Status atualizado para sale-service: SUCCESS
+2026-04-03 11:06:54,231 [INFO] Purge completed: sale-service
