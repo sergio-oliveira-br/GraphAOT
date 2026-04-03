@@ -23,3 +23,12 @@ class S3Storage(IStorage):
         except Exception as e:
             self.logger.error(f"Error uploading {local_path}: {str(e)}")
             return False
+
+    def download_file(self, s3_key, local_path):
+        try:
+            self.s3_client.download_file(self.bucket_name, s3_key, local_path)
+            return True
+
+        except Exception as e:
+            print(f"Error on downloading from S3: {e}")
+            return False
