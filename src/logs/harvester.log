@@ -76,3 +76,15 @@
 2026-04-03 11:06:54,210 [INFO] Success: temp/work_dir/sale-service/target/effective-pom.xml -> s3://graphaot-research/audit-logs/sale-service/effective-pom.xml
 2026-04-03 11:06:54,216 [INFO] Status atualizado para sale-service: SUCCESS
 2026-04-03 11:06:54,231 [INFO] Purge completed: sale-service
+2026-04-03 22:02:08,542 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-03 22:02:08,625 [INFO] Starting processing of 0 projects.
+2026-04-03 22:03:38,003 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-03 22:03:38,084 [INFO] Starting processing of 1 projects.
+2026-04-03 22:03:38,084 [INFO] >>> Processando: mini-erp
+2026-04-03 22:03:38,084 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/mini-erp
+2026-04-03 22:03:42,543 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-03 22:03:45,907 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/mini-erp/target/effective-pom.xml
+2026-04-03 22:03:48,488 [INFO] Success: temp/work_dir/mini-erp/target/bom.json -> s3://graphaot-research/analysis/mini-erp/bom.json
+2026-04-03 22:03:49,485 [INFO] Success: temp/work_dir/mini-erp/target/effective-pom.xml -> s3://graphaot-research/audit-logs/mini-erp/effective-pom.xml
+2026-04-03 22:03:49,494 [INFO] Status atualizado para mini-erp: SUCCESS
+2026-04-03 22:03:49,507 [INFO] Purge completed: mini-erp
