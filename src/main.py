@@ -39,7 +39,7 @@ def run_harvester():
                 audit_file = mvn.generate_audit_data(project_path)
 
                 if bom_file and audit_file:
-                    # Passo C: S3
+                    # Step C: S3
                     s3_path = f"s3://{BUCKET_NAME}/analysis/{p_id}/"
                     storage.upload_file(bom_file, f"{p_id}/bom.json", "analysis")
                     storage.upload_file(audit_file, f"{p_id}/effective-pom.xml", "audit")
