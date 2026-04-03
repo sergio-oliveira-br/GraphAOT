@@ -11,7 +11,9 @@ from src.utils.logger import setup_logger
 BUCKET_NAME = "graphaot-research"
 TEMP_DIR = Path("temp/work_dir")
 
-
+# What does: "Collect" the raw data (Clone, Maven, S3).
+# Focus: Infrastructure and extraction.
+# Result: The "Data Lake" (bom.json, effective-pom.xml).
 def run_harvester():
 
     logger = setup_logger()
