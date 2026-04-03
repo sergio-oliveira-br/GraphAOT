@@ -13,7 +13,7 @@ from src.providers.stats_manager import StatsManager
 def run_analysis():
 
     # 1. Setup
-    manifest = ManifestManager("/Users/sergiovinicio/PycharmProjects/GraphAOT/data/manifest.csv")
+    manifest = ManifestManager("/src/data/manifest.csv")
     graph_service = NetworkXGraphManager()
     BUCKET_NAME = "graphaot-research"
     storage = S3Storage(BUCKET_NAME)
