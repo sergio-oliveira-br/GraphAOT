@@ -18,7 +18,7 @@ class ManifestManager:
             return pd.read_csv(self.file_path, dtype=str).fillna("")
 
         except FileNotFoundError:
-            self.logger.error(f"Manifesto not found: {self.file_path}")
+            self.logger.error(f"Manifest not found: {self.file_path}")
             raise
 
     def get_pending_projects(self) -> List[Dict[str, Any]]:
