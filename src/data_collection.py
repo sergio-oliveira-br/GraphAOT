@@ -31,7 +31,7 @@ def run_harvester():
         url = project['github_url']
 
         project_path = TEMP_DIR / p_id
-        logger.info(f">>> Processando: {p_id}")
+        logger.info(f">>> Processing: {p_id}")
 
         try:
             if git.clone(url, project_path):
