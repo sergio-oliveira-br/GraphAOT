@@ -40,3 +40,9 @@ class ManifestManager:
             # save
             self.df.to_csv(self.file_path, index=False)
             self.logger.info(f"Status atualizado para {project_id}: {status}")
+
+    def get_successful_projects(self) -> list:
+        """Returns only successful projects"""
+        mask = self.df['status'].str.upper() == 'SUCCESS'
+        successful = self.df[mask]
+        return successful.to_dict('records')
