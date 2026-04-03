@@ -42,7 +42,11 @@ def run_analysis():
             graph = graph_service.build_from_bom(str(local_temp_path))
             metrics = graph_service.get_metrics(graph)
 
-            print(f" [OK] Project {p_id} | Node: {metrics['node_count']} | Density: {metrics['density']:.4f}")
+            print(f"[OK] Project {p_id} ")
+            print(f"  > Structure: {metrics['node_count']} node | Max Depth: {metrics['max_depth']}")
+            print(f"  > Critical Hubs: {', '.join(metrics['top_hubs'])}")
+            print(f"  > Density: {metrics['density']:.4f}")
+            print("-" * 50)
 
             # 4. cleanup
             local_temp_path.unlink()
