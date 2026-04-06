@@ -3,7 +3,7 @@
 import json
 import networkx as nx
 import logging
-from src.interfaces import GraphProvider
+from src.interfaces.graph import GraphProvider
 
 class NetworkXGraphManager(GraphProvider):
     def __init__(self):
