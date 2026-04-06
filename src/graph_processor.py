@@ -1,11 +1,14 @@
 # src/graph_processor.py
 
+import os
+
 from pathlib import Path
 from src.providers.manifest_manager import ManifestManager
 from src.providers.graph_manager import NetworkXGraphManager
 from src.providers.reachability_metadata_manager import ReachabilityMetadataManager
 from src.providers.s3_storage import S3Storage
 from src.providers.stats_manager import StatsManager
+from datetime import datetime
 
 
 # What it does: It transforms the "lake" into graphs and calculates SRQ1 metrics.
@@ -51,7 +54,12 @@ def run_analysis():
             # data Persistence
             stats_service.save_metrics(p_id, metrics)
 
-            print(f" [V] Data saved: {p_id}")
+            # save the logs
+            if aot_results['log_details']:
+                with open(f"temp/analysis_cache/{p_id}_aot_details.txt", "w") as f:
+                    f.write("\n".join(aot_results['log_details']))
+
+            print(f" [OK] Data saved: {p_id}")
 
             # cleanup
             if local_temp_path.exists():
