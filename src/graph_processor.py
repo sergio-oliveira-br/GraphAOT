@@ -53,5 +53,46 @@ def run_analysis():
         except Exception as e:
             print(f" [!] Error processing {p_id}: {e}")
 
+
+def analyze_reachability_effort(graph, metadata_service, project_id):
+
+    total_refl = 0
+    total_proxy = 0
+    total_jni = 0
+    dep_count = 0
+    details = []
+
+    print(f"--- [DETAILED ANALYSIS: {project_id}] ---")
+
+    for node, data in graph.nodes(data=True):
+        if data.get('type') == 'dependency':
+            dep_count += 1
+
+            group = data.get('group', 'unknown')
+            artifact = data.get('name', '') or data.get('artifact', 'unknown')
+            version = data.get('version', '0.0.0')
+
+            meta = metadata_service.get_metadata_volume(group, artifact, version)
+
+            total_refl += meta.get('reflection', 0)
+            total_proxy += meta.get('proxy', 0)
+            total_jni += meta.get('jni', 0)
+
+            if any(v > 0 for v in meta.values()):
+                line = f"Dependency: {artifact}:{version} | Refl: {meta['reflection']} | Proxy: {meta['proxy']}"
+                print(f"   [+] {line}")
+                details.append(line)
+
+    print(f"--- [END OF ANALYSIS: {dep_count} deps processed] ---\n")
+
+    return {
+        "reflection_count": total_refl,
+        "proxy_count": total_proxy,
+        "jni_count": total_jni,
+        "dep_analysed_count": dep_count,
+        "log_details": details
+    }
+
+
 if __name__ == "__main__":
     run_analysis()
