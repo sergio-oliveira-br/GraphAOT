@@ -4,16 +4,6 @@ from abc import ABC, abstractmethod
 import networkx as nx
 
 
-# Contract for version control
-class IVersionControl(ABC):
-    @abstractmethod
-    def clone(self, url: str, target_path: str) -> bool:
-        """
-        Clone a repository for the destination path.
-        """
-        pass
-
-
 # Contract for the extraction of artifacts
 class IBuildTool(ABC):
     @abstractmethod
