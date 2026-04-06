@@ -94,5 +94,26 @@ def analyze_reachability_effort(graph, metadata_service, project_id):
     }
 
 
+def save_log(project_id, aot_results, base_path="data"):
+
+    base_dir = "/Users/sergiovinicio/PycharmProjects/GraphAOT/src/data"
+    log_path = os.path.join(base_dir, "raw_data_srq2.log")
+
+    os.makedirs(base_dir, exist_ok=True)
+
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    with open(log_path, "a") as master_log:
+        master_log.write(f"\n{'=' * 60}\n")
+        master_log.write(f"PROJECT: {project_id} | DATE: {timestamp}\n")
+        master_log.write(
+            f"SUMMARY: {aot_results['dep_analysed_count']} deps | Refl: {aot_results['reflection_count']}\n")
+        master_log.write(f"{'-' * 60}\n")
+
+        if aot_results['log_details']:
+            master_log.write("\n".join(aot_results['log_details']) + "\n")
+        else:
+            master_log.write("No reachability metadata found for this topology.\n")
+
 if __name__ == "__main__":
     run_analysis()
