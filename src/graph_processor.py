@@ -46,6 +46,8 @@ def run_analysis():
             # metadata effort
             aot_results = analyze_reachability_effort(graph, metadata_service, p_id)
 
+            save_log(p_id, aot_results, base_path="src/data")
+
             # data Persistence
             stats_service.save_metrics(p_id, metrics)
 
