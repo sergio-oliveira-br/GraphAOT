@@ -4,9 +4,9 @@ import subprocess
 import logging
 import shutil
 from pathlib import Path
-from src.interfaces import IVersionControl
+from src.interfaces.vcs import VersionControl
 
-class GitManager(IVersionControl):
+class GitManager(VersionControl):
     def __init__(self):
         self.logger = logging.getLogger(__name__)
 
