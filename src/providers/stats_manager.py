@@ -16,6 +16,7 @@ class StatsManager(StatsProvider):
         if not os.path.exists(self.output_path):
             df = pd.DataFrame(columns=[
                 'project_id', 'node_count', 'edge_count', 'density',
+                'reflection_count', 'proxy_count',
                 'max_depth', 'avg_clustering', 'is_dag', 'hubs', 'processed_at'
             ])
             os.makedirs(os.path.dirname(self.output_path), exist_ok=True)
