@@ -20,7 +20,7 @@ class StatsManager(StatsProvider):
             ])
             os.makedirs(os.path.dirname(self.output_path), exist_ok=True)
             df.to_csv(self.output_path, index=False)
-            self.logger.info(f"Dataset initialized: {self.output_path}")
+            print(f"Dataset initialized: {self.output_path}")
 
     def save_metrics(self, project_id: str, metrics: dict):
         try:
@@ -42,7 +42,7 @@ class StatsManager(StatsProvider):
             df = pd.concat([df, pd.DataFrame([new_data])], ignore_index=True)  # add the new line
 
             df.to_csv(self.output_path, index=False)
-            self.logger.info(f"Metrics saved: {project_id}")
+            print(f"Metrics (SRQ1+SRQ2) saved: {project_id}")
 
         except Exception as e:
             self.logger.error(f"Error when saving statistics: {e}")
