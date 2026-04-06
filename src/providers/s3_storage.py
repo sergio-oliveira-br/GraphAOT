@@ -2,9 +2,9 @@
 
 import boto3
 import logging
-from src.interfaces import IStorage
+from src.interfaces.storage import FileStorage
 
-class S3Storage(IStorage):
+class S3Storage(FileStorage):
     def __init__(self, bucket_name: str):
         self.bucket_name = bucket_name
         self.s3_client = boto3.client('s3')
