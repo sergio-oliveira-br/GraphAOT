@@ -3,7 +3,7 @@
 from abc import ABC, abstractmethod
 
 # Contract for storage
-class IStorage(ABC):
+class FileStorage(ABC):
     @abstractmethod
     def upload_file(self, local_path: str, remote_key: str, bucket_type: str) -> bool:
         """'analysis' for BOM or 'audit' for POM"""
