@@ -98,3 +98,5 @@
 2026-04-06 10:39:56,589 [INFO] Success: temp/work_dir/LabMQTT/target/effective-pom.xml -> s3://graphaot-research/audit-logs/LabMQTT/effective-pom.xml
 2026-04-06 10:39:56,595 [INFO] Status updated to LabMQTT: SUCCESS
 2026-04-06 10:39:56,602 [INFO] Purge completed: LabMQTT
+2026-04-06 13:16:12,857 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-06 13:16:12,940 [INFO] Starting processing of 0 projects.
