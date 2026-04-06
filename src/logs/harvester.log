@@ -88,3 +88,13 @@
 2026-04-03 22:03:49,485 [INFO] Success: temp/work_dir/mini-erp/target/effective-pom.xml -> s3://graphaot-research/audit-logs/mini-erp/effective-pom.xml
 2026-04-03 22:03:49,494 [INFO] Status atualizado para mini-erp: SUCCESS
 2026-04-03 22:03:49,507 [INFO] Purge completed: mini-erp
+2026-04-06 10:39:51,315 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-06 10:39:51,399 [INFO] Starting processing of 1 projects.
+2026-04-06 10:39:51,399 [INFO] >>> Processing: LabMQTT
+2026-04-06 10:39:51,399 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-04-06 10:39:52,193 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-06 10:39:54,938 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/LabMQTT/target/effective-pom.xml
+2026-04-06 10:39:56,537 [INFO] Success: temp/work_dir/LabMQTT/target/bom.json -> s3://graphaot-research/analysis/LabMQTT/bom.json
+2026-04-06 10:39:56,589 [INFO] Success: temp/work_dir/LabMQTT/target/effective-pom.xml -> s3://graphaot-research/audit-logs/LabMQTT/effective-pom.xml
+2026-04-06 10:39:56,595 [INFO] Status updated to LabMQTT: SUCCESS
+2026-04-06 10:39:56,602 [INFO] Purge completed: LabMQTT
