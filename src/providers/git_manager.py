@@ -11,9 +11,7 @@ class GitManager(VersionControl):
         self.logger = logging.getLogger(__name__)
 
     def clone(self, url: str, target_path: str) -> bool:
-        """
-        Performs the ephemeral clone (depth 1).
-        """
+        """Performs the ephemeral clone (depth 1)"""
         path = Path(target_path)
 
         # If the folder already exists, it is removed earlier
