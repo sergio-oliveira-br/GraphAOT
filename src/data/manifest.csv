@@ -5,4 +5,4 @@ algorithms-api-java,https://github.com/sergio-oliveira-br/algorithms-api-java,,S
 StockWise,https://github.com/sergio-oliveira-br/StockWise,,SUCCESS,s3://graphaot-research/analysis/StockWise/,,2026-04-03 11:06:23
 sale-service,https://github.com/sergio-oliveira-br/sale-service,17,SUCCESS,s3://graphaot-research/analysis/sale-service/,,2026-04-03 11:06:54
 mini-erp,https://github.com/sergio-oliveira-br/mini-erp,17,SUCCESS,s3://graphaot-research/analysis/mini-erp/,,2026-04-03 22:03:49
-LabMQTT,https://github.com/sergio-oliveira-br/LabMQTT,,,,,
+LabMQTT,https://github.com/sergio-oliveira-br/LabMQTT,,SUCCESS,s3://graphaot-research/analysis/LabMQTT/,,2026-04-06 10:39:56
