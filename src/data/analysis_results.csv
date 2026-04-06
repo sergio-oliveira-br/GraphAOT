@@ -1,6 +1,7 @@
 project_id,node_count,edge_count,density,max_depth,avg_clustering,is_dag,hubs,processed_at
-algo-struct,42,75,0.0435540069686411,5,0.3057256235827664,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,2026-04-03 22:06:59
-algorithms-api-java,42,74,0.0429732868757259,5,0.2914399092970521,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,2026-04-03 22:06:59
-StockWise,104,205,0.0191374159820761,6,0.2864434192629894,True,spring-boot-starter|spring-boot|all,2026-04-03 22:07:00
-sale-service,127,257,0.0160604924384451,5,0.2637425566559425,True,spring-boot-starter|spring-boot-starter-logging|spring-context,2026-04-03 22:07:00
-mini-erp,84,174,0.02495697074010327,5,0.2668570361322462,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,2026-04-03 22:07:00
+algo-struct,42,75,0.0435540069686411,5,0.3057256235827664,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,2026-04-06 10:40:29
+algorithms-api-java,42,74,0.0429732868757259,5,0.2914399092970521,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,2026-04-06 10:40:30
+StockWise,104,205,0.0191374159820761,6,0.2864434192629894,True,spring-boot-starter|spring-boot|all,2026-04-06 10:40:30
+sale-service,127,257,0.0160604924384451,5,0.2637425566559425,True,spring-boot-starter|spring-boot-starter-logging|spring-context,2026-04-06 10:40:30
+mini-erp,84,174,0.0249569707401032,5,0.2668570361322462,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,2026-04-06 10:40:30
+LabMQTT,3,2,0.3333333333333333,2,0.0,True,amqp-client,2026-04-06 10:40:30
