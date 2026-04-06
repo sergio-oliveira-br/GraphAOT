@@ -1,0 +1,5 @@
+Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+Dependency: tomcat-embed-core:10.1.42 | Refl: 105 | Proxy: 0
+Dependency: hibernate-validator:8.0.2.Final | Refl: 356 | Proxy: 0
+Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
