@@ -51,6 +51,11 @@ def run_analysis():
 
             save_log(p_id, aot_results, base_path="src/data")
 
+            metrics['reflection_count'] = aot_results['reflection_count']
+            metrics['proxy_count'] = aot_results['proxy_count']
+            metrics['jni_count'] = aot_results['jni_count']
+            metrics['dep_count'] = aot_results['dep_analysed_count']
+
             # data Persistence
             stats_service.save_metrics(p_id, metrics)
 
