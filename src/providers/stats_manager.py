@@ -29,6 +29,8 @@ class StatsManager(StatsProvider):
 
             new_data = {
                 'project_id': project_id,
+
+                # SRQ1
                 'node_count': metrics.get('node_count'),
                 'edge_count': metrics.get('edge_count'),
                 'density': metrics.get('density'),
