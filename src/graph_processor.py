@@ -3,6 +3,7 @@
 from pathlib import Path
 from src.providers.manifest_manager import ManifestManager
 from src.providers.graph_manager import NetworkXGraphManager
+from src.providers.reachability_metadata_manager import ReachabilityMetadataManager
 from src.providers.s3_storage import S3Storage
 from src.providers.stats_manager import StatsManager
 
@@ -18,6 +19,7 @@ def run_analysis():
     BUCKET_NAME = "graphaot-research"
     storage = S3Storage(BUCKET_NAME)
     stats_service = StatsManager("data/analysis_results.csv")
+    metadata_service = ReachabilityMetadataManager()
 
     # 2. Upload only projects that have been SUCCESSFUL
     projects = manifest.get_successful_projects()
@@ -40,6 +42,9 @@ def run_analysis():
 
             # extracting metrics
             metrics = graph_service.get_metrics(graph)
+
+            # metadata effort
+            aot_results = analyze_reachability_effort(graph, metadata_service, p_id)
 
             # data Persistence
             stats_service.save_metrics(p_id, metrics)
