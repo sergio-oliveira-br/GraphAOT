@@ -3,7 +3,7 @@
 from abc import ABC, abstractmethod
 
 # Contract for the extraction of artifacts
-class IBuildTool(ABC):
+class BuildTool(ABC):
     @abstractmethod
     def generate_bom(self, project_path: str) -> str:
         """Generates the CycloneDX SBOM"""
