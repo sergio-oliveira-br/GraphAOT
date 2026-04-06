@@ -31,7 +31,7 @@ def run_analysis():
         local_temp_path = Path(f"temp/analysis_cache/{p_id}_bom.json")
         local_temp_path.parent.mkdir(parents=True, exist_ok=True)
 
-        print(f">>> Processing Topology: {p_id}")
+        print(f"\n>>> Processing Topology: {p_id}")
 
         try:
             # download and build
