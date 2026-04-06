@@ -48,9 +48,14 @@ class StatsManager(StatsProvider):
                 'processed_at': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             }
 
-            df = df[df['project_id'] != project_id] # update
-            df = pd.concat([df, pd.DataFrame([new_data])], ignore_index=True)  # add the new line
+            # update
+            if not df.empty and 'project_id' in df.columns:
+                df = df[df['project_id'] != project_id]
 
+            # concatenate
+            df = pd.concat([df, pd.DataFrame([new_data])], ignore_index=True)
+
+            # save
             df.to_csv(self.output_path, index=False)
             print(f"Metrics (SRQ1+SRQ2) saved: {project_id}")
 
