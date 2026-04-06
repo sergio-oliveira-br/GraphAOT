@@ -4,7 +4,7 @@ import pandas as pd
 import os
 import logging
 from datetime import datetime
-from src.interfaces import StatsProvider # Importa a interface
+from src.interfaces.stats import StatsProvider
 
 class StatsManager(StatsProvider):
     def __init__(self, output_path: str = "data/analysis_results.csv"):
