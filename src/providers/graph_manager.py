@@ -19,11 +19,13 @@ class NetworkXGraphManager(GraphProvider):
             # Add the root project
             root = data.get('metadata', {}).get('component', {})
             root_id = root.get('bom-ref', 'root')
-            G.add_node(root_id, type='root', name=root.get('name'))
+            G.add_node(root_id, type='root', name=root.get('name'), group=root.get('group', ''))
 
             # Add the components
             for comp in data.get('components', []):
                 G.add_node(comp.get('bom-ref'),
+                           type='dependency',
+                           group=comp.get('group', ''),
                            name=comp.get('name'),
                            version=comp.get('version'))
 
