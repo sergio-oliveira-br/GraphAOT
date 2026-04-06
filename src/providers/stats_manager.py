@@ -38,6 +38,13 @@ class StatsManager(StatsProvider):
                 'avg_clustering': metrics.get('avg_coefficient'),
                 'is_dag': metrics.get('is_dag'),
                 'hubs': "|".join(metrics.get('top_hubs', [])),
+
+                # SRQ2
+                'reflection_count': metrics.get('reflection_count', 0),
+                'proxy_count': metrics.get('proxy_count', 0),
+                'jni_count': metrics.get('jni_count', 0),
+                'dep_count': metrics.get('dep_count', 0),
+
                 'processed_at': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             }
 
