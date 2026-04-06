@@ -3,20 +3,6 @@
 from abc import ABC, abstractmethod
 import networkx as nx
 
-# Contract for storage
-class IStorage(ABC):
-    @abstractmethod
-    def upload_file(self, local_path: str, remote_key: str, bucket_type: str) -> bool:
-        """
-        'analysis' for BOM or 'audit' for POM
-        """
-        pass
-
-    @abstractmethod
-    def download_file(self, s3_key, local_path):
-        """donwload file from s3 to local path"""
-        pass
-
 
 # Contract for version control
 class IVersionControl(ABC):
