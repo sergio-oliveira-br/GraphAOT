@@ -5,9 +5,9 @@ import logging
 import shutil
 
 from pathlib import Path
-from src.interfaces import IBuildTool
+from src.interfaces.build import BuildTool
 
-class MavenManager(IBuildTool):
+class MavenManager(BuildTool):
     def __init__(self, executable_path: str = None):
         self.logger = logging.getLogger(__name__)
         self.mvn_bin = executable_path or shutil.which("mvn") or "/opt/homebrew/bin/mvn"
