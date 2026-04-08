@@ -49,12 +49,10 @@ def run_analysis():
             # metadata effort
             aot_results = analyze_reachability_effort(graph, metadata_service, p_id)
 
-            save_log(p_id, aot_results, base_path="src/data")
+            # calculation
+            final_data = stats_service.compute_migration_metrics(metrics, aot_results)
 
-            metrics['reflection_count'] = aot_results['reflection_count']
-            metrics['proxy_count'] = aot_results['proxy_count']
-            metrics['jni_count'] = aot_results['jni_count']
-            metrics['dep_count'] = aot_results['dep_analysed_count']
+            save_log(p_id, aot_results, base_path="src/data")
 
             # data persistence
             stats_service.save_metrics(p_id, final_data)
