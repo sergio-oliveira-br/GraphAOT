@@ -61,3 +61,25 @@ class StatsManager(StatsProvider):
 
         except Exception as e:
             self.logger.error(f"Error when saving statistics: {e}")
+
+
+    def compute_migration_metrics(self, graph_metrics: dict, aot_results: dict) -> dict:
+
+        reflection = aot_results.get('reflection_count', 0)
+        proxy = aot_results.get('proxy_count', 0)
+        jni = aot_results.get('jni_count', 0)
+        deps = aot_results.get('dep_analysed_count', 0)
+
+        total_cmv = reflection + proxy + jni
+        metadata_density = total_cmv / deps if deps > 0 else 0
+
+        return {
+            **graph_metrics,
+            'reflection_count': reflection,
+            'proxy_count': proxy,
+            'jni_count': jni,
+            'dep_count': deps,
+            'total_metadata': total_cmv,
+            'metadata_density': metadata_density,
+            'build_status': 0
+        }
