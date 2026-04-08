@@ -15,9 +15,21 @@ class StatsManager(StatsProvider):
     def _initialize_storage(self):
         if not os.path.exists(self.output_path):
             df = pd.DataFrame(columns=[
-                'project_id', 'node_count', 'edge_count', 'density',
-                'reflection_count', 'proxy_count',
-                'max_depth', 'avg_clustering', 'is_dag', 'hubs', 'processed_at'
+                'project_id',
+                # SRQ1
+                'node_count', 'edge_count', 'density', 'max_depth',
+                'avg_clustering', 'is_dag', 'hubs',
+
+                # SRQ2 - CMV
+                'dep_count',
+                'reflection_count', 'proxy_count', 'jni_count',
+                'total_metadata',
+                'metadata_density',
+
+                # MDS
+                'build_status',
+
+                'processed_at'
             ])
             os.makedirs(os.path.dirname(self.output_path), exist_ok=True)
             df.to_csv(self.output_path, index=False)
@@ -44,6 +56,11 @@ class StatsManager(StatsProvider):
                 'proxy_count': metrics.get('proxy_count', 0),
                 'jni_count': metrics.get('jni_count', 0),
                 'dep_count': metrics.get('dep_count', 0),
+                'total_metadata': metrics.get('total_metadata', 0),
+                'metadata_density': metrics.get('metadata_density', 0),
+
+                # MDS
+                'build_status': metrics.get('build_status', 0),
 
                 'processed_at': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             }
