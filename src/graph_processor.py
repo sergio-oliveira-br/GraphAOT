@@ -56,8 +56,8 @@ def run_analysis():
             metrics['jni_count'] = aot_results['jni_count']
             metrics['dep_count'] = aot_results['dep_analysed_count']
 
-            # data Persistence
-            stats_service.save_metrics(p_id, metrics)
+            # data persistence
+            stats_service.save_metrics(p_id, final_data)
 
             # save the logs
             if aot_results['log_details']:
