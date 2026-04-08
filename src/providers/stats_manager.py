@@ -47,7 +47,7 @@ class StatsManager(StatsProvider):
                 'edge_count': metrics.get('edge_count'),
                 'density': metrics.get('density'),
                 'max_depth': metrics.get('max_depth'),
-                'avg_clustering': metrics.get('avg_coefficient'),
+                'avg_clustering': metrics.get('avg_clustering'),
                 'is_dag': metrics.get('is_dag'),
                 'hubs': "|".join(metrics.get('top_hubs', [])),
 
