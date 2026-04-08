@@ -49,7 +49,7 @@ class StatsManager(StatsProvider):
                 'max_depth': metrics.get('max_depth'),
                 'avg_clustering': metrics.get('avg_clustering'),
                 'is_dag': metrics.get('is_dag'),
-                'hubs': "|".join(metrics.get('top_hubs', [])),
+                'hubs': "|".join(metrics.get('top_hubs', [])) if isinstance(metrics.get('top_hubs'), list) else metrics.get('hubs'),
 
                 # SRQ2
                 'reflection_count': metrics.get('reflection_count', 0),
