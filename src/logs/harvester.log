@@ -100,3 +100,29 @@
 2026-04-06 10:39:56,602 [INFO] Purge completed: LabMQTT
 2026-04-06 13:16:12,857 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
 2026-04-06 13:16:12,940 [INFO] Starting processing of 0 projects.
+2026-04-09 15:04:49,147 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:04:49,224 [INFO] No pending projects found for harvesting.
+2026-04-09 15:06:31,137 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:06:31,215 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-09 15:06:31,215 [INFO] >>> Harvesting Project: URLGeneratorApp
+2026-04-09 15:06:31,215 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp
+2026-04-09 15:06:32,030 [ERROR] Git Clone error: Cloning into 'temp/work_dir/URLGeneratorApp'...
+fatal: repository 'https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp/' not found
+
+2026-04-09 15:06:32,038 [INFO] Status updated to URLGeneratorApp: FAILED_CLONE
+2026-04-09 15:06:32,038 [INFO] --- Harvester Pipeline Finished ---
+2026-04-09 15:07:49,277 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:07:49,326 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-09 15:07:49,326 [INFO] >>> Harvesting Project: task-manager
+2026-04-09 15:07:49,326 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/task-manager
+2026-04-09 15:07:50,101 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-09 15:07:54,732 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/task-manager/target/effective-pom.xml
+2026-04-09 15:07:56,638 [INFO] Success: temp/work_dir/task-manager/target/bom.json -> s3://graphaot-research/analysis/task-manager/bom.json
+2026-04-09 15:07:57,350 [INFO] Success: temp/work_dir/task-manager/target/effective-pom.xml -> s3://graphaot-research/audit-logs/task-manager/effective-pom.xml
+2026-04-09 15:07:57,358 [INFO] Status updated to task-manager: SUCCESS
+2026-04-09 15:07:57,358 [INFO]  [OK] task-manager successfully stored in Lake.
+2026-04-09 15:07:57,369 [INFO] --- Harvester Pipeline Finished ---
+2026-04-09 15:17:16,280 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:17:16,358 [INFO] >>> Processing: algo-struct
+2026-04-09 15:17:28,803 [INFO]  [OK] algo-struct completed.
+2026-04-09 15:17:28,804 [INFO] >>> Processing: algorithms-api-java
