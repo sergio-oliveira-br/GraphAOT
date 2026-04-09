@@ -77,7 +77,7 @@ class StatsManager(StatsProvider):
 
             # save
             df.to_csv(self.output_path, index=False)
-            print(f" [CSV UPDATE] Metrics saved for {project_id} (CMV: {new_data['total_metadata']})")
+            self.logger.info(f" [CSV UPDATE] Metrics saved for {project_id} (CMV: {new_data['total_metadata']})")
 
         except Exception as e:
             self.logger.error(f"Error when saving statistics: {e}")
