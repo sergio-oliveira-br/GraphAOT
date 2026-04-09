@@ -20,7 +20,7 @@ def run_analysis():
     services = {
         'manifest': ManifestManager("data/manifest.csv"),
         'graph': NetworkXGraphManager(),
-        'metadata': ReachabilityMetadataManager(),
+        'metadata': ReachabilityMetadataManager(logger=logger),
         'storage': S3Storage("graphaot-research"),
         'stats': StatsManager("data/analysis_results.csv"),
         'logger': logger
@@ -50,9 +50,9 @@ def _process_project(p_id, service):
         service['stats'].save_metrics(p_id, final_data)
         service['stats'].save_log(p_id, aot_results)
 
-        logger.info(f" [OK] {p_id} completed.")
+        logger.info(f" [OK] {p_id} completed.\n")
     except Exception as e:
-        logger.error(f" [!] Error {p_id}: {e}")
+        logger.error(f" [!] Error {p_id}: {e}\n")
     finally:
         if local_path.exists(): local_path.unlink()
 
