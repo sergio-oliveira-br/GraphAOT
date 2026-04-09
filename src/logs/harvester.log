@@ -126,3 +126,221 @@ fatal: repository 'https://github.com/sergio-oliveira-br/Software-Development/tr
 2026-04-09 15:17:16,358 [INFO] >>> Processing: algo-struct
 2026-04-09 15:17:28,803 [INFO]  [OK] algo-struct completed.
 2026-04-09 15:17:28,804 [INFO] >>> Processing: algorithms-api-java
+2026-04-09 15:28:24,362 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:28:24,442 [INFO] >>> Processing: algo-struct
+2026-04-09 15:28:24,637 [ERROR]  [!] Error algo-struct: module 'src.utils.logger' has no attribute 'info'
+2026-04-09 15:28:24,637 [INFO] >>> Processing: algorithms-api-java
+2026-04-09 15:28:24,743 [ERROR]  [!] Error algorithms-api-java: module 'src.utils.logger' has no attribute 'info'
+2026-04-09 15:28:24,743 [INFO] >>> Processing: StockWise
+2026-04-09 15:28:24,922 [ERROR]  [!] Error StockWise: module 'src.utils.logger' has no attribute 'info'
+2026-04-09 15:28:24,922 [INFO] >>> Processing: sale-service
+2026-04-09 15:28:25,103 [ERROR]  [!] Error sale-service: module 'src.utils.logger' has no attribute 'info'
+2026-04-09 15:28:25,104 [INFO] >>> Processing: mini-erp
+2026-04-09 15:28:25,279 [ERROR]  [!] Error mini-erp: module 'src.utils.logger' has no attribute 'info'
+2026-04-09 15:28:25,279 [INFO] >>> Processing: LabMQTT
+2026-04-09 15:28:25,357 [ERROR]  [!] Error LabMQTT: module 'src.utils.logger' has no attribute 'info'
+2026-04-09 15:28:25,358 [INFO] >>> Processing: task-manager
+2026-04-09 15:28:25,499 [ERROR]  [!] Error task-manager: module 'src.utils.logger' has no attribute 'info'
+2026-04-09 15:33:40,420 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:33:40,475 [INFO] >>> Processing: algo-struct
+2026-04-09 15:33:40,684 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-09 15:33:52,730 [INFO]  [OK] algo-struct completed.
+2026-04-09 15:33:52,731 [INFO] >>> Processing: algorithms-api-java
+2026-04-09 15:33:52,917 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-09 15:33:59,945 [INFO]  [OK] algorithms-api-java completed.
+2026-04-09 15:33:59,946 [INFO] >>> Processing: StockWise
+2026-04-09 15:34:00,236 [INFO] --- [START ANALYSIS: StockWise] ---
+2026-04-09 15:34:43,993 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:34:44,072 [INFO] >>> Processing: algo-struct
+2026-04-09 15:34:44,272 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-09 15:34:45,253 [INFO]    [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:34:47,010 [INFO]    [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-09 15:34:47,235 [INFO]    [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-09 15:34:48,827 [INFO]    [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-09 15:34:50,574 [INFO]    [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-09 15:34:54,607 [INFO] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+
+2026-04-09 15:34:54,624 [INFO]  [OK] algo-struct completed.
+2026-04-09 15:34:54,624 [INFO] >>> Processing: algorithms-api-java
+2026-04-09 15:34:54,854 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-09 15:34:55,446 [INFO]    [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:34:56,522 [INFO]    [+] Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+2026-04-09 15:34:57,485 [INFO]    [+] Dependency: tomcat-embed-core:10.1.42 | Refl: 105 | Proxy: 0
+2026-04-09 15:34:59,157 [INFO]    [+] Dependency: hibernate-validator:8.0.2.Final | Refl: 356 | Proxy: 0
+2026-04-09 15:34:59,638 [INFO]    [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-09 15:35:00,698 [INFO] --- [END OF ANALYSIS: 41 deps processed for algorithms-api-java] ---
+
+2026-04-09 15:35:00,702 [INFO]  [OK] algorithms-api-java completed.
+2026-04-09 15:35:00,702 [INFO] >>> Processing: StockWise
+2026-04-09 15:35:00,822 [INFO] --- [START ANALYSIS: StockWise] ---
+2026-04-09 15:35:01,881 [INFO]    [+] Dependency: logback-classic:1.5.16 | Refl: 97 | Proxy: 0
+2026-04-09 15:35:13,078 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:35:13,130 [INFO] >>> Processing: algo-struct
+2026-04-09 15:35:13,336 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-09 15:35:13,966 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:35:15,022 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-09 15:35:15,261 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-09 15:35:16,087 [INFO] [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-09 15:35:16,978 [INFO] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-09 15:35:18,855 [INFO] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+
+2026-04-09 15:35:18,869 [INFO]  [OK] algo-struct completed.
+2026-04-09 15:35:18,869 [INFO] >>> Processing: algorithms-api-java
+2026-04-09 15:35:18,976 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-09 15:35:19,631 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:35:20,676 [INFO] [+] Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+2026-04-09 15:36:10,240 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:36:10,318 [INFO] >>> Processing: algo-struct
+2026-04-09 15:36:10,501 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-09 15:36:11,485 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:36:13,348 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-09 15:36:13,610 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-09 15:36:15,270 [INFO] [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-09 15:36:17,062 [INFO] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-09 15:36:21,035 [INFO] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+
+2026-04-09 15:36:21,049 [INFO]  [CSV UPDATE] Metrics saved for algo-struct (CMV: 283)
+2026-04-09 15:36:21,050 [INFO]  [OK] algo-struct completed.
+2026-04-09 15:36:21,050 [INFO] >>> Processing: algorithms-api-java
+2026-04-09 15:36:21,209 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-09 15:36:21,794 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:36:22,894 [INFO] [+] Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+2026-04-09 15:37:13,086 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:37:13,163 [INFO] >>> Processing: algo-struct
+2026-04-09 15:37:13,336 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-09 15:37:14,307 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:37:16,139 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-09 15:37:16,372 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-09 15:37:17,905 [INFO] [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-09 15:37:19,651 [INFO] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-09 15:37:23,674 [INFO] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+2026-04-09 15:37:23,686 [INFO]  [CSV UPDATE] Metrics saved for algo-struct (CMV: 283)
+2026-04-09 15:37:23,687 [INFO]  [OK] algo-struct completed.
+
+2026-04-09 15:37:23,687 [INFO] >>> Processing: algorithms-api-java
+2026-04-09 15:37:23,846 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-09 15:37:24,446 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:37:25,676 [INFO] [+] Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+2026-04-09 15:37:26,600 [INFO] [+] Dependency: tomcat-embed-core:10.1.42 | Refl: 105 | Proxy: 0
+2026-04-09 15:37:28,294 [INFO] [+] Dependency: hibernate-validator:8.0.2.Final | Refl: 356 | Proxy: 0
+2026-04-09 15:37:28,766 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-09 15:37:29,835 [INFO] --- [END OF ANALYSIS: 41 deps processed for algorithms-api-java] ---
+2026-04-09 15:37:29,843 [INFO]  [CSV UPDATE] Metrics saved for algorithms-api-java (CMV: 588)
+2026-04-09 15:37:29,843 [INFO]  [OK] algorithms-api-java completed.
+
+2026-04-09 15:37:29,843 [INFO] >>> Processing: StockWise
+2026-04-09 15:37:30,063 [INFO] --- [START ANALYSIS: StockWise] ---
+2026-04-09 15:37:30,992 [INFO] [+] Dependency: logback-classic:1.5.16 | Refl: 97 | Proxy: 0
+2026-04-09 15:37:50,956 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:37:51,044 [INFO] 
+>>> Processing: algo-struct
+2026-04-09 15:37:51,223 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-09 15:37:51,836 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:37:52,782 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-09 15:37:53,011 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-09 15:37:53,842 [INFO] [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-09 15:37:54,933 [INFO] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-09 15:37:56,888 [INFO] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+2026-04-09 15:37:56,901 [INFO]  [CSV UPDATE] Metrics saved for algo-struct (CMV: 283)
+2026-04-09 15:37:56,901 [INFO]  [OK] algo-struct completed.
+2026-04-09 15:37:56,902 [INFO] 
+>>> Processing: algorithms-api-java
+2026-04-09 15:37:56,983 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-09 15:37:57,588 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:38:33,854 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-09 15:38:33,936 [INFO] >>> Processing: algo-struct
+2026-04-09 15:38:34,116 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-09 15:38:35,079 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:38:36,767 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-09 15:38:36,993 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-09 15:38:38,666 [INFO] [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-09 15:38:40,411 [INFO] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-09 15:38:44,551 [INFO] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+2026-04-09 15:38:44,565 [INFO]  [CSV UPDATE] Metrics saved for algo-struct (CMV: 283)
+2026-04-09 15:38:44,565 [INFO]  [OK] algo-struct completed.
+
+2026-04-09 15:38:44,566 [INFO] >>> Processing: algorithms-api-java
+2026-04-09 15:38:44,749 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-09 15:38:45,604 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:38:46,959 [INFO] [+] Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+2026-04-09 15:38:48,112 [INFO] [+] Dependency: tomcat-embed-core:10.1.42 | Refl: 105 | Proxy: 0
+2026-04-09 15:38:50,189 [INFO] [+] Dependency: hibernate-validator:8.0.2.Final | Refl: 356 | Proxy: 0
+2026-04-09 15:38:50,833 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-09 15:38:51,977 [INFO] --- [END OF ANALYSIS: 41 deps processed for algorithms-api-java] ---
+2026-04-09 15:38:51,986 [INFO]  [CSV UPDATE] Metrics saved for algorithms-api-java (CMV: 588)
+2026-04-09 15:38:51,986 [INFO]  [OK] algorithms-api-java completed.
+
+2026-04-09 15:38:51,987 [INFO] >>> Processing: StockWise
+2026-04-09 15:38:52,193 [INFO] --- [START ANALYSIS: StockWise] ---
+2026-04-09 15:38:53,300 [INFO] [+] Dependency: logback-classic:1.5.16 | Refl: 97 | Proxy: 0
+2026-04-09 15:38:54,773 [INFO] [+] Dependency: jackson-databind:2.18.2 | Refl: 18 | Proxy: 0
+2026-04-09 15:38:56,408 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-09 15:38:57,479 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-09 15:38:58,266 [INFO] [+] Dependency: hibernate-core:6.6.8.Final | Refl: 1214 | Proxy: 0
+2026-04-09 15:38:59,285 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-09 15:39:03,856 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-09 15:39:04,399 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-09 15:39:06,220 [INFO] [+] Dependency: tomcat-embed-core:10.1.36 | Refl: 105 | Proxy: 0
+2026-04-09 15:39:07,352 [INFO] [+] Dependency: postgresql:42.7.5 | Refl: 8 | Proxy: 0
+2026-04-09 15:39:15,999 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-09 15:39:17,028 [INFO] --- [END OF ANALYSIS: 103 deps processed for StockWise] ---
+2026-04-09 15:39:17,049 [INFO]  [CSV UPDATE] Metrics saved for StockWise (CMV: 1551)
+2026-04-09 15:39:17,050 [INFO]  [OK] StockWise completed.
+
+2026-04-09 15:39:17,051 [INFO] >>> Processing: sale-service
+2026-04-09 15:39:17,328 [INFO] --- [START ANALYSIS: sale-service] ---
+2026-04-09 15:39:17,954 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-09 15:39:19,504 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-09 15:39:21,061 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-09 15:39:22,486 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-09 15:39:22,875 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-09 15:39:23,553 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-09 15:39:24,542 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-09 15:39:27,004 [INFO] [+] Dependency: hibernate-validator:8.0.1.Final | Refl: 356 | Proxy: 0
+2026-04-09 15:39:28,091 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-09 15:39:29,339 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-09 15:39:40,222 [INFO] [+] Dependency: consul-api:1.4.5 | Refl: 111 | Proxy: 0
+2026-04-09 15:39:40,995 [INFO] [+] Dependency: httpclient:4.5.14 | Refl: 1 | Proxy: 0
+2026-04-09 15:39:41,511 [INFO] [+] Dependency: commons-logging:1.2 | Refl: 7 | Proxy: 0
+2026-04-09 15:39:44,275 [INFO] --- [END OF ANALYSIS: 126 deps processed for sale-service] ---
+2026-04-09 15:39:44,286 [INFO]  [CSV UPDATE] Metrics saved for sale-service (CMV: 1963)
+2026-04-09 15:39:44,287 [INFO]  [OK] sale-service completed.
+
+2026-04-09 15:39:44,288 [INFO] >>> Processing: mini-erp
+2026-04-09 15:39:44,581 [INFO] --- [START ANALYSIS: mini-erp] ---
+2026-04-09 15:39:46,042 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-09 15:39:48,021 [INFO] [+] Dependency: jackson-databind:2.19.2 | Refl: 18 | Proxy: 0
+2026-04-09 15:39:49,788 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-09 15:39:50,532 [INFO] [+] Dependency: HikariCP:6.3.3 | Refl: 8 | Proxy: 0
+2026-04-09 15:39:50,920 [INFO] [+] Dependency: hibernate-core:6.6.29.Final | Refl: 1214 | Proxy: 0
+2026-04-09 15:39:51,414 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-09 15:39:52,280 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-09 15:39:55,050 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-09 15:39:55,271 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-09 15:39:57,348 [INFO] [+] Dependency: tomcat-embed-core:10.1.46 | Refl: 105 | Proxy: 0
+2026-04-09 15:39:58,602 [INFO] [+] Dependency: postgresql:42.7.7 | Refl: 8 | Proxy: 0
+2026-04-09 15:40:01,733 [INFO] [+] Dependency: hibernate-validator:8.0.3.Final | Refl: 356 | Proxy: 0
+2026-04-09 15:40:01,998 [INFO] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-04-09 15:40:02,010 [INFO]  [CSV UPDATE] Metrics saved for mini-erp (CMV: 1903)
+2026-04-09 15:40:02,011 [INFO]  [OK] mini-erp completed.
+
+2026-04-09 15:40:02,011 [INFO] >>> Processing: LabMQTT
+2026-04-09 15:40:02,197 [INFO] --- [START ANALYSIS: LabMQTT] ---
+2026-04-09 15:40:02,566 [INFO] --- [END OF ANALYSIS: 2 deps processed for LabMQTT] ---
+2026-04-09 15:40:02,578 [INFO]  [CSV UPDATE] Metrics saved for LabMQTT (CMV: 0)
+2026-04-09 15:40:02,578 [INFO]  [OK] LabMQTT completed.
+
+2026-04-09 15:40:02,579 [INFO] >>> Processing: task-manager
+2026-04-09 15:40:02,749 [INFO] --- [START ANALYSIS: task-manager] ---
+2026-04-09 15:40:03,916 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-09 15:40:04,451 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-09 15:40:05,204 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-09 15:40:06,331 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-09 15:40:09,713 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-09 15:40:11,598 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-09 15:40:14,329 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-09 15:40:14,962 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-09 15:40:16,394 [INFO] --- [END OF ANALYSIS: 77 deps processed for task-manager] ---
+2026-04-09 15:40:16,404 [INFO]  [CSV UPDATE] Metrics saved for task-manager (CMV: 1476)
+2026-04-09 15:40:16,405 [INFO]  [OK] task-manager completed.
+
