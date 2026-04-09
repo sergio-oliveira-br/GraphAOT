@@ -46,7 +46,7 @@ class ReachabilityMetadataManager(MetadataProvider):
         return res_default
 
 
-    def analyze_reachability_effort(self, graph, metadata_service, project_id):
+    def analyze_reachability_effort(self, graph, project_id):
 
         total_refl = 0
         total_proxy = 0
@@ -64,7 +64,7 @@ class ReachabilityMetadataManager(MetadataProvider):
                 artifact = data.get('name', '') or data.get('artifact', 'unknown')
                 version = data.get('version', '0.0.0')
 
-                meta = metadata_service.get_metadata_volume(group, artifact, version)
+                meta = self.get_metadata_volume(group, artifact, version)
 
                 total_refl += meta.get('reflection', 0)
                 total_proxy += meta.get('proxy', 0)
