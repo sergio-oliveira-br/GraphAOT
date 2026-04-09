@@ -3,12 +3,15 @@
 import pandas as pd
 import os
 import logging
+
+from pathlib import Path
 from datetime import datetime
 from src.interfaces.stats import StatsProvider
 
 class StatsManager(StatsProvider):
     def __init__(self, output_path: str = "data/analysis_results.csv"):
-        self.output_path = output_path
+        self.output_path = Path(output_path)
+        self.log_path = self.output_path.parent / "raw_data_srq2.log"
         self.logger = logging.getLogger(__name__)
         self._initialize_storage()
 
@@ -101,23 +104,23 @@ class StatsManager(StatsProvider):
             'build_status': 0
         }
 
-    def save_log(self, project_id, aot_results, base_path="data"):
+    def save_log(self, project_id, aot_results):
 
-        base_dir = "/Users/sergiovinicio/PycharmProjects/GraphAOT/src/data"
-        log_path = os.path.join(base_dir, "raw_data_srq2.log")
+        try:
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        os.makedirs(base_dir, exist_ok=True)
+            with open(self.log_path, "a") as master_log:
+                master_log.write(f"\n{'=' * 60}\n")
+                master_log.write(f"PROJECT: {project_id} | DATE: {timestamp}\n")
+                master_log.write(
+                    f"SUMMARY: {aot_results['dep_analysed_count']} deps | CMV: {aot_results['reflection_count'] + aot_results['proxy_count'] + aot_results['jni_count']}\n"
+                )
+                master_log.write(f"{'-' * 60}\n")
 
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                if aot_results.get('log_details'):
+                    master_log.write("\n".join(aot_results['log_details']) + "\n")
+                else:
+                    master_log.write("No reachability metadata found for this topology.\n")
 
-        with open(log_path, "a") as master_log:
-            master_log.write(f"\n{'=' * 60}\n")
-            master_log.write(f"PROJECT: {project_id} | DATE: {timestamp}\n")
-            master_log.write(
-                f"SUMMARY: {aot_results['dep_analysed_count']} deps | Refl: {aot_results['reflection_count']}\n")
-            master_log.write(f"{'-' * 60}\n")
-
-            if aot_results['log_details']:
-                master_log.write("\n".join(aot_results['log_details']) + "\n")
-            else:
-                master_log.write("No reachability metadata found for this topology.\n")
+        except Exception as e:
+            self.logger.error(f"Error saving raw log for {project_id}: {e}")
