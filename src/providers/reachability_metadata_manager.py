@@ -3,11 +3,10 @@ import logging
 import requests
 
 from src.interfaces.metadata import MetadataProvider
-from src.utils import logger
 
 
 class ReachabilityMetadataManager(MetadataProvider):
-    def __init__(self):
+    def __init__(self, logger=None):
         self.base_url = "https://raw.githubusercontent.com/oracle/graalvm-reachability-metadata/master/metadata"
         self.logger = logger or logging.getLogger(__name__)
 
@@ -62,7 +61,7 @@ class ReachabilityMetadataManager(MetadataProvider):
         dep_count = 0
         details = []
 
-        print(f"--- [DETAILED ANALYSIS: {project_id}] ---")
+        self.logger.info(f"--- [START ANALYSIS: {project_id}] ---")
 
         for node, data in graph.nodes(data=True):
             if data.get('type') == 'dependency':
@@ -80,10 +79,10 @@ class ReachabilityMetadataManager(MetadataProvider):
 
                 if any(v > 0 for v in meta.values()):
                     line = f"Dependency: {artifact}:{version} | Refl: {meta['reflection']} | Proxy: {meta['proxy']}"
-                    print(f"   [+] {line}")
+                    self.logger.info(f"[+] {line}")
                     details.append(line)
 
-        print(f"--- [END OF ANALYSIS: {dep_count} deps processed] ---\n")
+        self.logger.info(f"--- [END OF ANALYSIS: {dep_count} deps processed for {project_id}] ---")
 
         return {
             "reflection_count": total_refl,
