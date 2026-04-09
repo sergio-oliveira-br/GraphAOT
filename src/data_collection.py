@@ -15,53 +15,71 @@ TEMP_DIR = Path("temp/work_dir")
 # Focus: Infrastructure and extraction.
 # Result: The "Data Lake" (bom.json, effective-pom.xml).
 def run_harvester():
-
     logger = setup_logger()
-    manifest = ManifestManager("data/manifest.csv")
-    git = GitManager()
-    mvn = MavenManager()
-    storage = S3Storage(BUCKET_NAME)
 
-    # load the csv manifest
-    projects = manifest.get_pending_projects()
-    logger.info(f"Starting processing of {len(projects)} projects.")
+    services = {
+        'manifest': ManifestManager("data/manifest.csv"),
+        'git': GitManager(),
+        'maven': MavenManager(),
+        'storage': S3Storage(BUCKET_NAME),
+        'logger': logger
+    }
+
+    projects = services['manifest'].get_pending_projects()
+
+    if not projects:
+        logger.info("No pending projects found for harvesting.")
+        return
+
+    logger.info(f"--- Starting Harvester Pipeline: {len(projects)} projects ---")
 
     for project in projects:
-        p_id = project['project_id']
-        url = project['github_url']
+        _harvest_single_project(project, services)
 
-        project_path = TEMP_DIR / p_id
-        logger.info(f">>> Processing: {p_id}")
+    logger.info("--- Harvester Pipeline Finished ---")
 
-        try:
-            if git.clone(url, project_path):
+def _harvest_single_project(project: dict, service: dict):
+    p_id = project['project_id']
+    url = project['github_url']
+    work_path = TEMP_DIR / p_id
+    logger = service['logger']
 
-                #Step B: Maven (mining)
-                bom_file = mvn.generate_bom(project_path)
-                audit_file = mvn.generate_audit_data(project_path)
+    logger.info(f">>> Harvesting Project: {p_id}")
 
-                if bom_file and audit_file:
-                    # Step C: S3
-                    s3_path = f"s3://{BUCKET_NAME}/analysis/{p_id}/"
-                    storage.upload_file(bom_file, f"{p_id}/bom.json", "analysis")
-                    storage.upload_file(audit_file, f"{p_id}/effective-pom.xml", "audit")
+    try:
+        # git
+        if not service['git'].clone(url, work_path):
+            service['manifest'].update_project_status(p_id, "FAILED_CLONE", error="Git clone failed")
+            return
 
-                    manifest.update_project_status(p_id, "SUCCESS", s3_path=s3_path)
+        # maven
+        bom_file = service['maven'].generate_bom(work_path)
+        audit_file = service['maven'].generate_audit_data(work_path)
 
-                else:
-                    manifest.update_project_status(p_id, "FAILED_MAVEN", error="BOM or POM generation failed")
-            else:
-                manifest.update_project_status(p_id, "FAILED_CLONE", error="Git clone timed out or failed")
+        if not (bom_file and audit_file):
+            service['manifest'].update_project_status(p_id, "FAILED_MAVEN", error="BOM/POM generation failed")
+            return
 
-        except Exception as e:
-            logger.error(f"Critical error in the project {p_id}: {str(e)}")
-            manifest.update_project_status(p_id, "CRITICAL_ERROR", error=str(e))
+        # S3
+        s3_prefix = f"analysis/{p_id}"
+        service['storage'].upload_file(bom_file, f"{p_id}/bom.json", "analysis")
+        service['storage'].upload_file(audit_file, f"{p_id}/effective-pom.xml", "audit")
 
-        finally:
-            # Step D: Purge
-            if Path(project_path).exists():
-                shutil.rmtree(project_path)
-                logger.info(f"Purge completed: {p_id}")
+        # save
+        s3_path_ref = f"s3://{BUCKET_NAME}/{s3_prefix}/"
+        service['manifest'].update_project_status(p_id, "SUCCESS", s3_path=s3_path_ref)
+        logger.info(f" [OK] {p_id} successfully stored in Lake.")
+
+    except Exception as e:
+        logger.error(f" [!] Critical error harvesting {p_id}: {str(e)}")
+        service['manifest'].update_project_status(p_id, "CRITICAL_ERROR", error=str(e))
+
+    finally:
+        # Purge
+        if work_path.exists():
+            shutil.rmtree(work_path)
+            logger.debug(f"Temporary files purged for {p_id}")
 
 if __name__ == "__main__":
+    TEMP_DIR.mkdir(parents=True, exist_ok=True)
     run_harvester()
