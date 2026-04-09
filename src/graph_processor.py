@@ -16,60 +16,42 @@ from src.providers.stats_manager import StatsManager
 # Result: Structural metrics (Centrality, Depth).
 def run_analysis():
 
-    # 1. Setup
-    manifest = ManifestManager("data/manifest.csv")
-    graph_service = NetworkXGraphManager()
-    BUCKET_NAME = "graphaot-research"
-    storage = S3Storage(BUCKET_NAME)
-    stats_service = StatsManager("data/analysis_results.csv")
-    metadata_service = ReachabilityMetadataManager()
+    services = {
+        'manifest': ManifestManager("data/manifest.csv"),
+        'graph': NetworkXGraphManager(),
+        'metadata': ReachabilityMetadataManager(),
+        'storage': S3Storage("graphaot-research"),
+        'stats': StatsManager("data/analysis_results.csv")
+    }
 
-    # 2. Upload only projects that have been SUCCESSFUL
-    projects = manifest.get_successful_projects()
-
-    if not projects:
-        print("No project with 'SUCCESS' status found in the manifest.")
-        return
+    projects = services['manifest'].get_successful_projects()
+    if not projects: return
 
     for project in projects:
-        p_id = project['project_id']
-        local_temp_path = Path(f"temp/analysis_cache/{p_id}_bom.json")
-        local_temp_path.parent.mkdir(parents=True, exist_ok=True)
+        _process_project(project['project_id'], services)
 
-        print(f"\n>>> Processing Topology: {p_id}")
 
-        try:
-            # download and build
-            storage.download_file(f"analysis/{p_id}/bom.json", str(local_temp_path))
-            graph = graph_service.build_from_bom(str(local_temp_path))
+def _process_project(p_id, service):
+    print(f"\n>>> Processing: {p_id}")
+    local_path = Path(f"temp/analysis_cache/{p_id}_bom.json")
 
-            # extracting metrics
-            metrics = graph_service.get_metrics(graph)
+    try:
+        # Orchestration
+        service['storage'].download_file(f"analysis/{p_id}/bom.json", str(local_path))
+        graph = service['graph'].build_from_bom(str(local_path))
 
-            # metadata effort
-            aot_results = ReachabilityMetadataManager.analyze_reachability_effort(graph, metadata_service, p_id)
+        metrics = service['graph'].get_metrics(graph)
+        aot_results = service['metadata'].analyze_reachability_effort(graph, p_id)
 
-            # calculation
-            final_data = stats_service.compute_migration_metrics(metrics, aot_results)
+        final_data = service['stats'].compute_migration_metrics(metrics, aot_results)
+        service['stats'].save_metrics(p_id, final_data)
+        service['stats'].save_log(p_id, aot_results)
 
-            stats_service.save_log(p_id, aot_results, base_path="src/data")
-
-            # data persistence
-            stats_service.save_metrics(p_id, final_data)
-
-            # save the logs
-            if aot_results['log_details']:
-                with open(f"temp/analysis_cache/{p_id}_aot_details.txt", "w") as f:
-                    f.write("\n".join(aot_results['log_details']))
-
-            print(f" [OK] Data saved: {p_id}")
-
-            # cleanup
-            if local_temp_path.exists():
-                local_temp_path.unlink()
-
-        except Exception as e:
-            print(f" [!] Error processing {p_id}: {e}")
+        print(f" [OK] {p_id} completed.")
+    except Exception as e:
+        print(f" [!] Error {p_id}: {e}")
+    finally:
+        if local_path.exists(): local_path.unlink()
 
 
 if __name__ == "__main__":
