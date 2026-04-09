@@ -47,7 +47,7 @@ def run_analysis():
             metrics = graph_service.get_metrics(graph)
 
             # metadata effort
-            aot_results = analyze_reachability_effort(graph, metadata_service, p_id)
+            aot_results = ReachabilityMetadataManager.analyze_reachability_effort(graph, metadata_service, p_id)
 
             # calculation
             final_data = stats_service.compute_migration_metrics(metrics, aot_results)
