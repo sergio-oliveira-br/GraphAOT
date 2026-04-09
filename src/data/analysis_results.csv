@@ -1,7 +1,7 @@
 project_id,node_count,edge_count,density,max_depth,avg_clustering,is_dag,hubs,dep_count,reflection_count,proxy_count,jni_count,total_metadata,metadata_density,build_status,processed_at
-algo-struct,42,75,0.0435540069686411,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,283,0,0,283,6.902439024390244,0,2026-04-08 16:43:20
-algorithms-api-java,42,74,0.0429732868757259,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,588,0,0,588,14.341463414634148,0,2026-04-08 16:43:27
-StockWise,104,205,0.0191374159820761,6,,True,spring-boot-starter|spring-boot|all,103,1551,0,0,1551,15.058252427184469,0,2026-04-08 16:43:49
-sale-service,127,257,0.0160604924384451,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,126,1963,0,0,1963,15.57936507936508,0,2026-04-08 16:44:13
-mini-erp,84,174,0.0249569707401032,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,83,1903,0,0,1903,22.927710843373493,0,2026-04-08 16:44:32
-LabMQTT,3,2,0.3333333333333333,2,,True,amqp-client,2,0,0,0,0,0.0,0,2026-04-08 16:44:33
+algo-struct,42,75,0.0435540069686411,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,283,0,0,283,6.902439024390244,0,2026-04-09 14:52:37
+algorithms-api-java,42,74,0.0429732868757259,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,588,0,0,588,14.341463414634148,0,2026-04-09 14:52:43
+StockWise,104,205,0.0191374159820761,6,,True,spring-boot-starter|spring-boot|all,103,1551,0,0,1551,15.058252427184469,0,2026-04-09 14:53:08
+sale-service,127,257,0.0160604924384451,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,126,1963,0,0,1963,15.57936507936508,0,2026-04-09 14:53:39
+mini-erp,84,174,0.0249569707401032,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,83,1903,0,0,1903,22.927710843373493,0,2026-04-09 14:53:52
+LabMQTT,3,2,0.3333333333333333,2,,True,amqp-client,2,0,0,0,0,0.0,0,2026-04-09 14:53:53
