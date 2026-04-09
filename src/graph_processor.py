@@ -52,7 +52,7 @@ def run_analysis():
             # calculation
             final_data = stats_service.compute_migration_metrics(metrics, aot_results)
 
-            save_log(p_id, aot_results, base_path="src/data")
+            stats_service.save_log(p_id, aot_results, base_path="src/data")
 
             # data persistence
             stats_service.save_metrics(p_id, final_data)
