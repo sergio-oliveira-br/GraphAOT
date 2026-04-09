@@ -45,8 +45,11 @@ class ReachabilityMetadataManager(MetadataProvider):
                     "proxy": len(data.get("proxy", []))
                 }
 
-        except Exception:
-            pass
+        except requests.exceptions.RequestException as e:
+            self.logger.warning(f"Network error fetching metadata for {a}: {e}")
+
+        except Exception as e:
+            self.logger.error(f"Unexpected error in MetadataManager: {e}")
 
         return res_default
 
