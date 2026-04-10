@@ -1,4 +1,4 @@
-# GraphAOT – Predicting Java AOT Migration Complexity
+# GraphAOT – From POM to Binary: Correlating Dependency Graph Properties with GraalVM Native Image Migration Effort
 
 This project is part of an ongoing MSc research focused on understanding and correlate the complexity of migrating Java applications to GraalVM Native Image.
 
