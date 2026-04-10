@@ -1,6 +1,6 @@
 # GraphAOT – Predicting Java AOT Migration Complexity
 
-This project is part of an ongoing MSc research focused on understanding and predicting the complexity of migrating Java applications to GraalVM Native Image.
+This project is part of an ongoing MSc research focused on understanding and correlate the complexity of migrating Java applications to GraalVM Native Image.
 
 The main goal is to investigate whether Maven dependency graph structures can provide early indicators of migration difficulty, reducing trial-and-error during AOT compilation.
 
