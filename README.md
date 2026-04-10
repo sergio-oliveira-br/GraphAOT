@@ -108,5 +108,7 @@ A prototype pipeline is fully functional and being iteratively improved.
 - Python (data pipelines, analysis)
 - Java / Maven (dependency extraction)
 - AWS S3 (data storage)
+- CycloneDX (bom extraction)
 - NetworkX (graph analysis)
 - GitHub (project sourcing)
+  
