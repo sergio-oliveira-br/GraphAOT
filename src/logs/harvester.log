@@ -661,3 +661,9 @@ fatal: repository 'https://github.com/sergio-oliveira-br/Software-Development/tr
 2026-04-16 19:31:14,647 [INFO]  [OK] sale-service marked as HARVESTED.
 
 2026-04-16 19:31:14,687 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 21:00:08,328 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 21:00:08,493 [INFO] [INFOR] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-04-16 21:00:08,497 [INFO] [INFOR] Nothing to harvest at the moment.
+2026-04-16 21:00:44,535 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 21:00:44,658 [INFO] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-04-16 21:00:44,661 [INFO] Nothing to harvest at the moment.
