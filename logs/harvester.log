@@ -1,0 +1,68 @@
+2026-04-16 19:39:27,175 [ERROR] Manifest not found: data/manifest.csv
+2026-04-16 19:44:21,800 [ERROR] Manifest not found: /Users/sergiovinicio/PycharmProjects/GraphAOT/data/manifest.csv
+2026-04-16 19:45:15,240 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 19:45:15,424 [INFO] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-04-16 19:45:15,428 [INFO] Nothing to harvest at the moment.
+2026-04-16 19:46:36,424 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 19:46:36,633 [INFO] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-04-16 19:46:36,636 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 19:46:36,636 [INFO] >>> Harvesting Project: mini-erp
+2026-04-16 19:46:36,636 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/mini-erp
+2026-04-16 19:46:38,288 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:46:43,042 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/effective-pom.xml
+2026-04-16 19:46:44,814 [INFO] Success: temp/work_dir/mini-erp/target/bom.json -> s3://graphaot-research/analysis/mini-erp/bom.json
+2026-04-16 19:46:45,122 [INFO] Success: temp/work_dir/mini-erp/target/effective-pom.xml -> s3://graphaot-research/audit-logs/mini-erp/effective-pom.xml
+2026-04-16 19:46:45,132 [INFO]  [MANIFEST] mini-erp updated to HARVESTED
+
+2026-04-16 19:46:45,171 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 19:49:36,626 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 19:49:36,842 [INFO] ------------------------------
+*** Manual Mode ***: Targeting project 'mini-erp'
+------------------------------
+2026-04-16 19:49:36,844 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 19:49:36,845 [INFO] >>> Harvesting Project: mini-erp
+2026-04-16 19:49:36,845 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/mini-erp
+2026-04-16 19:49:40,058 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:49:45,401 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/effective-pom.xml
+2026-04-16 19:49:47,300 [INFO] Success: temp/work_dir/mini-erp/target/bom.json -> s3://graphaot-research/analysis/mini-erp/bom.json
+2026-04-16 19:49:47,620 [INFO] Success: temp/work_dir/mini-erp/target/effective-pom.xml -> s3://graphaot-research/audit-logs/mini-erp/effective-pom.xml
+2026-04-16 19:49:47,647 [INFO]  [MANIFEST] mini-erp updated to HARVESTED
+
+2026-04-16 19:49:47,685 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 19:50:14,179 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 19:50:14,352 [INFO] ----------*** Manual Mode ***: Targeting project 'mini-erp'----------
+2026-04-16 19:50:14,356 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 19:50:14,356 [INFO] >>> Harvesting Project: mini-erp
+2026-04-16 19:50:14,356 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/mini-erp
+2026-04-16 19:50:16,284 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:50:19,451 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/effective-pom.xml
+2026-04-16 19:50:21,376 [INFO] Success: temp/work_dir/mini-erp/target/bom.json -> s3://graphaot-research/analysis/mini-erp/bom.json
+2026-04-16 19:50:22,034 [INFO] Success: temp/work_dir/mini-erp/target/effective-pom.xml -> s3://graphaot-research/audit-logs/mini-erp/effective-pom.xml
+2026-04-16 19:50:22,045 [INFO]  [MANIFEST] mini-erp updated to HARVESTED
+
+2026-04-16 19:50:22,144 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 19:50:49,778 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 19:50:49,993 [INFO] 
+*** Manual Mode ***: Targeting project 'mini-erp'
+2026-04-16 19:50:49,996 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 19:50:49,997 [INFO] >>> Harvesting Project: mini-erp
+2026-04-16 19:50:49,997 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/mini-erp
+2026-04-16 19:50:51,767 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:50:54,981 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/effective-pom.xml
+2026-04-16 19:50:56,977 [INFO] Success: temp/work_dir/mini-erp/target/bom.json -> s3://graphaot-research/analysis/mini-erp/bom.json
+2026-04-16 19:50:57,269 [INFO] Success: temp/work_dir/mini-erp/target/effective-pom.xml -> s3://graphaot-research/audit-logs/mini-erp/effective-pom.xml
+2026-04-16 19:50:57,276 [INFO]  [MANIFEST] mini-erp updated to HARVESTED
+
+2026-04-16 19:50:57,306 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 19:51:05,552 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 19:51:05,687 [INFO] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-04-16 19:51:05,688 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 19:51:05,689 [INFO] >>> Harvesting Project: mini-erp
+2026-04-16 19:51:05,689 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/mini-erp
+2026-04-16 19:51:07,747 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:51:10,744 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/effective-pom.xml
+2026-04-16 19:51:12,437 [INFO] Success: temp/work_dir/mini-erp/target/bom.json -> s3://graphaot-research/analysis/mini-erp/bom.json
+2026-04-16 19:51:12,987 [INFO] Success: temp/work_dir/mini-erp/target/effective-pom.xml -> s3://graphaot-research/audit-logs/mini-erp/effective-pom.xml
+2026-04-16 19:51:12,996 [INFO]  [MANIFEST] mini-erp updated to HARVESTED
+
+2026-04-16 19:51:13,038 [INFO] --- Harvester Pipeline Finished ---
