@@ -3,7 +3,7 @@
 import pandas as pd
 import logging
 from datetime import datetime
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 
 
 class ManifestManager:
@@ -44,9 +44,17 @@ class ManifestManager:
         if not index.empty:
             idx = index[0]
             self.df.at[idx, 'status'] = status
-            self.df.at[idx, 's3_path'] = s3_path
-            self.df.at[idx, 'error_detail'] = error
             self.df.at[idx, 'last_attempt'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            # save
 
+            # Only updates s3_path or error if they are provided (avoids erasing old data)
+            if s3_path is not None:
+                self.df.at[idx, 's3_path'] = s3_path
+
+            if error is not None:
+                self.df.at[idx, 'error_detail'] = error
+
+            else:
+                self.df.at[idx, 'error_detail'] = ""
+
+            # save
             self.logger.info(f" [MANIFEST] {project_id} updated to {status}\n")
