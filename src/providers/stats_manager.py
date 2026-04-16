@@ -104,7 +104,7 @@ class StatsManager(StatsProvider):
             'build_status': 0
         }
 
-    def save_log(self, project_id, aot_results):
+    def save_raw_log(self, project_id, aot_results):
 
         try:
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
