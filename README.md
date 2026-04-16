@@ -1,6 +1,6 @@
-# GraphAOT – Predicting Java AOT Migration Complexity
+# From POM to Binary: Correlating Dependency Graph Properties with GraalVM Native Image Migration Effort
 
-This project is part of an ongoing MSc research focused on understanding and predicting the complexity of migrating Java applications to GraalVM Native Image.
+This project is part of an ongoing MSc research focused on understanding and correlate the complexity of migrating Java applications to GraalVM Native Image.
 
 The main goal is to investigate whether Maven dependency graph structures can provide early indicators of migration difficulty, reducing trial-and-error during AOT compilation.
 
@@ -108,5 +108,7 @@ A prototype pipeline is fully functional and being iteratively improved.
 - Python (data pipelines, analysis)
 - Java / Maven (dependency extraction)
 - AWS S3 (data storage)
+- CycloneDX (bom extraction)
 - NetworkX (graph analysis)
 - GitHub (project sourcing)
+  
