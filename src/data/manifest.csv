@@ -1,11 +1,11 @@
 project_id,github_url,java_version,status,s3_path,error_detail,last_attempt
-safetrade_client_service,https://github.com/sergio-oliveira-br/safetrade_client_service,,FAILED_MAVEN,,BOM or POM generation failed,2026-04-03 11:05:46
-algo-struct,https://github.com/sergio-oliveira-br/algo-struct,,SUCCESS,s3://graphaot-research/analysis/algo-struct/,,2026-04-03 11:05:51
-algorithms-api-java,https://github.com/sergio-oliveira-br/algorithms-api-java,,SUCCESS,s3://graphaot-research/analysis/algorithms-api-java/,,2026-04-03 11:05:57
-StockWise,https://github.com/sergio-oliveira-br/StockWise,,SUCCESS,s3://graphaot-research/analysis/StockWise/,,2026-04-03 11:06:23
-sale-service,https://github.com/sergio-oliveira-br/sale-service,17,SUCCESS,s3://graphaot-research/analysis/sale-service/,,2026-04-03 11:06:54
-mini-erp,https://github.com/sergio-oliveira-br/mini-erp,17,SUCCESS,s3://graphaot-research/analysis/mini-erp/,,2026-04-03 22:03:49
-LabMQTT,https://github.com/sergio-oliveira-br/LabMQTT,,SUCCESS,s3://graphaot-research/analysis/LabMQTT/,,2026-04-06 10:39:56
+safetrade_client_service,https://github.com/sergio-oliveira-br/safetrade_client_service,,FAILED_MAVEN,,BOM/POM generation failed,2026-04-16 19:28:23
+algo-struct,https://github.com/sergio-oliveira-br/algo-struct,,HARVESTED,s3://graphaot-research/analysis/algo-struct/,,2026-04-16 19:31:08
+algorithms-api-java,https://github.com/sergio-oliveira-br/algorithms-api-java,,HARVESTED,s3://graphaot-research/analysis/algorithms-api-java/,,2026-04-16 19:28:36
+StockWise,https://github.com/sergio-oliveira-br/StockWise,,HARVESTED,s3://graphaot-research/analysis/StockWise/,,2026-04-16 19:28:43
+sale-service,https://github.com/sergio-oliveira-br/sale-service,17,HARVESTED,s3://graphaot-research/analysis/sale-service/,,2026-04-16 19:31:14
+mini-erp,https://github.com/sergio-oliveira-br/mini-erp,17,HARVESTED,s3://graphaot-research/analysis/mini-erp/,,2026-04-16 19:51:12
+LabMQTT,https://github.com/sergio-oliveira-br/LabMQTT,,HARVESTED,s3://graphaot-research/analysis/LabMQTT/,,2026-04-16 19:30:02
 URLGeneratorApp,https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp,,FAILED_CLONE,,Git clone failed,2026-04-09 15:06:32
-task-manager,https://github.com/sergio-oliveira-br/task-manager,,SUCCESS,s3://graphaot-research/analysis/task-manager/,,2026-04-09 15:07:57
+task-manager,https://github.com/sergio-oliveira-br/task-manager,,HARVESTED,s3://graphaot-research/analysis/task-manager/,,2026-04-16 19:30:09
 serverless-graalvm-demo,https://github.com/aws-samples/serverless-graalvm-demo,,SUCCESS,s3://graphaot-research/analysis/serverless-graalvm-demo/,,2026-04-16 18:43:48
