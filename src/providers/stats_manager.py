@@ -82,8 +82,8 @@ class StatsManager(StatsProvider):
         except Exception as e:
             self.logger.error(f"Error when saving statistics: {e}")
 
-
-    def compute_migration_metrics(self, graph_metrics: dict, aot_results: dict) -> dict:
+    @staticmethod
+    def compute_migration_metrics(graph_metrics: dict, aot_results: dict) -> dict:
 
         reflection = aot_results.get('reflection_count', 0)
         proxy = aot_results.get('proxy_count', 0)
