@@ -48,7 +48,7 @@ def _process_project(p_id, service):
 
         final_data = service['stats'].compute_migration_metrics(metrics, aot_results)
         service['stats'].save_metrics(p_id, final_data)
-        service['stats'].save_log(p_id, aot_results)
+        service['stats'].save_raw_log(p_id, aot_results)
 
         logger.info(f" [OK] {p_id} completed.\n")
     except Exception as e:
