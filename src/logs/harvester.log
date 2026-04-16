@@ -570,3 +570,94 @@ fatal: repository 'https://github.com/sergio-oliveira-br/Software-Development/tr
 2026-04-16 18:46:32,079 [INFO]  [CSV UPDATE] Metrics saved for serverless-graalvm-demo (CMV: 47)
 2026-04-16 18:46:32,080 [INFO]  [OK] serverless-graalvm-demo completed.
 
+2026-04-16 19:25:24,976 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 19:25:25,201 [INFO] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-04-16 19:25:25,206 [INFO] Nothing to harvest at the moment.
+2026-04-16 19:28:20,282 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 19:28:20,413 [INFO] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-04-16 19:28:20,418 [INFO] --- Starting Harvester Pipeline: 5 projects ---
+2026-04-16 19:28:20,418 [INFO] >>> Harvesting Project: safetrade_client_service
+2026-04-16 19:28:20,418 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/safetrade_client_service
+2026-04-16 19:28:21,344 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:28:22,927 [ERROR] Maven error: 
+2026-04-16 19:28:22,928 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/safetrade_client_service/target/effective-pom.xml
+2026-04-16 19:28:23,761 [ERROR] Maven error: 
+2026-04-16 19:28:23,761 [ERROR] Audit file not found in: temp/work_dir/safetrade_client_service/target/effective-pom.xml
+2026-04-16 19:28:23,767 [INFO]  [MANIFEST] safetrade_client_service updated to FAILED_MAVEN
+2026-04-16 19:28:23,785 [INFO] >>> Harvesting Project: algo-struct
+2026-04-16 19:28:23,785 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/algo-struct
+2026-04-16 19:28:24,851 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:28:28,359 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/algo-struct/target/effective-pom.xml
+2026-04-16 19:28:30,128 [INFO] Success: temp/work_dir/algo-struct/target/bom.json -> s3://graphaot-research/analysis/algo-struct/bom.json
+2026-04-16 19:28:30,448 [INFO] Success: temp/work_dir/algo-struct/target/effective-pom.xml -> s3://graphaot-research/audit-logs/algo-struct/effective-pom.xml
+2026-04-16 19:28:30,468 [INFO]  [MANIFEST] algo-struct updated to HARVESTED
+2026-04-16 19:28:30,468 [INFO]  [OK] algo-struct marked as HARVESTED.
+2026-04-16 19:28:30,546 [INFO] >>> Harvesting Project: algorithms-api-java
+2026-04-16 19:28:30,547 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/algorithms-api-java
+2026-04-16 19:28:31,382 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:28:34,701 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/algorithms-api-java/target/effective-pom.xml
+2026-04-16 19:28:36,330 [INFO] Success: temp/work_dir/algorithms-api-java/target/bom.json -> s3://graphaot-research/analysis/algorithms-api-java/bom.json
+2026-04-16 19:28:36,612 [INFO] Success: temp/work_dir/algorithms-api-java/target/effective-pom.xml -> s3://graphaot-research/audit-logs/algorithms-api-java/effective-pom.xml
+2026-04-16 19:28:36,629 [INFO]  [MANIFEST] algorithms-api-java updated to HARVESTED
+2026-04-16 19:28:36,629 [INFO]  [OK] algorithms-api-java marked as HARVESTED.
+2026-04-16 19:28:36,678 [INFO] >>> Harvesting Project: StockWise
+2026-04-16 19:28:36,678 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/StockWise
+2026-04-16 19:28:37,459 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:28:41,850 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/StockWise/target/effective-pom.xml
+2026-04-16 19:28:43,549 [INFO] Success: temp/work_dir/StockWise/target/bom.json -> s3://graphaot-research/analysis/StockWise/bom.json
+2026-04-16 19:28:43,816 [INFO] Success: temp/work_dir/StockWise/target/effective-pom.xml -> s3://graphaot-research/audit-logs/StockWise/effective-pom.xml
+2026-04-16 19:28:43,834 [INFO]  [MANIFEST] StockWise updated to HARVESTED
+2026-04-16 19:28:43,835 [INFO]  [OK] StockWise marked as HARVESTED.
+2026-04-16 19:28:43,864 [INFO] >>> Harvesting Project: sale-service
+2026-04-16 19:28:43,864 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/sale-service
+2026-04-16 19:28:44,932 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:28:52,035 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/sale-service/target/effective-pom.xml
+2026-04-16 19:28:54,063 [INFO] Success: temp/work_dir/sale-service/target/bom.json -> s3://graphaot-research/analysis/sale-service/bom.json
+2026-04-16 19:28:54,381 [INFO] Success: temp/work_dir/sale-service/target/effective-pom.xml -> s3://graphaot-research/audit-logs/sale-service/effective-pom.xml
+2026-04-16 19:28:54,408 [INFO]  [MANIFEST] sale-service updated to HARVESTED
+2026-04-16 19:28:54,408 [INFO]  [OK] sale-service marked as HARVESTED.
+2026-04-16 19:28:54,449 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 19:29:57,862 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 19:29:58,065 [INFO] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-04-16 19:29:58,071 [INFO] --- Starting Harvester Pipeline: 2 projects ---
+2026-04-16 19:29:58,071 [INFO] >>> Harvesting Project: LabMQTT
+2026-04-16 19:29:58,071 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-04-16 19:29:58,915 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:30:00,962 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/LabMQTT/target/effective-pom.xml
+2026-04-16 19:30:02,178 [INFO] Success: temp/work_dir/LabMQTT/target/bom.json -> s3://graphaot-research/analysis/LabMQTT/bom.json
+2026-04-16 19:30:02,235 [INFO] Success: temp/work_dir/LabMQTT/target/effective-pom.xml -> s3://graphaot-research/audit-logs/LabMQTT/effective-pom.xml
+2026-04-16 19:30:02,242 [INFO]  [MANIFEST] LabMQTT updated to HARVESTED
+
+2026-04-16 19:30:02,242 [INFO]  [OK] LabMQTT marked as HARVESTED.
+2026-04-16 19:30:02,260 [INFO] >>> Harvesting Project: task-manager
+2026-04-16 19:30:02,260 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/task-manager
+2026-04-16 19:30:03,272 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:30:06,476 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/task-manager/target/effective-pom.xml
+2026-04-16 19:30:08,863 [INFO] Success: temp/work_dir/task-manager/target/bom.json -> s3://graphaot-research/analysis/task-manager/bom.json
+2026-04-16 19:30:09,194 [INFO] Success: temp/work_dir/task-manager/target/effective-pom.xml -> s3://graphaot-research/audit-logs/task-manager/effective-pom.xml
+2026-04-16 19:30:09,215 [INFO]  [MANIFEST] task-manager updated to HARVESTED
+
+2026-04-16 19:30:09,215 [INFO]  [OK] task-manager marked as HARVESTED.
+2026-04-16 19:30:09,259 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 19:31:01,990 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 19:31:02,176 [INFO] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-04-16 19:31:02,181 [INFO] --- Starting Harvester Pipeline: 2 projects ---
+2026-04-16 19:31:02,181 [INFO] >>> Harvesting Project: algo-struct
+2026-04-16 19:31:02,181 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/algo-struct
+2026-04-16 19:31:02,953 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:31:06,107 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/algo-struct/target/effective-pom.xml
+2026-04-16 19:31:07,861 [INFO] Success: temp/work_dir/algo-struct/target/bom.json -> s3://graphaot-research/analysis/algo-struct/bom.json
+2026-04-16 19:31:08,193 [INFO] Success: temp/work_dir/algo-struct/target/effective-pom.xml -> s3://graphaot-research/audit-logs/algo-struct/effective-pom.xml
+2026-04-16 19:31:08,202 [INFO]  [MANIFEST] algo-struct updated to HARVESTED
+2026-04-16 19:31:08,202 [INFO]  [OK] algo-struct marked as HARVESTED.
+
+2026-04-16 19:31:08,260 [INFO] >>> Harvesting Project: sale-service
+2026-04-16 19:31:08,260 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/sale-service
+2026-04-16 19:31:09,048 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 19:31:12,554 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/sale-service/target/effective-pom.xml
+2026-04-16 19:31:14,239 [INFO] Success: temp/work_dir/sale-service/target/bom.json -> s3://graphaot-research/analysis/sale-service/bom.json
+2026-04-16 19:31:14,622 [INFO] Success: temp/work_dir/sale-service/target/effective-pom.xml -> s3://graphaot-research/audit-logs/sale-service/effective-pom.xml
+2026-04-16 19:31:14,647 [INFO]  [MANIFEST] sale-service updated to HARVESTED
+2026-04-16 19:31:14,647 [INFO]  [OK] sale-service marked as HARVESTED.
+
+2026-04-16 19:31:14,687 [INFO] --- Harvester Pipeline Finished ---
