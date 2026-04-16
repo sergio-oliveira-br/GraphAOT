@@ -66,3 +66,106 @@
 2026-04-16 19:51:12,996 [INFO]  [MANIFEST] mini-erp updated to HARVESTED
 
 2026-04-16 19:51:13,038 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 20:06:39,683 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 20:06:39,888 [INFO] *** Manual Mode ***: Targeting project 'URLGeneratorApp'
+2026-04-16 20:06:39,891 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 20:06:39,891 [INFO] >>> Harvesting Project: URLGeneratorApp
+2026-04-16 20:06:39,892 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp
+2026-04-16 20:06:40,861 [ERROR] Git Clone error: Cloning into 'temp/work_dir/URLGeneratorApp'...
+fatal: repository 'https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp/' not found
+
+2026-04-16 20:06:40,868 [INFO]  [MANIFEST] URLGeneratorApp updated to FAILED_CLONE
+
+2026-04-16 20:06:40,869 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 20:07:27,974 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 20:07:28,171 [INFO] *** Manual Mode ***: Targeting project 'URLGeneratorApp'
+2026-04-16 20:07:28,175 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 20:07:28,175 [INFO] >>> Harvesting Project: URLGeneratorApp
+2026-04-16 20:07:28,175 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development
+2026-04-16 20:07:33,994 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 20:07:35,360 [ERROR] Maven error: 
+2026-04-16 20:07:35,361 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/URLGeneratorApp/target/effective-pom.xml
+2026-04-16 20:07:36,145 [ERROR] Maven error: 
+2026-04-16 20:07:36,146 [ERROR] Audit file not found in: temp/work_dir/URLGeneratorApp/target/effective-pom.xml
+2026-04-16 20:07:36,152 [INFO]  [MANIFEST] URLGeneratorApp updated to FAILED_MAVEN
+
+2026-04-16 20:07:36,186 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 20:07:51,237 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 20:07:51,371 [INFO] *** Manual Mode ***: Targeting project 'URLGeneratorApp'
+2026-04-16 20:07:51,374 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 20:07:51,374 [INFO] >>> Harvesting Project: URLGeneratorApp
+2026-04-16 20:07:51,374 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development
+2026-04-16 20:07:56,209 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 20:07:57,195 [ERROR] Maven error: 
+2026-04-16 20:07:57,196 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/URLGeneratorApp/target/effective-pom.xml
+2026-04-16 20:07:57,980 [ERROR] Maven error: 
+2026-04-16 20:07:57,980 [ERROR] Audit file not found in: temp/work_dir/URLGeneratorApp/target/effective-pom.xml
+2026-04-16 20:07:57,983 [INFO]  [MANIFEST] URLGeneratorApp updated to FAILED_MAVEN
+
+2026-04-16 20:07:58,014 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 20:08:35,146 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 20:08:35,336 [INFO] *** Manual Mode ***: Targeting project 'URLGeneratorApp'
+2026-04-16 20:08:35,340 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 20:08:35,340 [INFO] >>> Harvesting Project: URLGeneratorApp
+2026-04-16 20:08:35,340 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development
+2026-04-16 20:08:40,284 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 20:08:41,375 [ERROR] Maven error: 
+2026-04-16 20:08:41,375 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/URLGeneratorApp/target/effective-pom.xml
+2026-04-16 20:08:42,184 [ERROR] Maven error: 
+2026-04-16 20:08:42,184 [ERROR] Audit file not found in: temp/work_dir/URLGeneratorApp/target/effective-pom.xml
+2026-04-16 20:08:42,187 [INFO]  [MANIFEST] URLGeneratorApp updated to FAILED_MAVEN
+
+2026-04-16 20:08:42,219 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 20:08:59,142 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 20:08:59,295 [INFO] *** Manual Mode ***: Targeting project 'URLGeneratorApp'
+2026-04-16 20:08:59,299 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 20:08:59,299 [INFO] >>> Harvesting Project: URLGeneratorApp
+2026-04-16 20:08:59,299 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp
+2026-04-16 20:08:59,896 [ERROR] Git Clone error: Cloning into 'temp/work_dir/URLGeneratorApp'...
+fatal: repository 'https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp/' not found
+
+2026-04-16 20:08:59,903 [INFO]  [MANIFEST] URLGeneratorApp updated to FAILED_CLONE
+
+2026-04-16 20:08:59,903 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 20:09:56,492 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 20:09:56,678 [INFO] *** Manual Mode ***: Targeting project 'Software-Development'
+2026-04-16 20:09:56,685 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 20:09:56,685 [INFO] >>> Harvesting Project: Software-Development
+2026-04-16 20:09:56,685 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development
+2026-04-16 20:10:02,637 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 20:10:03,984 [ERROR] Maven error: 
+2026-04-16 20:10:03,986 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/Software-Development/target/effective-pom.xml
+2026-04-16 20:10:04,849 [ERROR] Maven error: 
+2026-04-16 20:10:04,849 [ERROR] Audit file not found in: temp/work_dir/Software-Development/target/effective-pom.xml
+2026-04-16 20:10:04,855 [INFO]  [MANIFEST] Software-Development updated to FAILED_MAVEN
+
+2026-04-16 20:10:04,892 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 20:10:54,121 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 20:10:54,304 [INFO] *** Manual Mode ***: Targeting project 'Software-Development'
+
+2026-04-16 20:10:54,307 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-16 20:10:54,307 [INFO] >>> Harvesting Project: Software-Development
+2026-04-16 20:10:54,307 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development
+2026-04-16 20:10:59,178 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 20:11:00,248 [ERROR] Maven error: 
+2026-04-16 20:11:00,249 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/Software-Development/target/effective-pom.xml
+2026-04-16 20:11:01,039 [ERROR] Maven error: 
+2026-04-16 20:11:01,039 [ERROR] Audit file not found in: temp/work_dir/Software-Development/target/effective-pom.xml
+2026-04-16 20:11:01,045 [INFO]  [MANIFEST] Software-Development updated to FAILED_MAVEN
+
+2026-04-16 20:11:01,082 [INFO] --- Harvester Pipeline Finished ---
+2026-04-16 20:11:19,067 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-16 20:11:19,201 [INFO] *** Manual Mode ***: Targeting project 'Software-Development'
+
+2026-04-16 20:11:19,205 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+
+2026-04-16 20:11:19,205 [INFO] >>> Harvesting Project: Software-Development
+2026-04-16 20:11:19,205 [INFO] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development
+2026-04-16 20:11:25,682 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-16 20:11:26,843 [ERROR] Maven error: 
+2026-04-16 20:11:26,844 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/Software-Development/target/effective-pom.xml
+2026-04-16 20:11:28,134 [ERROR] Maven error: 
+2026-04-16 20:11:28,135 [ERROR] Audit file not found in: temp/work_dir/Software-Development/target/effective-pom.xml
+2026-04-16 20:11:28,145 [INFO]  [MANIFEST] Software-Development updated to FAILED_MAVEN
+
+2026-04-16 20:11:28,253 [INFO] --- Harvester Pipeline Finished ---
