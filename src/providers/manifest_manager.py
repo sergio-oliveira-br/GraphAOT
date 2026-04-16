@@ -21,13 +21,21 @@ class ManifestManager:
             self.logger.error(f"Manifest not found: {self.file_path}")
             raise
 
-    def get_pending_projects(self) -> List[Dict[str, Any]]:
-        """Returns a list of dictionaries"""
-        mask = self.df['status'].str.upper().isin(['', 'NAN', 'PENDING'])
-        pending = self.df[mask]
-        return pending.to_dict('records')
     def _save(self):
         self.df.to_csv(self.file_path, index=False)
+
+    def get_project_by_id(self, project_id: str) -> Optional[Dict[str, Any]]:
+        project = self.df[self.df['project_id'] == project_id]
+        return project.to_dict('records')[0] if not project.empty else None
+
+    def get_pending_harvest(self) -> List[Dict[str, Any]]:
+        mask = self.df['status'].str.upper().isin(['PENDING', '', 'NAN'])
+        return self.df[mask].to_dict('records')
+
+    def get_pending_analysis(self):
+        """Projects that are already in S3 (HARVESTED) but have not been analyzed"""
+        mask = self.df['status'].str.upper() == 'HARVESTED'
+        return self.df[mask].to_dict('records')
 
     def update_project_status(self, project_id: str, status: str, s3_path: str = "", error: str = ""):
         """updates the csv"""
@@ -41,9 +49,4 @@ class ManifestManager:
             self.df.at[idx, 'last_attempt'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             # save
 
-    def get_successful_projects(self) -> list:
-        """Returns only successful projects"""
-        mask = self.df['status'].str.upper() == 'SUCCESS'
-        successful = self.df[mask]
-        return successful.to_dict('records')            self._save()
             self.logger.info(f" [MANIFEST] {project_id} updated to {status}\n")
