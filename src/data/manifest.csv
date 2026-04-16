@@ -8,3 +8,4 @@ mini-erp,https://github.com/sergio-oliveira-br/mini-erp,17,SUCCESS,s3://graphaot
 LabMQTT,https://github.com/sergio-oliveira-br/LabMQTT,,SUCCESS,s3://graphaot-research/analysis/LabMQTT/,,2026-04-06 10:39:56
 URLGeneratorApp,https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp,,FAILED_CLONE,,Git clone failed,2026-04-09 15:06:32
 task-manager,https://github.com/sergio-oliveira-br/task-manager,,SUCCESS,s3://graphaot-research/analysis/task-manager/,,2026-04-09 15:07:57
+serverless-graalvm-demo,https://github.com/aws-samples/serverless-graalvm-demo,,SUCCESS,s3://graphaot-research/analysis/serverless-graalvm-demo/,,2026-04-16 18:43:48
