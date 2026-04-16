@@ -17,8 +17,12 @@ TEMP_DIR = Path("temp/work_dir")
 def run_harvester():
     logger = setup_logger()
 
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    manifest_path = BASE_DIR / "src" / "data" / "manifest.csv"
+    manifest = ManifestManager(str(manifest_path))
+
     services = {
-        'manifest': ManifestManager("data/manifest.csv"),
+        'manifest': manifest,
         'git': GitManager(),
         'maven': MavenManager(),
         'storage': S3Storage(BUCKET_NAME),
