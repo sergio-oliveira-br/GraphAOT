@@ -1,6 +1,7 @@
 # src/data_collection.py
 
 import shutil
+import sys
 from pathlib import Path
 from src.providers.git_manager import GitManager
 from src.providers.manifest_manager import ManifestManager
@@ -14,7 +15,7 @@ TEMP_DIR = Path("temp/work_dir")
 # What does: "Collect" the raw data (Clone, Maven, S3).
 # Focus: Infrastructure and extraction.
 # Result: The "Data Lake" (bom.json, effective-pom.xml).
-def run_harvester():
+def run_harvester(target_id=None):
     logger = setup_logger()
 
     BASE_DIR = Path(__file__).resolve().parent.parent
@@ -29,10 +30,19 @@ def run_harvester():
         'logger': logger
     }
 
-    projects = services['manifest'].get_pending_projects()
+    if target_id:
+        logger.info(f"*** Manual Mode ***: Targeting project '{target_id}'")
+        project = manifest.get_project_by_id(target_id)
+        projects = [project] if project else []
+        if not projects:
+            logger.error(f"Project '{target_id}' not found in manifest. Execution aborted.")
+            return
+    else:
+        logger.info("*** Auto Mode ***: Fetching PENDING projects from manifest.")
+        projects = manifest.get_pending_harvest()
 
     if not projects:
-        logger.info("No pending projects found for harvesting.")
+        logger.info("Nothing to harvest at the moment.")
         return
 
     logger.info(f"--- Starting Harvester Pipeline: {len(projects)} projects ---")
@@ -71,8 +81,7 @@ def _harvest_single_project(project: dict, service: dict):
 
         # save
         s3_path_ref = f"s3://{BUCKET_NAME}/{s3_prefix}/"
-        service['manifest'].update_project_status(p_id, "SUCCESS", s3_path=s3_path_ref)
-        logger.info(f" [OK] {p_id} successfully stored in Lake.")
+        service['manifest'].update_project_status(p_id, "HARVESTED", s3_path=s3_path_ref)
 
     except Exception as e:
         logger.error(f" [!] Critical error harvesting {p_id}: {str(e)}")
@@ -86,4 +95,5 @@ def _harvest_single_project(project: dict, service: dict):
 
 if __name__ == "__main__":
     TEMP_DIR.mkdir(parents=True, exist_ok=True)
-    run_harvester()
+    target = sys.argv[1] if len(sys.argv) > 1 else None
+    run_harvester(target)
