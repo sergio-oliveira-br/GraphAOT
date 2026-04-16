@@ -26,6 +26,8 @@ class ManifestManager:
         mask = self.df['status'].str.upper().isin(['', 'NAN', 'PENDING'])
         pending = self.df[mask]
         return pending.to_dict('records')
+    def _save(self):
+        self.df.to_csv(self.file_path, index=False)
 
     def update_project_status(self, project_id: str, status: str, s3_path: str = "", error: str = ""):
         """updates the csv"""
@@ -38,11 +40,10 @@ class ManifestManager:
             self.df.at[idx, 'error_detail'] = error
             self.df.at[idx, 'last_attempt'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             # save
-            self.df.to_csv(self.file_path, index=False)
-            self.logger.info(f"Status updated to {project_id}: {status}")
 
     def get_successful_projects(self) -> list:
         """Returns only successful projects"""
         mask = self.df['status'].str.upper() == 'SUCCESS'
         successful = self.df[mask]
-        return successful.to_dict('records')
+        return successful.to_dict('records')            self._save()
+            self.logger.info(f" [MANIFEST] {project_id} updated to {status}\n")
