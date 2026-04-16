@@ -57,4 +57,5 @@ class ManifestManager:
                 self.df.at[idx, 'error_detail'] = ""
 
             # save
+            self._save()
             self.logger.info(f" [MANIFEST] {project_id} updated to {status}\n")
