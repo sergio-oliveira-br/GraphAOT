@@ -1,8 +1,9 @@
 project_id,node_count,edge_count,density,max_depth,avg_clustering,is_dag,hubs,dep_count,reflection_count,proxy_count,jni_count,total_metadata,metadata_density,build_status,processed_at
-algo-struct,42,75,0.0435540069686411,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,283,0,0,283,6.902439024390244,0,2026-04-10 10:17:52
-algorithms-api-java,42,74,0.0429732868757259,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,588,0,0,588,14.341463414634148,0,2026-04-10 10:17:54
-StockWise,104,205,0.0191374159820761,6,,True,spring-boot-starter|spring-boot|all,103,1551,0,0,1551,15.058252427184469,0,2026-04-10 10:18:07
-sale-service,127,257,0.0160604924384451,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,126,1963,0,0,1963,15.57936507936508,0,2026-04-10 10:18:18
-mini-erp,84,174,0.0249569707401032,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,83,1903,0,0,1903,22.927710843373493,0,2026-04-10 10:18:22
-LabMQTT,3,2,0.3333333333333333,2,,True,amqp-client,2,0,0,0,0,0.0,0,2026-04-10 10:18:22
-task-manager,78,160,0.02664002664002664,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,77,1476,0,0,1476,19.16883116883117,0,2026-04-10 10:18:24
+algo-struct,42,75,0.0435540069686411,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,283,0,0,283,6.902439024390244,0,2026-04-16 18:44:46
+algorithms-api-java,42,74,0.0429732868757259,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,590,0,0,590,14.390243902439025,0,2026-04-16 18:44:53
+StockWise,104,205,0.0191374159820761,6,,True,spring-boot-starter|spring-boot|all,103,1553,0,0,1553,15.07766990291262,0,2026-04-16 18:45:16
+sale-service,127,257,0.0160604924384451,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,126,1968,0,0,1968,15.61904761904762,0,2026-04-16 18:45:42
+mini-erp,84,174,0.0249569707401032,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,83,1905,0,0,1905,22.951807228915666,0,2026-04-16 18:45:59
+LabMQTT,3,2,0.3333333333333333,2,,True,amqp-client,2,0,0,0,0,0.0,0,2026-04-16 18:45:59
+task-manager,78,160,0.0266400266400266,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,77,1478,0,0,1478,19.194805194805195,0,2026-04-16 18:46:12
+serverless-graalvm-demo,70,205,0.042443064182194616,0,,True,aws-java-sdk-core|sdk-core|aws-core,69,47,0,0,47,0.6811594202898551,0,2026-04-16 18:46:32
