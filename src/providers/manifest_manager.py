@@ -58,4 +58,4 @@ class ManifestManager:
 
             # save
             self._save()
-            self.logger.info(f" [MANIFEST] {project_id} updated to {status}\n")
+            self.logger.info(f" [MANIFEST] {project_id} updated to {status}")
