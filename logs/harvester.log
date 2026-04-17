@@ -169,3 +169,38 @@ fatal: repository 'https://github.com/sergio-oliveira-br/Software-Development/tr
 2026-04-16 20:11:28,145 [INFO]  [MANIFEST] Software-Development updated to FAILED_MAVEN
 
 2026-04-16 20:11:28,253 [INFO] --- Harvester Pipeline Finished ---
+2026-04-17 08:46:18,301 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-17 08:46:18,561 [INFO] *** Manual Mode ***: Targeting project 'graal'
+2026-04-17 08:46:18,566 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-17 08:46:18,566 [INFO] >>> Harvesting Project: graal
+2026-04-17 08:46:18,566 [INFO] Cloning repository: https://github.com/oracle/graal
+2026-04-17 08:46:34,311 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-17 08:46:36,896 [ERROR] Maven error: 
+2026-04-17 08:46:36,897 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/graal/target/effective-pom.xml
+2026-04-17 08:46:38,027 [ERROR] Maven error: 
+2026-04-17 08:46:38,027 [ERROR] Audit file not found in: temp/work_dir/graal/target/effective-pom.xml
+2026-04-17 08:46:38,040 [INFO]  [MANIFEST] graal updated to FAILED_MAVEN
+
+2026-04-17 08:46:42,379 [INFO] --- Harvester Pipeline Finished ---
+2026-04-17 09:35:58,511 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-17 09:35:58,763 [INFO] *** Manual Mode ***: Targeting project 'doom-graal'
+2026-04-17 09:35:58,767 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-17 09:35:58,767 [INFO] >>> Harvesting Project: doom-graal
+2026-04-17 09:35:58,768 [INFO] Cloning repository: https://github.com/stepstone-tech/doom-graalvm
+2026-04-17 09:35:59,817 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-17 09:36:04,238 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/doom-graal/target/effective-pom.xml
+2026-04-17 09:36:07,099 [INFO] Success: temp/work_dir/doom-graal/target/bom.json -> s3://graphaot-research/analysis/doom-graal/bom.json
+2026-04-17 09:36:07,131 [INFO] Success: temp/work_dir/doom-graal/target/effective-pom.xml -> s3://graphaot-research/audit-logs/doom-graal/effective-pom.xml
+2026-04-17 09:36:07,136 [INFO]  [MANIFEST] doom-graal updated to HARVESTED
+2026-04-17 09:36:07,163 [INFO] --- Harvester Pipeline Finished ---
+2026-04-17 09:40:12,792 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-17 09:40:13,051 [INFO] *** Manual Mode ***: Targeting project 'java-graalvm-start'
+2026-04-17 09:40:13,055 [INFO] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-17 09:40:13,055 [INFO] >>> Harvesting Project: java-graalvm-start
+2026-04-17 09:40:13,055 [INFO] Cloning repository: https://github.com/westinyang/java-graalvm-start
+2026-04-17 09:40:13,871 [INFO] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-17 09:41:01,442 [INFO] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/java-graalvm-start/target/effective-pom.xml
+2026-04-17 09:41:04,402 [INFO] Success: temp/work_dir/java-graalvm-start/target/bom.json -> s3://graphaot-research/analysis/java-graalvm-start/bom.json
+2026-04-17 09:41:04,493 [INFO] Success: temp/work_dir/java-graalvm-start/target/effective-pom.xml -> s3://graphaot-research/audit-logs/java-graalvm-start/effective-pom.xml
+2026-04-17 09:41:04,520 [INFO]  [MANIFEST] java-graalvm-start updated to HARVESTED
+2026-04-17 09:41:04,592 [INFO] --- Harvester Pipeline Finished ---
