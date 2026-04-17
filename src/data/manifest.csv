@@ -10,4 +10,6 @@ URLGeneratorApp,https://github.com/sergio-oliveira-br/Software-Development/tree/
 task-manager,https://github.com/sergio-oliveira-br/task-manager,,HARVESTED,s3://graphaot-research/analysis/task-manager/,,2026-04-16 19:30:09
 serverless-graalvm-demo,https://github.com/aws-samples/serverless-graalvm-demo,,SUCCESS,s3://graphaot-research/analysis/serverless-graalvm-demo/,,2026-04-16 18:43:48
 Software-Development,https://github.com/sergio-oliveira-br/Software-Development,,FAILED_MAVEN,,BOM/POM generation failed,2026-04-16 20:11:28
-graal,https://github.com/oracle/graal,,,,,
+graal,https://github.com/oracle/graal,,FAILED_MAVEN,,BOM/POM generation failed,2026-04-17 08:46:38
+doom-graal,https://github.com/stepstone-tech/doom-graalvm,19,HARVESTED,s3://graphaot-research/analysis/doom-graal/,,2026-04-17 09:36:07
+java-graalvm-start,https://github.com/westinyang/java-graalvm-start,,HARVESTED,s3://graphaot-research/analysis/java-graalvm-start/,,2026-04-17 09:41:04
