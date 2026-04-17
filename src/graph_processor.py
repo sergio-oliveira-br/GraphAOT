@@ -26,7 +26,7 @@ def run_analysis():
         'logger': logger
     }
 
-    projects = services['manifest'].get_successful_projects()
+    projects = services['manifest'].get_pending_analysis()
     if not projects: return
 
     for project in projects:
