@@ -667,3 +667,545 @@ fatal: repository 'https://github.com/sergio-oliveira-br/Software-Development/tr
 2026-04-16 21:00:44,535 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
 2026-04-16 21:00:44,658 [INFO] *** Auto Mode ***: Fetching PENDING projects from manifest.
 2026-04-16 21:00:44,661 [INFO] Nothing to harvest at the moment.
+2026-04-17 08:36:30,574 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-17 08:38:42,586 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-17 08:38:42,882 [INFO] >>> Processing: algo-struct
+2026-04-17 08:38:43,203 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-17 08:38:44,089 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 08:38:45,389 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 08:38:45,763 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 08:38:46,919 [INFO] [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-17 08:38:48,480 [INFO] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-17 08:38:51,094 [INFO] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+2026-04-17 08:38:51,133 [INFO]  [CSV UPDATE] Metrics saved for algo-struct (CMV: 283)
+2026-04-17 08:38:51,144 [INFO]  [OK] algo-struct completed.
+
+2026-04-17 08:38:51,145 [INFO] >>> Processing: algorithms-api-java
+2026-04-17 08:38:51,307 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-17 08:38:51,443 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 08:38:51,675 [INFO] [+] Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+2026-04-17 08:38:51,905 [INFO] [+] Dependency: tomcat-embed-core:10.1.42 | Refl: 105 | Proxy: 0
+2026-04-17 08:38:52,723 [INFO] [+] Dependency: hibernate-validator:8.0.2.Final | Refl: 356 | Proxy: 0
+2026-04-17 08:38:53,467 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 08:38:53,836 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 08:38:54,030 [INFO] --- [END OF ANALYSIS: 41 deps processed for algorithms-api-java] ---
+2026-04-17 08:38:54,044 [INFO]  [CSV UPDATE] Metrics saved for algorithms-api-java (CMV: 590)
+2026-04-17 08:38:54,053 [INFO]  [OK] algorithms-api-java completed.
+
+2026-04-17 08:38:54,054 [INFO] >>> Processing: StockWise
+2026-04-17 08:38:54,283 [INFO] --- [START ANALYSIS: StockWise] ---
+2026-04-17 08:38:54,593 [INFO] [+] Dependency: logback-classic:1.5.16 | Refl: 97 | Proxy: 0
+2026-04-17 08:38:55,137 [INFO] [+] Dependency: jackson-databind:2.18.2 | Refl: 18 | Proxy: 0
+2026-04-17 08:38:55,974 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 08:38:56,808 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 08:38:57,444 [INFO] [+] Dependency: hibernate-core:6.6.8.Final | Refl: 1214 | Proxy: 0
+2026-04-17 08:38:57,834 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 08:38:58,212 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 08:38:59,823 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 08:38:59,880 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 08:39:00,107 [INFO] [+] Dependency: tomcat-embed-core:10.1.36 | Refl: 105 | Proxy: 0
+2026-04-17 08:39:00,589 [INFO] [+] Dependency: postgresql:42.7.5 | Refl: 8 | Proxy: 0
+2026-04-17 08:39:06,244 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 08:39:06,915 [INFO] --- [END OF ANALYSIS: 103 deps processed for StockWise] ---
+2026-04-17 08:39:06,937 [INFO]  [CSV UPDATE] Metrics saved for StockWise (CMV: 1553)
+2026-04-17 08:39:06,949 [INFO]  [OK] StockWise completed.
+
+2026-04-17 08:39:06,950 [INFO] >>> Processing: sale-service
+2026-04-17 08:39:07,341 [INFO] --- [START ANALYSIS: sale-service] ---
+2026-04-17 08:39:07,491 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-17 08:39:07,960 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-17 08:39:08,449 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 08:39:08,932 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 08:39:09,033 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-17 08:39:09,238 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-17 08:39:09,457 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 08:39:09,542 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 08:39:10,425 [INFO] [+] Dependency: hibernate-validator:8.0.1.Final | Refl: 356 | Proxy: 0
+2026-04-17 08:39:10,795 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-17 08:39:11,139 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-17 08:39:17,645 [INFO] [+] Dependency: consul-api:1.4.5 | Refl: 111 | Proxy: 0
+2026-04-17 08:39:18,170 [INFO] [+] Dependency: httpclient:4.5.14 | Refl: 1 | Proxy: 0
+2026-04-17 08:39:18,531 [INFO] [+] Dependency: commons-logging:1.2 | Refl: 7 | Proxy: 0
+2026-04-17 08:39:19,311 [INFO] [+] Dependency: httpcore:4.4.16 | Refl: 3 | Proxy: 0
+2026-04-17 08:39:20,740 [INFO] --- [END OF ANALYSIS: 126 deps processed for sale-service] ---
+2026-04-17 08:39:20,766 [INFO]  [CSV UPDATE] Metrics saved for sale-service (CMV: 1968)
+2026-04-17 08:39:20,778 [INFO]  [OK] sale-service completed.
+
+2026-04-17 08:39:20,779 [INFO] >>> Processing: mini-erp
+2026-04-17 08:39:20,950 [INFO] --- [START ANALYSIS: mini-erp] ---
+2026-04-17 08:39:21,134 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 08:39:21,368 [INFO] [+] Dependency: jackson-databind:2.19.2 | Refl: 18 | Proxy: 0
+2026-04-17 08:39:21,605 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 08:39:21,875 [INFO] [+] Dependency: HikariCP:6.3.3 | Refl: 8 | Proxy: 0
+2026-04-17 08:39:21,965 [INFO] [+] Dependency: hibernate-core:6.6.29.Final | Refl: 1214 | Proxy: 0
+2026-04-17 08:39:22,103 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 08:39:22,208 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 08:39:22,290 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 08:39:22,748 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 08:39:22,796 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 08:39:23,029 [INFO] [+] Dependency: tomcat-embed-core:10.1.46 | Refl: 105 | Proxy: 0
+2026-04-17 08:39:23,171 [INFO] [+] Dependency: postgresql:42.7.7 | Refl: 8 | Proxy: 0
+2026-04-17 08:39:24,096 [INFO] [+] Dependency: hibernate-validator:8.0.3.Final | Refl: 356 | Proxy: 0
+2026-04-17 08:39:24,145 [INFO] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-04-17 08:39:24,159 [INFO]  [CSV UPDATE] Metrics saved for mini-erp (CMV: 1905)
+2026-04-17 08:39:24,167 [INFO]  [OK] mini-erp completed.
+
+2026-04-17 08:39:24,167 [INFO] >>> Processing: LabMQTT
+2026-04-17 08:39:24,281 [INFO] --- [START ANALYSIS: LabMQTT] ---
+2026-04-17 08:39:24,477 [INFO] --- [END OF ANALYSIS: 2 deps processed for LabMQTT] ---
+2026-04-17 08:39:24,490 [INFO]  [CSV UPDATE] Metrics saved for LabMQTT (CMV: 0)
+2026-04-17 08:39:24,497 [INFO]  [OK] LabMQTT completed.
+
+2026-04-17 08:39:24,498 [INFO] >>> Processing: task-manager
+2026-04-17 08:39:24,625 [INFO] --- [START ANALYSIS: task-manager] ---
+2026-04-17 08:39:24,782 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 08:39:24,856 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-17 08:39:24,948 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-17 08:39:25,055 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 08:39:25,125 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 08:39:25,627 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-17 08:39:25,988 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-17 08:39:26,548 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-17 08:39:26,700 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-17 08:39:27,019 [INFO] --- [END OF ANALYSIS: 77 deps processed for task-manager] ---
+2026-04-17 08:39:27,031 [INFO]  [CSV UPDATE] Metrics saved for task-manager (CMV: 1478)
+2026-04-17 08:39:27,056 [INFO]  [OK] task-manager completed.
+
+2026-04-17 09:31:20,837 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-17 09:31:21,113 [INFO] >>> Processing: algo-struct
+2026-04-17 09:31:21,363 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-17 09:31:22,228 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:31:23,571 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:31:23,915 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:31:25,104 [INFO] [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-17 09:31:26,681 [INFO] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-17 09:31:29,403 [INFO] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+2026-04-17 09:31:29,417 [INFO]  [CSV UPDATE] Metrics saved for algo-struct (CMV: 283)
+2026-04-17 09:31:29,418 [INFO]  [OK] algo-struct completed.
+
+2026-04-17 09:31:29,419 [INFO] >>> Processing: algorithms-api-java
+2026-04-17 09:31:29,593 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-17 09:31:29,728 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:31:29,950 [INFO] [+] Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+2026-04-17 09:31:30,209 [INFO] [+] Dependency: tomcat-embed-core:10.1.42 | Refl: 105 | Proxy: 0
+2026-04-17 09:31:30,963 [INFO] [+] Dependency: hibernate-validator:8.0.2.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:31:31,677 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:31:32,028 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:31:32,221 [INFO] --- [END OF ANALYSIS: 41 deps processed for algorithms-api-java] ---
+2026-04-17 09:31:32,239 [INFO]  [CSV UPDATE] Metrics saved for algorithms-api-java (CMV: 590)
+2026-04-17 09:31:32,248 [INFO]  [OK] algorithms-api-java completed.
+
+2026-04-17 09:31:32,248 [INFO] >>> Processing: StockWise
+2026-04-17 09:31:32,408 [INFO] --- [START ANALYSIS: StockWise] ---
+2026-04-17 09:31:32,760 [INFO] [+] Dependency: logback-classic:1.5.16 | Refl: 97 | Proxy: 0
+2026-04-17 09:31:33,316 [INFO] [+] Dependency: jackson-databind:2.18.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:31:34,141 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:31:34,970 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:31:35,516 [INFO] [+] Dependency: hibernate-core:6.6.8.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:31:35,928 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:31:36,325 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:31:38,060 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:31:38,118 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:31:38,344 [INFO] [+] Dependency: tomcat-embed-core:10.1.36 | Refl: 105 | Proxy: 0
+2026-04-17 09:31:38,811 [INFO] [+] Dependency: postgresql:42.7.5 | Refl: 8 | Proxy: 0
+2026-04-17 09:31:44,460 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:31:45,143 [INFO] --- [END OF ANALYSIS: 103 deps processed for StockWise] ---
+2026-04-17 09:31:45,164 [INFO]  [CSV UPDATE] Metrics saved for StockWise (CMV: 1553)
+2026-04-17 09:31:45,177 [INFO]  [OK] StockWise completed.
+
+2026-04-17 09:31:45,178 [INFO] >>> Processing: sale-service
+2026-04-17 09:31:45,428 [INFO] --- [START ANALYSIS: sale-service] ---
+2026-04-17 09:31:45,557 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-17 09:31:45,803 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:31:46,053 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:31:46,402 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:31:46,484 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:31:46,582 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:31:46,681 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:31:46,755 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:31:47,221 [INFO] [+] Dependency: hibernate-validator:8.0.1.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:31:47,446 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-17 09:31:47,664 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-17 09:31:54,093 [INFO] [+] Dependency: consul-api:1.4.5 | Refl: 111 | Proxy: 0
+2026-04-17 09:31:54,646 [INFO] [+] Dependency: httpclient:4.5.14 | Refl: 1 | Proxy: 0
+2026-04-17 09:31:54,999 [INFO] [+] Dependency: commons-logging:1.2 | Refl: 7 | Proxy: 0
+2026-04-17 09:31:55,701 [INFO] [+] Dependency: httpcore:4.4.16 | Refl: 3 | Proxy: 0
+2026-04-17 09:31:57,273 [INFO] --- [END OF ANALYSIS: 126 deps processed for sale-service] ---
+2026-04-17 09:31:57,297 [INFO]  [CSV UPDATE] Metrics saved for sale-service (CMV: 1968)
+2026-04-17 09:31:57,309 [INFO]  [OK] sale-service completed.
+
+2026-04-17 09:31:57,310 [INFO] >>> Processing: mini-erp
+2026-04-17 09:31:57,510 [INFO] --- [START ANALYSIS: mini-erp] ---
+2026-04-17 09:31:57,689 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:31:57,932 [INFO] [+] Dependency: jackson-databind:2.19.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:31:58,191 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:31:58,454 [INFO] [+] Dependency: HikariCP:6.3.3 | Refl: 8 | Proxy: 0
+2026-04-17 09:31:58,545 [INFO] [+] Dependency: hibernate-core:6.6.29.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:31:58,647 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:31:58,751 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:31:58,824 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:31:59,312 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:31:59,367 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:31:59,593 [INFO] [+] Dependency: tomcat-embed-core:10.1.46 | Refl: 105 | Proxy: 0
+2026-04-17 09:31:59,743 [INFO] [+] Dependency: postgresql:42.7.7 | Refl: 8 | Proxy: 0
+2026-04-17 09:32:00,667 [INFO] [+] Dependency: hibernate-validator:8.0.3.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:32:00,723 [INFO] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-04-17 09:32:00,743 [INFO]  [CSV UPDATE] Metrics saved for mini-erp (CMV: 1905)
+2026-04-17 09:32:00,752 [INFO]  [OK] mini-erp completed.
+
+2026-04-17 09:32:00,753 [INFO] >>> Processing: LabMQTT
+2026-04-17 09:32:00,841 [INFO] --- [START ANALYSIS: LabMQTT] ---
+2026-04-17 09:32:01,050 [INFO] --- [END OF ANALYSIS: 2 deps processed for LabMQTT] ---
+2026-04-17 09:32:01,069 [INFO]  [CSV UPDATE] Metrics saved for LabMQTT (CMV: 0)
+2026-04-17 09:32:01,082 [INFO]  [OK] LabMQTT completed.
+
+2026-04-17 09:32:01,082 [INFO] >>> Processing: task-manager
+2026-04-17 09:32:01,214 [INFO] --- [START ANALYSIS: task-manager] ---
+2026-04-17 09:32:01,373 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:32:01,448 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:32:01,546 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:32:01,639 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:32:01,712 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:32:02,248 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-17 09:32:02,646 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-17 09:32:03,216 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:32:03,384 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-17 09:32:03,731 [INFO] --- [END OF ANALYSIS: 77 deps processed for task-manager] ---
+2026-04-17 09:32:03,749 [INFO]  [CSV UPDATE] Metrics saved for task-manager (CMV: 1478)
+2026-04-17 09:32:03,771 [INFO]  [OK] task-manager completed.
+
+2026-04-17 09:34:34,746 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-17 09:34:35,039 [INFO] >>> Processing: algo-struct
+2026-04-17 09:34:35,212 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-17 09:34:35,753 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:34:36,732 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:34:36,790 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:34:37,597 [INFO] [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-17 09:34:38,476 [INFO] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-17 09:34:40,978 [INFO] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+2026-04-17 09:34:40,995 [INFO]  [CSV UPDATE] Metrics saved for algo-struct (CMV: 283)
+2026-04-17 09:34:40,996 [INFO]  [OK] algo-struct completed.
+
+2026-04-17 09:34:40,996 [INFO] >>> Processing: algorithms-api-java
+2026-04-17 09:34:41,096 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-17 09:34:41,244 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:34:41,452 [INFO] [+] Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+2026-04-17 09:34:41,680 [INFO] [+] Dependency: tomcat-embed-core:10.1.42 | Refl: 105 | Proxy: 0
+2026-04-17 09:34:42,123 [INFO] [+] Dependency: hibernate-validator:8.0.2.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:34:42,232 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:34:42,284 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:34:42,459 [INFO] --- [END OF ANALYSIS: 41 deps processed for algorithms-api-java] ---
+2026-04-17 09:34:42,473 [INFO]  [CSV UPDATE] Metrics saved for algorithms-api-java (CMV: 590)
+2026-04-17 09:34:42,484 [INFO]  [OK] algorithms-api-java completed.
+
+2026-04-17 09:34:42,485 [INFO] >>> Processing: StockWise
+2026-04-17 09:34:42,659 [INFO] --- [START ANALYSIS: StockWise] ---
+2026-04-17 09:34:42,960 [INFO] [+] Dependency: logback-classic:1.5.16 | Refl: 97 | Proxy: 0
+2026-04-17 09:34:43,449 [INFO] [+] Dependency: jackson-databind:2.18.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:34:43,956 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:34:44,463 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:34:44,687 [INFO] [+] Dependency: hibernate-core:6.6.8.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:34:45,046 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:34:45,419 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:34:47,053 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:34:47,106 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:34:47,347 [INFO] [+] Dependency: tomcat-embed-core:10.1.36 | Refl: 105 | Proxy: 0
+2026-04-17 09:34:47,523 [INFO] [+] Dependency: postgresql:42.7.5 | Refl: 8 | Proxy: 0
+2026-04-17 09:34:52,226 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:34:52,820 [INFO] --- [END OF ANALYSIS: 103 deps processed for StockWise] ---
+2026-04-17 09:34:52,839 [INFO]  [CSV UPDATE] Metrics saved for StockWise (CMV: 1553)
+2026-04-17 09:34:52,853 [INFO]  [OK] StockWise completed.
+
+2026-04-17 09:34:52,854 [INFO] >>> Processing: sale-service
+2026-04-17 09:34:53,102 [INFO] --- [START ANALYSIS: sale-service] ---
+2026-04-17 09:34:53,237 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-17 09:34:53,487 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:34:53,759 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:34:54,093 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:34:54,178 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:34:54,276 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:34:54,376 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:34:54,447 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:34:54,906 [INFO] [+] Dependency: hibernate-validator:8.0.1.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:34:55,131 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-17 09:34:55,353 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-17 09:35:01,281 [INFO] [+] Dependency: consul-api:1.4.5 | Refl: 111 | Proxy: 0
+2026-04-17 09:35:01,517 [INFO] [+] Dependency: httpclient:4.5.14 | Refl: 1 | Proxy: 0
+2026-04-17 09:35:01,574 [INFO] [+] Dependency: commons-logging:1.2 | Refl: 7 | Proxy: 0
+2026-04-17 09:35:01,680 [INFO] [+] Dependency: httpcore:4.4.16 | Refl: 3 | Proxy: 0
+2026-04-17 09:35:03,138 [INFO] --- [END OF ANALYSIS: 126 deps processed for sale-service] ---
+2026-04-17 09:35:03,163 [INFO]  [CSV UPDATE] Metrics saved for sale-service (CMV: 1968)
+2026-04-17 09:35:03,183 [INFO]  [OK] sale-service completed.
+
+2026-04-17 09:35:03,184 [INFO] >>> Processing: mini-erp
+2026-04-17 09:35:03,344 [INFO] --- [START ANALYSIS: mini-erp] ---
+2026-04-17 09:35:03,592 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:35:03,948 [INFO] [+] Dependency: jackson-databind:2.19.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:35:04,286 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:35:04,426 [INFO] [+] Dependency: HikariCP:6.3.3 | Refl: 8 | Proxy: 0
+2026-04-17 09:35:04,530 [INFO] [+] Dependency: hibernate-core:6.6.29.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:35:04,638 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:35:04,747 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:35:04,825 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:35:05,297 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:35:05,355 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:35:05,584 [INFO] [+] Dependency: tomcat-embed-core:10.1.46 | Refl: 105 | Proxy: 0
+2026-04-17 09:35:05,727 [INFO] [+] Dependency: postgresql:42.7.7 | Refl: 8 | Proxy: 0
+2026-04-17 09:35:06,618 [INFO] [+] Dependency: hibernate-validator:8.0.3.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:35:06,664 [INFO] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-04-17 09:35:06,679 [INFO]  [CSV UPDATE] Metrics saved for mini-erp (CMV: 1905)
+2026-04-17 09:35:06,688 [INFO]  [OK] mini-erp completed.
+
+2026-04-17 09:35:06,688 [INFO] >>> Processing: LabMQTT
+2026-04-17 09:35:06,741 [INFO] --- [START ANALYSIS: LabMQTT] ---
+2026-04-17 09:35:06,924 [INFO] --- [END OF ANALYSIS: 2 deps processed for LabMQTT] ---
+2026-04-17 09:35:06,947 [INFO]  [CSV UPDATE] Metrics saved for LabMQTT (CMV: 0)
+2026-04-17 09:35:06,964 [INFO]  [OK] LabMQTT completed.
+
+2026-04-17 09:35:06,965 [INFO] >>> Processing: task-manager
+2026-04-17 09:35:07,057 [INFO] --- [START ANALYSIS: task-manager] ---
+2026-04-17 09:35:07,200 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:35:07,274 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:35:07,376 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:35:07,473 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:35:07,550 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:35:08,068 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-17 09:35:08,434 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-17 09:35:09,030 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:35:09,193 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-17 09:35:09,766 [INFO] --- [END OF ANALYSIS: 77 deps processed for task-manager] ---
+2026-04-17 09:35:09,780 [INFO]  [CSV UPDATE] Metrics saved for task-manager (CMV: 1478)
+2026-04-17 09:35:09,808 [INFO]  [OK] task-manager completed.
+
+2026-04-17 09:36:20,998 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-17 09:36:21,195 [INFO] >>> Processing: algo-struct
+2026-04-17 09:36:21,355 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-17 09:36:21,915 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:36:22,967 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:36:23,023 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:36:23,925 [INFO] [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-17 09:36:24,861 [INFO] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-17 09:36:27,504 [INFO] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+2026-04-17 09:36:27,519 [INFO]  [CSV UPDATE] Metrics saved for algo-struct (CMV: 283)
+2026-04-17 09:36:27,521 [INFO]  [OK] algo-struct completed.
+
+2026-04-17 09:36:27,522 [INFO] >>> Processing: algorithms-api-java
+2026-04-17 09:36:27,705 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-17 09:36:28,117 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:36:28,721 [INFO] [+] Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+2026-04-17 09:36:29,554 [INFO] [+] Dependency: tomcat-embed-core:10.1.42 | Refl: 105 | Proxy: 0
+2026-04-17 09:36:30,052 [INFO] [+] Dependency: hibernate-validator:8.0.2.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:36:30,156 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:36:30,214 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:36:30,387 [INFO] --- [END OF ANALYSIS: 41 deps processed for algorithms-api-java] ---
+2026-04-17 09:36:30,402 [INFO]  [CSV UPDATE] Metrics saved for algorithms-api-java (CMV: 590)
+2026-04-17 09:36:30,412 [INFO]  [OK] algorithms-api-java completed.
+
+2026-04-17 09:36:30,412 [INFO] >>> Processing: StockWise
+2026-04-17 09:36:30,586 [INFO] --- [START ANALYSIS: StockWise] ---
+2026-04-17 09:36:30,930 [INFO] [+] Dependency: logback-classic:1.5.16 | Refl: 97 | Proxy: 0
+2026-04-17 09:36:31,471 [INFO] [+] Dependency: jackson-databind:2.18.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:36:32,009 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:36:32,577 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:36:32,811 [INFO] [+] Dependency: hibernate-core:6.6.8.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:36:33,473 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:36:34,149 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:36:36,177 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:36:36,524 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:36:36,767 [INFO] [+] Dependency: tomcat-embed-core:10.1.36 | Refl: 105 | Proxy: 0
+2026-04-17 09:36:36,942 [INFO] [+] Dependency: postgresql:42.7.5 | Refl: 8 | Proxy: 0
+2026-04-17 09:36:41,989 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:36:42,662 [INFO] --- [END OF ANALYSIS: 103 deps processed for StockWise] ---
+2026-04-17 09:36:42,684 [INFO]  [CSV UPDATE] Metrics saved for StockWise (CMV: 1553)
+2026-04-17 09:36:42,696 [INFO]  [OK] StockWise completed.
+
+2026-04-17 09:36:42,697 [INFO] >>> Processing: sale-service
+2026-04-17 09:36:42,937 [INFO] --- [START ANALYSIS: sale-service] ---
+2026-04-17 09:36:43,063 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-17 09:36:43,317 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:36:43,877 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:36:44,528 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:36:44,907 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:36:45,017 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:36:45,119 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:36:45,466 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:36:46,534 [INFO] [+] Dependency: hibernate-validator:8.0.1.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:36:47,067 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-17 09:36:47,589 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-17 09:36:53,698 [INFO] [+] Dependency: consul-api:1.4.5 | Refl: 111 | Proxy: 0
+2026-04-17 09:36:53,931 [INFO] [+] Dependency: httpclient:4.5.14 | Refl: 1 | Proxy: 0
+2026-04-17 09:36:53,983 [INFO] [+] Dependency: commons-logging:1.2 | Refl: 7 | Proxy: 0
+2026-04-17 09:36:54,080 [INFO] [+] Dependency: httpcore:4.4.16 | Refl: 3 | Proxy: 0
+2026-04-17 09:36:55,581 [INFO] --- [END OF ANALYSIS: 126 deps processed for sale-service] ---
+2026-04-17 09:36:55,600 [INFO]  [CSV UPDATE] Metrics saved for sale-service (CMV: 1968)
+2026-04-17 09:36:55,613 [INFO]  [OK] sale-service completed.
+
+2026-04-17 09:36:55,613 [INFO] >>> Processing: mini-erp
+2026-04-17 09:36:55,791 [INFO] --- [START ANALYSIS: mini-erp] ---
+2026-04-17 09:36:55,971 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:36:56,213 [INFO] [+] Dependency: jackson-databind:2.19.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:36:56,459 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:36:56,583 [INFO] [+] Dependency: HikariCP:6.3.3 | Refl: 8 | Proxy: 0
+2026-04-17 09:36:56,663 [INFO] [+] Dependency: hibernate-core:6.6.29.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:36:56,762 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:36:56,861 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:36:56,935 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:36:57,400 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:36:57,451 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:36:57,676 [INFO] [+] Dependency: tomcat-embed-core:10.1.46 | Refl: 105 | Proxy: 0
+2026-04-17 09:36:57,816 [INFO] [+] Dependency: postgresql:42.7.7 | Refl: 8 | Proxy: 0
+2026-04-17 09:36:58,780 [INFO] [+] Dependency: hibernate-validator:8.0.3.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:36:58,829 [INFO] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-04-17 09:36:58,841 [INFO]  [CSV UPDATE] Metrics saved for mini-erp (CMV: 1905)
+2026-04-17 09:36:58,846 [INFO]  [OK] mini-erp completed.
+
+2026-04-17 09:36:58,847 [INFO] >>> Processing: LabMQTT
+2026-04-17 09:36:58,932 [INFO] --- [START ANALYSIS: LabMQTT] ---
+2026-04-17 09:36:59,140 [INFO] --- [END OF ANALYSIS: 2 deps processed for LabMQTT] ---
+2026-04-17 09:36:59,158 [INFO]  [CSV UPDATE] Metrics saved for LabMQTT (CMV: 0)
+2026-04-17 09:36:59,169 [INFO]  [OK] LabMQTT completed.
+
+2026-04-17 09:36:59,170 [INFO] >>> Processing: task-manager
+2026-04-17 09:36:59,248 [INFO] --- [START ANALYSIS: task-manager] ---
+2026-04-17 09:36:59,416 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:36:59,500 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:36:59,595 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:36:59,696 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:36:59,773 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:37:00,292 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-17 09:37:00,686 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-17 09:37:01,292 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:37:01,459 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-17 09:37:01,788 [INFO] --- [END OF ANALYSIS: 77 deps processed for task-manager] ---
+2026-04-17 09:37:01,809 [INFO]  [CSV UPDATE] Metrics saved for task-manager (CMV: 1478)
+2026-04-17 09:37:01,818 [INFO]  [OK] task-manager completed.
+
+2026-04-17 09:37:01,819 [INFO] >>> Processing: doom-graal
+2026-04-17 09:37:01,868 [INFO] --- [START ANALYSIS: doom-graal] ---
+2026-04-17 09:37:02,040 [INFO] --- [END OF ANALYSIS: 1 deps processed for doom-graal] ---
+2026-04-17 09:37:02,052 [INFO]  [CSV UPDATE] Metrics saved for doom-graal (CMV: 0)
+2026-04-17 09:37:02,058 [INFO]  [OK] doom-graal completed.
+
+2026-04-17 09:41:29,135 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-04-17 09:41:29,410 [INFO] >>> Processing: algo-struct
+2026-04-17 09:41:29,592 [INFO] --- [START ANALYSIS: algo-struct] ---
+2026-04-17 09:41:30,443 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:41:31,481 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:41:31,536 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:41:32,622 [INFO] [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-17 09:41:34,026 [INFO] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-17 09:41:36,456 [INFO] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+2026-04-17 09:41:36,467 [INFO]  [CSV UPDATE] Metrics saved for algo-struct (CMV: 283)
+2026-04-17 09:41:36,471 [INFO]  [OK] algo-struct completed.
+
+2026-04-17 09:41:36,471 [INFO] >>> Processing: algorithms-api-java
+2026-04-17 09:41:36,618 [INFO] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-17 09:41:36,761 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:41:36,983 [INFO] [+] Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+2026-04-17 09:41:37,210 [INFO] [+] Dependency: tomcat-embed-core:10.1.42 | Refl: 105 | Proxy: 0
+2026-04-17 09:41:37,672 [INFO] [+] Dependency: hibernate-validator:8.0.2.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:41:38,036 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:41:38,354 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:41:38,572 [INFO] --- [END OF ANALYSIS: 41 deps processed for algorithms-api-java] ---
+2026-04-17 09:41:38,594 [INFO]  [CSV UPDATE] Metrics saved for algorithms-api-java (CMV: 590)
+2026-04-17 09:41:38,602 [INFO]  [OK] algorithms-api-java completed.
+
+2026-04-17 09:41:38,602 [INFO] >>> Processing: StockWise
+2026-04-17 09:41:38,753 [INFO] --- [START ANALYSIS: StockWise] ---
+2026-04-17 09:41:39,078 [INFO] [+] Dependency: logback-classic:1.5.16 | Refl: 97 | Proxy: 0
+2026-04-17 09:41:39,619 [INFO] [+] Dependency: jackson-databind:2.18.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:41:40,146 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:41:40,658 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:41:40,876 [INFO] [+] Dependency: hibernate-core:6.6.8.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:41:41,245 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:41:41,588 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:41:43,347 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:41:43,666 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:41:43,926 [INFO] [+] Dependency: tomcat-embed-core:10.1.36 | Refl: 105 | Proxy: 0
+2026-04-17 09:41:44,125 [INFO] [+] Dependency: postgresql:42.7.5 | Refl: 8 | Proxy: 0
+2026-04-17 09:41:49,344 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:41:49,962 [INFO] --- [END OF ANALYSIS: 103 deps processed for StockWise] ---
+2026-04-17 09:41:49,983 [INFO]  [CSV UPDATE] Metrics saved for StockWise (CMV: 1553)
+2026-04-17 09:41:49,995 [INFO]  [OK] StockWise completed.
+
+2026-04-17 09:41:49,996 [INFO] >>> Processing: sale-service
+2026-04-17 09:41:50,188 [INFO] --- [START ANALYSIS: sale-service] ---
+2026-04-17 09:41:50,324 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-17 09:41:50,576 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:41:51,088 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:41:51,696 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:41:52,556 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:41:52,670 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:41:52,785 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:41:52,855 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:41:53,544 [INFO] [+] Dependency: hibernate-validator:8.0.1.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:41:54,079 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-17 09:41:54,558 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-17 09:42:00,571 [INFO] [+] Dependency: consul-api:1.4.5 | Refl: 111 | Proxy: 0
+2026-04-17 09:42:01,059 [INFO] [+] Dependency: httpclient:4.5.14 | Refl: 1 | Proxy: 0
+2026-04-17 09:42:01,401 [INFO] [+] Dependency: commons-logging:1.2 | Refl: 7 | Proxy: 0
+2026-04-17 09:42:02,105 [INFO] [+] Dependency: httpcore:4.4.16 | Refl: 3 | Proxy: 0
+2026-04-17 09:42:03,428 [INFO] --- [END OF ANALYSIS: 126 deps processed for sale-service] ---
+2026-04-17 09:42:03,446 [INFO]  [CSV UPDATE] Metrics saved for sale-service (CMV: 1968)
+2026-04-17 09:42:03,454 [INFO]  [OK] sale-service completed.
+
+2026-04-17 09:42:03,455 [INFO] >>> Processing: mini-erp
+2026-04-17 09:42:03,622 [INFO] --- [START ANALYSIS: mini-erp] ---
+2026-04-17 09:42:03,809 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:42:04,056 [INFO] [+] Dependency: jackson-databind:2.19.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:42:04,302 [INFO] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-17 09:42:04,590 [INFO] [+] Dependency: HikariCP:6.3.3 | Refl: 8 | Proxy: 0
+2026-04-17 09:42:04,685 [INFO] [+] Dependency: hibernate-core:6.6.29.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:42:04,797 [INFO] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:42:04,896 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:42:04,967 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:42:05,451 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:42:05,501 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:42:05,759 [INFO] [+] Dependency: tomcat-embed-core:10.1.46 | Refl: 105 | Proxy: 0
+2026-04-17 09:42:05,923 [INFO] [+] Dependency: postgresql:42.7.7 | Refl: 8 | Proxy: 0
+2026-04-17 09:42:06,787 [INFO] [+] Dependency: hibernate-validator:8.0.3.Final | Refl: 356 | Proxy: 0
+2026-04-17 09:42:06,839 [INFO] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-04-17 09:42:06,861 [INFO]  [CSV UPDATE] Metrics saved for mini-erp (CMV: 1905)
+2026-04-17 09:42:06,878 [INFO]  [OK] mini-erp completed.
+
+2026-04-17 09:42:06,879 [INFO] >>> Processing: LabMQTT
+2026-04-17 09:42:06,929 [INFO] --- [START ANALYSIS: LabMQTT] ---
+2026-04-17 09:42:07,103 [INFO] --- [END OF ANALYSIS: 2 deps processed for LabMQTT] ---
+2026-04-17 09:42:07,119 [INFO]  [CSV UPDATE] Metrics saved for LabMQTT (CMV: 0)
+2026-04-17 09:42:07,128 [INFO]  [OK] LabMQTT completed.
+
+2026-04-17 09:42:07,129 [INFO] >>> Processing: task-manager
+2026-04-17 09:42:07,256 [INFO] --- [START ANALYSIS: task-manager] ---
+2026-04-17 09:42:07,424 [INFO] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-17 09:42:07,498 [INFO] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-17 09:42:07,595 [INFO] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-17 09:42:07,696 [INFO] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-17 09:42:07,768 [INFO] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-17 09:42:08,297 [INFO] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-17 09:42:08,700 [INFO] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-17 09:42:09,363 [INFO] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:42:09,520 [INFO] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-17 09:42:09,839 [INFO] --- [END OF ANALYSIS: 77 deps processed for task-manager] ---
+2026-04-17 09:42:09,849 [INFO]  [CSV UPDATE] Metrics saved for task-manager (CMV: 1478)
+2026-04-17 09:42:09,855 [INFO]  [OK] task-manager completed.
+
+2026-04-17 09:42:09,855 [INFO] >>> Processing: doom-graal
+2026-04-17 09:42:09,901 [INFO] --- [START ANALYSIS: doom-graal] ---
+2026-04-17 09:42:10,043 [INFO] --- [END OF ANALYSIS: 1 deps processed for doom-graal] ---
+2026-04-17 09:42:10,053 [INFO]  [CSV UPDATE] Metrics saved for doom-graal (CMV: 0)
+2026-04-17 09:42:10,057 [INFO]  [OK] doom-graal completed.
+
+2026-04-17 09:42:10,058 [INFO] >>> Processing: java-graalvm-start
+2026-04-17 09:42:10,196 [INFO] --- [START ANALYSIS: java-graalvm-start] ---
+2026-04-17 09:42:12,549 [INFO] [+] Dependency: logback-classic:1.2.11 | Refl: 42 | Proxy: 0
+2026-04-17 09:42:13,122 [INFO] [+] Dependency: jackson-databind:2.13.4.2 | Refl: 18 | Proxy: 0
+2026-04-17 09:42:13,942 [INFO] [+] Dependency: thymeleaf:3.0.15.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:42:14,994 [INFO] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-17 09:42:15,194 [INFO] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-17 09:42:15,240 [INFO] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-17 09:42:15,391 [INFO] [+] Dependency: jackson-databind:2.19.0 | Refl: 18 | Proxy: 0
+2026-04-17 09:42:15,611 [INFO] [+] Dependency: tomcat-embed-core:10.1.41 | Refl: 105 | Proxy: 0
+2026-04-17 09:42:17,054 [INFO] --- [END OF ANALYSIS: 102 deps processed for java-graalvm-start] ---
+2026-04-17 09:42:17,072 [INFO]  [CSV UPDATE] Metrics saved for java-graalvm-start (CMV: 402)
+2026-04-17 09:42:17,081 [INFO]  [OK] java-graalvm-start completed.
+
