@@ -4,16 +4,16 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IZ2MlKqA7a6GPCeg7Glg-8" parent="1" style="verticalAlign=top;fontStyle=0;whiteSpace=wrap;html=1;align=left;glass=0;fillStyle=auto;strokeColor=light-dark(#ebebeb, #ededed);fillColor=light-dark(#FFFFFF,#EDEDED);" value="&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&amp;nbsp; Collector&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="IZ2MlKqA7a6GPCeg7Glg-8" parent="1" style="verticalAlign=top;fontStyle=0;whiteSpace=wrap;html=1;align=left;glass=0;fillStyle=auto;strokeColor=light-dark(#ebebeb, #ededed);fillColor=light-dark(#F8FAFC,#EDEDED);" value="&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&amp;nbsp; Collector&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="120" width="530" x="120" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="IZ2MlKqA7a6GPCeg7Glg-9" parent="1" style="verticalAlign=top;fontStyle=0;whiteSpace=wrap;html=1;align=left;strokeColor=light-dark(#ebebeb, #ededed);fillColor=#F8FAFC;" value="&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&amp;nbsp; Graph Processor&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="IZ2MlKqA7a6GPCeg7Glg-9" parent="1" style="verticalAlign=top;fontStyle=0;whiteSpace=wrap;html=1;align=left;strokeColor=light-dark(#ebebeb, #ededed);fillColor=light-dark(#FFFFFF,#EDEDED);" value="&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&amp;nbsp; Graph Processor&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="120" width="530" x="120" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="IZ2MlKqA7a6GPCeg7Glg-10" parent="1" style="verticalAlign=top;fontStyle=0;whiteSpace=wrap;html=1;align=left;glass=0;fillStyle=auto;strokeColor=light-dark(#ebebeb, #ededed);fillColor=light-dark(#FFFFFF,#EDEDED);" value="&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&amp;nbsp; Analytics &amp;amp; Scoring&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="IZ2MlKqA7a6GPCeg7Glg-10" parent="1" style="verticalAlign=top;fontStyle=0;whiteSpace=wrap;html=1;align=left;glass=0;fillStyle=auto;strokeColor=light-dark(#ebebeb, #ededed);fillColor=light-dark(#F8FAFC,#EDEDED);" value="&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&amp;nbsp; Analytics &amp;amp; Scoring&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="120" width="530" x="120" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="IZ2MlKqA7a6GPCeg7Glg-11" parent="1" style="verticalAlign=top;fontStyle=0;whiteSpace=wrap;html=1;align=left;strokeColor=light-dark(#ebebeb, #ededed);fillColor=#F8FAFC;" value="&lt;span style=&quot;font-family: Verdana; font-size: medium;&quot;&gt;&lt;b&gt;&amp;nbsp; Reporting &amp;amp; Visualization&lt;/b&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="IZ2MlKqA7a6GPCeg7Glg-11" parent="1" style="verticalAlign=top;fontStyle=0;whiteSpace=wrap;html=1;align=left;strokeColor=light-dark(#ebebeb, #ededed);fillColor=#FFFFFF;" value="&lt;span style=&quot;font-family: Verdana; font-size: medium;&quot;&gt;&lt;b&gt;&amp;nbsp; Reporting &amp;amp; Visualization&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="120" width="530" x="120" y="500" as="geometry" />
         </mxCell>
         <mxCell id="IZ2MlKqA7a6GPCeg7Glg-22" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Evil_Icons_User_Interface-2617/share-616.svg;rotation=90;imageBackground=none;rounded=0;" value="" vertex="1">
@@ -30,7 +30,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZ2MlKqA7a6GPCeg7Glg-33" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#ffffff, #b17dff);strokeColor=#1E293B;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elasticsearch_service;" value="" vertex="1">
+        <mxCell id="IZ2MlKqA7a6GPCeg7Glg-33" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#F8FAFC,#EDEDED);strokeColor=default;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elasticsearch_service;" value="" vertex="1">
           <mxGeometry height="78" width="78" x="554.6499999999999" y="401" as="geometry" />
         </mxCell>
         <mxCell id="JQssxzb0wdldISZnKEvz-17" edge="1" parent="1" source="IZ2MlKqA7a6GPCeg7Glg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IZ2MlKqA7a6GPCeg7Glg-33">
@@ -66,7 +66,7 @@
         <mxCell id="IZ2MlKqA7a6GPCeg7Glg-77" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="&lt;font&gt;Transforms raw SBOM data into Directed Acyclic Graphs (DAGs) for structural analysis.&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="390" x="140" y="305.5" as="geometry" />
         </mxCell>
-        <mxCell id="JQssxzb0wdldISZnKEvz-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;Calculates MDD and hierarchical metrics to assess dependency depth and density.&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="JQssxzb0wdldISZnKEvz-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Verdana&quot;&gt;Extracts high-level structural metrics to assess the impact of dependency depth on system compatibility.&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="390" x="140" y="420" as="geometry" />
         </mxCell>
         <mxCell id="JQssxzb0wdldISZnKEvz-10" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-size: medium; float: none; display: inline !important;&quot;&gt;Generates comprehensive reports and visual insights for GraalVM compatibility assessment&lt;/span&gt;" vertex="1">
