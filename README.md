@@ -89,9 +89,6 @@ The project aims to answer:
 ---
 
 ## Current Status
-
-Work in progress...
-
 Preliminary analysis includes:
 - Multiple Java projects processed
 - Dependency graphs generated and analyzed
