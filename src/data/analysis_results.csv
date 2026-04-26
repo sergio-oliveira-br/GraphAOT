@@ -1,11 +1,11 @@
 project_id,node_count,edge_count,density,max_depth,avg_clustering,is_dag,hubs,dep_count,reflection_count,proxy_count,jni_count,total_metadata,metadata_density,build_status,processed_at
 serverless-graalvm-demo,70,205,0.0424430641821946,0,,True,aws-java-sdk-core|sdk-core|aws-core,69,47,0,0,47,0.6811594202898551,0,2026-04-16 18:46:32
-algo-struct,42,75,0.0435540069686411,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,293,0,0,293,7.146341463414634,0,2026-04-26 18:10:00
-algorithms-api-java,42,74,0.0429732868757259,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,600,0,0,600,14.634146341463415,0,2026-04-26 18:10:06
 StockWise,104,205,0.0191374159820761,6,,True,spring-boot-starter|spring-boot|all,103,1565,0,0,1565,15.194174757281552,0,2026-04-26 18:10:31
 sale-service,127,257,0.0160604924384451,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,126,1984,0,0,1984,15.746031746031743,0,2026-04-26 18:10:57
 mini-erp,84,174,0.0249569707401032,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,83,1917,0,0,1917,23.096385542168676,0,2026-04-26 18:11:14
 LabMQTT,3,2,0.3333333333333333,2,,True,amqp-client,2,2,0,0,2,1.0,0,2026-04-26 18:11:15
 task-manager,78,160,0.0266400266400266,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,77,1490,0,0,1490,19.350649350649352,0,2026-04-26 18:11:28
 doom-graal,2,1,0.5,1,,True,,1,0,0,0,0,0.0,0,2026-04-26 18:11:29
-java-graalvm-start,103,171,0.016276413478012564,5,,True,spring-boot-starter|spring-boot-starter|spring-boot-starter-logging,102,422,0,0,422,4.137254901960785,0,2026-04-26 18:11:47
+java-graalvm-start,103,171,0.0162764134780125,5,,True,spring-boot-starter|spring-boot-starter|spring-boot-starter-logging,102,422,0,0,422,4.137254901960785,0,2026-04-26 18:11:47
+algo-struct,42,75,0.0435540069686411,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,293,0,0,293,7.146341463414634,0,2026-04-26 18:18:18
+algorithms-api-java,42,74,0.0429732868757259,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,600,0,0,600,14.634146341463415,0,2026-04-26 18:18:26
