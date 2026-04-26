@@ -58,7 +58,7 @@ Responsible for transforming raw data into **graph-based insights**.
 - Stores results in a structured dataset
 
 #### Output:
-- Processed metrics (`analysis_results.csv`)
+- Processed metrics
 - Detailed logs for further inspection
 
 ---
@@ -89,9 +89,6 @@ The project aims to answer:
 ---
 
 ## Current Status
-
-Work in progress...
-
 Preliminary analysis includes:
 - Multiple Java projects processed
 - Dependency graphs generated and analyzed
@@ -104,11 +101,6 @@ A prototype pipeline is fully functional and being iteratively improved.
 ---
 
 ## Tech Stack
-
-- Python (data pipelines, analysis)
-- Java / Maven (dependency extraction)
-- AWS S3 (data storage)
 - CycloneDX (bom extraction)
 - NetworkX (graph analysis)
-- GitHub (project sourcing)
-  
+- Pandas (statistical analysis)
