@@ -1,7 +1,6 @@
 # src/graph_processor.py
 
-import os
-
+import sys
 from pathlib import Path
 from src.providers.manifest_manager import ManifestManager
 from src.providers.graph_manager import NetworkXGraphManager
@@ -10,33 +9,54 @@ from src.providers.s3_storage import S3Storage
 from src.providers.stats_manager import StatsManager
 from src.utils.logger import setup_logger
 
-
 # What it does: It transforms the "lake" into graphs and calculates SRQ1 metrics.
 # Focus: Network mathematics and topology.
 # Result: Structural metrics (Centrality, Depth).
-def run_analysis():
+def run_analysis(target_id=None):
     logger = setup_logger('graph_processor')
 
+    BASE_DIR = Path(__file__).resolve().parent  # points to src/
+    data_dir = BASE_DIR / "data"                  # src/data
+    manifest_path = data_dir / "manifest.csv"
+    results_csv = data_dir / "analysis_results.csv"
+
     services = {
-        'manifest': ManifestManager("data/manifest.csv"),
+        'manifest': ManifestManager(str(manifest_path)),
         'graph': NetworkXGraphManager(),
         'metadata': ReachabilityMetadataManager(logger=logger),
         'storage': S3Storage("graphaot-research"),
-        'stats': StatsManager("data/analysis_results.csv"),
+        'stats': StatsManager(str(results_csv)),
         'logger': logger
     }
 
-    projects = services['manifest'].get_pending_analysis()
-    if not projects: return
+    if target_id:
+        logger.info(f"*** Manual Mode ***: Targeting project '{target_id}'")
+        project = services['manifest'].get_project_by_id(target_id)
+        projects = [project] if project else []
+        if not projects:
+            logger.error(f"Project '{target_id}' not found in manifest. Execution aborted.")
+            return
+    else:
+        logger.info("*** Auto Mode ***: Fetching PENDING projects from manifest.")
+        projects = services['manifest'].get_pending_analysis()
+
+    if not projects:
+        logger.info("Nothing to analyze at the moment.")
+        return
+
+    logger.info(f"--- Starting Graph Processor Pipeline: {len(projects)} projects ---")
 
     for project in projects:
         _process_project(project['project_id'], services)
 
+    logger.info("--- Graph Processor Pipeline Finished ---")
 
 def _process_project(p_id, service):
     logger = service['logger']
     logger.info(f">>> Processing: {p_id}")
-    local_path = Path(f"temp/analysis_cache/{p_id}_bom.json")
+    cache_dir = Path("temp/analysis_cache")
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    local_path = cache_dir / f"{p_id}_bom.json"
 
     try:
         # Orchestration
@@ -54,8 +74,10 @@ def _process_project(p_id, service):
     except Exception as e:
         logger.error(f" [!] Error {p_id}: {e}\n")
     finally:
-        if local_path.exists(): local_path.unlink()
-
+        if local_path.exists():
+            local_path.unlink()
+            logger.debug(f"Temporary file removed for {p_id}")
 
 if __name__ == "__main__":
-    run_analysis()
+    target = sys.argv[1] if len(sys.argv) > 1 else None
+    run_analysis(target)
