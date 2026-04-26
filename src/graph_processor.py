@@ -15,7 +15,7 @@ from src.utils.logger import setup_logger
 # Focus: Network mathematics and topology.
 # Result: Structural metrics (Centrality, Depth).
 def run_analysis():
-    logger = setup_logger()
+    logger = setup_logger('graph_processor')
 
     services = {
         'manifest': ManifestManager("data/manifest.csv"),
