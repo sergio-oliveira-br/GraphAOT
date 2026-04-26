@@ -2,17 +2,17 @@
 
 import pandas as pd
 import os
-import logging
 
 from pathlib import Path
 from datetime import datetime
 from src.interfaces.stats import StatsProvider
+from src.utils.logger import setup_logger
 
 class StatsManager(StatsProvider):
     def __init__(self, output_path: str = "data/analysis_results.csv"):
         self.output_path = Path(output_path)
         self.log_path = self.output_path.parent / "raw_data_srq2.log"
-        self.logger = logging.getLogger(__name__)
+        self.logger = setup_logger("stats_manager")
         self._initialize_storage()
 
     def _initialize_storage(self):
