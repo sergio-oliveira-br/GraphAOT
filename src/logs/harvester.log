@@ -1209,3 +1209,5 @@ fatal: repository 'https://github.com/sergio-oliveira-br/Software-Development/tr
 2026-04-17 09:42:17,072 [INFO]  [CSV UPDATE] Metrics saved for java-graalvm-start (CMV: 402)
 2026-04-17 09:42:17,081 [INFO]  [OK] java-graalvm-start completed.
 
+2026-04-26 18:07:26 [INFO] [harvester] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-04-26 18:07:26 [INFO] [harvester] Nothing to harvest at the moment.
