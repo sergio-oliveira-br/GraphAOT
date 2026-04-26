@@ -1,0 +1,135 @@
+2026-04-26 18:09:50 [INFO] [graph_processor] >>> Processing: algo-struct
+2026-04-26 18:09:51 [INFO] [graph_processor] --- [START ANALYSIS: algo-struct] ---
+2026-04-26 18:09:52 [INFO] [graph_processor] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-26 18:09:52 [INFO] [graph_processor] [+] Dependency: logback-core:1.5.18 | Refl: 8 | Proxy: 0
+2026-04-26 18:09:53 [INFO] [graph_processor] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-26 18:09:53 [INFO] [graph_processor] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-26 18:09:54 [INFO] [graph_processor] [+] Dependency: slf4j-api:2.0.17 | Refl: 2 | Proxy: 0
+2026-04-26 18:09:55 [INFO] [graph_processor] [+] Dependency: jackson-databind:2.18.3 | Refl: 18 | Proxy: 0
+2026-04-26 18:09:56 [INFO] [graph_processor] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-04-26 18:10:00 [INFO] [graph_processor] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+2026-04-26 18:10:00 [INFO] [graph_processor]  [OK] algo-struct completed.
+
+2026-04-26 18:10:00 [INFO] [graph_processor] >>> Processing: algorithms-api-java
+2026-04-26 18:10:00 [INFO] [graph_processor] --- [START ANALYSIS: algorithms-api-java] ---
+2026-04-26 18:10:01 [INFO] [graph_processor] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-26 18:10:01 [INFO] [graph_processor] [+] Dependency: logback-core:1.5.18 | Refl: 8 | Proxy: 0
+2026-04-26 18:10:02 [INFO] [graph_processor] [+] Dependency: jackson-databind:2.19.1 | Refl: 18 | Proxy: 0
+2026-04-26 18:10:03 [INFO] [graph_processor] [+] Dependency: tomcat-embed-core:10.1.42 | Refl: 105 | Proxy: 0
+2026-04-26 18:10:05 [INFO] [graph_processor] [+] Dependency: hibernate-validator:8.0.2.Final | Refl: 356 | Proxy: 0
+2026-04-26 18:10:05 [INFO] [graph_processor] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-26 18:10:06 [INFO] [graph_processor] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-26 18:10:06 [INFO] [graph_processor] [+] Dependency: slf4j-api:2.0.17 | Refl: 2 | Proxy: 0
+2026-04-26 18:10:06 [INFO] [graph_processor] --- [END OF ANALYSIS: 41 deps processed for algorithms-api-java] ---
+2026-04-26 18:10:06 [INFO] [graph_processor]  [OK] algorithms-api-java completed.
+
+2026-04-26 18:10:06 [INFO] [graph_processor] >>> Processing: StockWise
+2026-04-26 18:10:07 [INFO] [graph_processor] --- [START ANALYSIS: StockWise] ---
+2026-04-26 18:10:08 [INFO] [graph_processor] [+] Dependency: logback-classic:1.5.16 | Refl: 97 | Proxy: 0
+2026-04-26 18:10:08 [INFO] [graph_processor] [+] Dependency: logback-core:1.5.16 | Refl: 8 | Proxy: 0
+2026-04-26 18:10:09 [INFO] [graph_processor] [+] Dependency: jackson-databind:2.18.2 | Refl: 18 | Proxy: 0
+2026-04-26 18:10:11 [INFO] [graph_processor] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-26 18:10:12 [INFO] [graph_processor] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-26 18:10:13 [INFO] [graph_processor] [+] Dependency: hibernate-core:6.6.8.Final | Refl: 1214 | Proxy: 0
+2026-04-26 18:10:13 [INFO] [graph_processor] [+] Dependency: jakarta.persistence-api:3.1.0 | Refl: 2 | Proxy: 0
+2026-04-26 18:10:14 [INFO] [graph_processor] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-26 18:10:15 [INFO] [graph_processor] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-26 18:10:17 [INFO] [graph_processor] [+] Dependency: slf4j-api:2.0.16 | Refl: 2 | Proxy: 0
+2026-04-26 18:10:18 [INFO] [graph_processor] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-26 18:10:18 [INFO] [graph_processor] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-26 18:10:20 [INFO] [graph_processor] [+] Dependency: tomcat-embed-core:10.1.36 | Refl: 105 | Proxy: 0
+2026-04-26 18:10:21 [INFO] [graph_processor] [+] Dependency: postgresql:42.7.5 | Refl: 8 | Proxy: 0
+2026-04-26 18:10:30 [INFO] [graph_processor] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-26 18:10:31 [INFO] [graph_processor] --- [END OF ANALYSIS: 103 deps processed for StockWise] ---
+2026-04-26 18:10:31 [INFO] [graph_processor]  [OK] StockWise completed.
+
+2026-04-26 18:10:31 [INFO] [graph_processor] >>> Processing: sale-service
+2026-04-26 18:10:31 [INFO] [graph_processor] --- [START ANALYSIS: sale-service] ---
+2026-04-26 18:10:32 [INFO] [graph_processor] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-26 18:10:32 [INFO] [graph_processor] [+] Dependency: logback-core:1.5.11 | Refl: 8 | Proxy: 0
+2026-04-26 18:10:33 [INFO] [graph_processor] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-26 18:10:35 [INFO] [graph_processor] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-26 18:10:36 [INFO] [graph_processor] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-26 18:10:36 [INFO] [graph_processor] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-26 18:10:36 [INFO] [graph_processor] [+] Dependency: jakarta.persistence-api:3.1.0 | Refl: 2 | Proxy: 0
+2026-04-26 18:10:37 [INFO] [graph_processor] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-26 18:10:37 [INFO] [graph_processor] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-26 18:10:37 [INFO] [graph_processor] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-26 18:10:40 [INFO] [graph_processor] [+] Dependency: hibernate-validator:8.0.1.Final | Refl: 356 | Proxy: 0
+2026-04-26 18:10:41 [INFO] [graph_processor] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-26 18:10:42 [INFO] [graph_processor] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-26 18:10:46 [INFO] [graph_processor] [+] Dependency: commons-io:2.11.0 | Refl: 4 | Proxy: 0
+2026-04-26 18:10:50 [INFO] [graph_processor] [+] Dependency: slf4j-api:2.0.16 | Refl: 2 | Proxy: 0
+2026-04-26 18:10:52 [INFO] [graph_processor] [+] Dependency: consul-api:1.4.5 | Refl: 111 | Proxy: 0
+2026-04-26 18:10:53 [INFO] [graph_processor] [+] Dependency: httpclient:4.5.14 | Refl: 1 | Proxy: 0
+2026-04-26 18:10:54 [INFO] [graph_processor] [+] Dependency: commons-logging:1.2 | Refl: 7 | Proxy: 0
+2026-04-26 18:10:55 [INFO] [graph_processor] [+] Dependency: httpcore:4.4.16 | Refl: 3 | Proxy: 0
+2026-04-26 18:10:57 [INFO] [graph_processor] --- [END OF ANALYSIS: 126 deps processed for sale-service] ---
+2026-04-26 18:10:57 [INFO] [graph_processor]  [OK] sale-service completed.
+
+2026-04-26 18:10:57 [INFO] [graph_processor] >>> Processing: mini-erp
+2026-04-26 18:10:58 [INFO] [graph_processor] --- [START ANALYSIS: mini-erp] ---
+2026-04-26 18:10:59 [INFO] [graph_processor] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-26 18:10:59 [INFO] [graph_processor] [+] Dependency: logback-core:1.5.18 | Refl: 8 | Proxy: 0
+2026-04-26 18:11:01 [INFO] [graph_processor] [+] Dependency: jackson-databind:2.19.2 | Refl: 18 | Proxy: 0
+2026-04-26 18:11:02 [INFO] [graph_processor] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-04-26 18:11:03 [INFO] [graph_processor] [+] Dependency: HikariCP:6.3.3 | Refl: 8 | Proxy: 0
+2026-04-26 18:11:03 [INFO] [graph_processor] [+] Dependency: hibernate-core:6.6.29.Final | Refl: 1214 | Proxy: 0
+2026-04-26 18:11:03 [INFO] [graph_processor] [+] Dependency: jakarta.persistence-api:3.1.0 | Refl: 2 | Proxy: 0
+2026-04-26 18:11:04 [INFO] [graph_processor] [+] Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+2026-04-26 18:11:04 [INFO] [graph_processor] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-26 18:11:05 [INFO] [graph_processor] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-26 18:11:07 [INFO] [graph_processor] [+] Dependency: slf4j-api:2.0.17 | Refl: 2 | Proxy: 0
+2026-04-26 18:11:08 [INFO] [graph_processor] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-26 18:11:08 [INFO] [graph_processor] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-26 18:11:10 [INFO] [graph_processor] [+] Dependency: tomcat-embed-core:10.1.46 | Refl: 105 | Proxy: 0
+2026-04-26 18:11:11 [INFO] [graph_processor] [+] Dependency: postgresql:42.7.7 | Refl: 8 | Proxy: 0
+2026-04-26 18:11:14 [INFO] [graph_processor] [+] Dependency: hibernate-validator:8.0.3.Final | Refl: 356 | Proxy: 0
+2026-04-26 18:11:14 [INFO] [graph_processor] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-04-26 18:11:14 [INFO] [graph_processor]  [OK] mini-erp completed.
+
+2026-04-26 18:11:14 [INFO] [graph_processor] >>> Processing: LabMQTT
+2026-04-26 18:11:14 [INFO] [graph_processor] --- [START ANALYSIS: LabMQTT] ---
+2026-04-26 18:11:15 [INFO] [graph_processor] [+] Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
+2026-04-26 18:11:15 [INFO] [graph_processor] --- [END OF ANALYSIS: 2 deps processed for LabMQTT] ---
+2026-04-26 18:11:15 [INFO] [graph_processor]  [OK] LabMQTT completed.
+
+2026-04-26 18:11:15 [INFO] [graph_processor] >>> Processing: task-manager
+2026-04-26 18:11:15 [INFO] [graph_processor] --- [START ANALYSIS: task-manager] ---
+2026-04-26 18:11:16 [INFO] [graph_processor] [+] Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+2026-04-26 18:11:16 [INFO] [graph_processor] [+] Dependency: hibernate-core:6.5.3.Final | Refl: 1214 | Proxy: 0
+2026-04-26 18:11:16 [INFO] [graph_processor] [+] Dependency: jakarta.persistence-api:3.1.0 | Refl: 2 | Proxy: 0
+2026-04-26 18:11:17 [INFO] [graph_processor] [+] Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Proxy: 0
+2026-04-26 18:11:18 [INFO] [graph_processor] [+] Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+2026-04-26 18:11:18 [INFO] [graph_processor] [+] Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+2026-04-26 18:11:21 [INFO] [graph_processor] [+] Dependency: slf4j-api:2.0.16 | Refl: 2 | Proxy: 0
+2026-04-26 18:11:22 [INFO] [graph_processor] [+] Dependency: logback-classic:1.5.11 | Refl: 97 | Proxy: 0
+2026-04-26 18:11:22 [INFO] [graph_processor] [+] Dependency: logback-core:1.5.11 | Refl: 8 | Proxy: 0
+2026-04-26 18:11:24 [INFO] [graph_processor] [+] Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Proxy: 0
+2026-04-26 18:11:26 [INFO] [graph_processor] [+] Dependency: jackson-databind:2.17.2 | Refl: 18 | Proxy: 0
+2026-04-26 18:11:27 [INFO] [graph_processor] [+] Dependency: postgresql:42.7.4 | Refl: 8 | Proxy: 0
+2026-04-26 18:11:28 [INFO] [graph_processor] --- [END OF ANALYSIS: 77 deps processed for task-manager] ---
+2026-04-26 18:11:28 [INFO] [graph_processor]  [OK] task-manager completed.
+
+2026-04-26 18:11:28 [INFO] [graph_processor] >>> Processing: doom-graal
+2026-04-26 18:11:28 [INFO] [graph_processor] --- [START ANALYSIS: doom-graal] ---
+2026-04-26 18:11:29 [INFO] [graph_processor] --- [END OF ANALYSIS: 1 deps processed for doom-graal] ---
+2026-04-26 18:11:29 [INFO] [graph_processor]  [OK] doom-graal completed.
+
+2026-04-26 18:11:29 [INFO] [graph_processor] >>> Processing: java-graalvm-start
+2026-04-26 18:11:29 [INFO] [graph_processor] --- [START ANALYSIS: java-graalvm-start] ---
+2026-04-26 18:11:34 [INFO] [graph_processor] [+] Dependency: logback-classic:1.2.11 | Refl: 42 | Proxy: 0
+2026-04-26 18:11:34 [INFO] [graph_processor] [+] Dependency: logback-core:1.2.11 | Refl: 8 | Proxy: 0
+2026-04-26 18:11:35 [INFO] [graph_processor] [+] Dependency: jackson-databind:2.13.4.2 | Refl: 18 | Proxy: 0
+2026-04-26 18:11:38 [INFO] [graph_processor] [+] Dependency: thymeleaf:3.0.15.RELEASE | Refl: 59 | Proxy: 0
+2026-04-26 18:11:38 [INFO] [graph_processor] [+] Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
+2026-04-26 18:11:40 [INFO] [graph_processor] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-04-26 18:11:40 [INFO] [graph_processor] [+] Dependency: logback-core:1.5.18 | Refl: 8 | Proxy: 0
+2026-04-26 18:11:41 [INFO] [graph_processor] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-04-26 18:11:42 [INFO] [graph_processor] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-04-26 18:11:42 [INFO] [graph_processor] [+] Dependency: slf4j-api:2.0.17 | Refl: 2 | Proxy: 0
+2026-04-26 18:11:43 [INFO] [graph_processor] [+] Dependency: jackson-databind:2.19.0 | Refl: 18 | Proxy: 0
+2026-04-26 18:11:44 [INFO] [graph_processor] [+] Dependency: tomcat-embed-core:10.1.41 | Refl: 105 | Proxy: 0
+2026-04-26 18:11:47 [INFO] [graph_processor] --- [END OF ANALYSIS: 102 deps processed for java-graalvm-start] ---
+2026-04-26 18:11:47 [INFO] [graph_processor]  [OK] java-graalvm-start completed.
+
