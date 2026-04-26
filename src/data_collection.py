@@ -16,7 +16,7 @@ TEMP_DIR = Path("temp/work_dir")
 # Focus: Infrastructure and extraction.
 # Result: The "Data Lake" (bom.json, effective-pom.xml).
 def run_harvester(target_id=None):
-    logger = setup_logger()
+    logger = setup_logger("data_collection")
 
     BASE_DIR = Path(__file__).resolve().parent.parent
     manifest_path = BASE_DIR / "src" / "data" / "manifest.csv"
