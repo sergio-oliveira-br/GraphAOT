@@ -61,8 +61,8 @@ def _process_project(p_id, service):
     try:
         # Orchestration
         service['storage'].download_file(f"analysis/{p_id}/bom.json", str(local_path))
-        graph = service['graph'].build_from_bom(str(local_path))
 
+        graph = service['graph'].build_from_bom(str(local_path))
         metrics = service['graph'].get_metrics(graph)
         aot_results = service['metadata'].analyze_reachability_effort(graph, p_id)
 
@@ -72,8 +72,11 @@ def _process_project(p_id, service):
 
         service['manifest'].update_project_status(p_id, "ANALYSED")
         logger.info(f" [OK] {p_id} completed.\n")
+
     except Exception as e:
         logger.error(f" [!] Error {p_id}: {e}\n")
+        service['manifest'].update_project_status(p_id, "FAILED_ANALYSIS", error=str(e))
+        
     finally:
         if local_path.exists():
             local_path.unlink()
