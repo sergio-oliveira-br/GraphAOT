@@ -5,7 +5,7 @@ algorithms-api-java,https://github.com/sergio-oliveira-br/algorithms-api-java,,H
 StockWise,https://github.com/sergio-oliveira-br/StockWise,,HARVESTED,s3://graphaot-research/analysis/StockWise/,,2026-04-16 19:28:43
 sale-service,https://github.com/sergio-oliveira-br/sale-service,17,HARVESTED,s3://graphaot-research/analysis/sale-service/,,2026-04-16 19:31:14
 mini-erp,https://github.com/sergio-oliveira-br/mini-erp,17,HARVESTED,s3://graphaot-research/analysis/mini-erp/,,2026-04-16 19:51:12
-LabMQTT,https://github.com/sergio-oliveira-br/LabMQTT,,ANALYZED,,,2026-04-27 10:05:36
+LabMQTT,https://github.com/sergio-oliveira-br/LabMQTT,,ANALYSED,,,2026-04-27 10:05:36
 URLGeneratorApp,https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp,,FAILED_CLONE,,Git clone failed,2026-04-16 20:08:59
 task-manager,https://github.com/sergio-oliveira-br/task-manager,,HARVESTED,s3://graphaot-research/analysis/task-manager/,,2026-04-16 19:30:09
 serverless-graalvm-demo,https://github.com/aws-samples/serverless-graalvm-demo,,SUCCESS,s3://graphaot-research/analysis/serverless-graalvm-demo/,,2026-04-16 18:43:48
