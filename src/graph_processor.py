@@ -70,6 +70,7 @@ def _process_project(p_id, service):
         service['stats'].save_metrics(p_id, final_data)
         service['stats'].save_raw_log(p_id, aot_results)
 
+        service['manifest'].update_project_status(p_id, "ANALYSED")
         logger.info(f" [OK] {p_id} completed.\n")
     except Exception as e:
         logger.error(f" [!] Error {p_id}: {e}\n")
