@@ -1,0 +1,2 @@
+2026-04-28 17:41:42 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-28 17:41:45 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/src/temp/work_dir/spring-boot-graalvm/target/effective-pom.xml
