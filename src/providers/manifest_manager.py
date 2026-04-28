@@ -1,15 +1,16 @@
 # src/providers/manifest_manager.py
 
 import pandas as pd
-import logging
+
 from datetime import datetime
 from typing import List, Dict, Any, Optional
+from src.utils.logger import setup_logger
 
 
 class ManifestManager:
     def __init__(self, file_path: str):
         self.file_path = file_path
-        self.logger = logging.getLogger(__name__)
+        self.logger = setup_logger('manifest_manager')
         self.df = self._load_manifest()
 
     def _load_manifest(self) -> pd.DataFrame:
