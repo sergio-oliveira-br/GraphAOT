@@ -1,14 +1,16 @@
 # src/providers/s3_storage.py
 
 import boto3
-import logging
+
 from src.interfaces.storage import FileStorage
+from src.utils.logger import setup_logger
+
 
 class S3Storage(FileStorage):
     def __init__(self, bucket_name: str):
         self.bucket_name = bucket_name
         self.s3_client = boto3.client('s3')
-        self.logger = logging.getLogger(__name__)
+        self.logger = setup_logger('s3-storage')
 
     def upload_file(self, local_path: str, remote_key: str, bucket_type: str) -> bool:
         # There are two folders in the S3, one for POM and the other for BOM
