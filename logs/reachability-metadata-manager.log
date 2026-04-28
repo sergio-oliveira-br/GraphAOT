@@ -1,0 +1,11 @@
+2026-04-28 17:57:22 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: azure-native-spring-function] ---
+2026-04-28 17:57:25 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-databind:2.13.3 | Refl: 18 | Proxy: 0
+2026-04-28 17:57:25 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-annotations:2.13.3 | Refl: 2 | Proxy: 0
+2026-04-28 17:57:29 [INFO] [reachability-metadata-manager] [+] Dependency: netty-common:4.1.77.Final | Refl: 750 | Proxy: 0
+2026-04-28 17:57:30 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport:4.1.77.Final | Refl: 3 | Proxy: 0
+2026-04-28 17:57:34 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport-classes-epoll:4.1.77.Final | Refl: 27 | Proxy: 0
+2026-04-28 17:57:37 [INFO] [reachability-metadata-manager] [+] Dependency: reactor-core:3.4.18 | Refl: 3 | Proxy: 0
+2026-04-28 17:57:40 [INFO] [reachability-metadata-manager] [+] Dependency: logback-classic:1.2.11 | Refl: 42 | Proxy: 0
+2026-04-28 17:57:41 [INFO] [reachability-metadata-manager] [+] Dependency: logback-core:1.2.11 | Refl: 8 | Proxy: 0
+2026-04-28 17:57:44 [INFO] [reachability-metadata-manager] [+] Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
+2026-04-28 17:57:44 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 59 deps processed for azure-native-spring-function] ---

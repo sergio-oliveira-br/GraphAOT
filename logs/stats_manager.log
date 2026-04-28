@@ -5,3 +5,4 @@
 2026-04-27 10:05:36 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for LabMQTT (CMV: 2)
 2026-04-28 17:11:49 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for spring-boot-graalvm (CMV: 0)
 2026-04-28 17:28:50 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for spring-boot-graalvm (CMV: 0)
+2026-04-28 17:57:44 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for azure-native-spring-function (CMV: 855)

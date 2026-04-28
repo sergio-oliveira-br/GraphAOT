@@ -10,3 +10,4 @@ algorithms-api-java,42,74,0.0429732868757259,5,,True,spring-boot-starter|spring-
 mini-erp,84,174,0.0249569707401032,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,83,1917,0,0,1917,23.096385542168676,0,2026-04-26 18:50:09
 LabMQTT,3,2,0.3333333333333333,2,,True,amqp-client,2,2,0,0,2,1.0,0,2026-04-27 10:05:36
 spring-boot-graalvm,1,0,0.0,0,,True,,0,0,0,0,0,0.0,0,2026-04-28 17:28:50
+azure-native-spring-function,60,147,0.04152542372881356,7,,True,spring-boot-starter-webflux|reactor-netty-http|spring-boot-starter,59,855,0,0,855,14.491525423728813,0,2026-04-28 17:57:44

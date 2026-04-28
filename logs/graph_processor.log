@@ -106,3 +106,9 @@
 2026-04-28 17:28:50 [INFO] [graph_processor]  [OK] spring-boot-graalvm completed.
 
 2026-04-28 17:28:50 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-04-28 17:57:22 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'azure-native-spring-function'
+2026-04-28 17:57:22 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-04-28 17:57:22 [INFO] [graph_processor] >>> Processing: azure-native-spring-function
+2026-04-28 17:57:44 [INFO] [graph_processor]  [OK] azure-native-spring-function completed.
+
+2026-04-28 17:57:44 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
