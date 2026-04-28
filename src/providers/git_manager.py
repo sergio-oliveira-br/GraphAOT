@@ -5,10 +5,12 @@ import logging
 import shutil
 from pathlib import Path
 from src.interfaces.vcs import VersionControl
+from src.utils.logger import setup_logger
+
 
 class GitManager(VersionControl):
     def __init__(self):
-        self.logger = logging.getLogger(__name__)
+        self.logger = setup_logger("git_manager")
 
     def clone(self, url: str, target_path: str) -> bool:
         """Performs the ephemeral clone (depth 1)"""
