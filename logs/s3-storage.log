@@ -1,0 +1,2 @@
+2026-04-28 17:54:02 [INFO] [s3-storage] Success: temp/work_dir/azure-native-spring-function/target/bom.json -> s3://graphaot-research/analysis/azure-native-spring-function/bom.json
+2026-04-28 17:54:02 [INFO] [s3-storage] Success: temp/work_dir/azure-native-spring-function/target/effective-pom.xml -> s3://graphaot-research/audit-logs/azure-native-spring-function/effective-pom.xml
