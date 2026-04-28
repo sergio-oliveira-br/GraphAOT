@@ -3,12 +3,13 @@ import logging
 import requests
 
 from src.interfaces.metadata import MetadataProvider
+from src.utils.logger import setup_logger
 
 
 class ReachabilityMetadataManager(MetadataProvider):
-    def __init__(self, logger=None):
+    def __init__(self):
         self.base_url = "https://raw.githubusercontent.com/oracle/graalvm-reachability-metadata/master/metadata"
-        self.logger = logger or logging.getLogger(__name__)
+        self.logger = setup_logger('reachability-metadata-manager')
 
     def get_metadata_volume(self, group: str, artifact: str, version: str) -> dict:
         """Fetches the official Oracle repository"""
