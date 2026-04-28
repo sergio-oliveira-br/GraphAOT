@@ -11,8 +11,8 @@ task-manager,https://github.com/sergio-oliveira-br/task-manager,,HARVESTED,s3://
 serverless-graalvm-demo,https://github.com/aws-samples/serverless-graalvm-demo,,SUCCESS,s3://graphaot-research/analysis/serverless-graalvm-demo/,,2026-04-16 18:43:48
 Software-Development,https://github.com/sergio-oliveira-br/Software-Development,,FAILED_MAVEN,,BOM/POM generation failed,2026-04-16 20:11:28
 graal,https://github.com/oracle/graal,,FAILED_MAVEN,,BOM/POM generation failed,2026-04-17 08:46:38
-doom-graal,https://github.com/stepstone-tech/doom-graalvm,19,HARVESTED,s3://graphaot-research/analysis/doom-graal/,,2026-04-17 09:36:07
-java-graalvm-start,https://github.com/westinyang/java-graalvm-start,,HARVESTED,s3://graphaot-research/analysis/java-graalvm-start/,,2026-04-17 09:41:04
+doom-graal,https://github.com/stepstone-tech/doom-graalvm,19,ANALYSED,s3://graphaot-research/analysis/doom-graal/,,2026-04-28 17:59:18
+java-graalvm-start,https://github.com/westinyang/java-graalvm-start,,ANALYSED,s3://graphaot-research/analysis/java-graalvm-start/,,2026-04-28 18:00:28
 spring-boot-graalvm,https://github.com/jonashackt/spring-boot-graalvm,11,HARVESTED,s3://graphaot-research/analysis/spring-boot-graalvm/,,2026-04-28 17:41:48
 spring-native,https://github.com/spring-attic/spring-native,11,CRITICAL_ERROR,,name 'env' is not defined,2026-04-28 17:36:11
 azure-native-spring-function,https://github.com/jdubois/azure-native-spring-function,17,ANALYSED,s3://graphaot-research/analysis/azure-native-spring-function/,,2026-04-28 17:57:44

@@ -3,11 +3,11 @@ serverless-graalvm-demo,70,205,0.0424430641821946,0,,True,aws-java-sdk-core|sdk-
 StockWise,104,205,0.0191374159820761,6,,True,spring-boot-starter|spring-boot|all,103,1565,0,0,1565,15.194174757281552,0,2026-04-26 18:10:31
 sale-service,127,257,0.0160604924384451,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,126,1984,0,0,1984,15.746031746031743,0,2026-04-26 18:10:57
 task-manager,78,160,0.0266400266400266,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,77,1490,0,0,1490,19.350649350649352,0,2026-04-26 18:11:28
-doom-graal,2,1,0.5,1,,True,,1,0,0,0,0,0.0,0,2026-04-26 18:11:29
-java-graalvm-start,103,171,0.0162764134780125,5,,True,spring-boot-starter|spring-boot-starter|spring-boot-starter-logging,102,422,0,0,422,4.137254901960785,0,2026-04-26 18:11:47
 algo-struct,42,75,0.0435540069686411,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,293,0,0,293,7.146341463414634,0,2026-04-26 18:18:18
 algorithms-api-java,42,74,0.0429732868757259,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,600,0,0,600,14.634146341463415,0,2026-04-26 18:18:26
 mini-erp,84,174,0.0249569707401032,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,83,1917,0,0,1917,23.096385542168676,0,2026-04-26 18:50:09
 LabMQTT,3,2,0.3333333333333333,2,,True,amqp-client,2,2,0,0,2,1.0,0,2026-04-27 10:05:36
 spring-boot-graalvm,1,0,0.0,0,,True,,0,0,0,0,0,0.0,0,2026-04-28 17:28:50
-azure-native-spring-function,60,147,0.04152542372881356,7,,True,spring-boot-starter-webflux|reactor-netty-http|spring-boot-starter,59,855,0,0,855,14.491525423728813,0,2026-04-28 17:57:44
+azure-native-spring-function,60,147,0.0415254237288135,7,,True,spring-boot-starter-webflux|reactor-netty-http|spring-boot-starter,59,855,0,0,855,14.491525423728811,0,2026-04-28 17:57:44
+doom-graal,2,1,0.5,1,,True,,1,0,0,0,0,0.0,0,2026-04-28 17:59:18
+java-graalvm-start,103,171,0.016276413478012564,5,,True,spring-boot-starter|spring-boot-starter|spring-boot-starter-logging,102,486,0,0,486,4.764705882352941,0,2026-04-28 18:00:28

@@ -1854,3 +1854,32 @@ Dependency: reactor-core:3.4.18 | Refl: 3 | Proxy: 0
 Dependency: logback-classic:1.2.11 | Refl: 42 | Proxy: 0
 Dependency: logback-core:1.2.11 | Refl: 8 | Proxy: 0
 Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
+
+============================================================
+PROJECT: doom-graal | DATE: 2026-04-28 17:59:18
+SUMMARY: 1 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: java-graalvm-start | DATE: 2026-04-28 18:00:28
+SUMMARY: 102 deps | CMV: 486
+------------------------------------------------------------
+Dependency: logback-classic:1.2.11 | Refl: 42 | Proxy: 0
+Dependency: logback-core:1.2.11 | Refl: 8 | Proxy: 0
+Dependency: jackson-databind:2.13.4.2 | Refl: 18 | Proxy: 0
+Dependency: jackson-annotations:2.13.4 | Refl: 2 | Proxy: 0
+Dependency: tomcat-embed-el:9.0.70 | Refl: 25 | Proxy: 0
+Dependency: thymeleaf:3.0.15.RELEASE | Refl: 59 | Proxy: 0
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
+Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+Dependency: logback-core:1.5.18 | Refl: 8 | Proxy: 0
+Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+Dependency: slf4j-api:2.0.17 | Refl: 2 | Proxy: 0
+Dependency: jackson-databind:2.19.0 | Refl: 18 | Proxy: 0
+Dependency: jackson-annotations:2.19.0 | Refl: 2 | Proxy: 0
+Dependency: tomcat-embed-core:10.1.41 | Refl: 105 | Proxy: 0
+Dependency: tomcat-embed-el:10.1.41 | Refl: 25 | Proxy: 0
+Dependency: picocli:4.6.2 | Refl: 4 | Proxy: 0
+Dependency: jansi:1.18 | Refl: 6 | Proxy: 0

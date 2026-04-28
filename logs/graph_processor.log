@@ -112,3 +112,15 @@
 2026-04-28 17:57:44 [INFO] [graph_processor]  [OK] azure-native-spring-function completed.
 
 2026-04-28 17:57:44 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-04-28 17:59:18 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'doom-graal'
+2026-04-28 17:59:18 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-04-28 17:59:18 [INFO] [graph_processor] >>> Processing: doom-graal
+2026-04-28 17:59:18 [INFO] [graph_processor]  [OK] doom-graal completed.
+
+2026-04-28 17:59:18 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-04-28 17:59:56 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'java-graalvm-start'
+2026-04-28 17:59:56 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-04-28 17:59:56 [INFO] [graph_processor] >>> Processing: java-graalvm-start
+2026-04-28 18:00:28 [INFO] [graph_processor]  [OK] java-graalvm-start completed.
+
+2026-04-28 18:00:28 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
