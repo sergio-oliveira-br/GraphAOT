@@ -2,3 +2,7 @@
 2026-04-28 17:57:44 [INFO] [manifest_manager]  [MANIFEST] azure-native-spring-function updated to ANALYSED
 2026-04-28 17:59:18 [INFO] [manifest_manager]  [MANIFEST] doom-graal updated to ANALYSED
 2026-04-28 18:00:28 [INFO] [manifest_manager]  [MANIFEST] java-graalvm-start updated to ANALYSED
+2026-04-28 18:01:35 [INFO] [manifest_manager]  [MANIFEST] spring-boot-graalvm updated to ANALYSED
+2026-04-28 18:07:58 [INFO] [manifest_manager]  [MANIFEST] spring-native updated to FAILED_MAVEN
+2026-04-28 18:11:10 [INFO] [manifest_manager]  [MANIFEST] spring-native updated to HARVESTED
+2026-04-28 18:20:00 [INFO] [manifest_manager]  [MANIFEST] spring-native updated to ANALYSED

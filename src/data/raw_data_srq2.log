@@ -1883,3 +1883,78 @@ Dependency: tomcat-embed-core:10.1.41 | Refl: 105 | Proxy: 0
 Dependency: tomcat-embed-el:10.1.41 | Refl: 25 | Proxy: 0
 Dependency: picocli:4.6.2 | Refl: 4 | Proxy: 0
 Dependency: jansi:1.18 | Refl: 6 | Proxy: 0
+
+============================================================
+PROJECT: spring-boot-graalvm | DATE: 2026-04-28 18:01:35
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: spring-native | DATE: 2026-04-28 18:20:00
+SUMMARY: 518 deps | CMV: 3796
+------------------------------------------------------------
+Dependency: tomcat-embed-core:9.0.70 | Refl: 105 | Proxy: 0
+Dependency: jackson-databind:2.13.4.2 | Refl: 18 | Proxy: 0
+Dependency: jackson-annotations:2.13.4 | Refl: 2 | Proxy: 0
+Dependency: HdrHistogram:2.1.12 | Refl: 12 | Proxy: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Proxy: 0
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
+Dependency: logback-classic:1.2.11 | Refl: 42 | Proxy: 0
+Dependency: logback-core:1.2.11 | Refl: 8 | Proxy: 0
+Dependency: h2:2.1.214 | Refl: 19 | Proxy: 0
+Dependency: hibernate-validator:6.2.5.Final | Refl: 356 | Proxy: 0
+Dependency: jboss-logging:3.4.3.Final | Refl: 12 | Proxy: 0
+Dependency: classmate:1.5.1 | Refl: 2 | Proxy: 0
+Dependency: hibernate-core:5.6.14.Final | Refl: 260 | Proxy: 0
+Dependency: javax.persistence-api:2.2 | Refl: 2 | Proxy: 0
+Dependency: jandex:2.4.2.Final | Refl: 1 | Proxy: 0
+Dependency: javax.activation-api:1.2.0 | Refl: 1 | Proxy: 0
+Dependency: jaxb-runtime:2.3.7 | Refl: 10 | Proxy: 0
+Dependency: jakarta.activation:1.2.2 | Refl: 1 | Proxy: 0
+Dependency: httpclient:4.5.14 | Refl: 1 | Proxy: 0
+Dependency: httpcore:4.4.16 | Refl: 3 | Proxy: 0
+Dependency: commons-compress:1.21 | Refl: 14 | Proxy: 0
+Dependency: picocli:4.6.1 | Refl: 4 | Proxy: 0
+Dependency: asm:9.2 | Refl: 4 | Proxy: 0
+Dependency: kafka-clients:3.1.2 | Refl: 54 | Proxy: 0
+Dependency: zstd-jni:1.5.0-4 | Refl: 15 | Proxy: 0
+Dependency: lz4-java:1.8.0 | Refl: 24 | Proxy: 0
+Dependency: kafka-streams:3.1.2 | Refl: 14 | Proxy: 0
+Dependency: rocksdbjni:6.22.1.1 | Refl: 4 | Proxy: 0
+Dependency: javax.servlet-api:4.0.1 | Refl: 1 | Proxy: 0
+Dependency: reactor-core:3.4.26 | Refl: 3 | Proxy: 0
+Dependency: kotlin-stdlib:1.6.21 | Refl: 1 | Proxy: 0
+Dependency: quartz:2.3.2 | Refl: 8 | Proxy: 0
+Dependency: mchange-commons-java:0.2.15 | Refl: 125 | Proxy: 0
+Dependency: commons-compress:1.19 | Refl: 14 | Proxy: 0
+Dependency: joda-time:2.10.10 | Refl: 3 | Proxy: 0
+Dependency: jna:5.10.0 | Refl: 50 | Proxy: 0
+Dependency: postgresql:42.3.8 | Refl: 8 | Proxy: 0
+Dependency: netty-transport-classes-epoll:4.1.86.Final | Refl: 27 | Proxy: 0
+Dependency: netty-transport:4.1.86.Final | Refl: 3 | Proxy: 0
+Dependency: netty-common:4.1.86.Final | Refl: 750 | Proxy: 0
+Dependency: HikariCP:4.0.3 | Refl: 9 | Proxy: 0
+Dependency: thymeleaf:3.0.15.RELEASE | Refl: 59 | Proxy: 0
+Dependency: mysql-connector-j:8.0.31 | Refl: 24 | Proxy: 0
+Dependency: mariadb-java-client:3.0.9 | Refl: 3 | Proxy: 0
+Dependency: tomcat-embed-el:9.0.70 | Refl: 25 | Proxy: 0
+Dependency: bcpkix-jdk15on:1.68 | Refl: 90 | Proxy: 0
+Dependency: org.eclipse.jgit:5.12.0.202106070339-r | Refl: 16 | Proxy: 0
+Dependency: kotlin-reflect:1.6.21 | Refl: 10 | Proxy: 0
+Dependency: jakarta.mail:1.6.7 | Refl: 8 | Proxy: 0
+Dependency: ehcache:3.10.8 | Refl: 534 | Proxy: 0
+Dependency: hazelcast:5.1.5 | Refl: 597 | Proxy: 0
+Dependency: caffeine:2.9.3 | Refl: 38 | Proxy: 0
+Dependency: jetty-util:9.4.50.v20221201 | Refl: 2 | Proxy: 0
+Dependency: jetty-client:9.4.50.v20221201 | Refl: 49 | Proxy: 0
+Dependency: jetty-server:9.4.50.v20221201 | Refl: 33 | Proxy: 0
+Dependency: undertow-core:2.2.22.Final | Refl: 64 | Proxy: 0
+Dependency: commons-pool2:2.11.1 | Refl: 1 | Proxy: 0
+Dependency: commons-io:2.11.0 | Refl: 4 | Proxy: 0
+Dependency: okio:2.8.0 | Refl: 1 | Proxy: 0
+Dependency: consul-api:1.4.5 | Refl: 111 | Proxy: 0
+Dependency: commons-io:2.5 | Refl: 4 | Proxy: 0
+Dependency: commons-lang3:3.12.0 | Refl: 28 | Proxy: 0
+Dependency: jna:5.6.0 | Refl: 50 | Proxy: 0
+Dependency: jna:5.7.0 | Refl: 50 | Proxy: 0

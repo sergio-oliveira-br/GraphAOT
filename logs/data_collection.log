@@ -18,3 +18,11 @@
 2026-04-28 17:53:42 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-04-28 17:53:42 [INFO] [data_collection] >>> Harvesting Project: azure-native-spring-function
 2026-04-28 17:54:02 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-04-28 18:02:53 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'spring-native'
+2026-04-28 18:02:53 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-28 18:02:53 [INFO] [data_collection] >>> Harvesting Project: spring-native
+2026-04-28 18:07:59 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-04-28 18:09:03 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'spring-native'
+2026-04-28 18:09:03 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-28 18:09:03 [INFO] [data_collection] >>> Harvesting Project: spring-native
+2026-04-28 18:11:10 [INFO] [data_collection] --- Harvester Pipeline Finished ---

@@ -124,3 +124,15 @@
 2026-04-28 18:00:28 [INFO] [graph_processor]  [OK] java-graalvm-start completed.
 
 2026-04-28 18:00:28 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-04-28 18:01:35 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'spring-boot-graalvm'
+2026-04-28 18:01:35 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-04-28 18:01:35 [INFO] [graph_processor] >>> Processing: spring-boot-graalvm
+2026-04-28 18:01:35 [INFO] [graph_processor]  [OK] spring-boot-graalvm completed.
+
+2026-04-28 18:01:35 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-04-28 18:17:09 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'spring-native'
+2026-04-28 18:17:09 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-04-28 18:17:09 [INFO] [graph_processor] >>> Processing: spring-native
+2026-04-28 18:20:00 [INFO] [graph_processor]  [OK] spring-native completed.
+
+2026-04-28 18:20:00 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---

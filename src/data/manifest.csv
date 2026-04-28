@@ -13,6 +13,6 @@ Software-Development,https://github.com/sergio-oliveira-br/Software-Development,
 graal,https://github.com/oracle/graal,,FAILED_MAVEN,,BOM/POM generation failed,2026-04-17 08:46:38
 doom-graal,https://github.com/stepstone-tech/doom-graalvm,19,ANALYSED,s3://graphaot-research/analysis/doom-graal/,,2026-04-28 17:59:18
 java-graalvm-start,https://github.com/westinyang/java-graalvm-start,,ANALYSED,s3://graphaot-research/analysis/java-graalvm-start/,,2026-04-28 18:00:28
-spring-boot-graalvm,https://github.com/jonashackt/spring-boot-graalvm,11,HARVESTED,s3://graphaot-research/analysis/spring-boot-graalvm/,,2026-04-28 17:41:48
-spring-native,https://github.com/spring-attic/spring-native,11,CRITICAL_ERROR,,name 'env' is not defined,2026-04-28 17:36:11
+spring-boot-graalvm,https://github.com/jonashackt/spring-boot-graalvm,11,ANALYSED,s3://graphaot-research/analysis/spring-boot-graalvm/,,2026-04-28 18:01:35
+spring-native,https://github.com/spring-attic/spring-native,11,ANALYSED,s3://graphaot-research/analysis/spring-native/,,2026-04-28 18:20:00
 azure-native-spring-function,https://github.com/jdubois/azure-native-spring-function,17,ANALYSED,s3://graphaot-research/analysis/azure-native-spring-function/,,2026-04-28 17:57:44
