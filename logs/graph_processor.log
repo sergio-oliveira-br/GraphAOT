@@ -98,3 +98,11 @@
 2026-04-28 17:11:49 [INFO] [graph_processor]  [OK] spring-boot-graalvm completed.
 
 2026-04-28 17:11:49 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-04-28 17:28:50 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'spring-boot-graalvm'
+2026-04-28 17:28:50 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-04-28 17:28:50 [INFO] [graph_processor] >>> Processing: spring-boot-graalvm
+2026-04-28 17:28:50 [INFO] [graph_processor] --- [START ANALYSIS: spring-boot-graalvm] ---
+2026-04-28 17:28:50 [INFO] [graph_processor] --- [END OF ANALYSIS: 0 deps processed for spring-boot-graalvm] ---
+2026-04-28 17:28:50 [INFO] [graph_processor]  [OK] spring-boot-graalvm completed.
+
+2026-04-28 17:28:50 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
