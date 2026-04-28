@@ -1,0 +1,4 @@
+2026-04-28 17:10:33 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'spring-boot-graalvm'
+2026-04-28 17:10:33 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-28 17:10:33 [INFO] [data_collection] >>> Harvesting Project: spring-boot-graalvm
+2026-04-28 17:11:24 [INFO] [data_collection] --- Harvester Pipeline Finished ---
