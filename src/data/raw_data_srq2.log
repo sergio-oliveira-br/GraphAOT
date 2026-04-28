@@ -1828,3 +1828,9 @@ PROJECT: LabMQTT | DATE: 2026-04-27 10:05:36
 SUMMARY: 2 deps | CMV: 2
 ------------------------------------------------------------
 Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
+
+============================================================
+PROJECT: spring-boot-graalvm | DATE: 2026-04-28 17:11:49
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
