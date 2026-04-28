@@ -13,5 +13,5 @@ Software-Development,https://github.com/sergio-oliveira-br/Software-Development,
 graal,https://github.com/oracle/graal,,FAILED_MAVEN,,BOM/POM generation failed,2026-04-17 08:46:38
 doom-graal,https://github.com/stepstone-tech/doom-graalvm,19,HARVESTED,s3://graphaot-research/analysis/doom-graal/,,2026-04-17 09:36:07
 java-graalvm-start,https://github.com/westinyang/java-graalvm-start,,HARVESTED,s3://graphaot-research/analysis/java-graalvm-start/,,2026-04-17 09:41:04
-spring-boot-graalvm,https://github.com/jonashackt/spring-boot-graalvm,11,ANALYSED,,,2026-04-28 17:11:49
-spring-native,https://github.com/spring-attic/spring-native,11,,,,
+spring-boot-graalvm,https://github.com/jonashackt/spring-boot-graalvm,11,ANALYSED,,,2026-04-28 17:28:50
+spring-native,https://github.com/spring-attic/spring-native,11,FAILED_MAVEN,,BOM/POM generation failed,2026-04-28 17:34:17
