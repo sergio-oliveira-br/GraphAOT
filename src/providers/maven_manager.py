@@ -1,15 +1,16 @@
 # src/providers/maven_manager.py
 
 import subprocess
-import logging
 import shutil
 
 from pathlib import Path
 from src.interfaces.build import BuildTool
+from src.utils.logger import setup_logger
+
 
 class MavenManager(BuildTool):
     def __init__(self, executable_path: str = None):
-        self.logger = logging.getLogger(__name__)
+        self.logger = setup_logger("maven_manager")
         self.mvn_bin = executable_path or shutil.which("mvn") or "/opt/homebrew/bin/mvn"
 
         if not Path(self.mvn_bin).exists():
@@ -30,7 +31,7 @@ class MavenManager(BuildTool):
             return False
 
         except subprocess.TimeoutExpired:
-            self.logger.error("Timeout: Mvn build exceeded 5 minutes.")
+            self.logger.error(f"Timeout: Mvn build exceeded 5 minutes.{project_path}")
             return False
 
     def generate_bom(self, project_path: str) -> str:
