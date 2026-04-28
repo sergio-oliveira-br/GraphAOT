@@ -2,3 +2,4 @@
 2026-04-28 17:34:14 [ERROR] [maven_manager] Timeout: Mvn build exceeded 5 minutes.temp/work_dir/spring-native
 2026-04-28 17:34:14 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/spring-native/target/effective-pom.xml
 2026-04-28 17:36:11 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-04-28 17:37:08 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
