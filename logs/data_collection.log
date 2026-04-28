@@ -6,3 +6,8 @@
 2026-04-28 17:29:12 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-04-28 17:29:12 [INFO] [data_collection] >>> Harvesting Project: spring-native
 2026-04-28 17:34:17 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-04-28 17:36:10 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'spring-native'
+2026-04-28 17:36:10 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-04-28 17:36:10 [INFO] [data_collection] >>> Harvesting Project: spring-native
+2026-04-28 17:36:11 [ERROR] [data_collection]  [!] Critical error harvesting spring-native: name 'env' is not defined
+2026-04-28 17:36:12 [INFO] [data_collection] --- Harvester Pipeline Finished ---
