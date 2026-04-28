@@ -23,7 +23,7 @@ def run_analysis(target_id=None):
     services = {
         'manifest': ManifestManager(str(manifest_path)),
         'graph': NetworkXGraphManager(),
-        'metadata': ReachabilityMetadataManager(logger=logger),
+        'metadata': ReachabilityMetadataManager(),
         'storage': S3Storage("graphaot-research"),
         'stats': StatsManager(str(results_csv)),
         'logger': logger
