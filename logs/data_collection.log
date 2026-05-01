@@ -26,3 +26,23 @@
 2026-04-28 18:09:03 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-04-28 18:09:03 [INFO] [data_collection] >>> Harvesting Project: spring-native
 2026-04-28 18:11:10 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-01 11:37:21 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'native-aws-fargate'
+2026-05-01 11:37:21 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-01 11:37:21 [INFO] [data_collection] >>> Harvesting Project: native-aws-fargate
+2026-05-01 11:37:22 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-01 11:49:14 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'native-aws-fargate'
+2026-05-01 11:49:14 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-01 11:49:14 [INFO] [data_collection] >>> Harvesting Project: native-aws-fargate
+2026-05-01 11:49:21 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-01 11:52:45 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'master'
+2026-05-01 11:52:45 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-01 11:52:45 [INFO] [data_collection] >>> Harvesting Project: master
+2026-05-01 11:52:49 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-01 12:03:02 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'native-aws-fargate'
+2026-05-01 12:03:02 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-01 12:03:02 [INFO] [data_collection] >>> Harvesting Project: native-aws-fargate
+2026-05-01 12:03:02 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-01 12:45:43 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'native-aws-fargate'
+2026-05-01 12:45:43 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-01 12:45:43 [INFO] [data_collection] >>> Harvesting Project: native-aws-fargate
+2026-05-01 12:45:49 [INFO] [data_collection] --- Harvester Pipeline Finished ---

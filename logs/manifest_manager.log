@@ -6,3 +6,8 @@
 2026-04-28 18:07:58 [INFO] [manifest_manager]  [MANIFEST] spring-native updated to FAILED_MAVEN
 2026-04-28 18:11:10 [INFO] [manifest_manager]  [MANIFEST] spring-native updated to HARVESTED
 2026-04-28 18:20:00 [INFO] [manifest_manager]  [MANIFEST] spring-native updated to ANALYSED
+2026-05-01 11:37:22 [INFO] [manifest_manager]  [MANIFEST] native-aws-fargate updated to FAILED_CLONE
+2026-05-01 11:49:21 [INFO] [manifest_manager]  [MANIFEST] native-aws-fargate updated to FAILED_MAVEN
+2026-05-01 11:52:49 [INFO] [manifest_manager]  [MANIFEST] master updated to FAILED_MAVEN
+2026-05-01 12:03:02 [INFO] [manifest_manager]  [MANIFEST] native-aws-fargate updated to FAILED_CLONE
+2026-05-01 12:45:48 [INFO] [manifest_manager]  [MANIFEST] native-aws-fargate updated to FAILED_MAVEN
