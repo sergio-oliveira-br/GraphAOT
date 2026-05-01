@@ -19,3 +19,4 @@ azure-native-spring-function,https://github.com/jdubois/azure-native-spring-func
 native-aws-fargate,https://github.com/graalvm/graalvm-demos/tree/master/native-image/clouds/native-aws-fargate,17,FAILED_MAVEN,,BOM/POM generation failed,2026-05-01 12:45:48
 master,https://github.com/graalvm/graalvm-demos/tree/master,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-01 11:52:49
 piggymetrics,https://github.com/sqshq/piggymetrics,,ANALYSED,s3://graphaot-research/analysis/piggymetrics/,,2026-05-01 13:03:34
+SpringBootForBeginners,https://github.com/in28minutes/SpringBootForBeginners,,,,,
