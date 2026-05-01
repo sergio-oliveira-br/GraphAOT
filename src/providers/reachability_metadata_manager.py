@@ -1,5 +1,5 @@
 # src/providers/reachability_metadata_manager.py
-import logging
+
 import requests
 
 from src.interfaces.metadata import MetadataProvider
@@ -24,7 +24,7 @@ class ReachabilityMetadataManager(MetadataProvider):
         try:
             resp = requests.get(f"{self.base_url}/{g}/{a}/index.json", timeout=5)
             if resp.status_code != 200:
-                self.logger.debug(f"Metadata index not found for {g}:{a}")
+                self.logger.error(f"Metadata index not found for {g}:{a}")
                 return res_default
 
             index = resp.json()
@@ -46,7 +46,7 @@ class ReachabilityMetadataManager(MetadataProvider):
                 }
 
         except requests.exceptions.RequestException as e:
-            self.logger.warning(f"Network error fetching metadata for {a}: {e}")
+            self.logger.error(f"Network error fetching metadata for {a}: {e}")
 
         except Exception as e:
             self.logger.error(f"Unexpected error in MetadataManager: {e}")
