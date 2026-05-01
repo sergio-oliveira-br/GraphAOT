@@ -1,8 +1,8 @@
 # src/providers/git_manager.py
 
 import subprocess
-import logging
 import shutil
+
 from pathlib import Path
 from src.interfaces.vcs import VersionControl
 from src.utils.logger import setup_logger
