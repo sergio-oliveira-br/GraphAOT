@@ -16,3 +16,5 @@ java-graalvm-start,https://github.com/westinyang/java-graalvm-start,,ANALYSED,s3
 spring-boot-graalvm,https://github.com/jonashackt/spring-boot-graalvm,11,ANALYSED,s3://graphaot-research/analysis/spring-boot-graalvm/,,2026-04-28 18:01:35
 spring-native,https://github.com/spring-attic/spring-native,11,ANALYSED,s3://graphaot-research/analysis/spring-native/,,2026-04-28 18:20:00
 azure-native-spring-function,https://github.com/jdubois/azure-native-spring-function,17,ANALYSED,s3://graphaot-research/analysis/azure-native-spring-function/,,2026-04-28 17:57:44
+native-aws-fargate,https://github.com/graalvm/graalvm-demos/tree/master/native-image/clouds/native-aws-fargate,17,FAILED_MAVEN,,BOM/POM generation failed,2026-05-01 12:45:48
+master,https://github.com/graalvm/graalvm-demos/tree/master,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-01 11:52:49
