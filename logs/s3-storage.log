@@ -2,3 +2,5 @@
 2026-04-28 17:54:02 [INFO] [s3-storage] Success: temp/work_dir/azure-native-spring-function/target/effective-pom.xml -> s3://graphaot-research/audit-logs/azure-native-spring-function/effective-pom.xml
 2026-04-28 18:11:07 [INFO] [s3-storage] Success: temp/work_dir/spring-native/target/bom.json -> s3://graphaot-research/analysis/spring-native/bom.json
 2026-04-28 18:11:10 [INFO] [s3-storage] Success: temp/work_dir/spring-native/target/effective-pom.xml -> s3://graphaot-research/audit-logs/spring-native/effective-pom.xml
+2026-05-01 13:01:56 [INFO] [s3-storage] Success: temp/work_dir/piggymetrics/target/bom.json -> s3://graphaot-research/analysis/piggymetrics/bom.json
+2026-05-01 13:01:58 [INFO] [s3-storage] Success: temp/work_dir/piggymetrics/target/effective-pom.xml -> s3://graphaot-research/audit-logs/piggymetrics/effective-pom.xml

@@ -136,3 +136,9 @@
 2026-04-28 18:20:00 [INFO] [graph_processor]  [OK] spring-native completed.
 
 2026-04-28 18:20:00 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-05-01 13:02:19 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'piggymetrics'
+2026-05-01 13:02:19 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-01 13:02:19 [INFO] [graph_processor] >>> Processing: piggymetrics
+2026-05-01 13:03:34 [INFO] [graph_processor]  [OK] piggymetrics completed.
+
+2026-05-01 13:03:34 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---

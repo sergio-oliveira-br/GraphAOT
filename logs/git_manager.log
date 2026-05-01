@@ -12,3 +12,4 @@ fatal: repository 'https://github.com/graalvm/graalvm-demos/tree/master/native-i
 fatal: repository 'https://github.com/graalvm/graalvm-demos/tree/master/native-image/clouds/native-aws-fargate/' not found
 
 2026-05-01 12:45:43 [INFO] [git_manager] Cloning repository: https://github.com/graalvm/graalvm-demos/tree/master/native-image/clouds/native-aws-fargate
+2026-05-01 13:01:05 [INFO] [git_manager] Cloning repository: https://github.com/sqshq/piggymetrics

@@ -1958,3 +1958,39 @@ Dependency: commons-io:2.5 | Refl: 4 | Proxy: 0
 Dependency: commons-lang3:3.12.0 | Refl: 28 | Proxy: 0
 Dependency: jna:5.6.0 | Refl: 50 | Proxy: 0
 Dependency: jna:5.7.0 | Refl: 50 | Proxy: 0
+
+============================================================
+PROJECT: piggymetrics | DATE: 2026-05-01 13:03:34
+SUMMARY: 247 deps | CMV: 1615
+------------------------------------------------------------
+Dependency: jackson-annotations:2.9.0 | Refl: 2 | Proxy: 0
+Dependency: jackson-databind:2.9.6 | Refl: 18 | Proxy: 0
+Dependency: HdrHistogram:2.1.10 | Refl: 12 | Proxy: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Proxy: 0
+Dependency: tomcat-embed-core:8.5.31 | Refl: 105 | Proxy: 0
+Dependency: tomcat-embed-el:8.5.31 | Refl: 25 | Proxy: 0
+Dependency: hibernate-validator:6.0.10.Final | Refl: 356 | Proxy: 0
+Dependency: validation-api:2.0.1.Final | Refl: 2 | Proxy: 0
+Dependency: jboss-logging:3.3.2.Final | Refl: 12 | Proxy: 0
+Dependency: classmate:1.3.4 | Refl: 2 | Proxy: 0
+Dependency: spring-security-crypto:5.0.6.RELEASE | Refl: 21 | Proxy: 0
+Dependency: bcpkix-jdk15on:1.56 | Refl: 90 | Proxy: 0
+Dependency: org.eclipse.jgit:4.11.0.201803080745-r | Refl: 16 | Proxy: 0
+Dependency: httpclient:4.5.5 | Refl: 2 | Proxy: 0
+Dependency: slf4j-api:1.7.25 | Refl: 2 | Proxy: 0
+Dependency: httpcore:4.4.9 | Refl: 3 | Proxy: 0
+Dependency: logback-classic:1.2.3 | Refl: 97 | Proxy: 0
+Dependency: logback-core:1.2.3 | Refl: 8 | Proxy: 0
+Dependency: HdrHistogram:2.1.9 | Refl: 12 | Proxy: 0
+Dependency: asm:5.0.4 | Refl: 4 | Proxy: 0
+Dependency: objenesis:2.6 | Refl: 1 | Proxy: 0
+Dependency: joda-time:2.9.9 | Refl: 3 | Proxy: 0
+Dependency: netty-common:4.1.25.Final | Refl: 750 | Proxy: 0
+Dependency: netty-transport:4.1.25.Final | Refl: 3 | Proxy: 0
+Dependency: netty-resolver:4.1.25.Final | Refl: 7 | Proxy: 0
+Dependency: commons-lang3:3.7 | Refl: 28 | Proxy: 0
+Dependency: commons-io:2.4 | Refl: 4 | Proxy: 0
+Dependency: zipkin-reporter:2.7.3 | Refl: 2 | Proxy: 0
+Dependency: amqp-client:5.1.2 | Refl: 21 | Proxy: 0
+Dependency: reactor-core:3.1.8.RELEASE | Refl: 3 | Proxy: 0
+Dependency: activation:1.1 | Refl: 1 | Proxy: 0

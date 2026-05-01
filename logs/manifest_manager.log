@@ -11,3 +11,5 @@
 2026-05-01 11:52:49 [INFO] [manifest_manager]  [MANIFEST] master updated to FAILED_MAVEN
 2026-05-01 12:03:02 [INFO] [manifest_manager]  [MANIFEST] native-aws-fargate updated to FAILED_CLONE
 2026-05-01 12:45:48 [INFO] [manifest_manager]  [MANIFEST] native-aws-fargate updated to FAILED_MAVEN
+2026-05-01 13:01:58 [INFO] [manifest_manager]  [MANIFEST] piggymetrics updated to HARVESTED
+2026-05-01 13:03:34 [INFO] [manifest_manager]  [MANIFEST] piggymetrics updated to ANALYSED
