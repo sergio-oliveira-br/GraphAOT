@@ -4,10 +4,12 @@ import json
 import networkx as nx
 import logging
 from src.interfaces.graph import GraphProvider
+from src.utils.logger import setup_logger
+
 
 class NetworkXGraphManager(GraphProvider):
     def __init__(self):
-        self.logger = logging.getLogger(__name__)
+        self.logger = setup_logger('NetworkXGraphManager')
 
     def build_from_bom(self, bom_path: str) -> nx.DiGraph:
         try:
