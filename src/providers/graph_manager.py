@@ -9,9 +9,10 @@ from src.utils.logger import setup_logger
 
 class NetworkXGraphManager(GraphProvider):
     def __init__(self):
-        self.logger = setup_logger('NetworkXGraphManager')
+        self.logger = setup_logger('networkX_graph_manager')
 
     def build_from_bom(self, bom_path: str) -> nx.DiGraph:
+        logging.info(f"Building graph from {bom_path}")
         try:
             with open(bom_path, 'r') as f:
                 data = json.load(f)
@@ -38,9 +39,10 @@ class NetworkXGraphManager(GraphProvider):
                     if G.has_node(source) and G.has_node(target):
                         G.add_edge(source, target)
 
+            logging.info(f" [OK] Graph built from {bom_path}")
             return G
         except Exception as e:
-            self.logger.error(f"Error in build the graph: {e}")
+            self.logger.error(f" [!] Error in build the graph: {e}")
             return nx.DiGraph()
 
     def get_metrics(self, graph: nx.DiGraph) -> dict:
