@@ -132,3 +132,21 @@
 2026-05-01 13:03:25 [INFO] [reachability-metadata-manager] [+] Dependency: reactor-core:3.1.8.RELEASE | Refl: 3 | Proxy: 0
 2026-05-01 13:03:29 [INFO] [reachability-metadata-manager] [+] Dependency: activation:1.1 | Refl: 1 | Proxy: 0
 2026-05-01 13:03:33 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 247 deps processed for piggymetrics] ---
+2026-05-01 13:06:47 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: SpringBootForBeginners] ---
+2026-05-01 13:06:48 [INFO] [reachability-metadata-manager] [+] Dependency: logback-classic:1.1.7 | Refl: 97 | Proxy: 0
+2026-05-01 13:06:48 [INFO] [reachability-metadata-manager] [+] Dependency: logback-core:1.1.7 | Refl: 8 | Proxy: 0
+2026-05-01 13:06:50 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-core:8.5.4 | Refl: 105 | Proxy: 0
+2026-05-01 13:06:50 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-el:8.5.4 | Refl: 25 | Proxy: 0
+2026-05-01 13:06:51 [INFO] [reachability-metadata-manager] [+] Dependency: validation-api:1.1.0.Final | Refl: 2 | Proxy: 0
+2026-05-01 13:06:51 [INFO] [reachability-metadata-manager] [+] Dependency: jboss-logging:3.3.0.Final | Refl: 12 | Proxy: 0
+2026-05-01 13:06:51 [INFO] [reachability-metadata-manager] [+] Dependency: classmate:1.3.1 | Refl: 2 | Proxy: 0
+2026-05-01 13:06:52 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-databind:2.8.1 | Refl: 18 | Proxy: 0
+2026-05-01 13:06:55 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-jdbc:8.5.4 | Refl: 5 | Proxy: 0
+2026-05-01 13:06:56 [INFO] [reachability-metadata-manager] [+] Dependency: hibernate-core:5.0.9.Final | Refl: 350 | Proxy: 0
+2026-05-01 13:06:57 [INFO] [reachability-metadata-manager] [+] Dependency: jandex:2.0.0.Final | Refl: 1 | Proxy: 0
+2026-05-01 13:06:58 [INFO] [reachability-metadata-manager] [+] Dependency: dom4j:1.6.1 | Refl: 38 | Proxy: 0
+2026-05-01 13:07:01 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-annotations:2.8.1 | Refl: 2 | Proxy: 0
+2026-05-01 13:07:03 [INFO] [reachability-metadata-manager] [+] Dependency: h2:1.4.192 | Refl: 19 | Proxy: 0
+2026-05-01 13:07:04 [INFO] [reachability-metadata-manager] [+] Dependency: slf4j-api:1.7.21 | Refl: 2 | Proxy: 0
+2026-05-01 13:07:05 [INFO] [reachability-metadata-manager] [+] Dependency: jcl-over-slf4j:1.7.21 | Refl: 1 | Proxy: 0
+2026-05-01 13:07:05 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 63 deps processed for SpringBootForBeginners] ---

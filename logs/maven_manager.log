@@ -27,3 +27,5 @@
 2026-05-01 12:45:48 [ERROR] [maven_manager] Audit file not found in: temp/work_dir/native-aws-fargate/target/effective-pom.xml
 2026-05-01 13:01:06 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
 2026-05-01 13:01:48 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/piggymetrics/target/effective-pom.xml
+2026-05-01 13:06:21 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-01 13:06:35 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/SpringBootForBeginners/target/effective-pom.xml

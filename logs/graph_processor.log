@@ -142,3 +142,9 @@
 2026-05-01 13:03:34 [INFO] [graph_processor]  [OK] piggymetrics completed.
 
 2026-05-01 13:03:34 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-05-01 13:06:47 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'SpringBootForBeginners'
+2026-05-01 13:06:47 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-01 13:06:47 [INFO] [graph_processor] >>> Processing: SpringBootForBeginners
+2026-05-01 13:07:05 [INFO] [graph_processor]  [OK] SpringBootForBeginners completed.
+
+2026-05-01 13:07:05 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---

@@ -13,3 +13,5 @@
 2026-05-01 12:45:48 [INFO] [manifest_manager]  [MANIFEST] native-aws-fargate updated to FAILED_MAVEN
 2026-05-01 13:01:58 [INFO] [manifest_manager]  [MANIFEST] piggymetrics updated to HARVESTED
 2026-05-01 13:03:34 [INFO] [manifest_manager]  [MANIFEST] piggymetrics updated to ANALYSED
+2026-05-01 13:06:37 [INFO] [manifest_manager]  [MANIFEST] SpringBootForBeginners updated to HARVESTED
+2026-05-01 13:07:05 [INFO] [manifest_manager]  [MANIFEST] SpringBootForBeginners updated to ANALYSED

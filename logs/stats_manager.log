@@ -11,3 +11,4 @@
 2026-04-28 18:01:35 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for spring-boot-graalvm (CMV: 0)
 2026-04-28 18:20:00 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for spring-native (CMV: 3796)
 2026-05-01 13:03:34 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for piggymetrics (CMV: 1615)
+2026-05-01 13:07:05 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for SpringBootForBeginners (CMV: 687)

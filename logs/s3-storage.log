@@ -4,3 +4,5 @@
 2026-04-28 18:11:10 [INFO] [s3-storage] Success: temp/work_dir/spring-native/target/effective-pom.xml -> s3://graphaot-research/audit-logs/spring-native/effective-pom.xml
 2026-05-01 13:01:56 [INFO] [s3-storage] Success: temp/work_dir/piggymetrics/target/bom.json -> s3://graphaot-research/analysis/piggymetrics/bom.json
 2026-05-01 13:01:58 [INFO] [s3-storage] Success: temp/work_dir/piggymetrics/target/effective-pom.xml -> s3://graphaot-research/audit-logs/piggymetrics/effective-pom.xml
+2026-05-01 13:06:37 [INFO] [s3-storage] Success: temp/work_dir/SpringBootForBeginners/target/bom.json -> s3://graphaot-research/analysis/SpringBootForBeginners/bom.json
+2026-05-01 13:06:37 [INFO] [s3-storage] Success: temp/work_dir/SpringBootForBeginners/target/effective-pom.xml -> s3://graphaot-research/audit-logs/SpringBootForBeginners/effective-pom.xml
