@@ -13,4 +13,5 @@ java-graalvm-start,103,171,0.0162764134780125,5,,True,spring-boot-starter|spring
 spring-boot-graalvm,1,0,0.0,0,,True,,0,0,0,0,0,0.0,0,2026-04-28 18:01:35
 spring-native,519,1240,0.004612374554571,7,,True,spring-native-configuration|spring-aot-gradle-plugin|spring-aot,518,3796,0,0,3796,7.328185328185328,0,2026-04-28 18:20:00
 piggymetrics,248,672,0.0109703539245135,8,,True,spring-boot-starter|spring-cloud-starter-netflix-eureka-client|eureka-client,247,1615,0,0,1615,6.538461538461538,0,2026-05-01 13:03:34
-SpringBootForBeginners,64,152,0.037698412698412696,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-data-rest-webmvc,63,687,0,0,687,10.904761904761905,0,2026-05-01 13:07:05
+SpringBootForBeginners,64,152,0.0376984126984126,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-data-rest-webmvc,63,687,0,0,687,10.904761904761903,0,2026-05-01 13:07:05
+spring-cloud-gateway,218,593,0.01253540777068448,7,,True,spring-cloud-gateway-server-webflux|spring-boot|spring-boot-starter,217,1666,0,0,1666,7.67741935483871,0,2026-05-01 13:52:49

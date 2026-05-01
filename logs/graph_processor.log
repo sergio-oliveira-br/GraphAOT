@@ -148,3 +148,9 @@
 2026-05-01 13:07:05 [INFO] [graph_processor]  [OK] SpringBootForBeginners completed.
 
 2026-05-01 13:07:05 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-05-01 13:51:41 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'spring-cloud-gateway'
+2026-05-01 13:51:41 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-01 13:51:41 [INFO] [graph_processor] >>> Processing: spring-cloud-gateway
+2026-05-01 13:52:49 [INFO] [graph_processor]  [OK] spring-cloud-gateway completed.
+
+2026-05-01 13:52:49 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---

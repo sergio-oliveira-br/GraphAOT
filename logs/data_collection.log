@@ -54,3 +54,7 @@
 2026-05-01 13:06:20 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-05-01 13:06:20 [INFO] [data_collection] >>> Harvesting Project: SpringBootForBeginners
 2026-05-01 13:06:37 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-01 13:14:27 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'spring-cloud-gateway'
+2026-05-01 13:14:27 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-01 13:14:27 [INFO] [data_collection] >>> Harvesting Project: spring-cloud-gateway
+2026-05-01 13:19:06 [INFO] [data_collection] --- Harvester Pipeline Finished ---

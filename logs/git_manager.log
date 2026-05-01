@@ -14,3 +14,4 @@ fatal: repository 'https://github.com/graalvm/graalvm-demos/tree/master/native-i
 2026-05-01 12:45:43 [INFO] [git_manager] Cloning repository: https://github.com/graalvm/graalvm-demos/tree/master/native-image/clouds/native-aws-fargate
 2026-05-01 13:01:05 [INFO] [git_manager] Cloning repository: https://github.com/sqshq/piggymetrics
 2026-05-01 13:06:20 [INFO] [git_manager] Cloning repository: https://github.com/in28minutes/SpringBootForBeginners
+2026-05-01 13:14:27 [INFO] [git_manager] Cloning repository: https://github.com/spring-cloud/spring-cloud-gateway
