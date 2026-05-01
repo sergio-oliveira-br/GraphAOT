@@ -20,3 +20,4 @@ native-aws-fargate,https://github.com/graalvm/graalvm-demos/tree/master/native-i
 master,https://github.com/graalvm/graalvm-demos/tree/master,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-01 11:52:49
 piggymetrics,https://github.com/sqshq/piggymetrics,,ANALYSED,s3://graphaot-research/analysis/piggymetrics/,,2026-05-01 13:03:34
 SpringBootForBeginners,https://github.com/in28minutes/SpringBootForBeginners,,ANALYSED,s3://graphaot-research/analysis/SpringBootForBeginners/,,2026-05-01 13:07:05
+spring-cloud-gateway,https://github.com/spring-cloud/spring-cloud-gateway,,,,,
