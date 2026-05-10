@@ -17,3 +17,4 @@
 2026-05-01 13:07:05 [INFO] [manifest_manager]  [MANIFEST] SpringBootForBeginners updated to ANALYSED
 2026-05-01 13:19:06 [INFO] [manifest_manager]  [MANIFEST] spring-cloud-gateway updated to HARVESTED
 2026-05-01 13:52:49 [INFO] [manifest_manager]  [MANIFEST] spring-cloud-gateway updated to ANALYSED
+2026-05-10 12:38:52 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] serverless-graalvm-demo updated

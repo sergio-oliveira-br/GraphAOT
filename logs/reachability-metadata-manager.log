@@ -183,3 +183,211 @@
 2026-05-01 13:52:47 [INFO] [reachability-metadata-manager] [+] Dependency: caffeine:3.2.3 | Refl: 58 | Proxy: 0
 2026-05-01 13:52:48 [INFO] [reachability-metadata-manager] [+] Dependency: asm:9.9.1 | Refl: 4 | Proxy: 0
 2026-05-01 13:52:49 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 217 deps processed for spring-cloud-gateway] ---
+2026-05-10 12:36:16 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: spring-cloud-gateway] ---
+2026-05-10 12:36:17 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-gateway-dependencies
+2026-05-10 12:36:17 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-gateway-proxyexchange-webflux
+2026-05-10 12:36:17 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-webflux
+2026-05-10 12:36:18 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-logging
+2026-05-10 12:36:19 [INFO] [reachability-metadata-manager] [+] Dependency: logback-classic:1.5.32 | Refl: 97 | Proxy: 0
+2026-05-10 12:36:20 [INFO] [reachability-metadata-manager] [+] Dependency: logback-core:1.5.32 | Refl: 15 | Proxy: 0
+2026-05-10 12:36:20 [ERROR] [reachability-metadata-manager] Metadata index not found for org.apache.logging.log4j:log4j-to-slf4j
+2026-05-10 12:36:20 [ERROR] [reachability-metadata-manager] Metadata index not found for org.apache.logging.log4j:log4j-api
+2026-05-10 12:36:21 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-autoconfigure
+2026-05-10 12:36:23 [INFO] [reachability-metadata-manager] [+] Dependency: snakeyaml:2.5 | Refl: 8 | Proxy: 0
+2026-05-10 12:36:23 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-jackson
+2026-05-10 12:36:23 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-jackson
+2026-05-10 12:36:24 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-annotations:2.21 | Refl: 2 | Proxy: 0
+2026-05-10 12:36:25 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-core:3.1.2 | Refl: 1 | Proxy: 0
+2026-05-10 12:36:25 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-reactor-netty
+2026-05-10 12:36:26 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-reactor-netty
+2026-05-10 12:36:27 [ERROR] [reachability-metadata-manager] Network error fetching metadata for netty-codec-http: Extra data: line 1 column 4 (char 3)
+2026-05-10 12:36:27 [ERROR] [reachability-metadata-manager] Network error fetching metadata for netty-buffer: Extra data: line 1 column 4 (char 3)
+2026-05-10 12:36:28 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport:4.2.12.Final | Refl: 3 | Proxy: 0
+2026-05-10 12:36:28 [ERROR] [reachability-metadata-manager] Metadata index not found for io.netty:netty-codec-base
+2026-05-10 12:36:29 [ERROR] [reachability-metadata-manager] Metadata index not found for io.netty:netty-codec-compression
+2026-05-10 12:36:29 [ERROR] [reachability-metadata-manager] Network error fetching metadata for netty-handler: Extra data: line 1 column 4 (char 3)
+2026-05-10 12:36:30 [ERROR] [reachability-metadata-manager] Network error fetching metadata for netty-codec-http2: Extra data: line 1 column 4 (char 3)
+2026-05-10 12:36:30 [ERROR] [reachability-metadata-manager] Metadata index not found for io.netty:netty-codec-http3
+2026-05-10 12:36:31 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport-native-unix-common:4.2.12.Final | Refl: 26 | Proxy: 0
+2026-05-10 12:36:32 [ERROR] [reachability-metadata-manager] Metadata index not found for io.netty:netty-codec-classes-quic
+2026-05-10 12:36:32 [ERROR] [reachability-metadata-manager] Metadata index not found for io.netty:netty-codec-native-quic
+2026-05-10 12:36:33 [ERROR] [reachability-metadata-manager] Metadata index not found for io.netty:netty-codec-native-quic
+2026-05-10 12:36:33 [ERROR] [reachability-metadata-manager] Metadata index not found for io.netty:netty-codec-native-quic
+2026-05-10 12:36:33 [ERROR] [reachability-metadata-manager] Metadata index not found for io.netty:netty-codec-native-quic
+2026-05-10 12:36:33 [ERROR] [reachability-metadata-manager] Metadata index not found for io.netty:netty-codec-native-quic
+2026-05-10 12:36:34 [ERROR] [reachability-metadata-manager] Network error fetching metadata for netty-resolver-dns: Extra data: line 1 column 4 (char 3)
+2026-05-10 12:36:34 [INFO] [reachability-metadata-manager] [+] Dependency: netty-codec-dns:4.2.12.Final | Refl: 15 | Proxy: 0
+2026-05-10 12:36:35 [INFO] [reachability-metadata-manager] [+] Dependency: netty-resolver-dns-classes-macos:4.2.12.Final | Refl: 12 | Proxy: 0
+2026-05-10 12:36:36 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport-native-epoll:4.2.12.Final | Refl: 13 | Proxy: 0
+2026-05-10 12:36:36 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport-classes-epoll:4.2.12.Final | Refl: 27 | Proxy: 0
+2026-05-10 12:36:38 [INFO] [reachability-metadata-manager] [+] Dependency: netty-handler-proxy:4.2.12.Final | Refl: 25 | Proxy: 0
+2026-05-10 12:36:39 [INFO] [reachability-metadata-manager] [+] Dependency: netty-codec-socks:4.2.12.Final | Refl: 6 | Proxy: 0
+2026-05-10 12:36:39 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-netty
+2026-05-10 12:36:40 [INFO] [reachability-metadata-manager] [+] Dependency: netty-common:4.2.12.Final | Refl: 750 | Proxy: 0
+2026-05-10 12:36:40 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-reactor
+2026-05-10 12:36:41 [INFO] [reachability-metadata-manager] [+] Dependency: reactor-core:3.8.5 | Refl: 3 | Proxy: 0
+2026-05-10 12:36:42 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-webflux
+2026-05-10 12:36:42 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-http-codec
+2026-05-10 12:36:43 [INFO] [reachability-metadata-manager] [+] Dependency: spring-webflux:7.0.7 | Refl: 83 | Proxy: 0
+2026-05-10 12:36:43 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-web-server
+2026-05-10 12:36:43 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-test
+2026-05-10 12:36:44 [INFO] [reachability-metadata-manager] [+] Dependency: slf4j-api:2.0.17 | Refl: 2 | Proxy: 0
+2026-05-10 12:36:45 [INFO] [reachability-metadata-manager] [+] Dependency: jakarta.xml.bind-api:4.0.4 | Refl: 2 | Proxy: 0
+2026-05-10 12:36:45 [ERROR] [reachability-metadata-manager] Metadata index not found for jakarta.activation:jakarta.activation-api
+2026-05-10 12:36:45 [ERROR] [reachability-metadata-manager] Metadata index not found for net.minidev:json-smart
+2026-05-10 12:36:46 [INFO] [reachability-metadata-manager] [+] Dependency: asm:9.7.1 | Refl: 4 | Proxy: 0
+2026-05-10 12:36:47 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-core
+2026-05-10 12:36:47 [INFO] [reachability-metadata-manager] [+] Dependency: commons-logging:1.3.6 | Refl: 7 | Proxy: 0
+2026-05-10 12:36:48 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-test
+2026-05-10 12:36:48 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-resttestclient
+2026-05-10 12:36:49 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-http-converter
+2026-05-10 12:36:49 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-web
+2026-05-10 12:36:50 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-beans
+2026-05-10 12:36:50 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-restclient
+2026-05-10 12:36:50 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot
+2026-05-10 12:36:50 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-context
+2026-05-10 12:36:51 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-aop
+2026-05-10 12:36:51 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-expression
+2026-05-10 12:36:51 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-http-client
+2026-05-10 12:36:51 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-actuator
+2026-05-10 12:36:52 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-micrometer-metrics
+2026-05-10 12:36:52 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-micrometer-metrics
+2026-05-10 12:36:53 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-micrometer-observation
+2026-05-10 12:36:53 [INFO] [reachability-metadata-manager] [+] Dependency: spring-boot-actuator-autoconfigure:4.0.6 | Refl: 7 | Proxy: 0
+2026-05-10 12:36:54 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-actuator
+2026-05-10 12:36:54 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-health
+2026-05-10 12:36:55 [ERROR] [reachability-metadata-manager] Metadata index not found for io.micrometer:micrometer-jakarta9
+2026-05-10 12:36:56 [ERROR] [reachability-metadata-manager] Metadata index not found for io.micrometer:micrometer-core
+2026-05-10 12:36:56 [INFO] [reachability-metadata-manager] [+] Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+2026-05-10 12:36:57 [INFO] [reachability-metadata-manager] [+] Dependency: LatencyUtils:2.0.3 | Refl: 3 | Proxy: 0
+2026-05-10 12:36:57 [INFO] [reachability-metadata-manager] [+] Dependency: spring-boot-configuration-processor:4.0.6 | Refl: 12 | Proxy: 0
+2026-05-10 12:36:58 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-autoconfigure-processor
+2026-05-10 12:36:58 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-gateway-proxyexchange-webmvc
+2026-05-10 12:36:58 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-web
+2026-05-10 12:36:59 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-tomcat
+2026-05-10 12:36:59 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-tomcat-runtime
+2026-05-10 12:36:59 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-core:11.0.21 | Refl: 105 | Proxy: 0
+2026-05-10 12:37:00 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-el:11.0.21 | Refl: 25 | Proxy: 0
+2026-05-10 12:37:01 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-tomcat
+2026-05-10 12:37:01 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-webmvc
+2026-05-10 12:37:01 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-servlet
+2026-05-10 12:37:02 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-webmvc
+2026-05-10 12:37:02 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-gateway-server-webflux
+2026-05-10 12:37:02 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-validation
+2026-05-10 12:37:03 [INFO] [reachability-metadata-manager] [+] Dependency: hibernate-validator:9.0.1.Final | Refl: 356 | Proxy: 0
+2026-05-10 12:37:04 [INFO] [reachability-metadata-manager] [+] Dependency: jboss-logging:3.6.3.Final | Refl: 12 | Proxy: 0
+2026-05-10 12:37:05 [INFO] [reachability-metadata-manager] [+] Dependency: classmate:1.7.3 | Refl: 2 | Proxy: 0
+2026-05-10 12:37:05 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-oauth2-client
+2026-05-10 12:37:05 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-security-oauth2-client
+2026-05-10 12:37:05 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-oauth2-client
+2026-05-10 12:37:06 [ERROR] [reachability-metadata-manager] Metadata index not found for com.nimbusds:oauth2-oidc-sdk
+2026-05-10 12:37:07 [ERROR] [reachability-metadata-manager] Metadata index not found for com.nimbusds:content-type
+2026-05-10 12:37:07 [ERROR] [reachability-metadata-manager] Metadata index not found for com.nimbusds:lang-tag
+2026-05-10 12:37:07 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-oauth2-jose
+2026-05-10 12:37:07 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-core
+2026-05-10 12:37:08 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-oauth2-core
+2026-05-10 12:37:09 [ERROR] [reachability-metadata-manager] Metadata index not found for io.micrometer:micrometer-tracing
+2026-05-10 12:37:09 [ERROR] [reachability-metadata-manager] Metadata index not found for io.micrometer:context-propagation
+2026-05-10 12:37:10 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-loadbalancer
+2026-05-10 12:37:10 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-commons
+2026-05-10 12:37:10 [INFO] [reachability-metadata-manager] [+] Dependency: spring-security-crypto:7.0.5 | Refl: 21 | Proxy: 0
+2026-05-10 12:37:11 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-context
+2026-05-10 12:37:11 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-function-context
+2026-05-10 12:37:11 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-function-core
+2026-05-10 12:37:12 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-messaging
+2026-05-10 12:37:12 [ERROR] [reachability-metadata-manager] Metadata index not found for tools.jackson.datatype:jackson-datatype-joda
+2026-05-10 12:37:12 [INFO] [reachability-metadata-manager] [+] Dependency: joda-time:2.12.7 | Refl: 3 | Proxy: 0
+2026-05-10 12:37:13 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-stream
+2026-05-10 12:37:13 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-integration
+2026-05-10 12:37:13 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-transaction
+2026-05-10 12:37:13 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-persistence
+2026-05-10 12:37:14 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.integration:spring-integration-core
+2026-05-10 12:37:14 [INFO] [reachability-metadata-manager] [+] Dependency: spring-tx:7.0.7 | Refl: 3 | Proxy: 0
+2026-05-10 12:37:15 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.integration:spring-integration-jmx
+2026-05-10 12:37:15 [ERROR] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm
+2026-05-10 12:37:16 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-devtools
+2026-05-10 12:37:17 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-data-redis
+2026-05-10 12:37:17 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-data-commons
+2026-05-10 12:37:18 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-commons
+2026-05-10 12:37:18 [INFO] [reachability-metadata-manager] [+] Dependency: lettuce-core:6.8.2.RELEASE | Refl: 97 | Proxy: 0
+2026-05-10 12:37:19 [ERROR] [reachability-metadata-manager] Metadata index not found for redis.clients.authentication:redis-authx-core
+2026-05-10 12:37:19 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-redis
+2026-05-10 12:37:19 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-keyvalue
+2026-05-10 12:37:19 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-oxm
+2026-05-10 12:37:20 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-security
+2026-05-10 12:37:20 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-security
+2026-05-10 12:37:21 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-config
+2026-05-10 12:37:21 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-web
+2026-05-10 12:37:22 [INFO] [reachability-metadata-manager] [+] Dependency: kotlin-stdlib:2.2.21 | Refl: 1 | Proxy: 0
+2026-05-10 12:37:23 [INFO] [reachability-metadata-manager] [+] Dependency: kotlin-reflect:2.2.21 | Refl: 10 | Proxy: 0
+2026-05-10 12:37:23 [ERROR] [reachability-metadata-manager] Metadata index not found for io.projectreactor.addons:reactor-extra
+2026-05-10 12:37:23 [ERROR] [reachability-metadata-manager] Metadata index not found for io.projectreactor.kotlin:reactor-kotlin-extensions
+2026-05-10 12:37:24 [ERROR] [reachability-metadata-manager] Metadata index not found for tools.jackson.dataformat:jackson-dataformat-protobuf
+2026-05-10 12:37:24 [ERROR] [reachability-metadata-manager] Metadata index not found for com.squareup:protoparser
+2026-05-10 12:37:24 [INFO] [reachability-metadata-manager] [+] Dependency: grpc-netty:1.77.0 | Refl: 2 | Proxy: 0
+2026-05-10 12:37:26 [INFO] [reachability-metadata-manager] [+] Dependency: grpc-core:1.77.0 | Refl: 1 | Proxy: 0
+2026-05-10 12:37:27 [INFO] [reachability-metadata-manager] [+] Dependency: grpc-context:1.77.0 | Refl: 1 | Proxy: 0
+2026-05-10 12:37:28 [INFO] [reachability-metadata-manager] [+] Dependency: guava:33.4.8-android | Refl: 38 | Proxy: 0
+2026-05-10 12:37:31 [ERROR] [reachability-metadata-manager] Metadata index not found for io.grpc:grpc-util
+2026-05-10 12:37:32 [INFO] [reachability-metadata-manager] [+] Dependency: grpc-protobuf:1.77.0 | Refl: 4 | Proxy: 0
+2026-05-10 12:37:33 [INFO] [reachability-metadata-manager] [+] Dependency: protobuf-java:3.25.8 | Refl: 15 | Proxy: 0
+2026-05-10 12:37:33 [INFO] [reachability-metadata-manager] [+] Dependency: proto-google-common-protos:2.59.2 | Refl: 14 | Proxy: 0
+2026-05-10 12:37:34 [ERROR] [reachability-metadata-manager] Metadata index not found for io.grpc:grpc-protobuf-lite
+2026-05-10 12:37:34 [INFO] [reachability-metadata-manager] [+] Dependency: protobuf-java-util:4.33.5 | Refl: 114 | Proxy: 0
+2026-05-10 12:37:35 [INFO] [reachability-metadata-manager] [+] Dependency: gson:2.13.2 | Refl: 2 | Proxy: 0
+2026-05-10 12:37:36 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-micrometer-tracing
+2026-05-10 12:37:36 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-circuitbreaker-reactor-resilience4j
+2026-05-10 12:37:36 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter
+2026-05-10 12:37:36 [ERROR] [reachability-metadata-manager] Metadata index not found for org.bouncycastle:bcprov-jdk18on
+2026-05-10 12:37:37 [ERROR] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-circuitbreaker-resilience4j
+2026-05-10 12:37:38 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-databind:2.21.2 | Refl: 56 | Proxy: 0
+2026-05-10 12:37:38 [ERROR] [reachability-metadata-manager] Metadata index not found for io.github.resilience4j:resilience4j-spring-boot3
+2026-05-10 12:37:38 [ERROR] [reachability-metadata-manager] Metadata index not found for io.github.resilience4j:resilience4j-spring6
+2026-05-10 12:37:39 [ERROR] [reachability-metadata-manager] Metadata index not found for io.github.resilience4j:resilience4j-annotations
+2026-05-10 12:37:39 [ERROR] [reachability-metadata-manager] Metadata index not found for io.github.resilience4j:resilience4j-consumer
+2026-05-10 12:38:25 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: serverless-graalvm-demo] ---
+2026-05-10 12:38:25 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazonaws.example:infrastructure
+2026-05-10 12:38:25 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazon.awscdk:aws-cdk-lib
+2026-05-10 12:38:26 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazon.awscdk:cdk-asset-awscli-v1
+2026-05-10 12:38:26 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazon.awscdk:cdk-asset-kubectl-v20
+2026-05-10 12:38:26 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazon.awscdk:cdk-asset-node-proxy-agent-v6
+2026-05-10 12:38:26 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazon.jsii:jsii-runtime
+2026-05-10 12:38:27 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-databind:2.21.2 | Refl: 56 | Proxy: 0
+2026-05-10 12:38:27 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-annotations:2.21 | Refl: 2 | Proxy: 0
+2026-05-10 12:38:28 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-datatype-jsr310:2.21.2 | Refl: 4 | Proxy: 0
+2026-05-10 12:38:29 [ERROR] [reachability-metadata-manager] Metadata index not found for software.constructs:constructs
+2026-05-10 12:38:29 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazonaws.example:products
+2026-05-10 12:38:29 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-lambda-java-core
+2026-05-10 12:38:29 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-lambda-java-events
+2026-05-10 12:38:30 [INFO] [reachability-metadata-manager] [+] Dependency: joda-time:2.10.8 | Refl: 3 | Proxy: 0
+2026-05-10 12:38:30 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-lambda-java-runtime-interface-client
+2026-05-10 12:38:30 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-lambda-java-serialization
+2026-05-10 12:38:31 [INFO] [reachability-metadata-manager] [+] Dependency: dynamodb:2.28.7 | Refl: 1 | Proxy: 0
+2026-05-10 12:38:32 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazon.awssdk:third-party-jackson-core
+2026-05-10 12:38:35 [INFO] [reachability-metadata-manager] [+] Dependency: checksums:2.28.7 | Refl: 9 | Proxy: 0
+2026-05-10 12:38:36 [INFO] [reachability-metadata-manager] [+] Dependency: sdk-core:2.28.7 | Refl: 5 | Proxy: 0
+2026-05-10 12:38:37 [INFO] [reachability-metadata-manager] [+] Dependency: auth:2.28.7 | Refl: 22 | Proxy: 0
+2026-05-10 12:38:42 [INFO] [reachability-metadata-manager] [+] Dependency: utils:2.28.7 | Refl: 1 | Proxy: 0
+2026-05-10 12:38:44 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazon.awssdk:json-utils
+2026-05-10 12:38:45 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazon.awssdk:aws-crt-client
+2026-05-10 12:38:45 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazon.awssdk.crt:aws-crt
+2026-05-10 12:38:45 [ERROR] [reachability-metadata-manager] Metadata index not found for software.amazon.awssdk:crt-core
+2026-05-10 12:38:46 [INFO] [reachability-metadata-manager] [+] Dependency: slf4j-simple:2.0.13 | Refl: 2 | Proxy: 0
+2026-05-10 12:38:46 [INFO] [reachability-metadata-manager] [+] Dependency: slf4j-api:2.0.13 | Refl: 2 | Proxy: 0
+2026-05-10 12:38:46 [ERROR] [reachability-metadata-manager] Metadata index not found for org.graalvm.sdk:nativeimage
+2026-05-10 12:38:46 [ERROR] [reachability-metadata-manager] Metadata index not found for org.graalvm.sdk:word
+2026-05-10 12:38:47 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-xray-recorder-sdk-core
+2026-05-10 12:38:47 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-java-sdk-xray
+2026-05-10 12:38:47 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:jmespath-java
+2026-05-10 12:38:47 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-xray-recorder-sdk-apache-http
+2026-05-10 12:38:48 [INFO] [reachability-metadata-manager] [+] Dependency: httpclient:4.5.13 | Refl: 1 | Proxy: 0
+2026-05-10 12:38:49 [INFO] [reachability-metadata-manager] [+] Dependency: httpcore:4.4.13 | Refl: 3 | Proxy: 0
+2026-05-10 12:38:49 [INFO] [reachability-metadata-manager] [+] Dependency: commons-logging:1.2 | Refl: 7 | Proxy: 0
+2026-05-10 12:38:50 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-xray-recorder-sdk-aws-sdk
+2026-05-10 12:38:50 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-java-sdk-core
+2026-05-10 12:38:50 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-databind:2.12.7.1 | Refl: 56 | Proxy: 0
+2026-05-10 12:38:50 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-annotations:2.12.7 | Refl: 2 | Proxy: 0
+2026-05-10 12:38:52 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-xray-recorder-sdk-aws-sdk-core
+2026-05-10 12:38:52 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-xray-recorder-sdk-aws-sdk-instrumentor
+2026-05-10 12:38:52 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-xray-recorder-sdk-aws-sdk-v2
+2026-05-10 12:38:52 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 69 deps processed for serverless-graalvm-demo] ---

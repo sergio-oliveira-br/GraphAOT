@@ -2051,3 +2051,24 @@ Dependency: protobuf-java-util:4.33.5 | Refl: 114 | Proxy: 0
 Dependency: jackson-databind:2.21.2 | Refl: 18 | Proxy: 0
 Dependency: caffeine:3.2.3 | Refl: 58 | Proxy: 0
 Dependency: asm:9.9.1 | Refl: 4 | Proxy: 0
+
+============================================================
+PROJECT: serverless-graalvm-demo | DATE: 2026-05-10 12:38:52
+SUMMARY: 69 deps | CMV: 176
+------------------------------------------------------------
+Dependency: jackson-databind:2.21.2 | Refl: 56 | Proxy: 0
+Dependency: jackson-annotations:2.21 | Refl: 2 | Proxy: 0
+Dependency: jackson-datatype-jsr310:2.21.2 | Refl: 4 | Proxy: 0
+Dependency: joda-time:2.10.8 | Refl: 3 | Proxy: 0
+Dependency: dynamodb:2.28.7 | Refl: 1 | Proxy: 0
+Dependency: checksums:2.28.7 | Refl: 9 | Proxy: 0
+Dependency: sdk-core:2.28.7 | Refl: 5 | Proxy: 0
+Dependency: auth:2.28.7 | Refl: 22 | Proxy: 0
+Dependency: utils:2.28.7 | Refl: 1 | Proxy: 0
+Dependency: slf4j-simple:2.0.13 | Refl: 2 | Proxy: 0
+Dependency: slf4j-api:2.0.13 | Refl: 2 | Proxy: 0
+Dependency: httpclient:4.5.13 | Refl: 1 | Proxy: 0
+Dependency: httpcore:4.4.13 | Refl: 3 | Proxy: 0
+Dependency: commons-logging:1.2 | Refl: 7 | Proxy: 0
+Dependency: jackson-databind:2.12.7.1 | Refl: 56 | Proxy: 0
+Dependency: jackson-annotations:2.12.7 | Refl: 2 | Proxy: 0
