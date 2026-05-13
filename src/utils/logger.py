@@ -34,5 +34,7 @@ def setup_logger(service_name: str = "app", level: int = logging.INFO):
     logger.addHandler(fh)
     logger.addHandler(sh)
 
+    logger.propagate = False
+
     # Return a LoggerAdapter so every record has 'service' field
     return logging.LoggerAdapter(logger, {"service": service_name})
