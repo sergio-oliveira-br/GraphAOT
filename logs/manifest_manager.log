@@ -18,3 +18,8 @@
 2026-05-01 13:19:06 [INFO] [manifest_manager]  [MANIFEST] spring-cloud-gateway updated to HARVESTED
 2026-05-01 13:52:49 [INFO] [manifest_manager]  [MANIFEST] spring-cloud-gateway updated to ANALYSED
 2026-05-10 12:38:52 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] serverless-graalvm-demo updated
+2026-05-13 17:20:06 [INFO] [manifest_manager]  [MANIFEST][HARVESTED] jnativehook updated
+2026-05-13 17:20:36 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] jnativehook updated
+2026-05-13 17:40:15 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] jnativehook updated
+2026-05-13 17:45:00 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] jnativehook updated
+2026-05-13 17:45:20 [INFO] [manifest_manager]  [MANIFEST][HARVESTED] jnativehook updated

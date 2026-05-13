@@ -391,3 +391,9 @@
 2026-05-10 12:38:52 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-xray-recorder-sdk-aws-sdk-instrumentor
 2026-05-10 12:38:52 [ERROR] [reachability-metadata-manager] Metadata index not found for com.amazonaws:aws-xray-recorder-sdk-aws-sdk-v2
 2026-05-10 12:38:52 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 69 deps processed for serverless-graalvm-demo] ---
+2026-05-13 17:20:36 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: jnativehook] ---
+2026-05-13 17:20:36 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for jnativehook] ---
+2026-05-13 17:40:15 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: jnativehook] ---
+2026-05-13 17:40:15 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for jnativehook] ---
+2026-05-13 17:45:00 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: jnativehook] ---
+2026-05-13 17:45:00 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for jnativehook] ---

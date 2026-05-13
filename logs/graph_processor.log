@@ -163,3 +163,21 @@
 2026-05-10 12:38:52 [INFO] [graph_processor]  [OK] serverless-graalvm-demo completed.
 
 2026-05-10 12:38:52 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-05-13 17:20:35 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-13 17:20:35 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-13 17:20:35 [INFO] [graph_processor] >>> Processing: jnativehook
+2026-05-13 17:20:36 [INFO] [graph_processor]  [OK] jnativehook completed.
+
+2026-05-13 17:20:36 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-05-13 17:40:15 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-13 17:40:15 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-13 17:40:15 [INFO] [graph_processor] >>> Processing: jnativehook
+2026-05-13 17:40:15 [INFO] [graph_processor]  [OK] jnativehook completed.
+
+2026-05-13 17:40:15 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-05-13 17:45:00 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-13 17:45:00 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-13 17:45:00 [INFO] [graph_processor] >>> Processing: jnativehook
+2026-05-13 17:45:00 [INFO] [graph_processor]  [OK] jnativehook completed.
+
+2026-05-13 17:45:00 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---

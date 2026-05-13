@@ -2072,3 +2072,21 @@ Dependency: httpcore:4.4.13 | Refl: 3 | Proxy: 0
 Dependency: commons-logging:1.2 | Refl: 7 | Proxy: 0
 Dependency: jackson-databind:2.12.7.1 | Refl: 56 | Proxy: 0
 Dependency: jackson-annotations:2.12.7 | Refl: 2 | Proxy: 0
+
+============================================================
+PROJECT: jnativehook | DATE: 2026-05-13 17:20:36
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: jnativehook | DATE: 2026-05-13 17:40:15
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: jnativehook | DATE: 2026-05-13 17:45:00
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.

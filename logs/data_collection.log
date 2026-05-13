@@ -58,3 +58,11 @@
 2026-05-01 13:14:27 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-05-01 13:14:27 [INFO] [data_collection] >>> Harvesting Project: spring-cloud-gateway
 2026-05-01 13:19:06 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-13 17:19:56 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-13 17:19:56 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-13 17:19:56 [INFO] [data_collection] >>> Harvesting Project: jnativehook
+2026-05-13 17:20:06 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-13 17:45:16 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-13 17:45:16 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-13 17:45:16 [INFO] [data_collection] >>> Harvesting Project: jnativehook
+2026-05-13 17:45:20 [INFO] [data_collection] --- Harvester Pipeline Finished ---

@@ -31,3 +31,7 @@
 2026-05-01 13:06:35 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/SpringBootForBeginners/target/effective-pom.xml
 2026-05-01 13:14:28 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
 2026-05-01 13:18:44 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/spring-cloud-gateway/target/effective-pom.xml
+2026-05-13 17:19:57 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-13 17:20:02 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jnativehook/target/effective-pom.xml
+2026-05-13 17:45:17 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-13 17:45:19 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jnativehook/target/effective-pom.xml
