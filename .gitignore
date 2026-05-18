@@ -10,9 +10,20 @@ venv/
 env/
 .venv/
 
-# Terraform local variable overrides
+# Terraform
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Local variable overrides
 terraform.tfvars
 *.tfvars
+
+# Ignore provider binaries inside modules
+modules/**/.terraform/
+
 
 # packages
 dist/
