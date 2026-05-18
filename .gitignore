@@ -29,3 +29,5 @@ modules/**/.terraform/
 dist/
 build/
 *.egg-info/
+terraform/.terraform.lock.hcl
+terraform/modules/s3_bucket/.terraform.lock.hcl
