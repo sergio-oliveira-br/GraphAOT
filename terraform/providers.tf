@@ -1,6 +1,6 @@
 # terraform/providers.tf
 
-# Configure the provider (AWS)
+# Provider settings
 provider "aws" {
   region = var.aws_region
 }
