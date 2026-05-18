@@ -1,7 +1,7 @@
 # test_s3.py
 from src.providers.s3_storage import S3Storage
 
-BUCKET = "graphaot-research"
+BUCKET = "graphaot-research-staging"
 
 def test_connection():
     storage = S3Storage(BUCKET)
