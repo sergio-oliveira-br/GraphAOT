@@ -12,3 +12,4 @@
 2026-05-13 17:20:06 [INFO] [s3-storage] Success: temp/work_dir/jnativehook/target/effective-pom.xml -> s3://graphaot-research/audit-logs/jnativehook/effective-pom.xml
 2026-05-13 17:45:20 [INFO] [s3-storage] Success: temp/work_dir/jnativehook/target/bom.json -> s3://graphaot-research/analysis/jnativehook/bom.json
 2026-05-13 17:45:20 [INFO] [s3-storage] Success: temp/work_dir/jnativehook/target/effective-pom.xml -> s3://graphaot-research/audit-logs/jnativehook/effective-pom.xml
+2026-05-18 20:10:42 [INFO] [s3-storage] Success: dummy.json -> s3://graphaot-research-staging/analysis/test-project/bom.json
