@@ -17,3 +17,8 @@ class StatsProvider(ABC):
     def compute_migration_metrics(self, graph_metrics: dict, aot_results: dict) -> dict:
         """Compute metrics needed for migration"""
         pass
+
+    @abstractmethod
+    def save_raw_log(self, project_id, aot_results):
+        """Save metrics log"""
+        pass
