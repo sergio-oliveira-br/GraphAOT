@@ -24,7 +24,7 @@ class ReachabilityMetadataManager(MetadataProvider):
         try:
             resp = requests.get(f"{self.base_url}/{g}/{a}/index.json", timeout=5)
             if resp.status_code != 200:
-                self.logger.error(f"Metadata index not found for {g}:{a}")
+                self.logger.warning(f"Metadata index not found for {g}:{a}")
                 return res_default
 
             index = resp.json()
