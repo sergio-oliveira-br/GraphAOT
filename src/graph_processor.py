@@ -13,7 +13,7 @@ from src.utils.logger import setup_logger
 # Focus: Network mathematics and topology.
 # Result: Structural metrics (Centrality, Depth).
 def run_analysis(target_id=None):
-    logger = setup_logger('graph_processor')
+    logger = setup_logger('graphaot-research-staging')
 
     BASE_DIR = Path(__file__).resolve().parent  # points to src/
     data_dir = BASE_DIR / "data"                  # src/data
