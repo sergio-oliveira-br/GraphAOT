@@ -181,3 +181,9 @@
 2026-05-13 17:45:00 [INFO] [graph_processor]  [OK] jnativehook completed.
 
 2026-05-13 17:45:00 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
+2026-05-19 17:25:19 [INFO] [graph_processor] *** Manual Mode ***: Targeting project 'algo-struct'
+2026-05-19 17:25:19 [INFO] [graph_processor] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-19 17:25:19 [INFO] [graph_processor] >>> Processing: algo-struct
+2026-05-19 17:25:39 [INFO] [graph_processor]  [OK] algo-struct completed.
+
+2026-05-19 17:25:39 [INFO] [graph_processor] --- Graph Processor Pipeline Finished ---
