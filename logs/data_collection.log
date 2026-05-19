@@ -66,3 +66,7 @@
 2026-05-13 17:45:16 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-05-13 17:45:16 [INFO] [data_collection] >>> Harvesting Project: jnativehook
 2026-05-13 17:45:20 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-19 17:32:55 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'algo-struct'
+2026-05-19 17:32:55 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-19 17:32:55 [INFO] [data_collection] >>> Harvesting Project: algo-struct
+2026-05-19 17:33:04 [INFO] [data_collection] --- Harvester Pipeline Finished ---
