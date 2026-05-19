@@ -9,7 +9,7 @@ from src.providers.maven_manager import MavenManager
 from src.providers.s3_storage import S3Storage
 from src.utils.logger import setup_logger
 
-BUCKET_NAME = "graphaot-research"
+BUCKET_NAME = "graphaot-research-staging"
 TEMP_DIR = Path("temp/work_dir")
 
 # What does: "Collect" the raw data (Clone, Maven, S3).
