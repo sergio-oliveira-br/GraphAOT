@@ -8,3 +8,8 @@ class MetadataProvider(ABC):
     def get_metadata_volume(self, group: str, artifact: str, version: str) -> dict:
         """Returns the count of configuration inputs (Reflection, JNI, Proxy)."""
         pass
+
+    @abstractmethod
+    def analyze_reachability_effort(self, graph, project_id) -> dict:
+        """Analyzes the reachability effort of the metadata volume."""
+        pass
