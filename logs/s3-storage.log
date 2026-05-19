@@ -15,3 +15,5 @@
 2026-05-18 20:10:42 [INFO] [s3-storage] Success: dummy.json -> s3://graphaot-research-staging/analysis/test-project/bom.json
 2026-05-19 17:33:04 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/target/bom.json -> s3://graphaot-research-staging/analysis/algo-struct/bom.json
 2026-05-19 17:33:04 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/algo-struct/effective-pom.xml
+2026-05-19 17:57:48 [INFO] [s3-storage] Success: temp/work_dir/StockWise/target/bom.json -> s3://graphaot-research-staging/analysis/StockWise/bom.json
+2026-05-19 17:57:49 [INFO] [s3-storage] Success: temp/work_dir/StockWise/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/StockWise/effective-pom.xml

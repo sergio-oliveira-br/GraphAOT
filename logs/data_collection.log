@@ -70,3 +70,7 @@
 2026-05-19 17:32:55 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-05-19 17:32:55 [INFO] [data_collection] >>> Harvesting Project: algo-struct
 2026-05-19 17:33:04 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-19 17:57:40 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'StockWise'
+2026-05-19 17:57:40 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-19 17:57:40 [INFO] [data_collection] >>> Harvesting Project: StockWise
+2026-05-19 17:57:49 [INFO] [data_collection] --- Harvester Pipeline Finished ---

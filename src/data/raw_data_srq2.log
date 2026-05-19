@@ -2132,3 +2132,40 @@ Dependency: spring-aop:6.2.5 | Refl: 31 | Proxy: 0
 Dependency: spring-context:6.2.5 | Refl: 154 | Proxy: 0
 Dependency: spring-expression:6.2.5 | Refl: 47 | Proxy: 0
 Dependency: spring-jcl:6.2.5 | Refl: 2 | Proxy: 0
+
+============================================================
+PROJECT: StockWise | DATE: 2026-05-19 17:58:42
+SUMMARY: 103 deps | CMV: 2097
+------------------------------------------------------------
+Dependency: logback-classic:1.5.16 | Refl: 97 | Proxy: 0
+Dependency: logback-core:1.5.16 | Refl: 18 | Proxy: 0
+Dependency: snakeyaml:2.3 | Refl: 8 | Proxy: 0
+Dependency: spring-boot-actuator-autoconfigure:3.4.3 | Refl: 7 | Proxy: 0
+Dependency: jackson-databind:2.18.2 | Refl: 56 | Proxy: 0
+Dependency: jackson-annotations:2.18.2 | Refl: 2 | Proxy: 0
+Dependency: jackson-datatype-jsr310:2.18.2 | Refl: 4 | Proxy: 0
+Dependency: HdrHistogram:2.2.2 | Refl: 12 | Proxy: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Proxy: 0
+Dependency: HikariCP:5.1.0 | Refl: 12 | Proxy: 0
+Dependency: hibernate-core:6.6.8.Final | Refl: 1214 | Proxy: 0
+Dependency: jakarta.persistence-api:3.1.0 | Refl: 2 | Proxy: 0
+Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Proxy: 0
+Dependency: hibernate-commons-annotations:7.0.3.Final | Refl: 3 | Proxy: 0
+Dependency: classmate:1.7.0 | Refl: 2 | Proxy: 0
+Dependency: spring-context:6.2.3 | Refl: 154 | Proxy: 0
+Dependency: spring-aop:6.2.3 | Refl: 31 | Proxy: 0
+Dependency: spring-tx:6.2.3 | Refl: 3 | Proxy: 0
+Dependency: slf4j-api:2.0.16 | Refl: 2 | Proxy: 0
+Dependency: spring-aspects:6.2.3 | Refl: 24 | Proxy: 0
+Dependency: aspectjweaver:1.9.22.1 | Refl: 71 | Proxy: 0
+Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+Dependency: jackson-datatype-jdk8:2.18.2 | Refl: 2 | Proxy: 0
+Dependency: tomcat-embed-core:10.1.36 | Refl: 105 | Proxy: 0
+Dependency: tomcat-embed-el:10.1.36 | Refl: 25 | Proxy: 0
+Dependency: spring-expression:6.2.3 | Refl: 47 | Proxy: 0
+Dependency: postgresql:42.7.5 | Refl: 95 | Proxy: 0
+Dependency: jakarta.xml.bind-api:4.0.2 | Refl: 4 | Proxy: 0
+Dependency: spring-jcl:6.2.3 | Refl: 2 | Proxy: 0
+Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
+Dependency: jaxb-core:4.0.5 | Refl: 7 | Proxy: 0
