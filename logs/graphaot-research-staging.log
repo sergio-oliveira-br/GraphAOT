@@ -10,3 +10,9 @@
 2026-05-19 17:58:42 [INFO] [graphaot-research-staging]  [OK] StockWise completed.
 
 2026-05-19 17:58:42 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-19 20:13:08 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'algo-struct'
+2026-05-19 20:13:08 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-19 20:13:08 [INFO] [graphaot-research-staging] >>> Processing: algo-struct
+2026-05-19 20:13:34 [INFO] [graphaot-research-staging]  [OK] algo-struct completed.
+
+2026-05-19 20:13:34 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---

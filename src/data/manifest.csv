@@ -1,6 +1,6 @@
 project_id,github_url,java_version,status,s3_path,error_detail,last_attempt
 safetrade_client_service,https://github.com/sergio-oliveira-br/safetrade_client_service,,FAILED_MAVEN,,BOM/POM generation failed,2026-04-16 19:28:23
-algo-struct,https://github.com/sergio-oliveira-br/algo-struct,,ANALYSED,s3://graphaot-research/analysis/algo-struct/,,2026-05-19 17:34:00
+algo-struct,https://github.com/sergio-oliveira-br/algo-struct,,ANALYSED,s3://graphaot-research/analysis/algo-struct/,,2026-05-19 20:13:34
 algorithms-api-java,https://github.com/sergio-oliveira-br/algorithms-api-java,,HARVESTED,s3://graphaot-research/analysis/algorithms-api-java/,,2026-04-16 19:28:36
 StockWise,https://github.com/sergio-oliveira-br/StockWise,,ANALYSED,s3://graphaot-research/analysis/StockWise/,,2026-05-19 17:58:42
 sale-service,https://github.com/sergio-oliveira-br/sale-service,17,HARVESTED,s3://graphaot-research/analysis/sale-service/,,2026-04-16 19:31:14
