@@ -12,6 +12,26 @@ class GitManager(VersionControl):
     def __init__(self):
         self.logger = setup_logger("git_manager")
 
+    def _check_repo_exists(self, url: str) -> bool:
+        """Check if the remote repository exists and is reachable."""
+        try:
+            result = subprocess.run(
+                ["git", "ls-remote", url],
+                check=True,
+                capture_output=True,
+                text=True,
+                timeout=20
+            )
+            return True
+
+        except subprocess.CalledProcessError:
+            self.logger.error(f"Repository not reachable: {url}")
+            return False
+
+        except subprocess.TimeoutExpired:
+            self.logger.error(f"Timeout checking repository: {url}")
+            return False
+
     def clone(self, url: str, target_path: str) -> bool:
         """Performs the ephemeral clone (depth 1)"""
         path = Path(target_path)
