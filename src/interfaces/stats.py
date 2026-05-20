@@ -9,11 +9,6 @@ class StatsProvider(ABC):
         pass
 
     @abstractmethod
-    def _initialize_storage(self):
-        """create file or table"""
-        pass
-
-    @abstractmethod
     def compute_migration_metrics(self, graph_metrics: dict, aot_results: dict) -> dict:
         """Compute metrics needed for migration"""
         pass
