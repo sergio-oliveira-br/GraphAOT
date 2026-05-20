@@ -54,6 +54,15 @@ class GitManager(VersionControl):
 
     def clone(self, url: str, target_path: str) -> bool:
         """Performs the ephemeral clone (depth 1)"""
+
+        # Pre-check: repo exists
+        if not self._check_repo_exists(url):
+            return False
+
+        # Pre-check: pom.xml exists
+        if not self._check_pom_exists(url):
+            return False
+
         path = Path(target_path)
 
         # If the folder already exists, it is removed earlier
