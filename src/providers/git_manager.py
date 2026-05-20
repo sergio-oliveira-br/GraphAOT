@@ -32,6 +32,26 @@ class GitManager(VersionControl):
             self.logger.error(f"Timeout checking repository: {url}")
             return False
 
+    def _check_pom_exists(self, url: str) -> bool:
+        """Check if pom.xml exists in the remote HEAD without cloning."""
+        try:
+            result = subprocess.run(
+                ["git", "archive", f"--remote={url}", "HEAD", "pom.xml"],
+                check=True,
+                capture_output=True,
+                text=True,
+                timeout=20
+            )
+            return True
+
+        except subprocess.CalledProcessError:
+            self.logger.error(f"pom.xml not found in remote repository: {url}")
+            return False
+
+        except subprocess.TimeoutExpired:
+            self.logger.error(f"Timeout checking pom.xml in: {url}")
+            return False
+
     def clone(self, url: str, target_path: str) -> bool:
         """Performs the ephemeral clone (depth 1)"""
         path = Path(target_path)
