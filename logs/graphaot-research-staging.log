@@ -22,3 +22,9 @@
 2026-05-20 12:19:21 [INFO] [graphaot-research-staging]  [OK] StockWise completed.
 
 2026-05-20 12:19:21 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-20 12:28:49 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-20 12:28:49 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-20 12:28:49 [INFO] [graphaot-research-staging] >>> Processing: jnativehook
+2026-05-20 12:28:50 [INFO] [graphaot-research-staging]  [OK] jnativehook completed.
+
+2026-05-20 12:28:50 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---

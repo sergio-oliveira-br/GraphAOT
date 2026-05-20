@@ -13,6 +13,6 @@ piggymetrics,248,672,0.0109703539245135,8,,True,spring-boot-starter|spring-cloud
 SpringBootForBeginners,64,152,0.0376984126984126,5,,True,spring-boot-starter|spring-boot-starter-logging|spring-data-rest-webmvc,63,687,0,0,687,10.904761904761903,0,2026-05-01 13:07:05
 spring-cloud-gateway,218,593,0.0125354077706844,7,,True,spring-cloud-gateway-server-webflux|spring-boot|spring-boot-starter,217,1666,0,0,1666,7.67741935483871,0,2026-05-01 13:52:49
 serverless-graalvm-demo,70,205,0.0424430641821946,0,,True,aws-java-sdk-core|sdk-core|aws-core,69,176,0,0,176,2.550724637681159,0,2026-05-10 12:38:52
-jnativehook,1,0,0.0,0,,True,,0,0,0,0,0,0.0,0,2026-05-13 17:45:00
 algo-struct,42,75,0.0435540069686411,5,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,616,0,0,616,15.024390243902438,0,2026-05-19 20:13:34
-StockWise,104,205,0.019137415982076175,6,,True,spring-boot-starter|spring-boot|all,103,2098,0,0,2098,20.368932038834952,0,2026-05-20 12:19:21
+StockWise,104,205,0.0191374159820761,6,,True,spring-boot-starter|spring-boot|all,103,2098,0,0,2098,20.368932038834952,0,2026-05-20 12:19:21
+jnativehook,1,0,0.0,0,,True,,0,0,0,0,0,0.0,0,2026-05-20 12:28:50

@@ -662,3 +662,5 @@
 2026-05-20 12:19:20 [WARNING] [reachability-metadata-manager] Metadata index not found for org.eclipse.angus:angus-activation
 2026-05-20 12:19:21 [WARNING] [reachability-metadata-manager] Metadata index not found for com.formdev:flatlaf
 2026-05-20 12:19:21 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 103 deps processed for StockWise] ---
+2026-05-20 12:28:50 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: jnativehook] ---
+2026-05-20 12:28:50 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for jnativehook] ---

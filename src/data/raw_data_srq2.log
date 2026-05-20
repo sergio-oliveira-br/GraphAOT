@@ -2227,3 +2227,9 @@ Dependency: jakarta.xml.bind-api:4.0.2 | Refl: 4 | Proxy: 0
 Dependency: spring-jcl:6.2.3 | Refl: 2 | Proxy: 0
 Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Proxy: 0
 Dependency: jaxb-core:4.0.5 | Refl: 7 | Proxy: 0
+
+============================================================
+PROJECT: jnativehook | DATE: 2026-05-20 12:28:50
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
