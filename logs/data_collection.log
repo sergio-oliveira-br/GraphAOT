@@ -74,3 +74,7 @@
 2026-05-19 17:57:40 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-05-19 17:57:40 [INFO] [data_collection] >>> Harvesting Project: StockWise
 2026-05-19 17:57:49 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-20 11:31:30 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'safetrade_client_service'
+2026-05-20 11:31:30 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-20 11:31:30 [INFO] [data_collection] >>> Harvesting Project: safetrade_client_service
+2026-05-20 11:31:31 [INFO] [data_collection] --- Harvester Pipeline Finished ---
