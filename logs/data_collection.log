@@ -78,3 +78,43 @@
 2026-05-20 11:31:30 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-05-20 11:31:30 [INFO] [data_collection] >>> Harvesting Project: safetrade_client_service
 2026-05-20 11:31:31 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-21 12:48:20 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-21 12:48:20 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-21 12:48:20 [INFO] [data_collection] >>> Harvesting Project: jnativehook
+2026-05-21 12:48:20 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-21 12:51:29 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-21 12:51:29 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-21 12:51:29 [INFO] [data_collection] >>> Harvesting Project: LabMQTT
+2026-05-21 12:51:29 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-21 13:00:21 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-21 13:00:21 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-21 13:00:21 [INFO] [data_collection] >>> Harvesting Project: LabMQTT
+2026-05-21 13:00:21 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-21 13:01:38 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-21 13:01:38 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-21 13:01:38 [INFO] [data_collection] >>> Harvesting Project: LabMQTT
+2026-05-21 13:01:46 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-21 13:02:16 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-21 13:02:16 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-21 13:02:16 [INFO] [data_collection] >>> Harvesting Project: jnativehook
+2026-05-21 13:02:21 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-21 13:19:37 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-21 13:19:37 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-21 13:19:37 [INFO] [data_collection] >>> Harvesting Project: LabMQTT
+2026-05-21 13:19:37 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-21 13:19:56 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-21 13:19:56 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-21 13:19:56 [INFO] [data_collection] >>> Harvesting Project: LabMQTT
+2026-05-21 13:19:57 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-21 13:20:31 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-21 13:20:31 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-21 13:20:31 [INFO] [data_collection] >>> Harvesting Project: LabMQTT
+2026-05-21 13:20:31 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-21 13:21:31 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-21 13:21:31 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-21 13:21:31 [INFO] [data_collection] >>> Harvesting Project: LabMQTT
+2026-05-21 13:21:33 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-21 13:22:30 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-21 13:22:30 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-21 13:22:30 [INFO] [data_collection] >>> Harvesting Project: LabMQTT
+2026-05-21 13:22:34 [INFO] [data_collection] --- Harvester Pipeline Finished ---

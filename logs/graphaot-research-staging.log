@@ -28,3 +28,27 @@
 2026-05-20 12:28:50 [INFO] [graphaot-research-staging]  [OK] jnativehook completed.
 
 2026-05-20 12:28:50 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-21 12:41:32 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-21 12:41:32 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-21 12:41:32 [INFO] [graphaot-research-staging] >>> Processing: jnativehook
+2026-05-21 12:41:33 [INFO] [graphaot-research-staging]  [OK] jnativehook completed.
+
+2026-05-21 12:41:33 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-21 12:46:13 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-21 12:46:13 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-21 12:46:13 [INFO] [graphaot-research-staging] >>> Processing: jnativehook
+2026-05-21 12:46:13 [INFO] [graphaot-research-staging]  [OK] jnativehook completed.
+
+2026-05-21 12:46:13 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-21 13:04:58 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-21 13:04:58 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-21 13:04:58 [INFO] [graphaot-research-staging] >>> Processing: jnativehook
+2026-05-21 13:04:58 [INFO] [graphaot-research-staging]  [OK] jnativehook completed.
+
+2026-05-21 13:04:58 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-21 13:18:39 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'jnativehook'
+2026-05-21 13:18:39 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-21 13:18:39 [INFO] [graphaot-research-staging] >>> Processing: jnativehook
+2026-05-21 13:18:39 [INFO] [graphaot-research-staging]  [OK] jnativehook completed.
+
+2026-05-21 13:18:39 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---

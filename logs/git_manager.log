@@ -20,3 +20,14 @@ fatal: repository 'https://github.com/graalvm/graalvm-demos/tree/master/native-i
 2026-05-19 17:32:55 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/algo-struct
 2026-05-19 17:57:40 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/StockWise
 2026-05-20 11:31:31 [ERROR] [git_manager] pom.xml not found in remote repository: https://github.com/sergio-oliveira-br/safetrade_client_service
+2026-05-21 12:48:20 [ERROR] [git_manager] pom.xml not found in remote repository: https://github.com/kwhat/jnativehook
+2026-05-21 12:51:29 [ERROR] [git_manager] pom.xml not found in remote repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-21 13:00:21 [ERROR] [git_manager] pom.xml not found in remote repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-21 13:01:38 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-21 13:02:16 [INFO] [git_manager] Cloning repository: https://github.com/kwhat/jnativehook
+2026-05-21 13:19:37 [ERROR] [git_manager] pom.xml not found in remote repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-21 13:19:57 [ERROR] [git_manager] pom.xml not found in remote repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-21 13:20:31 [ERROR] [git_manager] pom.xml not found in remote repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-21 13:21:31 [INFO] [git_manager] Checking if https://github.com/sergio-oliveira-br/LabMQTT is reachable
+2026-05-21 13:21:33 [ERROR] [git_manager] pom.xml not found in remote repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-21 13:22:30 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/LabMQTT
