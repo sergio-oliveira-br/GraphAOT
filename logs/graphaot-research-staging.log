@@ -331,3 +331,76 @@
 2026-05-22 17:20:11 [INFO] [graphaot-research-staging]  [OK] Maven-Web-Application completed.
 
 2026-05-22 17:20:11 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 18:36:39 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-22 18:36:39 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 18:36:39 [INFO] [graphaot-research-staging] >>> Processing: mini-erp
+2026-05-22 18:37:17 [INFO] [graphaot-research-staging]  [OK] mini-erp completed.
+
+2026-05-22 18:37:17 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 18:54:03 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-22 18:54:03 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 18:54:03 [INFO] [graphaot-research-staging] >>> Processing: mini-erp
+2026-05-22 18:54:41 [INFO] [graphaot-research-staging]  [OK] mini-erp completed.
+
+2026-05-22 18:54:41 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 19:00:27 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-22 19:00:27 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 19:00:27 [INFO] [graphaot-research-staging] >>> Processing: mini-erp
+2026-05-22 19:01:09 [INFO] [graphaot-research-staging]  [OK] mini-erp completed.
+
+2026-05-22 19:01:09 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 19:03:32 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-22 19:03:32 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 19:03:32 [INFO] [graphaot-research-staging] >>> Processing: mini-erp
+2026-05-22 19:03:33 [ERROR] [graphaot-research-staging] Exception: S3Storage.download_file() missing 1 required positional argument: 'local_path'
+2026-05-22 19:03:52 [INFO] [graphaot-research-staging]  [OK] mini-erp completed.
+
+2026-05-22 19:03:52 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 19:05:41 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-22 19:05:41 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 19:05:41 [INFO] [graphaot-research-staging] >>> Processing: mini-erp
+2026-05-22 19:06:19 [INFO] [graphaot-research-staging]  [OK] mini-erp completed.
+
+2026-05-22 19:06:19 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 19:07:13 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-22 19:07:13 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 19:07:13 [INFO] [graphaot-research-staging] >>> Processing: mini-erp
+2026-05-22 19:07:33 [INFO] [graphaot-research-staging]  [OK] mini-erp completed.
+
+2026-05-22 19:07:33 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 19:08:06 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-22 19:08:06 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 19:08:06 [INFO] [graphaot-research-staging] >>> Processing: mini-erp
+2026-05-22 19:08:23 [INFO] [graphaot-research-staging]  [OK] mini-erp completed.
+
+2026-05-22 19:08:23 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 19:11:12 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-22 19:11:12 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 19:11:12 [INFO] [graphaot-research-staging] >>> Processing: mini-erp
+2026-05-22 19:11:13 [INFO] [graphaot-research-staging] Dependency Tree Loaded: temp/analysis_cache/mini-erp_dependency-tree.txt
+2026-05-22 19:11:13 [INFO] [graphaot-research-staging] Resolved Dependency Tree Loaded: temp/analysis_cache/mini-erp_resolved-deps.txt
+2026-05-22 19:11:13 [INFO] [graphaot-research-staging] Resolved Effective POM temp/analysis_cache/mini-erp_effective-pom.xml
+2026-05-22 19:11:49 [INFO] [graphaot-research-staging]  [OK] mini-erp completed.
+
+2026-05-22 19:11:49 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 19:14:50 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-22 19:14:50 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 19:14:50 [INFO] [graphaot-research-staging] >>> Processing: mini-erp
+2026-05-22 19:15:10 [INFO] [graphaot-research-staging] Loaded dependency-tree length: 23433
+2026-05-22 19:15:10 [INFO] [graphaot-research-staging] Loaded resolved-deps length: 8969
+2026-05-22 19:15:10 [INFO] [graphaot-research-staging] Loaded effective-pom length: 306640
+2026-05-22 19:15:10 [INFO] [graphaot-research-staging]  [OK] mini-erp completed.
+
+2026-05-22 19:15:10 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 19:57:14 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'spring-native'
+2026-05-22 19:57:14 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 19:57:14 [INFO] [graphaot-research-staging] >>> Processing: spring-native
+2026-05-22 19:58:23 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'spring-native'
+2026-05-22 19:58:23 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 19:58:23 [INFO] [graphaot-research-staging] >>> Processing: spring-native
+2026-05-22 20:01:52 [INFO] [graphaot-research-staging] Loaded dependency-tree length: 0
+2026-05-22 20:01:52 [INFO] [graphaot-research-staging] Loaded resolved-deps length: 0
+2026-05-22 20:01:52 [INFO] [graphaot-research-staging] Loaded effective-pom length: 0
+2026-05-22 20:01:52 [INFO] [graphaot-research-staging]  [OK] spring-native completed.
+
+2026-05-22 20:01:52 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---

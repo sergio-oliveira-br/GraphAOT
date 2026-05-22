@@ -311,3 +311,52 @@
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
 2026-05-22 17:02:44 [ERROR] [maven_manager] Audit file not found in: temp/work_dir/Software-Development/target/effective-pom.xml
+2026-05-22 18:23:22 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 18:23:25 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/effective-pom.xml
+2026-05-22 18:23:27 [INFO] [maven_manager] Running Maven: dependency:tree -Dverbose -DoutputFile=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/dependency-tree.txt
+2026-05-22 18:23:30 [INFO] [maven_manager] Running Maven: dependency:resolve -DincludeScope=runtime -DoutputFile=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/resolved-deps.txt
+2026-05-22 18:23:32 [INFO] [maven_manager] Running Maven: dependency:list -DoutputFile=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/dependency-list.txt
+2026-05-22 18:53:42 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 18:53:45 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/effective-pom.xml
+2026-05-22 18:53:47 [INFO] [maven_manager] Running Maven: dependency:tree -Dverbose -DoutputFile=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/dependency-tree.txt
+2026-05-22 18:53:49 [INFO] [maven_manager] Running Maven: dependency:resolve -DincludeScope=runtime -DoutputFile=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/resolved-deps.txt
+2026-05-22 18:53:51 [INFO] [maven_manager] Running Maven: dependency:list -DoutputFile=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/dependency-list.txt
+2026-05-22 19:57:36 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 19:57:46 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/spring-native/target/effective-pom.xml
+2026-05-22 19:57:48 [INFO] [maven_manager] Running Maven: dependency:tree -Dverbose -DoutputFile=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/spring-native/target/dependency-tree.txt
+2026-05-22 19:57:53 [INFO] [maven_manager] Running Maven: dependency:resolve -DincludeScope=runtime -DoutputFile=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/spring-native/target/resolved-deps.txt
+2026-05-22 19:57:55 [ERROR] [maven_manager] Maven error - Standard Error: 
+2026-05-22 19:57:55 [ERROR] [maven_manager] Maven error - Standard Output: [ERROR] Failed to execute goal on project spring-aot: Could not resolve dependencies for project org.springframework.experimental:spring-aot:jar:0.12.3-SNAPSHOT
+[ERROR] dependency: org.springframework.experimental:spring-native:jar:0.12.3-SNAPSHOT (compile)
+[ERROR] 	org.springframework.experimental:spring-native:jar:0.12.3-SNAPSHOT was not found in https://packages.confluent.io/maven/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of confluent has elapsed or updates are forced
+[ERROR] 	org.springframework.experimental:spring-native:jar:0.12.3-SNAPSHOT was not found in https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of spring-snapshot has elapsed or updates are forced
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :spring-aot
+
+2026-05-22 19:57:55 [INFO] [maven_manager] Running Maven: dependency:list -DoutputFile=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/spring-native/target/dependency-list.txt
+2026-05-22 19:57:57 [ERROR] [maven_manager] Maven error - Standard Error: 
+2026-05-22 19:57:57 [ERROR] [maven_manager] Maven error - Standard Output: [ERROR] Failed to execute goal on project spring-aot: Could not resolve dependencies for project org.springframework.experimental:spring-aot:jar:0.12.3-SNAPSHOT
+[ERROR] dependency: org.springframework.experimental:spring-native:jar:0.12.3-SNAPSHOT (compile)
+[ERROR] 	org.springframework.experimental:spring-native:jar:0.12.3-SNAPSHOT was not found in https://packages.confluent.io/maven/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of confluent has elapsed or updates are forced
+[ERROR] 	org.springframework.experimental:spring-native:jar:0.12.3-SNAPSHOT was not found in https://repo.spring.io/snapshot during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of spring-snapshot has elapsed or updates are forced
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :spring-aot
+

@@ -332,3 +332,15 @@
 2026-05-22 17:08:59 [INFO] [data_collection] Nothing to harvest at the moment.
 2026-05-22 17:09:19 [INFO] [data_collection] *** Auto Mode ***: Fetching PENDING projects from manifest.
 2026-05-22 17:09:19 [INFO] [data_collection] Nothing to harvest at the moment.
+2026-05-22 18:23:20 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-22 18:23:20 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 18:23:20 [INFO] [data_collection] >>> Harvesting Project: mini-erp
+2026-05-22 18:23:35 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 18:53:40 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-22 18:53:40 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 18:53:40 [INFO] [data_collection] >>> Harvesting Project: mini-erp
+2026-05-22 18:53:56 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 19:57:34 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'spring-native'
+2026-05-22 19:57:34 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 19:57:34 [INFO] [data_collection] >>> Harvesting Project: spring-native
+2026-05-22 19:57:58 [INFO] [data_collection] --- Harvester Pipeline Finished ---

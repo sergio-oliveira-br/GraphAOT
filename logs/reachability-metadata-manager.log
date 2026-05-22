@@ -2736,3 +2736,24 @@
 2026-05-22 17:20:10 [INFO] [reachability-metadata-manager] [+] Dependency: spring-expression:5.1.2.RELEASE | Refl: 48 | Proxy: 0
 2026-05-22 17:20:11 [INFO] [reachability-metadata-manager] [+] Dependency: spring-context:5.1.2.RELEASE | Refl: 154 | Proxy: 0
 2026-05-22 17:20:11 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 10 deps processed for Maven-Web-Application] ---
+2026-05-22 18:36:40 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: mini-erp] ---
+2026-05-22 18:37:17 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-05-22 18:54:04 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: mini-erp] ---
+2026-05-22 18:54:41 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-05-22 19:00:28 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: mini-erp] ---
+2026-05-22 19:01:09 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-05-22 19:03:33 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: mini-erp] ---
+2026-05-22 19:03:52 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-05-22 19:05:42 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: mini-erp] ---
+2026-05-22 19:06:19 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-05-22 19:07:14 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: mini-erp] ---
+2026-05-22 19:07:33 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-05-22 19:08:07 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: mini-erp] ---
+2026-05-22 19:08:23 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-05-22 19:11:13 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: mini-erp] ---
+2026-05-22 19:11:49 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-05-22 19:14:50 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: mini-erp] ---
+2026-05-22 19:15:10 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 83 deps processed for mini-erp] ---
+2026-05-22 19:57:15 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: spring-native] ---
+2026-05-22 19:58:23 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: spring-native] ---
+2026-05-22 20:01:52 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 518 deps processed for spring-native] ---

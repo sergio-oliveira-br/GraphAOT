@@ -210,3 +210,16 @@
 2026-05-22 17:19:56 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] json-iterator_java updated
 2026-05-22 17:20:08 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] resolver updated
 2026-05-22 17:20:11 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] Maven-Web-Application updated
+2026-05-22 18:23:35 [INFO] [manifest_manager]  [MANIFEST][HARVESTED] mini-erp updated
+2026-05-22 18:37:17 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] mini-erp updated
+2026-05-22 18:53:56 [INFO] [manifest_manager]  [MANIFEST][HARVESTED] mini-erp updated
+2026-05-22 18:54:41 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] mini-erp updated
+2026-05-22 19:01:09 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] mini-erp updated
+2026-05-22 19:03:52 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] mini-erp updated
+2026-05-22 19:06:19 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] mini-erp updated
+2026-05-22 19:07:33 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] mini-erp updated
+2026-05-22 19:08:23 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] mini-erp updated
+2026-05-22 19:11:49 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] mini-erp updated
+2026-05-22 19:15:10 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] mini-erp updated
+2026-05-22 19:57:57 [INFO] [manifest_manager]  [MANIFEST][FAILED_MAVEN_POM_ARTIFACTS] spring-native updated
+2026-05-22 20:01:52 [INFO] [manifest_manager]  [MANIFEST][ANALYSED] spring-native updated

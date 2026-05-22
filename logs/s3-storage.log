@@ -182,3 +182,31 @@
 2026-05-22 16:58:53 [INFO] [s3-storage] [Success] temp/work_dir/resolver/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/resolver/effective-pom.xml
 2026-05-22 16:58:58 [INFO] [s3-storage] [Success] temp/work_dir/Maven-Web-Application/target/bom.json -> s3://graphaot-research-staging/analysis/Maven-Web-Application/bom.json
 2026-05-22 16:58:58 [INFO] [s3-storage] [Success] temp/work_dir/Maven-Web-Application/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/Maven-Web-Application/effective-pom.xml
+2026-05-22 18:23:34 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/bom.json -> s3://graphaot-research-staging/analysis/mini-erp/bom.json
+2026-05-22 18:23:34 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/mini-erp/effective-pom.xml
+2026-05-22 18:23:35 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/dependency-tree.txt -> s3://graphaot-research-staging/analysis/mini-erp/dependency-tree.txt
+2026-05-22 18:23:35 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/resolved-deps.txt -> s3://graphaot-research-staging/analysis/mini-erp/resolved-deps.txt
+2026-05-22 18:23:35 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/dependency-list.txt -> s3://graphaot-research-staging/analysis/mini-erp/dependency-list.txt
+2026-05-22 18:36:40 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 18:53:54 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/bom.json -> s3://graphaot-research-staging/analysis/mini-erp/bom.json
+2026-05-22 18:53:55 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/mini-erp/effective-pom.xml
+2026-05-22 18:53:55 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/dependency-tree.txt -> s3://graphaot-research-staging/analysis/mini-erp/dependency-tree.txt
+2026-05-22 18:53:56 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/resolved-deps.txt -> s3://graphaot-research-staging/analysis/mini-erp/resolved-deps.txt
+2026-05-22 18:53:56 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/dependency-list.txt -> s3://graphaot-research-staging/analysis/mini-erp/dependency-list.txt
+2026-05-22 18:54:04 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 18:54:04 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:00:28 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:00:28 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:03:32 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:03:33 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:05:42 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:07:14 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:08:06 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:11:13 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:14:50 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:57:15 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:57:15 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:57:15 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:58:23 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:58:23 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 19:58:23 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
