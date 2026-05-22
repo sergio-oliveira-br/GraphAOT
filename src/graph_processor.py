@@ -9,6 +9,8 @@ from src.providers.s3_storage import S3Storage
 from src.providers.stats_manager import StatsManager
 from src.utils.logger import setup_logger
 
+BUCKET_NAME = "graphaot-research-staging"
+
 # What it does: It transforms the "lake" into graphs and calculates SRQ1 metrics.
 # Focus: Network mathematics and topology.
 # Result: Structural metrics (Centrality, Depth).
@@ -24,7 +26,7 @@ def run_analysis(target_id=None):
         'manifest': ManifestManager(str(manifest_path)),
         'graph': NetworkXGraphManager(),
         'metadata': ReachabilityMetadataManager(),
-        'storage': S3Storage("graphaot-research"),
+        'storage': S3Storage(BUCKET_NAME),
         'stats': StatsManager(str(results_csv)),
         'logger': logger
     }
@@ -70,7 +72,7 @@ def _process_project(p_id, service):
         service['stats'].save_metrics(p_id, final_data)
         service['stats'].save_raw_log(p_id, aot_results)
 
-        s3_path_ref = f"s3://graphaot-research/analysis/{p_id}/"
+        s3_path_ref = f"s3://{BUCKET_NAME}/analysis/{p_id}/"
         service['manifest'].update_project_status(p_id, "ANALYSED", s3_path=s3_path_ref)
         logger.info(f" [OK] {p_id} completed.\n")
 
