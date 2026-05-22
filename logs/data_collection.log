@@ -328,3 +328,7 @@
 2026-05-22 17:02:38 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-05-22 17:02:38 [INFO] [data_collection] >>> Harvesting Project: Software-Development
 2026-05-22 17:02:44 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 17:08:59 [INFO] [data_collection] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-05-22 17:08:59 [INFO] [data_collection] Nothing to harvest at the moment.
+2026-05-22 17:09:19 [INFO] [data_collection] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-05-22 17:09:19 [INFO] [data_collection] Nothing to harvest at the moment.
