@@ -1,28 +1,28 @@
 project_id,github_url,java_version,status,s3_path,error_detail,last_attempt
-safetrade_client_service,https://github.com/sergio-oliveira-br/safetrade_client_service,,FAILED_CLONE,,Git clone failed,2026-05-20 11:31:31
-algo-struct,https://github.com/sergio-oliveira-br/algo-struct,,ANALYSED,s3://graphaot-research/analysis/algo-struct/,,2026-05-22 14:58:14
-algorithms-api-java,https://github.com/sergio-oliveira-br/algorithms-api-java,,HARVESTED,s3://graphaot-research/analysis/algorithms-api-java/,,2026-04-16 19:28:36
-StockWise,https://github.com/sergio-oliveira-br/StockWise,,ANALYSED,s3://graphaot-research/analysis/StockWise/,,2026-05-20 12:19:21
-sale-service,https://github.com/sergio-oliveira-br/sale-service,17,HARVESTED,s3://graphaot-research/analysis/sale-service/,,2026-04-16 19:31:14
-mini-erp,https://github.com/sergio-oliveira-br/mini-erp,17,HARVESTED,s3://graphaot-research/analysis/mini-erp/,,2026-04-16 19:51:12
-LabMQTT,https://github.com/sergio-oliveira-br/LabMQTT,,HARVESTED,s3://graphaot-research-staging/analysis/LabMQTT/,,2026-05-22 11:09:45
-URLGeneratorApp,https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp,,FAILED_CLONE,,Git clone failed,2026-04-16 20:08:59
-task-manager,https://github.com/sergio-oliveira-br/task-manager,,HARVESTED,s3://graphaot-research/analysis/task-manager/,,2026-04-16 19:30:09
-serverless-graalvm-demo,https://github.com/aws-samples/serverless-graalvm-demo,,ANALYSED,s3://graphaot-research/analysis/serverless-graalvm-demo/,,2026-05-10 12:38:52
-Software-Development,https://github.com/sergio-oliveira-br/Software-Development,,FAILED_MAVEN,,BOM/POM generation failed,2026-04-16 20:11:28
-graal,https://github.com/oracle/graal,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-22 15:20:48
-doom-graal,https://github.com/stepstone-tech/doom-graalvm,19,HARVESTED,s3://graphaot-research-staging/analysis/doom-graal/,,2026-05-22 11:09:10
-java-graalvm-start,https://github.com/westinyang/java-graalvm-start,,ANALYSED,s3://graphaot-research/analysis/java-graalvm-start/,,2026-04-28 18:00:28
-spring-boot-graalvm,https://github.com/jonashackt/spring-boot-graalvm,11,ANALYSED,s3://graphaot-research/analysis/spring-boot-graalvm/,,2026-04-28 18:01:35
-spring-native,https://github.com/spring-attic/spring-native,11,ANALYSED,s3://graphaot-research/analysis/spring-native/,,2026-05-22 14:48:44
-azure-native-spring-function,https://github.com/jdubois/azure-native-spring-function,17,ANALYSED,s3://graphaot-research/analysis/azure-native-spring-function/,,2026-04-28 17:57:44
-native-aws-fargate,https://github.com/graalvm/graalvm-demos/tree/master/native-image/clouds/native-aws-fargate,17,FAILED_MAVEN,,BOM/POM generation failed,2026-05-01 12:45:48
-master,https://github.com/graalvm/graalvm-demos/tree/master,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-01 11:52:49
-piggymetrics,https://github.com/sqshq/piggymetrics,,HARVESTED,s3://graphaot-research-staging/analysis/piggymetrics/,,2026-05-22 15:06:58
-SpringBootForBeginners,https://github.com/in28minutes/SpringBootForBeginners,,ANALYSED,s3://graphaot-research/analysis/SpringBootForBeginners/,,2026-05-01 13:07:05
-spring-cloud-gateway,https://github.com/spring-cloud/spring-cloud-gateway,,ANALYSED,s3://graphaot-research/analysis/spring-cloud-gateway/,,2026-05-01 13:52:49
-jnativehook,https://github.com/kwhat/jnativehook,,HARVESTED,s3://graphaot-research-staging/analysis/jnativehook/,,2026-05-22 11:07:37
-hawtjni,https://github.com/fusesource/hawtjni,,ANALYSED,s3://graphaot-research/analysis/hawtjni/,,2026-05-22 14:26:42
-whisper-jni,https://github.com/GiviMAD/whisper-jni,,ANALYSED,s3://graphaot-research/analysis/whisper-jni/,,2026-05-22 14:48:59
-javacpp,https://github.com/bytedeco/javacpp,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-22 15:21:16
-jni-faiss,https://github.com/gameofdimension/jni-faiss,,HARVESTED,s3://graphaot-research-staging/analysis/jni-faiss/,,2026-05-22 15:19:33
+safetrade_client_service,https://github.com/sergio-oliveira-br/safetrade_client_service,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-22 15:24:26
+algo-struct,https://github.com/sergio-oliveira-br/algo-struct,,ANALYSED,s3://graphaot-research/analysis/algo-struct/,,2026-05-22 15:34:43
+algorithms-api-java,https://github.com/sergio-oliveira-br/algorithms-api-java,,ANALYSED,s3://graphaot-research/analysis/algorithms-api-java/,,2026-05-22 15:34:52
+StockWise,https://github.com/sergio-oliveira-br/StockWise,,ANALYSED,s3://graphaot-research/analysis/StockWise/,,2026-05-22 15:35:24
+sale-service,https://github.com/sergio-oliveira-br/sale-service,17,ANALYSED,s3://graphaot-research/analysis/sale-service/,,2026-05-22 15:36:01
+mini-erp,https://github.com/sergio-oliveira-br/mini-erp,17,ANALYSED,s3://graphaot-research/analysis/mini-erp/,,2026-05-22 15:36:20
+LabMQTT,https://github.com/sergio-oliveira-br/LabMQTT,,ANALYSED,s3://graphaot-research/analysis/LabMQTT/,,2026-05-22 15:36:21
+URLGeneratorApp,https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp,,FAILED_CLONE,,Git clone failed,2026-05-22 15:25:06
+task-manager,https://github.com/sergio-oliveira-br/task-manager,,ANALYSED,s3://graphaot-research/analysis/task-manager/,,2026-05-22 15:36:36
+serverless-graalvm-demo,https://github.com/aws-samples/serverless-graalvm-demo,,ANALYSED,s3://graphaot-research/analysis/serverless-graalvm-demo/,,2026-05-22 15:37:04
+Software-Development,https://github.com/sergio-oliveira-br/Software-Development,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-22 15:25:38
+graal,https://github.com/oracle/graal,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-22 15:25:57
+doom-graal,https://github.com/stepstone-tech/doom-graalvm,19,ANALYSED,s3://graphaot-research/analysis/doom-graal/,,2026-05-22 15:37:04
+java-graalvm-start,https://github.com/westinyang/java-graalvm-start,,ANALYSED,s3://graphaot-research/analysis/java-graalvm-start/,,2026-05-22 15:37:28
+spring-boot-graalvm,https://github.com/jonashackt/spring-boot-graalvm,11,ANALYSED,s3://graphaot-research/analysis/spring-boot-graalvm/,,2026-05-22 15:37:28
+spring-native,https://github.com/spring-attic/spring-native,11,ANALYSED,s3://graphaot-research/analysis/spring-native/,,2026-05-22 15:40:28
+azure-native-spring-function,https://github.com/jdubois/azure-native-spring-function,17,ANALYSED,s3://graphaot-research/analysis/azure-native-spring-function/,,2026-05-22 15:40:48
+native-aws-fargate,https://github.com/graalvm/graalvm-demos/tree/master/native-image/clouds/native-aws-fargate,17,FAILED_CLONE,,Git clone failed,2026-05-22 15:26:54
+master,https://github.com/graalvm/graalvm-demos/tree/master,,FAILED_CLONE,,Git clone failed,2026-05-22 15:26:54
+piggymetrics,https://github.com/sqshq/piggymetrics,,ANALYSED,s3://graphaot-research/analysis/piggymetrics/,,2026-05-22 15:42:01
+SpringBootForBeginners,https://github.com/in28minutes/SpringBootForBeginners,,ANALYSED,s3://graphaot-research/analysis/SpringBootForBeginners/,,2026-05-22 15:42:19
+spring-cloud-gateway,https://github.com/spring-cloud/spring-cloud-gateway,,ANALYSED,s3://graphaot-research/analysis/spring-cloud-gateway/,,2026-05-22 15:43:32
+jnativehook,https://github.com/kwhat/jnativehook,,ANALYSED,s3://graphaot-research/analysis/jnativehook/,,2026-05-22 15:43:32
+hawtjni,https://github.com/fusesource/hawtjni,,ANALYSED,s3://graphaot-research/analysis/hawtjni/,,2026-05-22 15:43:32
+whisper-jni,https://github.com/GiviMAD/whisper-jni,,ANALYSED,s3://graphaot-research/analysis/whisper-jni/,,2026-05-22 15:43:32
+javacpp,https://github.com/bytedeco/javacpp,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-22 15:29:25
+jni-faiss,https://github.com/gameofdimension/jni-faiss,,ANALYSED,s3://graphaot-research/analysis/jni-faiss/,,2026-05-22 15:43:32

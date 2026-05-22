@@ -133,3 +133,66 @@
 2026-05-22 15:18:02 [INFO] [graphaot-research-staging]  [OK] jni-faiss completed.
 
 2026-05-22 15:18:02 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 15:34:25 [INFO] [graphaot-research-staging] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-05-22 15:34:25 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 20 projects ---
+2026-05-22 15:34:25 [INFO] [graphaot-research-staging] >>> Processing: algo-struct
+2026-05-22 15:34:43 [INFO] [graphaot-research-staging]  [OK] algo-struct completed.
+
+2026-05-22 15:34:43 [INFO] [graphaot-research-staging] >>> Processing: algorithms-api-java
+2026-05-22 15:34:52 [INFO] [graphaot-research-staging]  [OK] algorithms-api-java completed.
+
+2026-05-22 15:34:52 [INFO] [graphaot-research-staging] >>> Processing: StockWise
+2026-05-22 15:35:24 [INFO] [graphaot-research-staging]  [OK] StockWise completed.
+
+2026-05-22 15:35:24 [INFO] [graphaot-research-staging] >>> Processing: sale-service
+2026-05-22 15:36:01 [INFO] [graphaot-research-staging]  [OK] sale-service completed.
+
+2026-05-22 15:36:01 [INFO] [graphaot-research-staging] >>> Processing: mini-erp
+2026-05-22 15:36:20 [INFO] [graphaot-research-staging]  [OK] mini-erp completed.
+
+2026-05-22 15:36:20 [INFO] [graphaot-research-staging] >>> Processing: LabMQTT
+2026-05-22 15:36:21 [INFO] [graphaot-research-staging]  [OK] LabMQTT completed.
+
+2026-05-22 15:36:21 [INFO] [graphaot-research-staging] >>> Processing: task-manager
+2026-05-22 15:36:36 [INFO] [graphaot-research-staging]  [OK] task-manager completed.
+
+2026-05-22 15:36:36 [INFO] [graphaot-research-staging] >>> Processing: serverless-graalvm-demo
+2026-05-22 15:37:04 [INFO] [graphaot-research-staging]  [OK] serverless-graalvm-demo completed.
+
+2026-05-22 15:37:04 [INFO] [graphaot-research-staging] >>> Processing: doom-graal
+2026-05-22 15:37:05 [INFO] [graphaot-research-staging]  [OK] doom-graal completed.
+
+2026-05-22 15:37:05 [INFO] [graphaot-research-staging] >>> Processing: java-graalvm-start
+2026-05-22 15:37:28 [INFO] [graphaot-research-staging]  [OK] java-graalvm-start completed.
+
+2026-05-22 15:37:28 [INFO] [graphaot-research-staging] >>> Processing: spring-boot-graalvm
+2026-05-22 15:37:28 [INFO] [graphaot-research-staging]  [OK] spring-boot-graalvm completed.
+
+2026-05-22 15:37:28 [INFO] [graphaot-research-staging] >>> Processing: spring-native
+2026-05-22 15:40:28 [INFO] [graphaot-research-staging]  [OK] spring-native completed.
+
+2026-05-22 15:40:28 [INFO] [graphaot-research-staging] >>> Processing: azure-native-spring-function
+2026-05-22 15:40:48 [INFO] [graphaot-research-staging]  [OK] azure-native-spring-function completed.
+
+2026-05-22 15:40:48 [INFO] [graphaot-research-staging] >>> Processing: piggymetrics
+2026-05-22 15:42:01 [INFO] [graphaot-research-staging]  [OK] piggymetrics completed.
+
+2026-05-22 15:42:01 [INFO] [graphaot-research-staging] >>> Processing: SpringBootForBeginners
+2026-05-22 15:42:19 [INFO] [graphaot-research-staging]  [OK] SpringBootForBeginners completed.
+
+2026-05-22 15:42:19 [INFO] [graphaot-research-staging] >>> Processing: spring-cloud-gateway
+2026-05-22 15:43:32 [INFO] [graphaot-research-staging]  [OK] spring-cloud-gateway completed.
+
+2026-05-22 15:43:32 [INFO] [graphaot-research-staging] >>> Processing: jnativehook
+2026-05-22 15:43:32 [INFO] [graphaot-research-staging]  [OK] jnativehook completed.
+
+2026-05-22 15:43:32 [INFO] [graphaot-research-staging] >>> Processing: hawtjni
+2026-05-22 15:43:32 [INFO] [graphaot-research-staging]  [OK] hawtjni completed.
+
+2026-05-22 15:43:32 [INFO] [graphaot-research-staging] >>> Processing: whisper-jni
+2026-05-22 15:43:32 [INFO] [graphaot-research-staging]  [OK] whisper-jni completed.
+
+2026-05-22 15:43:32 [INFO] [graphaot-research-staging] >>> Processing: jni-faiss
+2026-05-22 15:43:32 [INFO] [graphaot-research-staging]  [OK] jni-faiss completed.
+
+2026-05-22 15:43:32 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---

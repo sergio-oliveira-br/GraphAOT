@@ -94,3 +94,60 @@
 2026-05-22 15:20:48 [ERROR] [maven_manager] Audit file not found in: temp/work_dir/graal/target/effective-pom.xml
 2026-05-22 15:21:13 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
 2026-05-22 15:21:15 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/javacpp/target/effective-pom.xml
+2026-05-22 15:24:24 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:24:25 [ERROR] [maven_manager] Maven error: 
+2026-05-22 15:24:25 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/safetrade_client_service/target/effective-pom.xml
+2026-05-22 15:24:26 [ERROR] [maven_manager] Maven error: 
+2026-05-22 15:24:26 [ERROR] [maven_manager] Audit file not found in: temp/work_dir/safetrade_client_service/target/effective-pom.xml
+2026-05-22 15:24:27 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:24:29 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/algo-struct/target/effective-pom.xml
+2026-05-22 15:24:32 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:24:36 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/algorithms-api-java/target/effective-pom.xml
+2026-05-22 15:24:38 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:24:43 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/StockWise/target/effective-pom.xml
+2026-05-22 15:24:46 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:24:51 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/sale-service/target/effective-pom.xml
+2026-05-22 15:24:56 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:25:00 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/mini-erp/target/effective-pom.xml
+2026-05-22 15:25:03 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:25:04 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/LabMQTT/target/effective-pom.xml
+2026-05-22 15:25:07 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:25:10 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/task-manager/target/effective-pom.xml
+2026-05-22 15:25:13 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:25:31 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/serverless-graalvm-demo/target/effective-pom.xml
+2026-05-22 15:25:37 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:25:38 [ERROR] [maven_manager] Maven error: 
+2026-05-22 15:25:38 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/Software-Development/target/effective-pom.xml
+2026-05-22 15:25:38 [ERROR] [maven_manager] Maven error: 
+2026-05-22 15:25:38 [ERROR] [maven_manager] Audit file not found in: temp/work_dir/Software-Development/target/effective-pom.xml
+2026-05-22 15:25:56 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:25:57 [ERROR] [maven_manager] Maven error: 
+2026-05-22 15:25:57 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/graal/target/effective-pom.xml
+2026-05-22 15:25:57 [ERROR] [maven_manager] Maven error: 
+2026-05-22 15:25:57 [ERROR] [maven_manager] Audit file not found in: temp/work_dir/graal/target/effective-pom.xml
+2026-05-22 15:26:02 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:26:04 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/doom-graal/target/effective-pom.xml
+2026-05-22 15:26:06 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:26:11 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/java-graalvm-start/target/effective-pom.xml
+2026-05-22 15:26:14 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:26:18 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/spring-boot-graalvm/target/effective-pom.xml
+2026-05-22 15:26:23 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:26:39 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/spring-native/target/effective-pom.xml
+2026-05-22 15:26:47 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:26:51 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/azure-native-spring-function/target/effective-pom.xml
+2026-05-22 15:26:55 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:27:03 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/piggymetrics/target/effective-pom.xml
+2026-05-22 15:27:08 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:27:12 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/SpringBootForBeginners/target/effective-pom.xml
+2026-05-22 15:27:14 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:28:55 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/spring-cloud-gateway/target/effective-pom.xml
+2026-05-22 15:29:08 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:29:10 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jnativehook/target/effective-pom.xml
+2026-05-22 15:29:12 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:29:16 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/hawtjni/target/effective-pom.xml
+2026-05-22 15:29:19 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:29:20 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/whisper-jni/target/effective-pom.xml
+2026-05-22 15:29:23 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:29:24 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/javacpp/target/effective-pom.xml
+2026-05-22 15:29:26 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:29:28 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jni-faiss/target/effective-pom.xml

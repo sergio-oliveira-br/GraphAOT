@@ -7,3 +7,6 @@
 2026-05-22 14:58:45 [ERROR] [networkX_graph_manager]  [!] Error in build the graph: [Errno 2] No such file or directory: 'temp/analysis_cache/jni-faiss_bom.json'
 2026-05-22 15:07:44 [ERROR] [networkX_graph_manager]  [!] Error in build the graph: [Errno 2] No such file or directory: 'temp/analysis_cache/jni-faiss_bom.json'
 2026-05-22 15:18:02 [ERROR] [networkX_graph_manager]  [!] Error in build the graph: [Errno 2] No such file or directory: 'temp/analysis_cache/jni-faiss_bom.json'
+2026-05-22 15:43:32 [ERROR] [networkX_graph_manager]  [!] Error in build the graph: [Errno 2] No such file or directory: 'temp/analysis_cache/hawtjni_bom.json'
+2026-05-22 15:43:32 [ERROR] [networkX_graph_manager]  [!] Error in build the graph: [Errno 2] No such file or directory: 'temp/analysis_cache/whisper-jni_bom.json'
+2026-05-22 15:43:32 [ERROR] [networkX_graph_manager]  [!] Error in build the graph: [Errno 2] No such file or directory: 'temp/analysis_cache/jni-faiss_bom.json'

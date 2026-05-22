@@ -68,3 +68,46 @@
 2026-05-22 15:18:02 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
 2026-05-22 15:19:33 [INFO] [s3-storage] [Success] temp/work_dir/jni-faiss/target/bom.json -> s3://graphaot-research-staging/analysis/jni-faiss/bom.json
 2026-05-22 15:19:33 [INFO] [s3-storage] [Success] temp/work_dir/jni-faiss/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/jni-faiss/effective-pom.xml
+2026-05-22 15:24:31 [INFO] [s3-storage] [Success] temp/work_dir/algo-struct/target/bom.json -> s3://graphaot-research-staging/analysis/algo-struct/bom.json
+2026-05-22 15:24:31 [INFO] [s3-storage] [Success] temp/work_dir/algo-struct/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/algo-struct/effective-pom.xml
+2026-05-22 15:24:37 [INFO] [s3-storage] [Success] temp/work_dir/algorithms-api-java/target/bom.json -> s3://graphaot-research-staging/analysis/algorithms-api-java/bom.json
+2026-05-22 15:24:38 [INFO] [s3-storage] [Success] temp/work_dir/algorithms-api-java/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/algorithms-api-java/effective-pom.xml
+2026-05-22 15:24:45 [INFO] [s3-storage] [Success] temp/work_dir/StockWise/target/bom.json -> s3://graphaot-research-staging/analysis/StockWise/bom.json
+2026-05-22 15:24:45 [INFO] [s3-storage] [Success] temp/work_dir/StockWise/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/StockWise/effective-pom.xml
+2026-05-22 15:24:54 [INFO] [s3-storage] [Success] temp/work_dir/sale-service/target/bom.json -> s3://graphaot-research-staging/analysis/sale-service/bom.json
+2026-05-22 15:24:54 [INFO] [s3-storage] [Success] temp/work_dir/sale-service/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/sale-service/effective-pom.xml
+2026-05-22 15:25:01 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/bom.json -> s3://graphaot-research-staging/analysis/mini-erp/bom.json
+2026-05-22 15:25:02 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/mini-erp/effective-pom.xml
+2026-05-22 15:25:05 [INFO] [s3-storage] [Success] temp/work_dir/LabMQTT/target/bom.json -> s3://graphaot-research-staging/analysis/LabMQTT/bom.json
+2026-05-22 15:25:05 [INFO] [s3-storage] [Success] temp/work_dir/LabMQTT/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/LabMQTT/effective-pom.xml
+2026-05-22 15:25:12 [INFO] [s3-storage] [Success] temp/work_dir/task-manager/target/bom.json -> s3://graphaot-research-staging/analysis/task-manager/bom.json
+2026-05-22 15:25:12 [INFO] [s3-storage] [Success] temp/work_dir/task-manager/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/task-manager/effective-pom.xml
+2026-05-22 15:25:33 [INFO] [s3-storage] [Success] temp/work_dir/serverless-graalvm-demo/target/bom.json -> s3://graphaot-research-staging/analysis/serverless-graalvm-demo/bom.json
+2026-05-22 15:25:33 [INFO] [s3-storage] [Success] temp/work_dir/serverless-graalvm-demo/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/serverless-graalvm-demo/effective-pom.xml
+2026-05-22 15:26:05 [INFO] [s3-storage] [Success] temp/work_dir/doom-graal/target/bom.json -> s3://graphaot-research-staging/analysis/doom-graal/bom.json
+2026-05-22 15:26:05 [INFO] [s3-storage] [Success] temp/work_dir/doom-graal/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/doom-graal/effective-pom.xml
+2026-05-22 15:26:13 [INFO] [s3-storage] [Success] temp/work_dir/java-graalvm-start/target/bom.json -> s3://graphaot-research-staging/analysis/java-graalvm-start/bom.json
+2026-05-22 15:26:13 [INFO] [s3-storage] [Success] temp/work_dir/java-graalvm-start/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/java-graalvm-start/effective-pom.xml
+2026-05-22 15:26:22 [INFO] [s3-storage] [Success] temp/work_dir/spring-boot-graalvm/target/bom.json -> s3://graphaot-research-staging/analysis/spring-boot-graalvm/bom.json
+2026-05-22 15:26:22 [INFO] [s3-storage] [Success] temp/work_dir/spring-boot-graalvm/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/spring-boot-graalvm/effective-pom.xml
+2026-05-22 15:26:43 [INFO] [s3-storage] [Success] temp/work_dir/spring-native/target/bom.json -> s3://graphaot-research-staging/analysis/spring-native/bom.json
+2026-05-22 15:26:46 [INFO] [s3-storage] [Success] temp/work_dir/spring-native/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/spring-native/effective-pom.xml
+2026-05-22 15:26:53 [INFO] [s3-storage] [Success] temp/work_dir/azure-native-spring-function/target/bom.json -> s3://graphaot-research-staging/analysis/azure-native-spring-function/bom.json
+2026-05-22 15:26:53 [INFO] [s3-storage] [Success] temp/work_dir/azure-native-spring-function/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/azure-native-spring-function/effective-pom.xml
+2026-05-22 15:27:05 [INFO] [s3-storage] [Success] temp/work_dir/piggymetrics/target/bom.json -> s3://graphaot-research-staging/analysis/piggymetrics/bom.json
+2026-05-22 15:27:07 [INFO] [s3-storage] [Success] temp/work_dir/piggymetrics/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/piggymetrics/effective-pom.xml
+2026-05-22 15:27:13 [INFO] [s3-storage] [Success] temp/work_dir/SpringBootForBeginners/target/bom.json -> s3://graphaot-research-staging/analysis/SpringBootForBeginners/bom.json
+2026-05-22 15:27:13 [INFO] [s3-storage] [Success] temp/work_dir/SpringBootForBeginners/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/SpringBootForBeginners/effective-pom.xml
+2026-05-22 15:29:03 [INFO] [s3-storage] [Success] temp/work_dir/spring-cloud-gateway/target/bom.json -> s3://graphaot-research-staging/analysis/spring-cloud-gateway/bom.json
+2026-05-22 15:29:07 [INFO] [s3-storage] [Success] temp/work_dir/spring-cloud-gateway/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/spring-cloud-gateway/effective-pom.xml
+2026-05-22 15:29:11 [INFO] [s3-storage] [Success] temp/work_dir/jnativehook/target/bom.json -> s3://graphaot-research-staging/analysis/jnativehook/bom.json
+2026-05-22 15:29:11 [INFO] [s3-storage] [Success] temp/work_dir/jnativehook/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/jnativehook/effective-pom.xml
+2026-05-22 15:29:18 [INFO] [s3-storage] [Success] temp/work_dir/hawtjni/target/bom.json -> s3://graphaot-research-staging/analysis/hawtjni/bom.json
+2026-05-22 15:29:18 [INFO] [s3-storage] [Success] temp/work_dir/hawtjni/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/hawtjni/effective-pom.xml
+2026-05-22 15:29:22 [INFO] [s3-storage] [Success] temp/work_dir/whisper-jni/target/bom.json -> s3://graphaot-research-staging/analysis/whisper-jni/bom.json
+2026-05-22 15:29:22 [INFO] [s3-storage] [Success] temp/work_dir/whisper-jni/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/whisper-jni/effective-pom.xml
+2026-05-22 15:29:29 [INFO] [s3-storage] [Success] temp/work_dir/jni-faiss/target/bom.json -> s3://graphaot-research-staging/analysis/jni-faiss/bom.json
+2026-05-22 15:29:29 [INFO] [s3-storage] [Success] temp/work_dir/jni-faiss/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/jni-faiss/effective-pom.xml
+2026-05-22 15:43:32 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 15:43:32 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 15:43:32 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
