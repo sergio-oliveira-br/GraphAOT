@@ -32,5 +32,5 @@ class S3Storage(FileStorage):
             return True
 
         except Exception as e:
-            print(f"Error on downloading from S3: {e}")
+            self.logger.error(f"Error on downloading from S3: {e}")
             return False
