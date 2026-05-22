@@ -19,7 +19,7 @@ class S3Storage(FileStorage):
 
         try:
             self.s3_client.upload_file(local_path, self.bucket_name, full_key)
-            self.logger.info(f"Success: {local_path} -> s3://{self.bucket_name}/{full_key}")
+            self.logger.info(f"[Success] {local_path} -> s3://{self.bucket_name}/{full_key}")
             return True
 
         except Exception as e:
