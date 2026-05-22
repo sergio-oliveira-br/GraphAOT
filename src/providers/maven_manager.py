@@ -27,7 +27,8 @@ class MavenManager(BuildTool):
             return True
 
         except subprocess.CalledProcessError as e:
-            self.logger.error(f"Maven error: {e.stderr}")
+            self.logger.error(f"Maven error - Standard Error: {e.stderr}")
+            self.logger.error(f"Maven error - Standard Output: {e.stderr}")
             return False
 
         except subprocess.TimeoutExpired:
