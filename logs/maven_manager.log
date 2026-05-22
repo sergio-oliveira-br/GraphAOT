@@ -45,3 +45,52 @@
 2026-05-21 13:02:19 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jnativehook/target/effective-pom.xml
 2026-05-21 13:22:30 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
 2026-05-21 13:22:33 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/LabMQTT/target/effective-pom.xml
+2026-05-22 10:32:10 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 10:32:13 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/LabMQTT/target/effective-pom.xml
+2026-05-22 10:32:28 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 10:32:29 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jnativehook/target/effective-pom.xml
+2026-05-22 10:34:06 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 10:34:08 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jnativehook/target/effective-pom.xml
+2026-05-22 10:41:05 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 10:41:07 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jnativehook/target/effective-pom.xml
+2026-05-22 11:07:33 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 11:07:35 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jnativehook/target/effective-pom.xml
+2026-05-22 11:09:06 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 11:09:09 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/doom-graal/target/effective-pom.xml
+2026-05-22 11:09:42 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 11:09:43 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/LabMQTT/target/effective-pom.xml
+2026-05-22 11:10:42 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 11:10:46 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/algo-struct/target/effective-pom.xml
+2026-05-22 11:11:30 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 11:11:33 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/algo-struct/target/effective-pom.xml
+2026-05-22 14:22:36 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 14:22:46 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/hawtjni/target/effective-pom.xml
+2026-05-22 14:26:29 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 14:26:32 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/hawtjni/target/effective-pom.xml
+2026-05-22 14:28:32 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 14:28:34 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/whisper-jni/target/effective-pom.xml
+2026-05-22 14:44:21 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 14:44:45 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/spring-native/target/effective-pom.xml
+2026-05-22 14:50:34 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 14:50:37 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/javacpp/target/effective-pom.xml
+2026-05-22 14:53:24 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 14:53:25 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/javacpp/target/effective-pom.xml
+2026-05-22 14:54:56 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 14:54:59 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jni-faiss/target/effective-pom.xml
+2026-05-22 14:56:17 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 14:56:19 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/algo-struct/target/effective-pom.xml
+2026-05-22 14:56:46 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 14:56:49 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/algo-struct/target/effective-pom.xml
+2026-05-22 15:06:44 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:06:53 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/piggymetrics/target/effective-pom.xml
+2026-05-22 15:17:39 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:17:42 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jni-faiss/target/effective-pom.xml
+2026-05-22 15:19:30 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:19:32 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/jni-faiss/target/effective-pom.xml
+2026-05-22 15:20:44 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:20:47 [ERROR] [maven_manager] Maven error: 
+2026-05-22 15:20:47 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/graal/target/effective-pom.xml
+2026-05-22 15:20:48 [ERROR] [maven_manager] Maven error: 
+2026-05-22 15:20:48 [ERROR] [maven_manager] Audit file not found in: temp/work_dir/graal/target/effective-pom.xml
+2026-05-22 15:21:13 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-22 15:21:15 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/javacpp/target/effective-pom.xml

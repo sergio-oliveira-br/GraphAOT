@@ -23,3 +23,48 @@
 2026-05-21 13:02:21 [INFO] [s3-storage] Success: temp/work_dir/jnativehook/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/jnativehook/effective-pom.xml
 2026-05-21 13:22:34 [INFO] [s3-storage] Success: temp/work_dir/LabMQTT/target/bom.json -> s3://graphaot-research-staging/analysis/LabMQTT/bom.json
 2026-05-21 13:22:34 [INFO] [s3-storage] Success: temp/work_dir/LabMQTT/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/LabMQTT/effective-pom.xml
+2026-05-22 10:41:08 [INFO] [s3-storage] Success: temp/work_dir/jnativehook/jni_report.json -> s3://graphaot-research-staging/analysis/jnativehook/jni_report.json
+2026-05-22 10:41:08 [INFO] [s3-storage] Success: temp/work_dir/jnativehook/target/bom.json -> s3://graphaot-research-staging/analysis/jnativehook/bom.json
+2026-05-22 10:41:08 [INFO] [s3-storage] Success: temp/work_dir/jnativehook/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/jnativehook/effective-pom.xml
+2026-05-22 11:07:37 [INFO] [s3-storage] Success: temp/work_dir/jnativehook/jni_report.json -> s3://graphaot-research-staging/analysis/jnativehook/jni_report.json
+2026-05-22 11:07:37 [INFO] [s3-storage] Success: temp/work_dir/jnativehook/target/bom.json -> s3://graphaot-research-staging/analysis/jnativehook/bom.json
+2026-05-22 11:07:37 [INFO] [s3-storage] Success: temp/work_dir/jnativehook/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/jnativehook/effective-pom.xml
+2026-05-22 11:09:10 [INFO] [s3-storage] Success: temp/work_dir/doom-graal/jni_report.json -> s3://graphaot-research-staging/analysis/doom-graal/jni_report.json
+2026-05-22 11:09:10 [INFO] [s3-storage] Success: temp/work_dir/doom-graal/target/bom.json -> s3://graphaot-research-staging/analysis/doom-graal/bom.json
+2026-05-22 11:09:10 [INFO] [s3-storage] Success: temp/work_dir/doom-graal/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/doom-graal/effective-pom.xml
+2026-05-22 11:09:45 [INFO] [s3-storage] Success: temp/work_dir/LabMQTT/jni_report.json -> s3://graphaot-research-staging/analysis/LabMQTT/jni_report.json
+2026-05-22 11:09:45 [INFO] [s3-storage] Success: temp/work_dir/LabMQTT/target/bom.json -> s3://graphaot-research-staging/analysis/LabMQTT/bom.json
+2026-05-22 11:09:45 [INFO] [s3-storage] Success: temp/work_dir/LabMQTT/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/LabMQTT/effective-pom.xml
+2026-05-22 11:10:48 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/jni_report.json -> s3://graphaot-research-staging/analysis/algo-struct/jni_report.json
+2026-05-22 11:10:48 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/target/bom.json -> s3://graphaot-research-staging/analysis/algo-struct/bom.json
+2026-05-22 11:10:48 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/algo-struct/effective-pom.xml
+2026-05-22 11:11:34 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/jni_report.json -> s3://graphaot-research-staging/analysis/algo-struct/jni_report.json
+2026-05-22 11:11:35 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/target/bom.json -> s3://graphaot-research-staging/analysis/algo-struct/bom.json
+2026-05-22 11:11:35 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/algo-struct/effective-pom.xml
+2026-05-22 14:22:50 [INFO] [s3-storage] Success: temp/work_dir/hawtjni/jni_report.json -> s3://graphaot-research-staging/analysis/hawtjni/jni_report.json
+2026-05-22 14:22:50 [INFO] [s3-storage] Success: temp/work_dir/hawtjni/target/bom.json -> s3://graphaot-research-staging/analysis/hawtjni/bom.json
+2026-05-22 14:22:50 [INFO] [s3-storage] Success: temp/work_dir/hawtjni/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/hawtjni/effective-pom.xml
+2026-05-22 14:26:33 [INFO] [s3-storage] Success: temp/work_dir/hawtjni/target/bom.json -> s3://graphaot-research-staging/analysis/hawtjni/bom.json
+2026-05-22 14:26:34 [INFO] [s3-storage] Success: temp/work_dir/hawtjni/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/hawtjni/effective-pom.xml
+2026-05-22 14:28:37 [INFO] [s3-storage] Success: temp/work_dir/whisper-jni/target/bom.json -> s3://graphaot-research-staging/analysis/whisper-jni/bom.json
+2026-05-22 14:28:37 [INFO] [s3-storage] Success: temp/work_dir/whisper-jni/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/whisper-jni/effective-pom.xml
+2026-05-22 14:34:05 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 14:44:50 [INFO] [s3-storage] Success: temp/work_dir/spring-native/target/bom.json -> s3://graphaot-research-staging/analysis/spring-native/bom.json
+2026-05-22 14:44:52 [INFO] [s3-storage] Success: temp/work_dir/spring-native/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/spring-native/effective-pom.xml
+2026-05-22 14:48:59 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 14:55:00 [INFO] [s3-storage] Success: temp/work_dir/jni-faiss/target/bom.json -> s3://graphaot-research-staging/analysis/jni-faiss/bom.json
+2026-05-22 14:55:00 [INFO] [s3-storage] Success: temp/work_dir/jni-faiss/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/jni-faiss/effective-pom.xml
+2026-05-22 14:55:20 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 14:56:21 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/target/bom.json -> s3://graphaot-research-staging/analysis/algo-struct/bom.json
+2026-05-22 14:56:21 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/algo-struct/effective-pom.xml
+2026-05-22 14:56:50 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/target/bom.json -> s3://graphaot-research-staging/analysis/algo-struct/bom.json
+2026-05-22 14:56:51 [INFO] [s3-storage] Success: temp/work_dir/algo-struct/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/algo-struct/effective-pom.xml
+2026-05-22 14:58:45 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 15:06:56 [INFO] [s3-storage] [Success] temp/work_dir/piggymetrics/target/bom.json -> s3://graphaot-research-staging/analysis/piggymetrics/bom.json
+2026-05-22 15:06:58 [INFO] [s3-storage] [Success] temp/work_dir/piggymetrics/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/piggymetrics/effective-pom.xml
+2026-05-22 15:07:44 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 15:17:43 [INFO] [s3-storage] [Success] temp/work_dir/jni-faiss/target/bom.json -> s3://graphaot-research-staging/analysis/jni-faiss/bom.json
+2026-05-22 15:17:43 [INFO] [s3-storage] [Success] temp/work_dir/jni-faiss/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/jni-faiss/effective-pom.xml
+2026-05-22 15:18:02 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 15:19:33 [INFO] [s3-storage] [Success] temp/work_dir/jni-faiss/target/bom.json -> s3://graphaot-research-staging/analysis/jni-faiss/bom.json
+2026-05-22 15:19:33 [INFO] [s3-storage] [Success] temp/work_dir/jni-faiss/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/jni-faiss/effective-pom.xml

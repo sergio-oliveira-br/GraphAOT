@@ -672,3 +672,743 @@
 2026-05-21 13:04:58 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for jnativehook] ---
 2026-05-21 13:18:39 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: jnativehook] ---
 2026-05-21 13:18:39 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for jnativehook] ---
+2026-05-22 14:23:16 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: hawtjni] ---
+2026-05-22 14:23:16 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for hawtjni] ---
+2026-05-22 14:26:42 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: hawtjni] ---
+2026-05-22 14:26:42 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for hawtjni] ---
+2026-05-22 14:28:57 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: whisper-jni] ---
+2026-05-22 14:28:57 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for whisper-jni] ---
+2026-05-22 14:34:05 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: whisper-jni] ---
+2026-05-22 14:34:05 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for whisper-jni] ---
+2026-05-22 14:45:06 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: spring-native] ---
+2026-05-22 14:45:06 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.experimental:spring-native
+2026-05-22 14:45:06 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot
+2026-05-22 14:45:06 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-core
+2026-05-22 14:45:07 [INFO] [reachability-metadata-manager] [+] Dependency: spring-jcl:5.3.24 | Refl: 2 | Proxy: 0
+2026-05-22 14:45:08 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-core:9.0.70 | Refl: 202 | Proxy: 0
+2026-05-22 14:45:09 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-webmvc
+2026-05-22 14:45:09 [INFO] [reachability-metadata-manager] [+] Dependency: spring-aop:5.3.24 | Refl: 29 | Proxy: 0
+2026-05-22 14:45:10 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-beans
+2026-05-22 14:45:10 [INFO] [reachability-metadata-manager] [+] Dependency: spring-expression:5.3.24 | Refl: 47 | Proxy: 0
+2026-05-22 14:45:11 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-web
+2026-05-22 14:45:11 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-databind:2.13.4.2 | Refl: 56 | Proxy: 0
+2026-05-22 14:45:12 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-annotations:2.13.4 | Refl: 2 | Proxy: 0
+2026-05-22 14:45:13 [WARNING] [reachability-metadata-manager] Metadata index not found for io.micrometer:micrometer-core
+2026-05-22 14:45:13 [INFO] [reachability-metadata-manager] [+] Dependency: HdrHistogram:2.1.12 | Refl: 12 | Proxy: 0
+2026-05-22 14:45:14 [INFO] [reachability-metadata-manager] [+] Dependency: LatencyUtils:2.0.3 | Refl: 3 | Proxy: 0
+2026-05-22 14:45:14 [INFO] [reachability-metadata-manager] [+] Dependency: spring-boot-actuator-autoconfigure:2.7.7 | Refl: 7 | Proxy: 0
+2026-05-22 14:45:15 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-actuator
+2026-05-22 14:45:15 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-datatype-jsr310:2.13.4 | Refl: 4 | Proxy: 0
+2026-05-22 14:45:16 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-autoconfigure
+2026-05-22 14:45:16 [INFO] [reachability-metadata-manager] [+] Dependency: spring-context:5.3.24 | Refl: 154 | Proxy: 0
+2026-05-22 14:45:17 [INFO] [reachability-metadata-manager] [+] Dependency: spring-test:5.3.24 | Refl: 12 | Proxy: 0
+2026-05-22 14:45:17 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-test
+2026-05-22 14:45:18 [INFO] [reachability-metadata-manager] [+] Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
+2026-05-22 14:45:19 [WARNING] [reachability-metadata-manager] Metadata index not found for org.graalvm.nativeimage:svm
+2026-05-22 14:45:19 [WARNING] [reachability-metadata-manager] Metadata index not found for org.graalvm.sdk:graal-sdk
+2026-05-22 14:45:19 [WARNING] [reachability-metadata-manager] Metadata index not found for org.graalvm.nativeimage:objectfile
+2026-05-22 14:45:19 [WARNING] [reachability-metadata-manager] Metadata index not found for org.graalvm.nativeimage:pointsto
+2026-05-22 14:45:20 [WARNING] [reachability-metadata-manager] Metadata index not found for org.graalvm.compiler:compiler
+2026-05-22 14:45:20 [WARNING] [reachability-metadata-manager] Metadata index not found for org.graalvm.truffle:truffle-api
+2026-05-22 14:45:20 [WARNING] [reachability-metadata-manager] Metadata index not found for org.graalvm.nativeimage:native-image-base
+2026-05-22 14:45:21 [INFO] [reachability-metadata-manager] [+] Dependency: logback-classic:1.2.11 | Refl: 42 | Proxy: 0
+2026-05-22 14:45:21 [INFO] [reachability-metadata-manager] [+] Dependency: logback-core:1.2.11 | Refl: 14 | Proxy: 0
+2026-05-22 14:45:22 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-jdbc
+2026-05-22 14:45:22 [INFO] [reachability-metadata-manager] [+] Dependency: spring-tx:5.3.24 | Refl: 3 | Proxy: 0
+2026-05-22 14:45:22 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-commons
+2026-05-22 14:45:23 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-mongodb
+2026-05-22 14:45:23 [INFO] [reachability-metadata-manager] [+] Dependency: mongodb-driver-core:4.6.1 | Refl: 3 | Proxy: 0
+2026-05-22 14:45:24 [INFO] [reachability-metadata-manager] [+] Dependency: bson:4.6.1 | Refl: 3 | Proxy: 0
+2026-05-22 14:45:24 [WARNING] [reachability-metadata-manager] Metadata index not found for org.mongodb:bson-record-codec
+2026-05-22 14:45:25 [INFO] [reachability-metadata-manager] [+] Dependency: h2:2.1.214 | Refl: 20 | Proxy: 0
+2026-05-22 14:45:25 [INFO] [reachability-metadata-manager] [+] Dependency: hibernate-validator:6.2.5.Final | Refl: 356 | Proxy: 0
+2026-05-22 14:45:26 [INFO] [reachability-metadata-manager] [+] Dependency: jboss-logging:3.4.3.Final | Refl: 12 | Proxy: 0
+2026-05-22 14:45:26 [INFO] [reachability-metadata-manager] [+] Dependency: classmate:1.5.1 | Refl: 2 | Proxy: 0
+2026-05-22 14:45:27 [INFO] [reachability-metadata-manager] [+] Dependency: hibernate-core:5.6.14.Final | Refl: 260 | Proxy: 0
+2026-05-22 14:45:28 [INFO] [reachability-metadata-manager] [+] Dependency: javax.persistence-api:2.2 | Refl: 2 | Proxy: 0
+2026-05-22 14:45:28 [WARNING] [reachability-metadata-manager] Metadata index not found for net.bytebuddy:byte-buddy
+2026-05-22 14:45:28 [INFO] [reachability-metadata-manager] [+] Dependency: antlr:2.7.7 | Refl: 15 | Proxy: 0
+2026-05-22 14:45:30 [INFO] [reachability-metadata-manager] [+] Dependency: jandex:2.4.2.Final | Refl: 1 | Proxy: 0
+2026-05-22 14:45:30 [INFO] [reachability-metadata-manager] [+] Dependency: javax.activation-api:1.2.0 | Refl: 1 | Proxy: 0
+2026-05-22 14:45:31 [INFO] [reachability-metadata-manager] [+] Dependency: hibernate-commons-annotations:5.1.2.Final | Refl: 3 | Proxy: 0
+2026-05-22 14:45:32 [INFO] [reachability-metadata-manager] [+] Dependency: jaxb-runtime:2.3.7 | Refl: 10 | Proxy: 0
+2026-05-22 14:45:33 [INFO] [reachability-metadata-manager] [+] Dependency: jakarta.xml.bind-api:2.3.3 | Refl: 4 | Proxy: 0
+2026-05-22 14:45:34 [INFO] [reachability-metadata-manager] [+] Dependency: jakarta.activation:1.2.2 | Refl: 1 | Proxy: 0
+2026-05-22 14:45:35 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch.client:elasticsearch-rest-client
+2026-05-22 14:45:35 [INFO] [reachability-metadata-manager] [+] Dependency: httpclient:4.5.14 | Refl: 1 | Proxy: 0
+2026-05-22 14:45:36 [INFO] [reachability-metadata-manager] [+] Dependency: httpcore:4.4.16 | Refl: 3 | Proxy: 0
+2026-05-22 14:45:36 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.httpcomponents:httpasyncclient
+2026-05-22 14:45:36 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.httpcomponents:httpcore-nio
+2026-05-22 14:45:37 [WARNING] [reachability-metadata-manager] Metadata index not found for org.assertj:assertj-core
+2026-05-22 14:45:37 [WARNING] [reachability-metadata-manager] Metadata index not found for org.junit.jupiter:junit-jupiter-api
+2026-05-22 14:45:38 [INFO] [reachability-metadata-manager] [+] Dependency: opentest4j:1.2.0 | Refl: 1 | Proxy: 0
+2026-05-22 14:45:39 [INFO] [reachability-metadata-manager] [+] Dependency: junit-platform-commons:1.8.2 | Refl: 7 | Proxy: 0
+2026-05-22 14:45:39 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-test-autoconfigure
+2026-05-22 14:45:39 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.experimental:spring-aot
+2026-05-22 14:45:39 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-loader-tools
+2026-05-22 14:45:40 [INFO] [reachability-metadata-manager] [+] Dependency: commons-compress:1.21 | Refl: 14 | Proxy: 0
+2026-05-22 14:45:40 [WARNING] [reachability-metadata-manager] Metadata index not found for com.squareup:javapoet
+2026-05-22 14:45:41 [INFO] [reachability-metadata-manager] [+] Dependency: picocli:4.6.1 | Refl: 4 | Proxy: 0
+2026-05-22 14:45:43 [INFO] [reachability-metadata-manager] [+] Dependency: asm:9.2 | Refl: 4 | Proxy: 0
+2026-05-22 14:45:43 [WARNING] [reachability-metadata-manager] Metadata index not found for org.codehaus.groovy:groovy
+2026-05-22 14:45:43 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.kafka:spring-kafka
+2026-05-22 14:45:43 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-messaging
+2026-05-22 14:45:44 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.retry:spring-retry
+2026-05-22 14:45:44 [INFO] [reachability-metadata-manager] [+] Dependency: kafka-clients:3.1.2 | Refl: 116 | Proxy: 0
+2026-05-22 14:45:45 [INFO] [reachability-metadata-manager] [+] Dependency: zstd-jni:1.5.0-4 | Refl: 15 | Proxy: 0
+2026-05-22 14:45:46 [INFO] [reachability-metadata-manager] [+] Dependency: lz4-java:1.8.0 | Refl: 24 | Proxy: 0
+2026-05-22 14:45:46 [WARNING] [reachability-metadata-manager] Metadata index not found for org.xerial.snappy:snappy-java
+2026-05-22 14:45:46 [INFO] [reachability-metadata-manager] [+] Dependency: kafka-streams:3.1.2 | Refl: 51 | Proxy: 0
+2026-05-22 14:45:47 [INFO] [reachability-metadata-manager] [+] Dependency: rocksdbjni:6.22.1.1 | Refl: 4 | Proxy: 0
+2026-05-22 14:45:47 [WARNING] [reachability-metadata-manager] Metadata index not found for io.confluent:kafka-avro-serializer
+2026-05-22 14:45:48 [INFO] [reachability-metadata-manager] [+] Dependency: avro:1.9.2 | Refl: 31 | Proxy: 0
+2026-05-22 14:45:48 [WARNING] [reachability-metadata-manager] Metadata index not found for io.confluent:kafka-schema-serializer
+2026-05-22 14:45:48 [WARNING] [reachability-metadata-manager] Metadata index not found for io.confluent:kafka-schema-registry-client
+2026-05-22 14:45:49 [WARNING] [reachability-metadata-manager] Metadata index not found for org.glassfish.jersey.core:jersey-common
+2026-05-22 14:45:50 [WARNING] [reachability-metadata-manager] Metadata index not found for org.glassfish.hk2:osgi-resource-locator
+2026-05-22 14:45:51 [WARNING] [reachability-metadata-manager] Metadata index not found for io.confluent:common-utils
+2026-05-22 14:45:51 [INFO] [reachability-metadata-manager] [+] Dependency: spring-cloud-function-context:3.2.5 | Refl: 32 | Proxy: 0
+2026-05-22 14:45:52 [WARNING] [reachability-metadata-manager] Metadata index not found for net.jodah:typetools
+2026-05-22 14:45:54 [INFO] [reachability-metadata-manager] [+] Dependency: javax.servlet-api:4.0.1 | Refl: 1 | Proxy: 0
+2026-05-22 14:45:55 [INFO] [reachability-metadata-manager] [+] Dependency: spring-cloud-context:3.1.3 | Refl: 14 | Proxy: 0
+2026-05-22 14:45:55 [INFO] [reachability-metadata-manager] [+] Dependency: spring-security-crypto:5.7.6 | Refl: 20 | Proxy: 0
+2026-05-22 14:45:56 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-jpa
+2026-05-22 14:45:56 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-orm
+2026-05-22 14:45:56 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.hateoas:spring-hateoas
+2026-05-22 14:45:56 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.plugin:spring-plugin-core
+2026-05-22 14:45:57 [WARNING] [reachability-metadata-manager] Metadata index not found for com.jayway.jsonpath:json-path
+2026-05-22 14:45:58 [INFO] [reachability-metadata-manager] [+] Dependency: json-smart:2.4.8 | Refl: 9 | Proxy: 0
+2026-05-22 14:45:59 [INFO] [reachability-metadata-manager] [+] Dependency: spring-webflux:5.3.24 | Refl: 83 | Proxy: 0
+2026-05-22 14:45:59 [INFO] [reachability-metadata-manager] [+] Dependency: reactor-core:3.4.26 | Refl: 3 | Proxy: 0
+2026-05-22 14:46:00 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-logging
+2026-05-22 14:46:01 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.logging.log4j:log4j-to-slf4j
+2026-05-22 14:46:01 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.logging.log4j:log4j-api
+2026-05-22 14:46:02 [INFO] [reachability-metadata-manager] [+] Dependency: snakeyaml:1.30 | Refl: 8 | Proxy: 0
+2026-05-22 14:46:02 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-config
+2026-05-22 14:46:03 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-core
+2026-05-22 14:46:03 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-web
+2026-05-22 14:46:03 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-devtools
+2026-05-22 14:46:05 [INFO] [reachability-metadata-manager] [+] Dependency: kotlin-stdlib:1.6.21 | Refl: 1 | Proxy: 0
+2026-05-22 14:46:07 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.experimental:spring-native-configuration
+2026-05-22 14:46:07 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-quartz
+2026-05-22 14:46:08 [INFO] [reachability-metadata-manager] [+] Dependency: quartz:2.3.2 | Refl: 8 | Proxy: 0
+2026-05-22 14:46:09 [INFO] [reachability-metadata-manager] [+] Dependency: mchange-commons-java:0.2.15 | Refl: 125 | Proxy: 0
+2026-05-22 14:46:11 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security.experimental:spring-security-oauth2-authorization-server
+2026-05-22 14:46:12 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-oauth2-core
+2026-05-22 14:46:12 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-oauth2-jose
+2026-05-22 14:46:13 [INFO] [reachability-metadata-manager] [+] Dependency: commons-compress:1.19 | Refl: 14 | Proxy: 0
+2026-05-22 14:46:13 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-stream-binder-kafka
+2026-05-22 14:46:13 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-stream-binder-kafka-core
+2026-05-22 14:46:14 [INFO] [reachability-metadata-manager] [+] Dependency: spring-integration-kafka:5.5.16 | Refl: 4 | Proxy: 0
+2026-05-22 14:46:14 [INFO] [reachability-metadata-manager] [+] Dependency: spring-cloud-stream:3.2.4 | Refl: 42 | Proxy: 0
+2026-05-22 14:46:15 [INFO] [reachability-metadata-manager] [+] Dependency: spring-integration-jmx:5.5.16 | Refl: 8 | Proxy: 0
+2026-05-22 14:46:15 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.batch:spring-batch-core
+2026-05-22 14:46:15 [WARNING] [reachability-metadata-manager] Metadata index not found for javax.batch:javax.batch-api
+2026-05-22 14:46:16 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.batch:spring-batch-infrastructure
+2026-05-22 14:46:16 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-task-core
+2026-05-22 14:46:16 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-deployer-autoconfigure
+2026-05-22 14:46:16 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-deployer-resource-support
+2026-05-22 14:46:17 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.integration:spring-integration-jdbc
+2026-05-22 14:46:18 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-task-batch
+2026-05-22 14:46:18 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-task-stream
+2026-05-22 14:46:18 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-deployer-spi
+2026-05-22 14:46:18 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-elasticsearch
+2026-05-22 14:46:19 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch.client:elasticsearch-rest-high-level-client
+2026-05-22 14:46:19 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch:elasticsearch
+2026-05-22 14:46:19 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch:elasticsearch-core
+2026-05-22 14:46:19 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch:elasticsearch-secure-sm
+2026-05-22 14:46:20 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch:elasticsearch-x-content
+2026-05-22 14:46:20 [WARNING] [reachability-metadata-manager] Metadata index not found for com.fasterxml.jackson.dataformat:jackson-dataformat-smile
+2026-05-22 14:46:21 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch:elasticsearch-geo
+2026-05-22 14:46:21 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch:elasticsearch-lz4
+2026-05-22 14:46:22 [INFO] [reachability-metadata-manager] [+] Dependency: lucene-core:8.11.1 | Refl: 24 | Proxy: 0
+2026-05-22 14:46:22 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-analyzers-common
+2026-05-22 14:46:22 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-backward-codecs
+2026-05-22 14:46:22 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-grouping
+2026-05-22 14:46:23 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-highlighter
+2026-05-22 14:46:23 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-join
+2026-05-22 14:46:23 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-memory
+2026-05-22 14:46:24 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-misc
+2026-05-22 14:46:24 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-queries
+2026-05-22 14:46:24 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-queryparser
+2026-05-22 14:46:24 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-sandbox
+2026-05-22 14:46:25 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-spatial3d
+2026-05-22 14:46:25 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.lucene:lucene-suggest
+2026-05-22 14:46:25 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch:elasticsearch-cli
+2026-05-22 14:46:26 [WARNING] [reachability-metadata-manager] Metadata index not found for com.carrotsearch:hppc
+2026-05-22 14:46:26 [INFO] [reachability-metadata-manager] [+] Dependency: joda-time:2.10.10 | Refl: 3 | Proxy: 0
+2026-05-22 14:46:27 [WARNING] [reachability-metadata-manager] Metadata index not found for com.tdunning:t-digest
+2026-05-22 14:46:27 [INFO] [reachability-metadata-manager] [+] Dependency: jna:5.10.0 | Refl: 50 | Proxy: 0
+2026-05-22 14:46:28 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch:elasticsearch-plugin-classloader
+2026-05-22 14:46:28 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch.plugin:mapper-extras-client
+2026-05-22 14:46:28 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch.plugin:parent-join-client
+2026-05-22 14:46:28 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch.plugin:aggs-matrix-stats-client
+2026-05-22 14:46:29 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch.plugin:rank-eval-client
+2026-05-22 14:46:29 [WARNING] [reachability-metadata-manager] Metadata index not found for org.elasticsearch.plugin:lang-mustache-client
+2026-05-22 14:46:29 [WARNING] [reachability-metadata-manager] Metadata index not found for com.github.spullara.mustache.java:compiler
+2026-05-22 14:46:29 [WARNING] [reachability-metadata-manager] Metadata index not found for co.elastic.clients:elasticsearch-java
+2026-05-22 14:46:31 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-r2dbc
+2026-05-22 14:46:31 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-relational
+2026-05-22 14:46:31 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-r2dbc
+2026-05-22 14:46:32 [WARNING] [reachability-metadata-manager] Metadata index not found for io.r2dbc:r2dbc-pool
+2026-05-22 14:46:33 [WARNING] [reachability-metadata-manager] Metadata index not found for io.projectreactor.addons:reactor-pool
+2026-05-22 14:46:33 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-redis
+2026-05-22 14:46:33 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-keyvalue
+2026-05-22 14:46:33 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-oxm
+2026-05-22 14:46:34 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-jdbc
+2026-05-22 14:46:34 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-rest-webmvc
+2026-05-22 14:46:34 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-rest-core
+2026-05-22 14:46:34 [WARNING] [reachability-metadata-manager] Metadata index not found for org.atteo:evo-inflector
+2026-05-22 14:46:35 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-datatype-jdk8:2.13.4 | Refl: 2 | Proxy: 0
+2026-05-22 14:46:36 [INFO] [reachability-metadata-manager] [+] Dependency: postgresql:42.3.8 | Refl: 95 | Proxy: 0
+2026-05-22 14:46:36 [WARNING] [reachability-metadata-manager] Metadata index not found for org.hsqldb:hsqldb
+2026-05-22 14:46:37 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-function-web
+2026-05-22 14:46:37 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-function-kotlin
+2026-05-22 14:46:38 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm
+2026-05-22 14:46:41 [INFO] [reachability-metadata-manager] [+] Dependency: netty-resolver-dns-classes-macos:4.1.86.Final | Refl: 12 | Proxy: 0
+2026-05-22 14:46:41 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport-native-epoll:4.1.86.Final | Refl: 13 | Proxy: 0
+2026-05-22 14:46:42 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport-native-unix-common:4.1.86.Final | Refl: 26 | Proxy: 0
+2026-05-22 14:46:42 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport-classes-epoll:4.1.86.Final | Refl: 27 | Proxy: 0
+2026-05-22 14:46:44 [INFO] [reachability-metadata-manager] [+] Dependency: netty-handler-proxy:4.1.86.Final | Refl: 25 | Proxy: 0
+2026-05-22 14:46:44 [INFO] [reachability-metadata-manager] [+] Dependency: netty-codec-socks:4.1.86.Final | Refl: 6 | Proxy: 0
+2026-05-22 14:46:45 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport:4.1.86.Final | Refl: 3 | Proxy: 0
+2026-05-22 14:46:45 [INFO] [reachability-metadata-manager] [+] Dependency: netty-common:4.1.86.Final | Refl: 750 | Proxy: 0
+2026-05-22 14:46:47 [INFO] [reachability-metadata-manager] [+] Dependency: spring-rabbit:2.4.8 | Refl: 53 | Proxy: 0
+2026-05-22 14:46:48 [INFO] [reachability-metadata-manager] [+] Dependency: spring-amqp:2.4.8 | Refl: 5 | Proxy: 0
+2026-05-22 14:46:48 [INFO] [reachability-metadata-manager] [+] Dependency: amqp-client:5.14.2 | Refl: 21 | Proxy: 0
+2026-05-22 14:46:48 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-websocket
+2026-05-22 14:46:49 [INFO] [reachability-metadata-manager] [+] Dependency: spring-aspects:5.3.24 | Refl: 24 | Proxy: 0
+2026-05-22 14:46:50 [INFO] [reachability-metadata-manager] [+] Dependency: aspectjweaver:1.9.7 | Refl: 71 | Proxy: 0
+2026-05-22 14:46:50 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.logging.log4j:log4j-core
+2026-05-22 14:46:50 [INFO] [reachability-metadata-manager] [+] Dependency: HikariCP:4.0.3 | Refl: 9 | Proxy: 0
+2026-05-22 14:46:51 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-oauth2-client
+2026-05-22 14:46:51 [WARNING] [reachability-metadata-manager] Metadata index not found for com.nimbusds:oauth2-oidc-sdk
+2026-05-22 14:46:51 [WARNING] [reachability-metadata-manager] Metadata index not found for com.nimbusds:content-type
+2026-05-22 14:46:51 [WARNING] [reachability-metadata-manager] Metadata index not found for com.nimbusds:lang-tag
+2026-05-22 14:46:52 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-ldap
+2026-05-22 14:46:52 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.ldap:spring-ldap-core
+2026-05-22 14:46:52 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.session:spring-session-core
+2026-05-22 14:46:52 [WARNING] [reachability-metadata-manager] Metadata index not found for org.thymeleaf.extras:thymeleaf-extras-java8time
+2026-05-22 14:46:53 [INFO] [reachability-metadata-manager] [+] Dependency: thymeleaf:3.0.15.RELEASE | Refl: 90 | Proxy: 0
+2026-05-22 14:46:54 [INFO] [reachability-metadata-manager] [+] Dependency: ognl:3.1.26 | Refl: 19 | Proxy: 0
+2026-05-22 14:46:54 [WARNING] [reachability-metadata-manager] Metadata index not found for org.javassist:javassist
+2026-05-22 14:46:55 [WARNING] [reachability-metadata-manager] Metadata index not found for org.thymeleaf.extras:thymeleaf-extras-springsecurity5
+2026-05-22 14:46:55 [WARNING] [reachability-metadata-manager] Metadata index not found for org.thymeleaf:thymeleaf-spring5
+2026-05-22 14:46:56 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-neo4j
+2026-05-22 14:46:57 [WARNING] [reachability-metadata-manager] Metadata index not found for org.neo4j:neo4j-cypher-dsl
+2026-05-22 14:46:57 [WARNING] [reachability-metadata-manager] Metadata index not found for org.neo4j.driver:neo4j-java-driver
+2026-05-22 14:46:58 [WARNING] [reachability-metadata-manager] Metadata index not found for com.wavefront:wavefront-spring-boot
+2026-05-22 14:46:58 [WARNING] [reachability-metadata-manager] Metadata index not found for com.wavefront:wavefront-runtime-sdk-jvm
+2026-05-22 14:46:58 [WARNING] [reachability-metadata-manager] Metadata index not found for com.wavefront:wavefront-internal-reporter-java
+2026-05-22 14:46:58 [WARNING] [reachability-metadata-manager] Metadata index not found for com.wavefront:wavefront-sdk-java
+2026-05-22 14:46:59 [INFO] [reachability-metadata-manager] [+] Dependency: mysql-connector-j:8.0.31 | Refl: 24 | Proxy: 0
+2026-05-22 14:47:00 [INFO] [reachability-metadata-manager] [+] Dependency: mariadb-java-client:3.0.9 | Refl: 3 | Proxy: 0
+2026-05-22 14:47:00 [WARNING] [reachability-metadata-manager] Metadata index not found for com.oracle.database.jdbc:ojdbc8
+2026-05-22 14:47:01 [WARNING] [reachability-metadata-manager] Metadata index not found for com.ibm.db2:jcc
+2026-05-22 14:47:01 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-commons
+2026-05-22 14:47:01 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-config-client
+2026-05-22 14:47:02 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-config-server
+2026-05-22 14:47:04 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-el:9.0.70 | Refl: 25 | Proxy: 0
+2026-05-22 14:47:04 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-rsa
+2026-05-22 14:47:05 [INFO] [reachability-metadata-manager] [+] Dependency: bcpkix-jdk15on:1.68 | Refl: 90 | Proxy: 0
+2026-05-22 14:47:05 [WARNING] [reachability-metadata-manager] Metadata index not found for org.bouncycastle:bcprov-jdk15on
+2026-05-22 14:47:06 [INFO] [reachability-metadata-manager] [+] Dependency: org.eclipse.jgit:5.12.0.202106070339-r | Refl: 16 | Proxy: 0
+2026-05-22 14:47:06 [WARNING] [reachability-metadata-manager] Metadata index not found for org.eclipse.jgit:org.eclipse.jgit.http.apache
+2026-05-22 14:47:07 [WARNING] [reachability-metadata-manager] Metadata index not found for org.eclipse.jgit:org.eclipse.jgit.ssh.jsch
+2026-05-22 14:47:07 [WARNING] [reachability-metadata-manager] Metadata index not found for com.jcraft:jsch
+2026-05-22 14:47:07 [WARNING] [reachability-metadata-manager] Metadata index not found for com.jcraft:jzlib
+2026-05-22 14:47:08 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-dataformat-yaml:2.13.4 | Refl: 2 | Proxy: 0
+2026-05-22 14:47:08 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-bootstrap
+2026-05-22 14:47:08 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client
+2026-05-22 14:47:09 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-netflix-eureka-client
+2026-05-22 14:47:09 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.eureka:eureka-client
+2026-05-22 14:47:09 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.netflix-commons:netflix-eventbus
+2026-05-22 14:47:10 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.netflix-commons:netflix-infix
+2026-05-22 14:47:10 [WARNING] [reachability-metadata-manager] Metadata index not found for commons-jxpath:commons-jxpath
+2026-05-22 14:47:10 [INFO] [reachability-metadata-manager] [+] Dependency: antlr-runtime:3.4 | Refl: 1 | Proxy: 0
+2026-05-22 14:47:11 [WARNING] [reachability-metadata-manager] Metadata index not found for org.antlr:stringtemplate
+2026-05-22 14:47:11 [INFO] [reachability-metadata-manager] [+] Dependency: commons-math:2.2 | Refl: 10 | Proxy: 0
+2026-05-22 14:47:12 [WARNING] [reachability-metadata-manager] Metadata index not found for com.thoughtworks.xstream:xstream
+2026-05-22 14:47:14 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.servo:servo-core
+2026-05-22 14:47:14 [INFO] [reachability-metadata-manager] [+] Dependency: commons-configuration:1.10 | Refl: 24 | Proxy: 0
+2026-05-22 14:47:15 [INFO] [reachability-metadata-manager] [+] Dependency: commons-lang:2.6 | Refl: 9 | Proxy: 0
+2026-05-22 14:47:15 [WARNING] [reachability-metadata-manager] Metadata index not found for com.google.inject:guice
+2026-05-22 14:47:16 [INFO] [reachability-metadata-manager] [+] Dependency: jettison:1.4.0 | Refl: 2 | Proxy: 0
+2026-05-22 14:47:16 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.eureka:eureka-core
+2026-05-22 14:47:17 [WARNING] [reachability-metadata-manager] Metadata index not found for com.fasterxml.woodstox:woodstox-core
+2026-05-22 14:47:17 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-loadbalancer
+2026-05-22 14:47:17 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-loadbalancer
+2026-05-22 14:47:17 [WARNING] [reachability-metadata-manager] Metadata index not found for io.projectreactor.addons:reactor-extra
+2026-05-22 14:47:18 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-cache
+2026-05-22 14:47:18 [WARNING] [reachability-metadata-manager] Metadata index not found for com.stoyanr:evictor
+2026-05-22 14:47:18 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-sleuth
+2026-05-22 14:47:19 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-sleuth-autoconfigure
+2026-05-22 14:47:19 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-sleuth-instrumentation
+2026-05-22 14:47:19 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-sleuth-api
+2026-05-22 14:47:20 [INFO] [reachability-metadata-manager] [+] Dependency: aspectjrt:1.9.7 | Refl: 21 | Proxy: 0
+2026-05-22 14:47:20 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-sleuth-brave
+2026-05-22 14:47:20 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave
+2026-05-22 14:47:21 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-context-slf4j
+2026-05-22 14:47:21 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-messaging
+2026-05-22 14:47:21 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-rpc
+2026-05-22 14:47:21 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-spring-rabbit
+2026-05-22 14:47:22 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-kafka-clients
+2026-05-22 14:47:22 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-kafka-streams
+2026-05-22 14:47:22 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-httpclient
+2026-05-22 14:47:22 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-http
+2026-05-22 14:47:23 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-httpasyncclient
+2026-05-22 14:47:23 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-jms
+2026-05-22 14:47:23 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-mongodb
+2026-05-22 14:47:23 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.aws:brave-propagation-aws
+2026-05-22 14:47:24 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.reporter2:zipkin-reporter-metrics-micrometer
+2026-05-22 14:47:26 [INFO] [reachability-metadata-manager] [+] Dependency: protobuf-java:3.19.6 | Refl: 15 | Proxy: 0
+2026-05-22 14:47:26 [INFO] [reachability-metadata-manager] [+] Dependency: kotlin-reflect:1.6.21 | Refl: 10 | Proxy: 0
+2026-05-22 14:47:26 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-mail
+2026-05-22 14:47:27 [INFO] [reachability-metadata-manager] [+] Dependency: jakarta.mail:1.6.7 | Refl: 8 | Proxy: 0
+2026-05-22 14:47:27 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jolokia:jolokia-core
+2026-05-22 14:47:27 [WARNING] [reachability-metadata-manager] Metadata index not found for com.googlecode.json-simple:json-simple
+2026-05-22 14:47:28 [INFO] [reachability-metadata-manager] [+] Dependency: lettuce-core:6.1.10.RELEASE | Refl: 97 | Proxy: 0
+2026-05-22 14:47:29 [WARNING] [reachability-metadata-manager] Metadata index not found for net.sf.ehcache:ehcache
+2026-05-22 14:47:30 [INFO] [reachability-metadata-manager] [+] Dependency: ehcache:3.10.8 | Refl: 534 | Proxy: 0
+2026-05-22 14:47:31 [INFO] [reachability-metadata-manager] [+] Dependency: hazelcast:5.1.5 | Refl: 597 | Proxy: 0
+2026-05-22 14:47:31 [WARNING] [reachability-metadata-manager] Metadata index not found for org.infinispan:infinispan-spring5-embedded
+2026-05-22 14:47:31 [WARNING] [reachability-metadata-manager] Metadata index not found for org.infinispan:infinispan-core
+2026-05-22 14:47:31 [WARNING] [reachability-metadata-manager] Metadata index not found for org.infinispan:infinispan-commons
+2026-05-22 14:47:32 [INFO] [reachability-metadata-manager] [+] Dependency: rxjava:3.0.4 | Refl: 6 | Proxy: 0
+2026-05-22 14:47:32 [WARNING] [reachability-metadata-manager] Metadata index not found for org.infinispan.protostream:protostream
+2026-05-22 14:47:32 [WARNING] [reachability-metadata-manager] Metadata index not found for org.infinispan.protostream:protostream-types
+2026-05-22 14:47:33 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jgroups:jgroups
+2026-05-22 14:47:33 [INFO] [reachability-metadata-manager] [+] Dependency: caffeine:2.9.3 | Refl: 39 | Proxy: 0
+2026-05-22 14:47:34 [WARNING] [reachability-metadata-manager] Metadata index not found for jakarta.transaction:jakarta.transaction-api
+2026-05-22 14:47:34 [WARNING] [reachability-metadata-manager] Metadata index not found for org.infinispan:infinispan-spring5-common
+2026-05-22 14:47:35 [WARNING] [reachability-metadata-manager] Metadata index not found for com.couchbase.client:java-client
+2026-05-22 14:47:35 [WARNING] [reachability-metadata-manager] Metadata index not found for com.couchbase.client:core-io
+2026-05-22 14:47:35 [WARNING] [reachability-metadata-manager] Metadata index not found for org.eclipse.jetty.websocket:websocket-server
+2026-05-22 14:47:36 [INFO] [reachability-metadata-manager] [+] Dependency: websocket-common:9.4.50.v20221201 | Refl: 5 | Proxy: 0
+2026-05-22 14:47:37 [INFO] [reachability-metadata-manager] [+] Dependency: jetty-util:9.4.50.v20221201 | Refl: 2 | Proxy: 0
+2026-05-22 14:47:38 [INFO] [reachability-metadata-manager] [+] Dependency: jetty-io:9.4.50.v20221201 | Refl: 5 | Proxy: 0
+2026-05-22 14:47:38 [INFO] [reachability-metadata-manager] [+] Dependency: websocket-client:9.4.50.v20221201 | Refl: 4 | Proxy: 0
+2026-05-22 14:47:39 [INFO] [reachability-metadata-manager] [+] Dependency: jetty-client:9.4.50.v20221201 | Refl: 49 | Proxy: 0
+2026-05-22 14:47:39 [WARNING] [reachability-metadata-manager] Metadata index not found for org.eclipse.jetty.websocket:websocket-servlet
+2026-05-22 14:47:40 [INFO] [reachability-metadata-manager] [+] Dependency: jetty-servlet:9.4.50.v20221201 | Refl: 16 | Proxy: 0
+2026-05-22 14:47:40 [INFO] [reachability-metadata-manager] [+] Dependency: jetty-security:9.4.50.v20221201 | Refl: 4 | Proxy: 0
+2026-05-22 14:47:41 [INFO] [reachability-metadata-manager] [+] Dependency: jetty-server:9.4.50.v20221201 | Refl: 33 | Proxy: 0
+2026-05-22 14:47:41 [INFO] [reachability-metadata-manager] [+] Dependency: jetty-util-ajax:9.4.50.v20221201 | Refl: 7 | Proxy: 0
+2026-05-22 14:47:42 [INFO] [reachability-metadata-manager] [+] Dependency: jetty-http:9.4.50.v20221201 | Refl: 5 | Proxy: 0
+2026-05-22 14:47:43 [INFO] [reachability-metadata-manager] [+] Dependency: undertow-core:2.2.22.Final | Refl: 64 | Proxy: 0
+2026-05-22 14:47:43 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jboss.xnio:xnio-api
+2026-05-22 14:47:44 [INFO] [reachability-metadata-manager] [+] Dependency: wildfly-client-config:1.0.1.Final | Refl: 4 | Proxy: 0
+2026-05-22 14:47:44 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jboss.xnio:xnio-nio
+2026-05-22 14:47:45 [INFO] [reachability-metadata-manager] [+] Dependency: jboss-threads:3.1.0.Final | Refl: 3 | Proxy: 0
+2026-05-22 14:47:46 [INFO] [reachability-metadata-manager] [+] Dependency: commons-pool2:2.11.1 | Refl: 1 | Proxy: 0
+2026-05-22 14:47:46 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.integration:spring-integration-http
+2026-05-22 14:47:46 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.integration:spring-integration-webflux
+2026-05-22 14:47:46 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.integration:spring-integration-websocket
+2026-05-22 14:47:47 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.integration:spring-integration-xml
+2026-05-22 14:47:47 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.ws:spring-xml
+2026-05-22 14:47:47 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.integration:spring-integration-file
+2026-05-22 14:47:48 [INFO] [reachability-metadata-manager] [+] Dependency: commons-io:2.11.0 | Refl: 4 | Proxy: 0
+2026-05-22 14:47:48 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.ws:spring-ws-core
+2026-05-22 14:47:49 [INFO] [reachability-metadata-manager] [+] Dependency: okhttp:4.9.3 | Refl: 7 | Proxy: 0
+2026-05-22 14:47:49 [INFO] [reachability-metadata-manager] [+] Dependency: okio:2.8.0 | Refl: 1 | Proxy: 0
+2026-05-22 14:47:50 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-test
+2026-05-22 14:47:50 [WARNING] [reachability-metadata-manager] Metadata index not found for org.codehaus.janino:janino
+2026-05-22 14:47:51 [WARNING] [reachability-metadata-manager] Metadata index not found for org.codehaus.janino:commons-compiler
+2026-05-22 14:47:51 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-consul-config
+2026-05-22 14:47:51 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-consul
+2026-05-22 14:47:51 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-consul-core
+2026-05-22 14:47:52 [INFO] [reachability-metadata-manager] [+] Dependency: consul-api:1.4.5 | Refl: 111 | Proxy: 0
+2026-05-22 14:47:53 [INFO] [reachability-metadata-manager] [+] Dependency: gson:2.9.1 | Refl: 2 | Proxy: 0
+2026-05-22 14:47:53 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-consul-config
+2026-05-22 14:47:53 [WARNING] [reachability-metadata-manager] Metadata index not found for org.postgresql:r2dbc-postgresql
+2026-05-22 14:47:55 [WARNING] [reachability-metadata-manager] Metadata index not found for io.projectreactor.netty:reactor-netty
+2026-05-22 14:47:57 [INFO] [reachability-metadata-manager] [+] Dependency: netty-incubator-codec-classes-quic:0.0.34.Final | Refl: 23 | Proxy: 0
+2026-05-22 14:47:57 [WARNING] [reachability-metadata-manager] Metadata index not found for io.projectreactor.netty:reactor-netty-http-brave
+2026-05-22 14:47:58 [INFO] [reachability-metadata-manager] [+] Dependency: junit:4.13.2 | Refl: 1 | Proxy: 0
+2026-05-22 14:47:59 [INFO] [reachability-metadata-manager] [+] Dependency: guava:30.1.1-android | Refl: 71 | Proxy: 0
+2026-05-22 14:48:04 [INFO] [reachability-metadata-manager] [+] Dependency: netty-codec:4.1.86.Final | Refl: 11 | Proxy: 0
+2026-05-22 14:48:04 [INFO] [reachability-metadata-manager] [+] Dependency: netty-codec-dns:4.1.86.Final | Refl: 15 | Proxy: 0
+2026-05-22 14:48:04 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.experimental:spring-native-tools
+2026-05-22 14:48:05 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.experimental:spring-aot-test
+2026-05-22 14:48:05 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.experimental:spring-aot-maven-plugin
+2026-05-22 14:48:06 [WARNING] [reachability-metadata-manager] Metadata index not found for org.twdata.maven:mojo-executor
+2026-05-22 14:48:06 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.maven:maven-core
+2026-05-22 14:48:06 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.maven:maven-settings-builder
+2026-05-22 14:48:07 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.maven:maven-repository-metadata
+2026-05-22 14:48:07 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.maven:maven-model-builder
+2026-05-22 14:48:08 [INFO] [reachability-metadata-manager] [+] Dependency: guava:20.0 | Refl: 71 | Proxy: 0
+2026-05-22 14:48:08 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.maven:maven-resolver-provider
+2026-05-22 14:48:08 [INFO] [reachability-metadata-manager] [+] Dependency: maven-resolver-impl:1.0.3 | Refl: 1 | Proxy: 0
+2026-05-22 14:48:09 [INFO] [reachability-metadata-manager] [+] Dependency: maven-resolver-api:1.0.3 | Refl: 1 | Proxy: 0
+2026-05-22 14:48:10 [INFO] [reachability-metadata-manager] [+] Dependency: maven-resolver-util:1.0.3 | Refl: 3 | Proxy: 0
+2026-05-22 14:48:11 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.maven.shared:maven-shared-utils
+2026-05-22 14:48:11 [INFO] [reachability-metadata-manager] [+] Dependency: commons-io:2.5 | Refl: 4 | Proxy: 0
+2026-05-22 14:48:11 [WARNING] [reachability-metadata-manager] Metadata index not found for com.google.inject:guice
+2026-05-22 14:48:12 [INFO] [reachability-metadata-manager] [+] Dependency: plexus-classworlds:2.5.2 | Refl: 3 | Proxy: 0
+2026-05-22 14:48:13 [WARNING] [reachability-metadata-manager] Metadata index not found for org.sonatype.plexus:plexus-sec-dispatcher
+2026-05-22 14:48:14 [INFO] [reachability-metadata-manager] [+] Dependency: plexus-cipher:1.4 | Refl: 2 | Proxy: 0
+2026-05-22 14:48:14 [INFO] [reachability-metadata-manager] [+] Dependency: commons-lang3:3.12.0 | Refl: 28 | Proxy: 0
+2026-05-22 14:48:15 [INFO] [reachability-metadata-manager] [+] Dependency: maven-model:3.5.0 | Refl: 1 | Proxy: 0
+2026-05-22 14:48:15 [INFO] [reachability-metadata-manager] [+] Dependency: plexus-utils:2.1 | Refl: 27 | Proxy: 0
+2026-05-22 14:48:16 [INFO] [reachability-metadata-manager] [+] Dependency: plexus-build-api:0.0.7 | Refl: 46 | Proxy: 0
+2026-05-22 14:48:16 [INFO] [reachability-metadata-manager] [+] Dependency: maven-plugin-api:3.3.9 | Refl: 2 | Proxy: 0
+2026-05-22 14:48:17 [INFO] [reachability-metadata-manager] [+] Dependency: maven-artifact:3.3.9 | Refl: 14 | Proxy: 0
+2026-05-22 14:48:17 [WARNING] [reachability-metadata-manager] Metadata index not found for org.eclipse.sisu:org.eclipse.sisu.plexus
+2026-05-22 14:48:19 [INFO] [reachability-metadata-manager] [+] Dependency: org.eclipse.sisu.inject:0.3.2 | Refl: 61 | Proxy: 0
+2026-05-22 14:48:20 [INFO] [reachability-metadata-manager] [+] Dependency: maven-project:2.2.1 | Refl: 11 | Proxy: 0
+2026-05-22 14:48:20 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.maven:maven-settings
+2026-05-22 14:48:21 [INFO] [reachability-metadata-manager] [+] Dependency: maven-profile:2.2.1 | Refl: 2 | Proxy: 0
+2026-05-22 14:48:21 [INFO] [reachability-metadata-manager] [+] Dependency: maven-artifact-manager:2.2.1 | Refl: 2 | Proxy: 0
+2026-05-22 14:48:22 [INFO] [reachability-metadata-manager] [+] Dependency: wagon-provider-api:1.0-beta-6 | Refl: 3 | Proxy: 0
+2026-05-22 14:48:22 [INFO] [reachability-metadata-manager] [+] Dependency: backport-util-concurrent:3.1 | Refl: 74 | Proxy: 0
+2026-05-22 14:48:22 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.maven:maven-plugin-registry
+2026-05-22 14:48:24 [INFO] [reachability-metadata-manager] [+] Dependency: plexus-container-default:1.0-alpha-9-stable-1 | Refl: 118 | Proxy: 0
+2026-05-22 14:48:24 [WARNING] [reachability-metadata-manager] Metadata index not found for classworlds:classworlds
+2026-05-22 14:48:24 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.maven.plugin-tools:maven-plugin-annotations
+2026-05-22 14:48:25 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.experimental:spring-aot-gradle-plugin
+2026-05-22 14:48:25 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-gradle-plugin
+2026-05-22 14:48:25 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-buildpack-platform
+2026-05-22 14:48:25 [WARNING] [reachability-metadata-manager] Metadata index not found for net.java.dev.jna:jna-platform
+2026-05-22 14:48:26 [WARNING] [reachability-metadata-manager] Metadata index not found for org.tomlj:tomlj
+2026-05-22 14:48:27 [WARNING] [reachability-metadata-manager] Metadata index not found for org.graalvm.buildtools:native-gradle-plugin
+2026-05-22 14:48:27 [WARNING] [reachability-metadata-manager] Metadata index not found for org.graalvm.buildtools:utils
+2026-05-22 14:48:28 [WARNING] [reachability-metadata-manager] Metadata index not found for org.graalvm.buildtools:graalvm-reachability-metadata
+2026-05-22 14:48:28 [WARNING] [reachability-metadata-manager] Metadata index not found for io.spring.gradle:dependency-management-plugin
+2026-05-22 14:48:29 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-gradle-plugin
+2026-05-22 14:48:29 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-gradle-plugin-api
+2026-05-22 14:48:30 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-native-utils
+2026-05-22 14:48:30 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-gradle-plugin-model
+2026-05-22 14:48:31 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-util-klib
+2026-05-22 14:48:32 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-util-io
+2026-05-22 14:48:33 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-klib-commonizer-api
+2026-05-22 14:48:33 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-tooling-metadata
+2026-05-22 14:48:34 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-project-model
+2026-05-22 14:48:34 [INFO] [reachability-metadata-manager] [+] Dependency: guava:29.0-jre | Refl: 71 | Proxy: 0
+2026-05-22 14:48:36 [WARNING] [reachability-metadata-manager] Metadata index not found for de.undercouch:gradle-download-task
+2026-05-22 14:48:37 [WARNING] [reachability-metadata-manager] Metadata index not found for com.github.gundy:semver4j
+2026-05-22 14:48:37 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-compiler-embeddable
+2026-05-22 14:48:39 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.intellij.deps:trove4j
+2026-05-22 14:48:39 [INFO] [reachability-metadata-manager] [+] Dependency: jna:5.6.0 | Refl: 50 | Proxy: 0
+2026-05-22 14:48:40 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-annotation-processing-gradle
+2026-05-22 14:48:40 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-android-extensions
+2026-05-22 14:48:41 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-compiler-runner
+2026-05-22 14:48:41 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-build-common
+2026-05-22 14:48:41 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-daemon-client
+2026-05-22 14:48:42 [WARNING] [reachability-metadata-manager] Metadata index not found for org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable
+2026-05-22 14:48:43 [INFO] [reachability-metadata-manager] [+] Dependency: kotlin-scripting-common:1.6.21 | Refl: 21 | Proxy: 0
+2026-05-22 14:48:43 [INFO] [reachability-metadata-manager] [+] Dependency: kotlin-scripting-jvm:1.6.21 | Refl: 8 | Proxy: 0
+2026-05-22 14:48:44 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.experimental.aot:org.springframework.experimental.aot.gradle.plugin
+2026-05-22 14:48:44 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.experimental:spring-aot-gradle-plugin
+2026-05-22 14:48:44 [INFO] [reachability-metadata-manager] [+] Dependency: jna:5.7.0 | Refl: 50 | Proxy: 0
+2026-05-22 14:48:44 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.experimental:spring-native-docs
+2026-05-22 14:48:44 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 518 deps processed for spring-native] ---
+2026-05-22 14:48:59 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: whisper-jni] ---
+2026-05-22 14:48:59 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for whisper-jni] ---
+2026-05-22 14:55:20 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: jni-faiss] ---
+2026-05-22 14:55:20 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for jni-faiss] ---
+2026-05-22 14:57:19 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: algo-struct] ---
+2026-05-22 14:57:20 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-thymeleaf
+2026-05-22 14:57:20 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-logging
+2026-05-22 14:57:21 [INFO] [reachability-metadata-manager] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-05-22 14:57:21 [INFO] [reachability-metadata-manager] [+] Dependency: logback-core:1.5.18 | Refl: 14 | Proxy: 0
+2026-05-22 14:57:21 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.logging.log4j:log4j-to-slf4j
+2026-05-22 14:57:22 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.logging.log4j:log4j-api
+2026-05-22 14:57:23 [INFO] [reachability-metadata-manager] [+] Dependency: snakeyaml:2.3 | Refl: 8 | Proxy: 0
+2026-05-22 14:57:24 [INFO] [reachability-metadata-manager] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-05-22 14:57:24 [INFO] [reachability-metadata-manager] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-05-22 14:57:26 [INFO] [reachability-metadata-manager] [+] Dependency: slf4j-api:2.0.17 | Refl: 2 | Proxy: 0
+2026-05-22 14:57:27 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-databind:2.18.3 | Refl: 56 | Proxy: 0
+2026-05-22 14:57:27 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-annotations:2.18.3 | Refl: 2 | Proxy: 0
+2026-05-22 14:57:29 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-datatype-jdk8:2.18.3 | Refl: 2 | Proxy: 0
+2026-05-22 14:57:29 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-datatype-jsr310:2.18.3 | Refl: 4 | Proxy: 0
+2026-05-22 14:57:31 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-05-22 14:57:31 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-el:10.1.39 | Refl: 25 | Proxy: 0
+2026-05-22 14:57:32 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-web
+2026-05-22 14:57:32 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-beans
+2026-05-22 14:57:33 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-webmvc
+2026-05-22 14:57:34 [INFO] [reachability-metadata-manager] [+] Dependency: spring-aop:6.2.5 | Refl: 31 | Proxy: 0
+2026-05-22 14:57:34 [INFO] [reachability-metadata-manager] [+] Dependency: spring-context:6.2.5 | Refl: 154 | Proxy: 0
+2026-05-22 14:57:35 [INFO] [reachability-metadata-manager] [+] Dependency: spring-expression:6.2.5 | Refl: 48 | Proxy: 0
+2026-05-22 14:57:35 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-devtools
+2026-05-22 14:57:36 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot
+2026-05-22 14:57:36 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-autoconfigure
+2026-05-22 14:57:36 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-core
+2026-05-22 14:57:36 [INFO] [reachability-metadata-manager] [+] Dependency: spring-jcl:6.2.5 | Refl: 2 | Proxy: 0
+2026-05-22 14:57:37 [WARNING] [reachability-metadata-manager] Metadata index not found for org.projectlombok:lombok
+2026-05-22 14:57:37 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+2026-05-22 14:58:06 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: algo-struct] ---
+2026-05-22 14:58:06 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-thymeleaf
+2026-05-22 14:58:06 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-logging
+2026-05-22 14:58:06 [INFO] [reachability-metadata-manager] [+] Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+2026-05-22 14:58:07 [INFO] [reachability-metadata-manager] [+] Dependency: logback-core:1.5.18 | Refl: 14 | Proxy: 0
+2026-05-22 14:58:07 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.logging.log4j:log4j-to-slf4j
+2026-05-22 14:58:07 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.logging.log4j:log4j-api
+2026-05-22 14:58:08 [INFO] [reachability-metadata-manager] [+] Dependency: snakeyaml:2.3 | Refl: 8 | Proxy: 0
+2026-05-22 14:58:08 [INFO] [reachability-metadata-manager] [+] Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+2026-05-22 14:58:08 [INFO] [reachability-metadata-manager] [+] Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+2026-05-22 14:58:09 [INFO] [reachability-metadata-manager] [+] Dependency: slf4j-api:2.0.17 | Refl: 2 | Proxy: 0
+2026-05-22 14:58:09 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-databind:2.18.3 | Refl: 56 | Proxy: 0
+2026-05-22 14:58:09 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-annotations:2.18.3 | Refl: 2 | Proxy: 0
+2026-05-22 14:58:10 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-datatype-jdk8:2.18.3 | Refl: 2 | Proxy: 0
+2026-05-22 14:58:10 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-datatype-jsr310:2.18.3 | Refl: 4 | Proxy: 0
+2026-05-22 14:58:11 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+2026-05-22 14:58:11 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-el:10.1.39 | Refl: 25 | Proxy: 0
+2026-05-22 14:58:11 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-web
+2026-05-22 14:58:12 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-beans
+2026-05-22 14:58:12 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-webmvc
+2026-05-22 14:58:12 [INFO] [reachability-metadata-manager] [+] Dependency: spring-aop:6.2.5 | Refl: 31 | Proxy: 0
+2026-05-22 14:58:13 [INFO] [reachability-metadata-manager] [+] Dependency: spring-context:6.2.5 | Refl: 154 | Proxy: 0
+2026-05-22 14:58:13 [INFO] [reachability-metadata-manager] [+] Dependency: spring-expression:6.2.5 | Refl: 48 | Proxy: 0
+2026-05-22 14:58:13 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-devtools
+2026-05-22 14:58:13 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot
+2026-05-22 14:58:13 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-autoconfigure
+2026-05-22 14:58:13 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-core
+2026-05-22 14:58:14 [INFO] [reachability-metadata-manager] [+] Dependency: spring-jcl:6.2.5 | Refl: 2 | Proxy: 0
+2026-05-22 14:58:14 [WARNING] [reachability-metadata-manager] Metadata index not found for org.projectlombok:lombok
+2026-05-22 14:58:14 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 41 deps processed for algo-struct] ---
+2026-05-22 14:58:45 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: jni-faiss] ---
+2026-05-22 14:58:45 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for jni-faiss] ---
+2026-05-22 15:04:20 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: piggymetrics] ---
+2026-05-22 15:04:21 [WARNING] [reachability-metadata-manager] Metadata index not found for com.piggymetrics:config
+2026-05-22 15:04:21 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-config-server
+2026-05-22 15:04:21 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-config-client
+2026-05-22 15:04:21 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-autoconfigure
+2026-05-22 15:04:22 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-commons
+2026-05-22 15:04:22 [INFO] [reachability-metadata-manager] [+] Dependency: spring-cloud-context:2.0.0.RELEASE | Refl: 14 | Proxy: 0
+2026-05-22 15:04:22 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-web
+2026-05-22 15:04:23 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-annotations:2.9.0 | Refl: 2 | Proxy: 0
+2026-05-22 15:04:24 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-databind:2.9.6 | Refl: 56 | Proxy: 0
+2026-05-22 15:04:25 [INFO] [reachability-metadata-manager] [+] Dependency: spring-boot-actuator-autoconfigure:2.0.3.RELEASE | Refl: 7 | Proxy: 0
+2026-05-22 15:04:26 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-actuator
+2026-05-22 15:04:26 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-datatype-jsr310:2.9.6 | Refl: 4 | Proxy: 0
+2026-05-22 15:04:27 [WARNING] [reachability-metadata-manager] Metadata index not found for io.micrometer:micrometer-core
+2026-05-22 15:04:27 [INFO] [reachability-metadata-manager] [+] Dependency: HdrHistogram:2.1.10 | Refl: 12 | Proxy: 0
+2026-05-22 15:04:28 [INFO] [reachability-metadata-manager] [+] Dependency: LatencyUtils:2.0.3 | Refl: 3 | Proxy: 0
+2026-05-22 15:04:29 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-datatype-jdk8:2.9.6 | Refl: 2 | Proxy: 0
+2026-05-22 15:04:31 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-core:8.5.31 | Refl: 202 | Proxy: 0
+2026-05-22 15:04:31 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-el:8.5.31 | Refl: 25 | Proxy: 0
+2026-05-22 15:04:32 [INFO] [reachability-metadata-manager] [+] Dependency: hibernate-validator:6.0.10.Final | Refl: 356 | Proxy: 0
+2026-05-22 15:04:33 [INFO] [reachability-metadata-manager] [+] Dependency: validation-api:2.0.1.Final | Refl: 2 | Proxy: 0
+2026-05-22 15:04:34 [INFO] [reachability-metadata-manager] [+] Dependency: jboss-logging:3.3.2.Final | Refl: 12 | Proxy: 0
+2026-05-22 15:04:34 [INFO] [reachability-metadata-manager] [+] Dependency: classmate:1.3.4 | Refl: 2 | Proxy: 0
+2026-05-22 15:04:35 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-webmvc
+2026-05-22 15:04:35 [INFO] [reachability-metadata-manager] [+] Dependency: spring-security-crypto:5.0.6.RELEASE | Refl: 21 | Proxy: 0
+2026-05-22 15:04:35 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-rsa
+2026-05-22 15:04:36 [INFO] [reachability-metadata-manager] [+] Dependency: bcpkix-jdk15on:1.56 | Refl: 90 | Proxy: 0
+2026-05-22 15:04:36 [WARNING] [reachability-metadata-manager] Metadata index not found for org.bouncycastle:bcprov-jdk15on
+2026-05-22 15:04:37 [INFO] [reachability-metadata-manager] [+] Dependency: org.eclipse.jgit:4.11.0.201803080745-r | Refl: 16 | Proxy: 0
+2026-05-22 15:04:37 [WARNING] [reachability-metadata-manager] Metadata index not found for com.jcraft:jsch
+2026-05-22 15:04:38 [WARNING] [reachability-metadata-manager] Metadata index not found for com.jcraft:jzlib
+2026-05-22 15:04:39 [INFO] [reachability-metadata-manager] [+] Dependency: httpclient:4.5.5 | Refl: 2 | Proxy: 0
+2026-05-22 15:04:40 [INFO] [reachability-metadata-manager] [+] Dependency: slf4j-api:1.7.25 | Refl: 2 | Proxy: 0
+2026-05-22 15:04:40 [WARNING] [reachability-metadata-manager] Metadata index not found for org.eclipse.jgit:org.eclipse.jgit.http.apache
+2026-05-22 15:04:41 [INFO] [reachability-metadata-manager] [+] Dependency: httpcore:4.4.9 | Refl: 3 | Proxy: 0
+2026-05-22 15:04:41 [INFO] [reachability-metadata-manager] [+] Dependency: snakeyaml:1.19 | Refl: 8 | Proxy: 0
+2026-05-22 15:04:42 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-security
+2026-05-22 15:04:42 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot
+2026-05-22 15:04:43 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-logging
+2026-05-22 15:04:43 [INFO] [reachability-metadata-manager] [+] Dependency: logback-classic:1.2.3 | Refl: 112 | Proxy: 0
+2026-05-22 15:04:44 [INFO] [reachability-metadata-manager] [+] Dependency: logback-core:1.2.3 | Refl: 14 | Proxy: 0
+2026-05-22 15:04:44 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.logging.log4j:log4j-to-slf4j
+2026-05-22 15:04:44 [WARNING] [reachability-metadata-manager] Metadata index not found for org.apache.logging.log4j:log4j-api
+2026-05-22 15:04:46 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-core
+2026-05-22 15:04:46 [INFO] [reachability-metadata-manager] [+] Dependency: spring-jcl:5.0.7.RELEASE | Refl: 2 | Proxy: 0
+2026-05-22 15:04:47 [INFO] [reachability-metadata-manager] [+] Dependency: spring-aop:5.0.7.RELEASE | Refl: 31 | Proxy: 0
+2026-05-22 15:04:47 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-beans
+2026-05-22 15:04:47 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-config
+2026-05-22 15:04:48 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-core
+2026-05-22 15:04:48 [INFO] [reachability-metadata-manager] [+] Dependency: spring-context:5.0.7.RELEASE | Refl: 154 | Proxy: 0
+2026-05-22 15:04:49 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-web
+2026-05-22 15:04:49 [INFO] [reachability-metadata-manager] [+] Dependency: spring-expression:5.0.7.RELEASE | Refl: 48 | Proxy: 0
+2026-05-22 15:04:49 [WARNING] [reachability-metadata-manager] Metadata index not found for com.piggymetrics:monitoring
+2026-05-22 15:04:50 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-config
+2026-05-22 15:04:50 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard
+2026-05-22 15:04:51 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard
+2026-05-22 15:04:51 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-freemarker
+2026-05-22 15:04:51 [INFO] [reachability-metadata-manager] [+] Dependency: freemarker:2.3.28 | Refl: 4 | Proxy: 0
+2026-05-22 15:04:52 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-netflix-core
+2026-05-22 15:04:53 [INFO] [reachability-metadata-manager] [+] Dependency: aspectjweaver:1.8.13 | Refl: 71 | Proxy: 0
+2026-05-22 15:04:53 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.hystrix:hystrix-core
+2026-05-22 15:04:54 [WARNING] [reachability-metadata-manager] Metadata index not found for io.reactivex:rxjava
+2026-05-22 15:04:54 [INFO] [reachability-metadata-manager] [+] Dependency: HdrHistogram:2.1.9 | Refl: 12 | Proxy: 0
+2026-05-22 15:04:54 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.hystrix:hystrix-metrics-event-stream
+2026-05-22 15:04:55 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.hystrix:hystrix-serialization
+2026-05-22 15:04:55 [WARNING] [reachability-metadata-manager] Metadata index not found for com.fasterxml.jackson.module:jackson-module-afterburner
+2026-05-22 15:04:55 [WARNING] [reachability-metadata-manager] Metadata index not found for org.webjars:d3js
+2026-05-22 15:04:56 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-netflix-archaius
+2026-05-22 15:04:56 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-netflix-ribbon
+2026-05-22 15:04:56 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-netflix-archaius
+2026-05-22 15:04:56 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.archaius:archaius-core
+2026-05-22 15:04:58 [INFO] [reachability-metadata-manager] [+] Dependency: guava:16.0 | Refl: 71 | Proxy: 0
+2026-05-22 15:04:58 [INFO] [reachability-metadata-manager] [+] Dependency: commons-configuration:1.8 | Refl: 24 | Proxy: 0
+2026-05-22 15:04:59 [INFO] [reachability-metadata-manager] [+] Dependency: commons-lang:2.6 | Refl: 9 | Proxy: 0
+2026-05-22 15:05:00 [INFO] [reachability-metadata-manager] [+] Dependency: asm:5.0.4 | Refl: 4 | Proxy: 0
+2026-05-22 15:05:00 [INFO] [reachability-metadata-manager] [+] Dependency: objenesis:2.6 | Refl: 1 | Proxy: 0
+2026-05-22 15:05:01 [WARNING] [reachability-metadata-manager] Metadata index not found for com.piggymetrics:registry
+2026-05-22 15:05:01 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server
+2026-05-22 15:05:01 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-netflix-eureka-server
+2026-05-22 15:05:02 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-netflix-eureka-client
+2026-05-22 15:05:02 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.eureka:eureka-client
+2026-05-22 15:05:02 [INFO] [reachability-metadata-manager] [+] Dependency: jettison:1.3.7 | Refl: 2 | Proxy: 0
+2026-05-22 15:05:03 [WARNING] [reachability-metadata-manager] Metadata index not found for stax:stax-api
+2026-05-22 15:05:03 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.netflix-commons:netflix-eventbus
+2026-05-22 15:05:03 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.netflix-commons:netflix-infix
+2026-05-22 15:05:03 [WARNING] [reachability-metadata-manager] Metadata index not found for commons-jxpath:commons-jxpath
+2026-05-22 15:05:04 [INFO] [reachability-metadata-manager] [+] Dependency: joda-time:2.9.9 | Refl: 3 | Proxy: 0
+2026-05-22 15:05:05 [INFO] [reachability-metadata-manager] [+] Dependency: antlr-runtime:3.4 | Refl: 1 | Proxy: 0
+2026-05-22 15:05:05 [WARNING] [reachability-metadata-manager] Metadata index not found for org.antlr:stringtemplate
+2026-05-22 15:05:06 [INFO] [reachability-metadata-manager] [+] Dependency: antlr:2.7.7 | Refl: 15 | Proxy: 0
+2026-05-22 15:05:06 [INFO] [reachability-metadata-manager] [+] Dependency: gson:2.8.5 | Refl: 2 | Proxy: 0
+2026-05-22 15:05:07 [INFO] [reachability-metadata-manager] [+] Dependency: commons-math:2.2 | Refl: 10 | Proxy: 0
+2026-05-22 15:05:08 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.servo:servo-core
+2026-05-22 15:05:08 [WARNING] [reachability-metadata-manager] Metadata index not found for com.sun.jersey:jersey-core
+2026-05-22 15:05:08 [WARNING] [reachability-metadata-manager] Metadata index not found for com.sun.jersey:jersey-client
+2026-05-22 15:05:09 [WARNING] [reachability-metadata-manager] Metadata index not found for com.sun.jersey.contribs:jersey-apache-client4
+2026-05-22 15:05:09 [WARNING] [reachability-metadata-manager] Metadata index not found for com.google.inject:guice
+2026-05-22 15:05:10 [WARNING] [reachability-metadata-manager] Metadata index not found for com.github.vlsi.compactmap:compactmap
+2026-05-22 15:05:10 [WARNING] [reachability-metadata-manager] Metadata index not found for com.github.andrewoma.dexx:dexx-collections
+2026-05-22 15:05:10 [INFO] [reachability-metadata-manager] [+] Dependency: jersey-servlet:1.19.1 | Refl: 59 | Proxy: 0
+2026-05-22 15:05:11 [WARNING] [reachability-metadata-manager] Metadata index not found for com.sun.jersey:jersey-server
+2026-05-22 15:05:11 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.eureka:eureka-core
+2026-05-22 15:05:11 [WARNING] [reachability-metadata-manager] Metadata index not found for org.codehaus.woodstox:woodstox-core-asl
+2026-05-22 15:05:12 [WARNING] [reachability-metadata-manager] Metadata index not found for javax.xml.stream:stax-api
+2026-05-22 15:05:13 [WARNING] [reachability-metadata-manager] Metadata index not found for com.fasterxml.jackson.dataformat:jackson-dataformat-xml
+2026-05-22 15:05:13 [WARNING] [reachability-metadata-manager] Metadata index not found for com.fasterxml.jackson.module:jackson-module-jaxb-annotations
+2026-05-22 15:05:14 [WARNING] [reachability-metadata-manager] Metadata index not found for com.fasterxml.woodstox:woodstox-core
+2026-05-22 15:05:14 [WARNING] [reachability-metadata-manager] Metadata index not found for com.thoughtworks.xstream:xstream
+2026-05-22 15:05:15 [WARNING] [reachability-metadata-manager] Metadata index not found for xpp3:xpp3_min
+2026-05-22 15:05:15 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-netflix-ribbon
+2026-05-22 15:05:16 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.ribbon:ribbon
+2026-05-22 15:05:16 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.ribbon:ribbon-transport
+2026-05-22 15:05:16 [WARNING] [reachability-metadata-manager] Metadata index not found for io.reactivex:rxnetty-contexts
+2026-05-22 15:05:16 [WARNING] [reachability-metadata-manager] Metadata index not found for io.reactivex:rxnetty-servo
+2026-05-22 15:05:17 [WARNING] [reachability-metadata-manager] Metadata index not found for io.reactivex:rxnetty
+2026-05-22 15:05:18 [INFO] [reachability-metadata-manager] [+] Dependency: netty-codec:4.1.25.Final | Refl: 11 | Proxy: 0
+2026-05-22 15:05:18 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport-native-epoll:4.1.25.Final | Refl: 13 | Proxy: 0
+2026-05-22 15:05:19 [INFO] [reachability-metadata-manager] [+] Dependency: netty-common:4.1.25.Final | Refl: 750 | Proxy: 0
+2026-05-22 15:05:20 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport-native-unix-common:4.1.25.Final | Refl: 26 | Proxy: 0
+2026-05-22 15:05:21 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport:4.1.25.Final | Refl: 3 | Proxy: 0
+2026-05-22 15:05:22 [INFO] [reachability-metadata-manager] [+] Dependency: netty-resolver:4.1.25.Final | Refl: 7 | Proxy: 0
+2026-05-22 15:05:22 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.ribbon:ribbon-core
+2026-05-22 15:05:22 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.ribbon:ribbon-httpclient
+2026-05-22 15:05:22 [WARNING] [reachability-metadata-manager] Metadata index not found for commons-collections:commons-collections
+2026-05-22 15:05:23 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.netflix-commons:netflix-commons-util
+2026-05-22 15:05:23 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.ribbon:ribbon-loadbalancer
+2026-05-22 15:05:23 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.netflix-commons:netflix-statistics
+2026-05-22 15:05:23 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.ribbon:ribbon-eureka
+2026-05-22 15:05:24 [WARNING] [reachability-metadata-manager] Metadata index not found for com.piggymetrics:gateway
+2026-05-22 15:05:24 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-netflix-zuul
+2026-05-22 15:05:24 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-netflix-zuul
+2026-05-22 15:05:24 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-netflix-hystrix
+2026-05-22 15:05:25 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.hystrix:hystrix-javanica
+2026-05-22 15:05:25 [INFO] [reachability-metadata-manager] [+] Dependency: commons-lang3:3.7 | Refl: 28 | Proxy: 0
+2026-05-22 15:05:26 [INFO] [reachability-metadata-manager] [+] Dependency: guava:15.0 | Refl: 71 | Proxy: 0
+2026-05-22 15:05:26 [WARNING] [reachability-metadata-manager] Metadata index not found for io.reactivex:rxjava-reactive-streams
+2026-05-22 15:05:27 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.zuul:zuul-core
+2026-05-22 15:05:28 [INFO] [reachability-metadata-manager] [+] Dependency: commons-io:2.4 | Refl: 4 | Proxy: 0
+2026-05-22 15:05:28 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client
+2026-05-22 15:05:28 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-sleuth
+2026-05-22 15:05:28 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-sleuth-core
+2026-05-22 15:05:29 [INFO] [reachability-metadata-manager] [+] Dependency: aspectjrt:1.8.13 | Refl: 21 | Proxy: 0
+2026-05-22 15:05:29 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave
+2026-05-22 15:05:30 [INFO] [reachability-metadata-manager] [+] Dependency: zipkin-reporter:2.7.3 | Refl: 2 | Proxy: 0
+2026-05-22 15:05:31 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-context-log4j2
+2026-05-22 15:05:31 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-spring-web
+2026-05-22 15:05:31 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-http
+2026-05-22 15:05:32 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-spring-rabbit
+2026-05-22 15:05:32 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-kafka-clients
+2026-05-22 15:05:32 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-httpclient
+2026-05-22 15:05:32 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-httpasyncclient
+2026-05-22 15:05:33 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-spring-webmvc
+2026-05-22 15:05:33 [WARNING] [reachability-metadata-manager] Metadata index not found for io.zipkin.brave:brave-instrumentation-servlet
+2026-05-22 15:05:33 [WARNING] [reachability-metadata-manager] Metadata index not found for com.piggymetrics:auth-service
+2026-05-22 15:05:34 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-data-mongodb
+2026-05-22 15:05:34 [WARNING] [reachability-metadata-manager] Metadata index not found for org.mongodb:mongodb-driver
+2026-05-22 15:05:35 [INFO] [reachability-metadata-manager] [+] Dependency: bson:3.6.4 | Refl: 3 | Proxy: 0
+2026-05-22 15:05:35 [INFO] [reachability-metadata-manager] [+] Dependency: mongodb-driver-core:3.6.4 | Refl: 3 | Proxy: 0
+2026-05-22 15:05:36 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-mongodb
+2026-05-22 15:05:37 [INFO] [reachability-metadata-manager] [+] Dependency: spring-tx:5.0.7.RELEASE | Refl: 6 | Proxy: 0
+2026-05-22 15:05:37 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.data:spring-data-commons
+2026-05-22 15:05:37 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-oauth2
+2026-05-22 15:05:37 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-security
+2026-05-22 15:05:38 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-security
+2026-05-22 15:05:38 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure
+2026-05-22 15:05:38 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security.oauth:spring-security-oauth2
+2026-05-22 15:05:39 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-mapper-asl:1.9.13 | Refl: 6 | Proxy: 0
+2026-05-22 15:05:40 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-jwt
+2026-05-22 15:05:40 [WARNING] [reachability-metadata-manager] Metadata index not found for com.piggymetrics:account-service
+2026-05-22 15:05:41 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-openfeign
+2026-05-22 15:05:41 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-openfeign-core
+2026-05-22 15:05:41 [WARNING] [reachability-metadata-manager] Metadata index not found for io.github.openfeign:feign-core
+2026-05-22 15:05:41 [WARNING] [reachability-metadata-manager] Metadata index not found for io.github.openfeign:feign-slf4j
+2026-05-22 15:05:42 [WARNING] [reachability-metadata-manager] Metadata index not found for io.github.openfeign:feign-hystrix
+2026-05-22 15:05:42 [WARNING] [reachability-metadata-manager] Metadata index not found for io.github.openfeign:feign-java8
+2026-05-22 15:05:42 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-bus-amqp
+2026-05-22 15:05:43 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-stream-rabbit
+2026-05-22 15:05:43 [INFO] [reachability-metadata-manager] [+] Dependency: spring-cloud-stream-binder-rabbit:2.0.0.RELEASE | Refl: 1 | Proxy: 0
+2026-05-22 15:05:44 [INFO] [reachability-metadata-manager] [+] Dependency: spring-cloud-stream-binder-rabbit-core:2.0.0.RELEASE | Refl: 10 | Proxy: 0
+2026-05-22 15:05:45 [INFO] [reachability-metadata-manager] [+] Dependency: spring-rabbit:2.0.4.RELEASE | Refl: 53 | Proxy: 0
+2026-05-22 15:05:45 [INFO] [reachability-metadata-manager] [+] Dependency: spring-amqp:2.0.4.RELEASE | Refl: 5 | Proxy: 0
+2026-05-22 15:05:46 [INFO] [reachability-metadata-manager] [+] Dependency: amqp-client:5.1.2 | Refl: 21 | Proxy: 0
+2026-05-22 15:05:47 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-bus
+2026-05-22 15:05:48 [INFO] [reachability-metadata-manager] [+] Dependency: reactor-core:3.1.8.RELEASE | Refl: 3 | Proxy: 0
+2026-05-22 15:05:49 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-netflix-hystrix-stream
+2026-05-22 15:05:49 [INFO] [reachability-metadata-manager] [+] Dependency: spring-cloud-stream:2.0.0.RELEASE | Refl: 42 | Proxy: 0
+2026-05-22 15:05:50 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-messaging
+2026-05-22 15:05:50 [INFO] [reachability-metadata-manager] [+] Dependency: spring-integration-jmx:5.0.6.RELEASE | Refl: 8 | Proxy: 0
+2026-05-22 15:05:51 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-tuple
+2026-05-22 15:05:51 [WARNING] [reachability-metadata-manager] Metadata index not found for com.esotericsoftware:kryo-shaded
+2026-05-22 15:05:52 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.integration:spring-integration-tuple
+2026-05-22 15:05:52 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.retry:spring-retry
+2026-05-22 15:05:52 [WARNING] [reachability-metadata-manager] Metadata index not found for com.piggymetrics:statistics-service
+2026-05-22 15:05:53 [INFO] [reachability-metadata-manager] [+] Dependency: guava:19.0 | Refl: 71 | Proxy: 0
+2026-05-22 15:05:53 [WARNING] [reachability-metadata-manager] Metadata index not found for com.piggymetrics:notification-service
+2026-05-22 15:05:53 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-mail
+2026-05-22 15:05:54 [WARNING] [reachability-metadata-manager] Metadata index not found for com.sun.mail:javax.mail
+2026-05-22 15:05:54 [INFO] [reachability-metadata-manager] [+] Dependency: activation:1.1 | Refl: 1 | Proxy: 0
+2026-05-22 15:05:55 [WARNING] [reachability-metadata-manager] Metadata index not found for com.piggymetrics:turbine-stream-service
+2026-05-22 15:05:55 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-starter-netflix-turbine-stream
+2026-05-22 15:05:55 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-netflix-turbine-stream
+2026-05-22 15:05:56 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-webflux
+2026-05-22 15:05:56 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-starter-reactor-netty
+2026-05-22 15:05:56 [WARNING] [reachability-metadata-manager] Metadata index not found for io.projectreactor.ipc:reactor-netty
+2026-05-22 15:05:57 [INFO] [reachability-metadata-manager] [+] Dependency: netty-handler-proxy:4.1.25.Final | Refl: 25 | Proxy: 0
+2026-05-22 15:05:58 [INFO] [reachability-metadata-manager] [+] Dependency: netty-codec-socks:4.1.25.Final | Refl: 6 | Proxy: 0
+2026-05-22 15:05:58 [INFO] [reachability-metadata-manager] [+] Dependency: netty-transport-native-epoll:4.1.25.Final | Refl: 13 | Proxy: 0
+2026-05-22 15:05:59 [INFO] [reachability-metadata-manager] [+] Dependency: spring-webflux:5.0.7.RELEASE | Refl: 83 | Proxy: 0
+2026-05-22 15:05:59 [WARNING] [reachability-metadata-manager] Metadata index not found for org.synchronoss.cloud:nio-multipart-parser
+2026-05-22 15:05:59 [WARNING] [reachability-metadata-manager] Metadata index not found for org.synchronoss.cloud:nio-stream-storage
+2026-05-22 15:06:00 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.turbine:turbine-core
+2026-05-22 15:06:01 [WARNING] [reachability-metadata-manager] Metadata index not found for com.netflix.rxnetty:rx-netty
+2026-05-22 15:06:01 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-mapper-asl:1.9.2 | Refl: 6 | Proxy: 0
+2026-05-22 15:06:01 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 247 deps processed for piggymetrics] ---
+2026-05-22 15:07:44 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: jni-faiss] ---
+2026-05-22 15:07:44 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for jni-faiss] ---
+2026-05-22 15:15:51 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: piggymetrics] ---
+2026-05-22 15:15:51 [WARNING] [reachability-metadata-manager] Metadata index not found for com.piggymetrics:config
+2026-05-22 15:15:51 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-config-server
+2026-05-22 15:15:52 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-config-client
+2026-05-22 15:15:52 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-autoconfigure
+2026-05-22 15:15:52 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.cloud:spring-cloud-commons
+2026-05-22 15:15:53 [INFO] [reachability-metadata-manager] [+] Dependency: spring-cloud-context:2.0.0.RELEASE | Refl: 14 | Proxy: 0
+2026-05-22 15:15:53 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-web
+2026-05-22 15:15:53 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-annotations:2.9.0 | Refl: 2 | Proxy: 0
+2026-05-22 15:15:54 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-databind:2.9.6 | Refl: 56 | Proxy: 0
+2026-05-22 15:15:55 [INFO] [reachability-metadata-manager] [+] Dependency: spring-boot-actuator-autoconfigure:2.0.3.RELEASE | Refl: 7 | Proxy: 0
+2026-05-22 15:15:55 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.boot:spring-boot-actuator
+2026-05-22 15:15:56 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-datatype-jsr310:2.9.6 | Refl: 4 | Proxy: 0
+2026-05-22 15:15:56 [WARNING] [reachability-metadata-manager] Metadata index not found for io.micrometer:micrometer-core
+2026-05-22 15:15:57 [INFO] [reachability-metadata-manager] [+] Dependency: HdrHistogram:2.1.10 | Refl: 12 | Proxy: 0
+2026-05-22 15:15:57 [INFO] [reachability-metadata-manager] [+] Dependency: LatencyUtils:2.0.3 | Refl: 3 | Proxy: 0
+2026-05-22 15:15:58 [INFO] [reachability-metadata-manager] [+] Dependency: jackson-datatype-jdk8:2.9.6 | Refl: 2 | Proxy: 0
+2026-05-22 15:16:00 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-core:8.5.31 | Refl: 202 | Proxy: 0
+2026-05-22 15:16:00 [INFO] [reachability-metadata-manager] [+] Dependency: tomcat-embed-el:8.5.31 | Refl: 25 | Proxy: 0
+2026-05-22 15:16:01 [INFO] [reachability-metadata-manager] [+] Dependency: hibernate-validator:6.0.10.Final | Refl: 356 | Proxy: 0
+2026-05-22 15:16:02 [INFO] [reachability-metadata-manager] [+] Dependency: validation-api:2.0.1.Final | Refl: 2 | Proxy: 0
+2026-05-22 15:16:03 [INFO] [reachability-metadata-manager] [+] Dependency: jboss-logging:3.3.2.Final | Refl: 12 | Proxy: 0
+2026-05-22 15:16:03 [INFO] [reachability-metadata-manager] [+] Dependency: classmate:1.3.4 | Refl: 2 | Proxy: 0
+2026-05-22 15:16:03 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework:spring-webmvc
+2026-05-22 15:16:04 [INFO] [reachability-metadata-manager] [+] Dependency: spring-security-crypto:5.0.6.RELEASE | Refl: 21 | Proxy: 0
+2026-05-22 15:16:04 [WARNING] [reachability-metadata-manager] Metadata index not found for org.springframework.security:spring-security-rsa
+2026-05-22 15:18:02 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: jni-faiss] ---
+2026-05-22 15:18:02 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 0 deps processed for jni-faiss] ---

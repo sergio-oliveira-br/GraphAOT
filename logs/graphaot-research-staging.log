@@ -52,3 +52,84 @@
 2026-05-21 13:18:39 [INFO] [graphaot-research-staging]  [OK] jnativehook completed.
 
 2026-05-21 13:18:39 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 14:23:16 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'hawtjni'
+2026-05-22 14:23:16 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 14:23:16 [INFO] [graphaot-research-staging] >>> Processing: hawtjni
+2026-05-22 14:23:16 [INFO] [graphaot-research-staging]  [OK] hawtjni completed.
+
+2026-05-22 14:23:16 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 14:26:42 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'hawtjni'
+2026-05-22 14:26:42 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 14:26:42 [INFO] [graphaot-research-staging] >>> Processing: hawtjni
+2026-05-22 14:26:42 [INFO] [graphaot-research-staging]  [OK] hawtjni completed.
+
+2026-05-22 14:26:42 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 14:28:57 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'whisper-jni'
+2026-05-22 14:28:57 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 14:28:57 [INFO] [graphaot-research-staging] >>> Processing: whisper-jni
+2026-05-22 14:28:57 [INFO] [graphaot-research-staging]  [OK] whisper-jni completed.
+
+2026-05-22 14:28:57 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 14:34:05 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'whisper-jni'
+2026-05-22 14:34:05 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 14:34:05 [INFO] [graphaot-research-staging] >>> Processing: whisper-jni
+2026-05-22 14:34:05 [INFO] [graphaot-research-staging]  [OK] whisper-jni completed.
+
+2026-05-22 14:34:05 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 14:45:05 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'spring-native'
+2026-05-22 14:45:05 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 14:45:05 [INFO] [graphaot-research-staging] >>> Processing: spring-native
+2026-05-22 14:48:44 [INFO] [graphaot-research-staging]  [OK] spring-native completed.
+
+2026-05-22 14:48:44 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 14:48:59 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'whisper-jni'
+2026-05-22 14:48:59 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 14:48:59 [INFO] [graphaot-research-staging] >>> Processing: whisper-jni
+2026-05-22 14:48:59 [INFO] [graphaot-research-staging]  [OK] whisper-jni completed.
+
+2026-05-22 14:48:59 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 14:55:19 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'jni-faiss'
+2026-05-22 14:55:19 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 14:55:19 [INFO] [graphaot-research-staging] >>> Processing: jni-faiss
+2026-05-22 14:55:20 [INFO] [graphaot-research-staging]  [OK] jni-faiss completed.
+
+2026-05-22 14:55:20 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 14:57:19 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'algo-struct'
+2026-05-22 14:57:19 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 14:57:19 [INFO] [graphaot-research-staging] >>> Processing: algo-struct
+2026-05-22 14:57:37 [INFO] [graphaot-research-staging]  [OK] algo-struct completed.
+
+2026-05-22 14:57:37 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 14:58:05 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'algo-struct'
+2026-05-22 14:58:05 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 14:58:05 [INFO] [graphaot-research-staging] >>> Processing: algo-struct
+2026-05-22 14:58:14 [INFO] [graphaot-research-staging]  [OK] algo-struct completed.
+
+2026-05-22 14:58:14 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 14:58:45 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'jni-faiss'
+2026-05-22 14:58:45 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 14:58:45 [INFO] [graphaot-research-staging] >>> Processing: jni-faiss
+2026-05-22 14:58:45 [INFO] [graphaot-research-staging]  [OK] jni-faiss completed.
+
+2026-05-22 14:58:45 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 15:04:20 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'piggymetrics'
+2026-05-22 15:04:20 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 15:04:20 [INFO] [graphaot-research-staging] >>> Processing: piggymetrics
+2026-05-22 15:06:01 [INFO] [graphaot-research-staging]  [OK] piggymetrics completed.
+
+2026-05-22 15:06:01 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 15:07:44 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'jni-faiss'
+2026-05-22 15:07:44 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 15:07:44 [INFO] [graphaot-research-staging] >>> Processing: jni-faiss
+2026-05-22 15:07:44 [INFO] [graphaot-research-staging]  [OK] jni-faiss completed.
+
+2026-05-22 15:07:44 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 15:15:50 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'piggymetrics'
+2026-05-22 15:15:50 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 15:15:50 [INFO] [graphaot-research-staging] >>> Processing: piggymetrics
+2026-05-22 15:18:02 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'jni-faiss'
+2026-05-22 15:18:02 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 15:18:02 [INFO] [graphaot-research-staging] >>> Processing: jni-faiss
+2026-05-22 15:18:02 [INFO] [graphaot-research-staging]  [OK] jni-faiss completed.
+
+2026-05-22 15:18:02 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---

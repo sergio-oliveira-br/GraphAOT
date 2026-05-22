@@ -31,3 +31,26 @@ fatal: repository 'https://github.com/graalvm/graalvm-demos/tree/master/native-i
 2026-05-21 13:21:31 [INFO] [git_manager] Checking if https://github.com/sergio-oliveira-br/LabMQTT is reachable
 2026-05-21 13:21:33 [ERROR] [git_manager] pom.xml not found in remote repository: https://github.com/sergio-oliveira-br/LabMQTT
 2026-05-21 13:22:30 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-22 10:32:09 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-22 10:32:27 [INFO] [git_manager] Cloning repository: https://github.com/kwhat/jnativehook
+2026-05-22 10:34:05 [INFO] [git_manager] Cloning repository: https://github.com/kwhat/jnativehook
+2026-05-22 10:41:04 [INFO] [git_manager] Cloning repository: https://github.com/kwhat/jnativehook
+2026-05-22 11:07:32 [INFO] [git_manager] Cloning repository: https://github.com/kwhat/jnativehook
+2026-05-22 11:09:05 [INFO] [git_manager] Cloning repository: https://github.com/stepstone-tech/doom-graalvm
+2026-05-22 11:09:41 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-22 11:10:41 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/algo-struct
+2026-05-22 11:11:29 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/algo-struct
+2026-05-22 14:22:35 [INFO] [git_manager] Cloning repository: https://github.com/fusesource/hawtjni
+2026-05-22 14:26:28 [INFO] [git_manager] Cloning repository: https://github.com/fusesource/hawtjni
+2026-05-22 14:28:31 [INFO] [git_manager] Cloning repository: https://github.com/GiviMAD/whisper-jni
+2026-05-22 14:44:19 [INFO] [git_manager] Cloning repository: https://github.com/spring-attic/spring-native
+2026-05-22 14:50:33 [INFO] [git_manager] Cloning repository: https://github.com/bytedeco/javacpp
+2026-05-22 14:53:23 [INFO] [git_manager] Cloning repository: https://github.com/bytedeco/javacpp
+2026-05-22 14:54:55 [INFO] [git_manager] Cloning repository: https://github.com/gameofdimension/jni-faiss
+2026-05-22 14:56:16 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/algo-struct
+2026-05-22 14:56:46 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/algo-struct
+2026-05-22 15:06:43 [INFO] [git_manager] Cloning repository: https://github.com/sqshq/piggymetrics
+2026-05-22 15:17:39 [INFO] [git_manager] Cloning repository: https://github.com/gameofdimension/jni-faiss
+2026-05-22 15:19:29 [INFO] [git_manager] Cloning repository: https://github.com/gameofdimension/jni-faiss
+2026-05-22 15:20:28 [INFO] [git_manager] Cloning repository: https://github.com/oracle/graal
+2026-05-22 15:21:12 [INFO] [git_manager] Cloning repository: https://github.com/bytedeco/javacpp

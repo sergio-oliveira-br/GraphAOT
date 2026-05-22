@@ -2257,3 +2257,330 @@ PROJECT: jnativehook | DATE: 2026-05-21 13:18:39
 SUMMARY: 0 deps | CMV: 0
 ------------------------------------------------------------
 No reachability metadata found for this topology.
+
+============================================================
+PROJECT: hawtjni | DATE: 2026-05-22 14:23:16
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: hawtjni | DATE: 2026-05-22 14:26:42
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: whisper-jni | DATE: 2026-05-22 14:28:57
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: whisper-jni | DATE: 2026-05-22 14:34:05
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: spring-native | DATE: 2026-05-22 14:48:44
+SUMMARY: 518 deps | CMV: 5914
+------------------------------------------------------------
+Dependency: spring-jcl:5.3.24 | Refl: 2 | Proxy: 0
+Dependency: tomcat-embed-core:9.0.70 | Refl: 202 | Proxy: 0
+Dependency: spring-aop:5.3.24 | Refl: 29 | Proxy: 0
+Dependency: spring-expression:5.3.24 | Refl: 47 | Proxy: 0
+Dependency: jackson-databind:2.13.4.2 | Refl: 56 | Proxy: 0
+Dependency: jackson-annotations:2.13.4 | Refl: 2 | Proxy: 0
+Dependency: HdrHistogram:2.1.12 | Refl: 12 | Proxy: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Proxy: 0
+Dependency: spring-boot-actuator-autoconfigure:2.7.7 | Refl: 7 | Proxy: 0
+Dependency: jackson-datatype-jsr310:2.13.4 | Refl: 4 | Proxy: 0
+Dependency: spring-context:5.3.24 | Refl: 154 | Proxy: 0
+Dependency: spring-test:5.3.24 | Refl: 12 | Proxy: 0
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
+Dependency: logback-classic:1.2.11 | Refl: 42 | Proxy: 0
+Dependency: logback-core:1.2.11 | Refl: 14 | Proxy: 0
+Dependency: spring-tx:5.3.24 | Refl: 3 | Proxy: 0
+Dependency: mongodb-driver-core:4.6.1 | Refl: 3 | Proxy: 0
+Dependency: bson:4.6.1 | Refl: 3 | Proxy: 0
+Dependency: h2:2.1.214 | Refl: 20 | Proxy: 0
+Dependency: hibernate-validator:6.2.5.Final | Refl: 356 | Proxy: 0
+Dependency: jboss-logging:3.4.3.Final | Refl: 12 | Proxy: 0
+Dependency: classmate:1.5.1 | Refl: 2 | Proxy: 0
+Dependency: hibernate-core:5.6.14.Final | Refl: 260 | Proxy: 0
+Dependency: javax.persistence-api:2.2 | Refl: 2 | Proxy: 0
+Dependency: antlr:2.7.7 | Refl: 15 | Proxy: 0
+Dependency: jandex:2.4.2.Final | Refl: 1 | Proxy: 0
+Dependency: javax.activation-api:1.2.0 | Refl: 1 | Proxy: 0
+Dependency: hibernate-commons-annotations:5.1.2.Final | Refl: 3 | Proxy: 0
+Dependency: jaxb-runtime:2.3.7 | Refl: 10 | Proxy: 0
+Dependency: jakarta.xml.bind-api:2.3.3 | Refl: 4 | Proxy: 0
+Dependency: jakarta.activation:1.2.2 | Refl: 1 | Proxy: 0
+Dependency: httpclient:4.5.14 | Refl: 1 | Proxy: 0
+Dependency: httpcore:4.4.16 | Refl: 3 | Proxy: 0
+Dependency: opentest4j:1.2.0 | Refl: 1 | Proxy: 0
+Dependency: junit-platform-commons:1.8.2 | Refl: 7 | Proxy: 0
+Dependency: commons-compress:1.21 | Refl: 14 | Proxy: 0
+Dependency: picocli:4.6.1 | Refl: 4 | Proxy: 0
+Dependency: asm:9.2 | Refl: 4 | Proxy: 0
+Dependency: kafka-clients:3.1.2 | Refl: 116 | Proxy: 0
+Dependency: zstd-jni:1.5.0-4 | Refl: 15 | Proxy: 0
+Dependency: lz4-java:1.8.0 | Refl: 24 | Proxy: 0
+Dependency: kafka-streams:3.1.2 | Refl: 51 | Proxy: 0
+Dependency: rocksdbjni:6.22.1.1 | Refl: 4 | Proxy: 0
+Dependency: avro:1.9.2 | Refl: 31 | Proxy: 0
+Dependency: spring-cloud-function-context:3.2.5 | Refl: 32 | Proxy: 0
+Dependency: javax.servlet-api:4.0.1 | Refl: 1 | Proxy: 0
+Dependency: spring-cloud-context:3.1.3 | Refl: 14 | Proxy: 0
+Dependency: spring-security-crypto:5.7.6 | Refl: 20 | Proxy: 0
+Dependency: json-smart:2.4.8 | Refl: 9 | Proxy: 0
+Dependency: spring-webflux:5.3.24 | Refl: 83 | Proxy: 0
+Dependency: reactor-core:3.4.26 | Refl: 3 | Proxy: 0
+Dependency: snakeyaml:1.30 | Refl: 8 | Proxy: 0
+Dependency: kotlin-stdlib:1.6.21 | Refl: 1 | Proxy: 0
+Dependency: quartz:2.3.2 | Refl: 8 | Proxy: 0
+Dependency: mchange-commons-java:0.2.15 | Refl: 125 | Proxy: 0
+Dependency: commons-compress:1.19 | Refl: 14 | Proxy: 0
+Dependency: spring-integration-kafka:5.5.16 | Refl: 4 | Proxy: 0
+Dependency: spring-cloud-stream:3.2.4 | Refl: 42 | Proxy: 0
+Dependency: spring-integration-jmx:5.5.16 | Refl: 8 | Proxy: 0
+Dependency: lucene-core:8.11.1 | Refl: 24 | Proxy: 0
+Dependency: joda-time:2.10.10 | Refl: 3 | Proxy: 0
+Dependency: jna:5.10.0 | Refl: 50 | Proxy: 0
+Dependency: jackson-datatype-jdk8:2.13.4 | Refl: 2 | Proxy: 0
+Dependency: postgresql:42.3.8 | Refl: 95 | Proxy: 0
+Dependency: netty-resolver-dns-classes-macos:4.1.86.Final | Refl: 12 | Proxy: 0
+Dependency: netty-transport-native-epoll:4.1.86.Final | Refl: 13 | Proxy: 0
+Dependency: netty-transport-native-unix-common:4.1.86.Final | Refl: 26 | Proxy: 0
+Dependency: netty-transport-classes-epoll:4.1.86.Final | Refl: 27 | Proxy: 0
+Dependency: netty-handler-proxy:4.1.86.Final | Refl: 25 | Proxy: 0
+Dependency: netty-codec-socks:4.1.86.Final | Refl: 6 | Proxy: 0
+Dependency: netty-transport:4.1.86.Final | Refl: 3 | Proxy: 0
+Dependency: netty-common:4.1.86.Final | Refl: 750 | Proxy: 0
+Dependency: spring-rabbit:2.4.8 | Refl: 53 | Proxy: 0
+Dependency: spring-amqp:2.4.8 | Refl: 5 | Proxy: 0
+Dependency: amqp-client:5.14.2 | Refl: 21 | Proxy: 0
+Dependency: spring-aspects:5.3.24 | Refl: 24 | Proxy: 0
+Dependency: aspectjweaver:1.9.7 | Refl: 71 | Proxy: 0
+Dependency: HikariCP:4.0.3 | Refl: 9 | Proxy: 0
+Dependency: thymeleaf:3.0.15.RELEASE | Refl: 90 | Proxy: 0
+Dependency: ognl:3.1.26 | Refl: 19 | Proxy: 0
+Dependency: mysql-connector-j:8.0.31 | Refl: 24 | Proxy: 0
+Dependency: mariadb-java-client:3.0.9 | Refl: 3 | Proxy: 0
+Dependency: tomcat-embed-el:9.0.70 | Refl: 25 | Proxy: 0
+Dependency: bcpkix-jdk15on:1.68 | Refl: 90 | Proxy: 0
+Dependency: org.eclipse.jgit:5.12.0.202106070339-r | Refl: 16 | Proxy: 0
+Dependency: jackson-dataformat-yaml:2.13.4 | Refl: 2 | Proxy: 0
+Dependency: antlr-runtime:3.4 | Refl: 1 | Proxy: 0
+Dependency: commons-math:2.2 | Refl: 10 | Proxy: 0
+Dependency: commons-configuration:1.10 | Refl: 24 | Proxy: 0
+Dependency: commons-lang:2.6 | Refl: 9 | Proxy: 0
+Dependency: jettison:1.4.0 | Refl: 2 | Proxy: 0
+Dependency: aspectjrt:1.9.7 | Refl: 21 | Proxy: 0
+Dependency: protobuf-java:3.19.6 | Refl: 15 | Proxy: 0
+Dependency: kotlin-reflect:1.6.21 | Refl: 10 | Proxy: 0
+Dependency: jakarta.mail:1.6.7 | Refl: 8 | Proxy: 0
+Dependency: lettuce-core:6.1.10.RELEASE | Refl: 97 | Proxy: 0
+Dependency: ehcache:3.10.8 | Refl: 534 | Proxy: 0
+Dependency: hazelcast:5.1.5 | Refl: 597 | Proxy: 0
+Dependency: rxjava:3.0.4 | Refl: 6 | Proxy: 0
+Dependency: caffeine:2.9.3 | Refl: 39 | Proxy: 0
+Dependency: websocket-common:9.4.50.v20221201 | Refl: 5 | Proxy: 0
+Dependency: jetty-util:9.4.50.v20221201 | Refl: 2 | Proxy: 0
+Dependency: jetty-io:9.4.50.v20221201 | Refl: 5 | Proxy: 0
+Dependency: websocket-client:9.4.50.v20221201 | Refl: 4 | Proxy: 0
+Dependency: jetty-client:9.4.50.v20221201 | Refl: 49 | Proxy: 0
+Dependency: jetty-servlet:9.4.50.v20221201 | Refl: 16 | Proxy: 0
+Dependency: jetty-security:9.4.50.v20221201 | Refl: 4 | Proxy: 0
+Dependency: jetty-server:9.4.50.v20221201 | Refl: 33 | Proxy: 0
+Dependency: jetty-util-ajax:9.4.50.v20221201 | Refl: 7 | Proxy: 0
+Dependency: jetty-http:9.4.50.v20221201 | Refl: 5 | Proxy: 0
+Dependency: undertow-core:2.2.22.Final | Refl: 64 | Proxy: 0
+Dependency: wildfly-client-config:1.0.1.Final | Refl: 4 | Proxy: 0
+Dependency: jboss-threads:3.1.0.Final | Refl: 3 | Proxy: 0
+Dependency: commons-pool2:2.11.1 | Refl: 1 | Proxy: 0
+Dependency: commons-io:2.11.0 | Refl: 4 | Proxy: 0
+Dependency: okhttp:4.9.3 | Refl: 7 | Proxy: 0
+Dependency: okio:2.8.0 | Refl: 1 | Proxy: 0
+Dependency: consul-api:1.4.5 | Refl: 111 | Proxy: 0
+Dependency: gson:2.9.1 | Refl: 2 | Proxy: 0
+Dependency: netty-incubator-codec-classes-quic:0.0.34.Final | Refl: 23 | Proxy: 0
+Dependency: junit:4.13.2 | Refl: 1 | Proxy: 0
+Dependency: guava:30.1.1-android | Refl: 71 | Proxy: 0
+Dependency: netty-codec:4.1.86.Final | Refl: 11 | Proxy: 0
+Dependency: netty-codec-dns:4.1.86.Final | Refl: 15 | Proxy: 0
+Dependency: guava:20.0 | Refl: 71 | Proxy: 0
+Dependency: maven-resolver-impl:1.0.3 | Refl: 1 | Proxy: 0
+Dependency: maven-resolver-api:1.0.3 | Refl: 1 | Proxy: 0
+Dependency: maven-resolver-util:1.0.3 | Refl: 3 | Proxy: 0
+Dependency: commons-io:2.5 | Refl: 4 | Proxy: 0
+Dependency: plexus-classworlds:2.5.2 | Refl: 3 | Proxy: 0
+Dependency: plexus-cipher:1.4 | Refl: 2 | Proxy: 0
+Dependency: commons-lang3:3.12.0 | Refl: 28 | Proxy: 0
+Dependency: maven-model:3.5.0 | Refl: 1 | Proxy: 0
+Dependency: plexus-utils:2.1 | Refl: 27 | Proxy: 0
+Dependency: plexus-build-api:0.0.7 | Refl: 46 | Proxy: 0
+Dependency: maven-plugin-api:3.3.9 | Refl: 2 | Proxy: 0
+Dependency: maven-artifact:3.3.9 | Refl: 14 | Proxy: 0
+Dependency: org.eclipse.sisu.inject:0.3.2 | Refl: 61 | Proxy: 0
+Dependency: maven-project:2.2.1 | Refl: 11 | Proxy: 0
+Dependency: maven-profile:2.2.1 | Refl: 2 | Proxy: 0
+Dependency: maven-artifact-manager:2.2.1 | Refl: 2 | Proxy: 0
+Dependency: wagon-provider-api:1.0-beta-6 | Refl: 3 | Proxy: 0
+Dependency: backport-util-concurrent:3.1 | Refl: 74 | Proxy: 0
+Dependency: plexus-container-default:1.0-alpha-9-stable-1 | Refl: 118 | Proxy: 0
+Dependency: guava:29.0-jre | Refl: 71 | Proxy: 0
+Dependency: jna:5.6.0 | Refl: 50 | Proxy: 0
+Dependency: kotlin-scripting-common:1.6.21 | Refl: 21 | Proxy: 0
+Dependency: kotlin-scripting-jvm:1.6.21 | Refl: 8 | Proxy: 0
+Dependency: jna:5.7.0 | Refl: 50 | Proxy: 0
+
+============================================================
+PROJECT: whisper-jni | DATE: 2026-05-22 14:48:59
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: jni-faiss | DATE: 2026-05-22 14:55:20
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: algo-struct | DATE: 2026-05-22 14:57:37
+SUMMARY: 41 deps | CMV: 613
+------------------------------------------------------------
+Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+Dependency: logback-core:1.5.18 | Refl: 14 | Proxy: 0
+Dependency: snakeyaml:2.3 | Refl: 8 | Proxy: 0
+Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+Dependency: slf4j-api:2.0.17 | Refl: 2 | Proxy: 0
+Dependency: jackson-databind:2.18.3 | Refl: 56 | Proxy: 0
+Dependency: jackson-annotations:2.18.3 | Refl: 2 | Proxy: 0
+Dependency: jackson-datatype-jdk8:2.18.3 | Refl: 2 | Proxy: 0
+Dependency: jackson-datatype-jsr310:2.18.3 | Refl: 4 | Proxy: 0
+Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+Dependency: tomcat-embed-el:10.1.39 | Refl: 25 | Proxy: 0
+Dependency: spring-aop:6.2.5 | Refl: 31 | Proxy: 0
+Dependency: spring-context:6.2.5 | Refl: 154 | Proxy: 0
+Dependency: spring-expression:6.2.5 | Refl: 48 | Proxy: 0
+Dependency: spring-jcl:6.2.5 | Refl: 2 | Proxy: 0
+
+============================================================
+PROJECT: algo-struct | DATE: 2026-05-22 14:58:14
+SUMMARY: 41 deps | CMV: 613
+------------------------------------------------------------
+Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+Dependency: logback-core:1.5.18 | Refl: 14 | Proxy: 0
+Dependency: snakeyaml:2.3 | Refl: 8 | Proxy: 0
+Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+Dependency: slf4j-api:2.0.17 | Refl: 2 | Proxy: 0
+Dependency: jackson-databind:2.18.3 | Refl: 56 | Proxy: 0
+Dependency: jackson-annotations:2.18.3 | Refl: 2 | Proxy: 0
+Dependency: jackson-datatype-jdk8:2.18.3 | Refl: 2 | Proxy: 0
+Dependency: jackson-datatype-jsr310:2.18.3 | Refl: 4 | Proxy: 0
+Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+Dependency: tomcat-embed-el:10.1.39 | Refl: 25 | Proxy: 0
+Dependency: spring-aop:6.2.5 | Refl: 31 | Proxy: 0
+Dependency: spring-context:6.2.5 | Refl: 154 | Proxy: 0
+Dependency: spring-expression:6.2.5 | Refl: 48 | Proxy: 0
+Dependency: spring-jcl:6.2.5 | Refl: 2 | Proxy: 0
+
+============================================================
+PROJECT: jni-faiss | DATE: 2026-05-22 14:58:45
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: piggymetrics | DATE: 2026-05-22 15:06:01
+SUMMARY: 247 deps | CMV: 2792
+------------------------------------------------------------
+Dependency: spring-cloud-context:2.0.0.RELEASE | Refl: 14 | Proxy: 0
+Dependency: jackson-annotations:2.9.0 | Refl: 2 | Proxy: 0
+Dependency: jackson-databind:2.9.6 | Refl: 56 | Proxy: 0
+Dependency: spring-boot-actuator-autoconfigure:2.0.3.RELEASE | Refl: 7 | Proxy: 0
+Dependency: jackson-datatype-jsr310:2.9.6 | Refl: 4 | Proxy: 0
+Dependency: HdrHistogram:2.1.10 | Refl: 12 | Proxy: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Proxy: 0
+Dependency: jackson-datatype-jdk8:2.9.6 | Refl: 2 | Proxy: 0
+Dependency: tomcat-embed-core:8.5.31 | Refl: 202 | Proxy: 0
+Dependency: tomcat-embed-el:8.5.31 | Refl: 25 | Proxy: 0
+Dependency: hibernate-validator:6.0.10.Final | Refl: 356 | Proxy: 0
+Dependency: validation-api:2.0.1.Final | Refl: 2 | Proxy: 0
+Dependency: jboss-logging:3.3.2.Final | Refl: 12 | Proxy: 0
+Dependency: classmate:1.3.4 | Refl: 2 | Proxy: 0
+Dependency: spring-security-crypto:5.0.6.RELEASE | Refl: 21 | Proxy: 0
+Dependency: bcpkix-jdk15on:1.56 | Refl: 90 | Proxy: 0
+Dependency: org.eclipse.jgit:4.11.0.201803080745-r | Refl: 16 | Proxy: 0
+Dependency: httpclient:4.5.5 | Refl: 2 | Proxy: 0
+Dependency: slf4j-api:1.7.25 | Refl: 2 | Proxy: 0
+Dependency: httpcore:4.4.9 | Refl: 3 | Proxy: 0
+Dependency: snakeyaml:1.19 | Refl: 8 | Proxy: 0
+Dependency: logback-classic:1.2.3 | Refl: 112 | Proxy: 0
+Dependency: logback-core:1.2.3 | Refl: 14 | Proxy: 0
+Dependency: spring-jcl:5.0.7.RELEASE | Refl: 2 | Proxy: 0
+Dependency: spring-aop:5.0.7.RELEASE | Refl: 31 | Proxy: 0
+Dependency: spring-context:5.0.7.RELEASE | Refl: 154 | Proxy: 0
+Dependency: spring-expression:5.0.7.RELEASE | Refl: 48 | Proxy: 0
+Dependency: freemarker:2.3.28 | Refl: 4 | Proxy: 0
+Dependency: aspectjweaver:1.8.13 | Refl: 71 | Proxy: 0
+Dependency: HdrHistogram:2.1.9 | Refl: 12 | Proxy: 0
+Dependency: guava:16.0 | Refl: 71 | Proxy: 0
+Dependency: commons-configuration:1.8 | Refl: 24 | Proxy: 0
+Dependency: commons-lang:2.6 | Refl: 9 | Proxy: 0
+Dependency: asm:5.0.4 | Refl: 4 | Proxy: 0
+Dependency: objenesis:2.6 | Refl: 1 | Proxy: 0
+Dependency: jettison:1.3.7 | Refl: 2 | Proxy: 0
+Dependency: joda-time:2.9.9 | Refl: 3 | Proxy: 0
+Dependency: antlr-runtime:3.4 | Refl: 1 | Proxy: 0
+Dependency: antlr:2.7.7 | Refl: 15 | Proxy: 0
+Dependency: gson:2.8.5 | Refl: 2 | Proxy: 0
+Dependency: commons-math:2.2 | Refl: 10 | Proxy: 0
+Dependency: jersey-servlet:1.19.1 | Refl: 59 | Proxy: 0
+Dependency: netty-codec:4.1.25.Final | Refl: 11 | Proxy: 0
+Dependency: netty-transport-native-epoll:4.1.25.Final | Refl: 13 | Proxy: 0
+Dependency: netty-common:4.1.25.Final | Refl: 750 | Proxy: 0
+Dependency: netty-transport-native-unix-common:4.1.25.Final | Refl: 26 | Proxy: 0
+Dependency: netty-transport:4.1.25.Final | Refl: 3 | Proxy: 0
+Dependency: netty-resolver:4.1.25.Final | Refl: 7 | Proxy: 0
+Dependency: commons-lang3:3.7 | Refl: 28 | Proxy: 0
+Dependency: guava:15.0 | Refl: 71 | Proxy: 0
+Dependency: commons-io:2.4 | Refl: 4 | Proxy: 0
+Dependency: aspectjrt:1.8.13 | Refl: 21 | Proxy: 0
+Dependency: zipkin-reporter:2.7.3 | Refl: 2 | Proxy: 0
+Dependency: bson:3.6.4 | Refl: 3 | Proxy: 0
+Dependency: mongodb-driver-core:3.6.4 | Refl: 3 | Proxy: 0
+Dependency: spring-tx:5.0.7.RELEASE | Refl: 6 | Proxy: 0
+Dependency: jackson-mapper-asl:1.9.13 | Refl: 6 | Proxy: 0
+Dependency: spring-cloud-stream-binder-rabbit:2.0.0.RELEASE | Refl: 1 | Proxy: 0
+Dependency: spring-cloud-stream-binder-rabbit-core:2.0.0.RELEASE | Refl: 10 | Proxy: 0
+Dependency: spring-rabbit:2.0.4.RELEASE | Refl: 53 | Proxy: 0
+Dependency: spring-amqp:2.0.4.RELEASE | Refl: 5 | Proxy: 0
+Dependency: amqp-client:5.1.2 | Refl: 21 | Proxy: 0
+Dependency: reactor-core:3.1.8.RELEASE | Refl: 3 | Proxy: 0
+Dependency: spring-cloud-stream:2.0.0.RELEASE | Refl: 42 | Proxy: 0
+Dependency: spring-integration-jmx:5.0.6.RELEASE | Refl: 8 | Proxy: 0
+Dependency: guava:19.0 | Refl: 71 | Proxy: 0
+Dependency: activation:1.1 | Refl: 1 | Proxy: 0
+Dependency: netty-handler-proxy:4.1.25.Final | Refl: 25 | Proxy: 0
+Dependency: netty-codec-socks:4.1.25.Final | Refl: 6 | Proxy: 0
+Dependency: netty-transport-native-epoll:4.1.25.Final | Refl: 13 | Proxy: 0
+Dependency: spring-webflux:5.0.7.RELEASE | Refl: 83 | Proxy: 0
+Dependency: jackson-mapper-asl:1.9.2 | Refl: 6 | Proxy: 0
+
+============================================================
+PROJECT: jni-faiss | DATE: 2026-05-22 15:07:44
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: jni-faiss | DATE: 2026-05-22 15:18:02
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
