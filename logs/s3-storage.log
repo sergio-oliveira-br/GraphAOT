@@ -111,3 +111,32 @@
 2026-05-22 15:43:32 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
 2026-05-22 15:43:32 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
 2026-05-22 15:43:32 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 15:55:55 [INFO] [s3-storage] [Success] temp/work_dir/TheAlgorithms_java/target/bom.json -> s3://graphaot-research-staging/analysis/TheAlgorithms_java/bom.json
+2026-05-22 15:55:55 [INFO] [s3-storage] [Success] temp/work_dir/TheAlgorithms_java/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/TheAlgorithms_java/effective-pom.xml
+2026-05-22 15:56:28 [INFO] [s3-storage] [Success] temp/work_dir/kubernetes-client_java/target/bom.json -> s3://graphaot-research-staging/analysis/kubernetes-client_java/bom.json
+2026-05-22 15:56:29 [INFO] [s3-storage] [Success] temp/work_dir/kubernetes-client_java/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/kubernetes-client_java/effective-pom.xml
+2026-05-22 15:56:44 [INFO] [s3-storage] [Success] temp/work_dir/json-iterator_java/target/bom.json -> s3://graphaot-research-staging/analysis/json-iterator_java/bom.json
+2026-05-22 15:56:44 [INFO] [s3-storage] [Success] temp/work_dir/json-iterator_java/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/json-iterator_java/effective-pom.xml
+2026-05-22 15:57:06 [INFO] [s3-storage] [Success] temp/work_dir/resolver/target/bom.json -> s3://graphaot-research-staging/analysis/resolver/bom.json
+2026-05-22 15:57:06 [INFO] [s3-storage] [Success] temp/work_dir/resolver/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/resolver/effective-pom.xml
+2026-05-22 15:57:12 [INFO] [s3-storage] [Success] temp/work_dir/Maven-Web-Application/target/bom.json -> s3://graphaot-research-staging/analysis/Maven-Web-Application/bom.json
+2026-05-22 15:57:12 [INFO] [s3-storage] [Success] temp/work_dir/Maven-Web-Application/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/Maven-Web-Application/effective-pom.xml
+2026-05-22 15:57:56 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 15:57:56 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 15:57:56 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 15:57:56 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 15:57:56 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 16:29:49 [ERROR] [s3-storage] S3 ClientError on key analysis/whisper-jni/bom.json: 404 Not Found
+2026-05-22 16:36:05 [INFO] [s3-storage] [Success] temp/work_dir/LabMQTT/target/bom.json -> s3://graphaot-research-staging/analysis/LabMQTT/bom.json
+2026-05-22 16:36:05 [INFO] [s3-storage] [Success] temp/work_dir/LabMQTT/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/LabMQTT/effective-pom.xml
+2026-05-22 16:46:49 [INFO] [s3-storage] [Success] temp/work_dir/LabMQTT/target/bom.json -> s3://graphaot-research-staging/analysis/LabMQTT/bom.json
+2026-05-22 16:46:49 [INFO] [s3-storage] [Success] temp/work_dir/LabMQTT/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/LabMQTT/effective-pom.xml
+2026-05-22 16:48:48 [INFO] [s3-storage] [Success] temp/work_dir/LabMQTT/target/bom.json -> s3://graphaot-research-staging/analysis/LabMQTT/bom.json
+2026-05-22 16:48:48 [INFO] [s3-storage] [Success] temp/work_dir/LabMQTT/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/LabMQTT/effective-pom.xml
+2026-05-22 16:49:12 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-22 16:49:41 [INFO] [s3-storage] [Success] temp/work_dir/algo-struct/target/bom.json -> s3://graphaot-research-staging/analysis/algo-struct/bom.json
+2026-05-22 16:49:42 [INFO] [s3-storage] [Success] temp/work_dir/algo-struct/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/algo-struct/effective-pom.xml
+2026-05-22 16:50:57 [INFO] [s3-storage] [Success] temp/work_dir/whisper-jni/target/bom.json -> s3://graphaot-research-staging/analysis/whisper-jni/bom.json
+2026-05-22 16:50:57 [INFO] [s3-storage] [Success] temp/work_dir/whisper-jni/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/whisper-jni/effective-pom.xml
+2026-05-22 16:51:48 [INFO] [s3-storage] [Success] temp/work_dir/jni-faiss/target/bom.json -> s3://graphaot-research-staging/analysis/jni-faiss/bom.json
+2026-05-22 16:51:48 [INFO] [s3-storage] [Success] temp/work_dir/jni-faiss/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/jni-faiss/effective-pom.xml

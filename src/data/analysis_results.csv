@@ -1,10 +1,8 @@
 project_id,node_count,edge_count,density,max_depth,avg_clustering,is_dag,hubs,dep_count,reflection_count,proxy_count,jni_count,total_metadata,metadata_density,build_status,processed_at
-algo-struct,42.0,75.0,0.0435540069686411,5.0,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,613,0,0,613,14.951219512195122,0,2026-05-22 15:34:43
 algorithms-api-java,42.0,74.0,0.0429732868757259,5.0,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,920,0,0,920,22.4390243902439,0,2026-05-22 15:34:52
 StockWise,104.0,205.0,0.0191374159820761,6.0,,True,spring-boot-starter|spring-boot|all,103,2112,0,0,2112,20.50485436893204,0,2026-05-22 15:35:24
 sale-service,127.0,257.0,0.0160604924384451,5.0,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,126,2575,0,0,2575,20.436507936507937,0,2026-05-22 15:36:01
 mini-erp,84.0,174.0,0.0249569707401032,5.0,,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,83,2495,0,0,2495,30.06024096385542,0,2026-05-22 15:36:20
-LabMQTT,3.0,2.0,0.3333333333333333,2.0,,True,amqp-client,2,23,0,0,23,11.5,0,2026-05-22 15:36:21
 task-manager,78.0,160.0,0.0266400266400266,5.0,,True,spring-boot-starter|spring-boot-starter-logging|spring-context,77,2072,0,0,2072,26.90909090909091,0,2026-05-22 15:36:36
 serverless-graalvm-demo,70.0,205.0,0.0424430641821946,0.0,,True,aws-java-sdk-core|sdk-core|aws-core,69,177,0,0,177,2.5652173913043477,0,2026-05-22 15:37:04
 doom-graal,2.0,1.0,0.5,1.0,,True,,1,0,0,0,0,0.0,0,2026-05-22 15:37:04
@@ -17,5 +15,12 @@ SpringBootForBeginners,64.0,152.0,0.0376984126984126,5.0,,True,spring-boot-start
 spring-cloud-gateway,218.0,593.0,0.0125354077706844,7.0,,True,spring-cloud-gateway-server-webflux|spring-boot|spring-boot-starter,217,2641,0,0,2641,12.170506912442397,0,2026-05-22 15:43:32
 jnativehook,1.0,0.0,0.0,0.0,,True,,0,0,0,0,0,0.0,0,2026-05-22 15:43:32
 hawtjni,,,,,,,,0,0,0,0,0,0.0,0,2026-05-22 15:43:32
-whisper-jni,,,,,,,,0,0,0,0,0,0.0,0,2026-05-22 15:43:32
-jni-faiss,,,,,,,,0,0,0,0,0,0.0,0,2026-05-22 15:43:32
+TheAlgorithms_java,,,,,,,,0,0,0,0,0,0.0,0,2026-05-22 15:57:56
+kubernetes-client_java,,,,,,,,0,0,0,0,0,0.0,0,2026-05-22 15:57:56
+json-iterator_java,,,,,,,,0,0,0,0,0,0.0,0,2026-05-22 15:57:56
+resolver,,,,,,,,0,0,0,0,0,0.0,0,2026-05-22 15:57:56
+Maven-Web-Application,,,,,,,,0,0,0,0,0,0.0,0,2026-05-22 15:57:56
+LabMQTT,3.0,2.0,0.3333333333333333,2.0,,True,amqp-client,2,23,0,0,23,11.5,0,2026-05-22 16:42:39
+algo-struct,42.0,75.0,0.0435540069686411,5.0,,True,spring-boot-starter|spring-boot|spring-boot-starter-logging,41,613,0,0,613,14.951219512195122,0,2026-05-22 16:50:06
+whisper-jni,1.0,0.0,0.0,0.0,,True,,0,0,0,0,0,0.0,0,2026-05-22 16:51:08
+jni-faiss,7.0,10.0,0.23809523809523808,2.0,,True,common,6,71,0,0,71,11.833333333333334,0,2026-05-22 16:51:59

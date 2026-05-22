@@ -90,3 +90,15 @@ fatal: repository 'https://github.com/graalvm/graalvm-demos/tree/master/' not fo
 2026-05-22 15:29:18 [INFO] [git_manager] Cloning repository: https://github.com/GiviMAD/whisper-jni
 2026-05-22 15:29:22 [INFO] [git_manager] Cloning repository: https://github.com/bytedeco/javacpp
 2026-05-22 15:29:26 [INFO] [git_manager] Cloning repository: https://github.com/gameofdimension/jni-faiss
+2026-05-22 15:55:47 [INFO] [git_manager] Cloning repository: https://github.com/TheAlgorithms/Java
+2026-05-22 15:55:56 [INFO] [git_manager] Cloning repository: https://github.com/kubernetes-client/java
+2026-05-22 15:56:29 [INFO] [git_manager] Cloning repository: https://github.com/json-iterator/java
+2026-05-22 15:56:45 [INFO] [git_manager] Cloning repository: https://github.com/project-ncl/pom-manipulation-ext
+2026-05-22 15:56:52 [INFO] [git_manager] Cloning repository: https://github.com/airlift/resolver
+2026-05-22 15:57:06 [INFO] [git_manager] Cloning repository: https://github.com/MithunTechnologiesDevOps/Maven-Web-Application
+2026-05-22 16:36:00 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-22 16:46:46 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-22 16:48:44 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/LabMQTT
+2026-05-22 16:49:35 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/algo-struct
+2026-05-22 16:50:53 [INFO] [git_manager] Cloning repository: https://github.com/GiviMAD/whisper-jni
+2026-05-22 16:51:44 [INFO] [git_manager] Cloning repository: https://github.com/gameofdimension/jni-faiss

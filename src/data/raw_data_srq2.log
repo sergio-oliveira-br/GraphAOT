@@ -3252,3 +3252,98 @@ PROJECT: jni-faiss | DATE: 2026-05-22 15:43:32
 SUMMARY: 0 deps | CMV: 0
 ------------------------------------------------------------
 No reachability metadata found for this topology.
+
+============================================================
+PROJECT: TheAlgorithms_java | DATE: 2026-05-22 15:57:56
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: kubernetes-client_java | DATE: 2026-05-22 15:57:56
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: json-iterator_java | DATE: 2026-05-22 15:57:56
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: resolver | DATE: 2026-05-22 15:57:56
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: Maven-Web-Application | DATE: 2026-05-22 15:57:56
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: whisper-jni | DATE: 2026-05-22 16:29:49
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: LabMQTT | DATE: 2026-05-22 16:36:19
+SUMMARY: 2 deps | CMV: 23
+------------------------------------------------------------
+Dependency: amqp-client:5.21.0 | Refl: 21 | Proxy: 0
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
+
+============================================================
+PROJECT: LabMQTT | DATE: 2026-05-22 16:42:39
+SUMMARY: 2 deps | CMV: 23
+------------------------------------------------------------
+Dependency: amqp-client:5.21.0 | Refl: 21 | Proxy: 0
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
+
+============================================================
+PROJECT: whisper-jni | DATE: 2026-05-22 16:43:00
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: algo-struct | DATE: 2026-05-22 16:49:12
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: algo-struct | DATE: 2026-05-22 16:50:06
+SUMMARY: 41 deps | CMV: 613
+------------------------------------------------------------
+Dependency: logback-classic:1.5.18 | Refl: 97 | Proxy: 0
+Dependency: logback-core:1.5.18 | Refl: 14 | Proxy: 0
+Dependency: snakeyaml:2.3 | Refl: 8 | Proxy: 0
+Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Proxy: 0
+Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Proxy: 0
+Dependency: slf4j-api:2.0.17 | Refl: 2 | Proxy: 0
+Dependency: jackson-databind:2.18.3 | Refl: 56 | Proxy: 0
+Dependency: jackson-annotations:2.18.3 | Refl: 2 | Proxy: 0
+Dependency: jackson-datatype-jdk8:2.18.3 | Refl: 2 | Proxy: 0
+Dependency: jackson-datatype-jsr310:2.18.3 | Refl: 4 | Proxy: 0
+Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Proxy: 0
+Dependency: tomcat-embed-el:10.1.39 | Refl: 25 | Proxy: 0
+Dependency: spring-aop:6.2.5 | Refl: 31 | Proxy: 0
+Dependency: spring-context:6.2.5 | Refl: 154 | Proxy: 0
+Dependency: spring-expression:6.2.5 | Refl: 48 | Proxy: 0
+Dependency: spring-jcl:6.2.5 | Refl: 2 | Proxy: 0
+
+============================================================
+PROJECT: whisper-jni | DATE: 2026-05-22 16:51:08
+SUMMARY: 0 deps | CMV: 0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: jni-faiss | DATE: 2026-05-22 16:51:59
+SUMMARY: 6 deps | CMV: 71
+------------------------------------------------------------
+Dependency: guava:21.0 | Refl: 71 | Proxy: 0

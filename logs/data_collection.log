@@ -243,3 +243,36 @@
 2026-05-22 15:29:22 [INFO] [data_collection] >>> Harvesting Project: javacpp
 2026-05-22 15:29:26 [INFO] [data_collection] >>> Harvesting Project: jni-faiss
 2026-05-22 15:29:29 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 15:55:47 [INFO] [data_collection] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-05-22 15:55:47 [INFO] [data_collection] --- Starting Harvester Pipeline: 6 projects ---
+2026-05-22 15:55:47 [INFO] [data_collection] >>> Harvesting Project: TheAlgorithms_java
+2026-05-22 15:55:56 [INFO] [data_collection] >>> Harvesting Project: kubernetes-client_java
+2026-05-22 15:56:29 [INFO] [data_collection] >>> Harvesting Project: json-iterator_java
+2026-05-22 15:56:45 [INFO] [data_collection] >>> Harvesting Project: pom-manipulation-ext
+2026-05-22 15:56:52 [INFO] [data_collection] >>> Harvesting Project: resolver
+2026-05-22 15:57:06 [INFO] [data_collection] >>> Harvesting Project: Maven-Web-Application
+2026-05-22 15:57:12 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 16:36:00 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-22 16:36:00 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 16:36:00 [INFO] [data_collection] >>> Harvesting Project: LabMQTT
+2026-05-22 16:36:05 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 16:46:46 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-22 16:46:46 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 16:46:46 [INFO] [data_collection] >>> Harvesting Project: LabMQTT
+2026-05-22 16:46:49 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 16:48:44 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-22 16:48:44 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 16:48:44 [INFO] [data_collection] >>> Harvesting Project: LabMQTT
+2026-05-22 16:48:48 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 16:49:35 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'algo-struct'
+2026-05-22 16:49:35 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 16:49:35 [INFO] [data_collection] >>> Harvesting Project: algo-struct
+2026-05-22 16:49:42 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 16:50:53 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'whisper-jni'
+2026-05-22 16:50:53 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 16:50:53 [INFO] [data_collection] >>> Harvesting Project: whisper-jni
+2026-05-22 16:50:57 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 16:51:44 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'jni-faiss'
+2026-05-22 16:51:44 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 16:51:44 [INFO] [data_collection] >>> Harvesting Project: jni-faiss
+2026-05-22 16:51:48 [INFO] [data_collection] --- Harvester Pipeline Finished ---

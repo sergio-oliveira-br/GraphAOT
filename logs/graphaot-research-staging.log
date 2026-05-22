@@ -196,3 +196,69 @@
 2026-05-22 15:43:32 [INFO] [graphaot-research-staging]  [OK] jni-faiss completed.
 
 2026-05-22 15:43:32 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 5 projects ---
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging] >>> Processing: TheAlgorithms_java
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging]  [OK] TheAlgorithms_java completed.
+
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging] >>> Processing: kubernetes-client_java
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging]  [OK] kubernetes-client_java completed.
+
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging] >>> Processing: json-iterator_java
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging]  [OK] json-iterator_java completed.
+
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging] >>> Processing: resolver
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging]  [OK] resolver completed.
+
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging] >>> Processing: Maven-Web-Application
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging]  [OK] Maven-Web-Application completed.
+
+2026-05-22 15:57:56 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 16:29:49 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'whisper-jni'
+2026-05-22 16:29:49 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 16:29:49 [INFO] [graphaot-research-staging] >>> Processing: whisper-jni
+2026-05-22 16:29:49 [INFO] [graphaot-research-staging]  [OK] whisper-jni completed.
+
+2026-05-22 16:29:49 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 16:36:18 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-22 16:36:18 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 16:36:18 [INFO] [graphaot-research-staging] >>> Processing: LabMQTT
+2026-05-22 16:36:19 [INFO] [graphaot-research-staging]  [OK] LabMQTT completed.
+
+2026-05-22 16:36:19 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 16:42:37 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'LabMQTT'
+2026-05-22 16:42:37 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 16:42:37 [INFO] [graphaot-research-staging] >>> Processing: LabMQTT
+2026-05-22 16:42:39 [INFO] [graphaot-research-staging]  [OK] LabMQTT completed.
+
+2026-05-22 16:42:39 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 16:43:00 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'whisper-jni'
+2026-05-22 16:43:00 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 16:43:00 [INFO] [graphaot-research-staging] >>> Processing: whisper-jni
+2026-05-22 16:43:00 [INFO] [graphaot-research-staging]  [OK] whisper-jni completed.
+
+2026-05-22 16:43:00 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 16:49:12 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'algo-struct'
+2026-05-22 16:49:12 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 16:49:12 [INFO] [graphaot-research-staging] >>> Processing: algo-struct
+2026-05-22 16:49:12 [INFO] [graphaot-research-staging]  [OK] algo-struct completed.
+
+2026-05-22 16:49:12 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 16:49:48 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'algo-struct'
+2026-05-22 16:49:48 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 16:49:48 [INFO] [graphaot-research-staging] >>> Processing: algo-struct
+2026-05-22 16:50:06 [INFO] [graphaot-research-staging]  [OK] algo-struct completed.
+
+2026-05-22 16:50:06 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 16:51:08 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'whisper-jni'
+2026-05-22 16:51:08 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 16:51:08 [INFO] [graphaot-research-staging] >>> Processing: whisper-jni
+2026-05-22 16:51:08 [INFO] [graphaot-research-staging]  [OK] whisper-jni completed.
+
+2026-05-22 16:51:08 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-22 16:51:57 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'jni-faiss'
+2026-05-22 16:51:57 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-22 16:51:57 [INFO] [graphaot-research-staging] >>> Processing: jni-faiss
+2026-05-22 16:51:59 [INFO] [graphaot-research-staging]  [OK] jni-faiss completed.
+
+2026-05-22 16:51:59 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
