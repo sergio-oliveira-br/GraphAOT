@@ -102,3 +102,46 @@ fatal: repository 'https://github.com/graalvm/graalvm-demos/tree/master/' not fo
 2026-05-22 16:49:35 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/algo-struct
 2026-05-22 16:50:53 [INFO] [git_manager] Cloning repository: https://github.com/GiviMAD/whisper-jni
 2026-05-22 16:51:44 [INFO] [git_manager] Cloning repository: https://github.com/gameofdimension/jni-faiss
+2026-05-22 16:54:41 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/safetrade_client_service
+2026-05-22 16:54:46 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/algorithms-api-java
+2026-05-22 16:54:52 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/StockWise
+2026-05-22 16:54:59 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/sale-service
+2026-05-22 16:55:08 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/mini-erp
+2026-05-22 16:55:16 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp
+2026-05-22 16:55:17 [ERROR] [git_manager] Git Clone error: Cloning into 'temp/work_dir/URLGeneratorApp'...
+fatal: repository 'https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp/' not found
+
+2026-05-22 16:55:17 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/task-manager
+2026-05-22 16:55:23 [INFO] [git_manager] Cloning repository: https://github.com/aws-samples/serverless-graalvm-demo
+2026-05-22 16:55:40 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development
+2026-05-22 16:55:45 [INFO] [git_manager] Cloning repository: https://github.com/oracle/graal
+2026-05-22 16:56:20 [INFO] [git_manager] Cloning repository: https://github.com/stepstone-tech/doom-graalvm
+2026-05-22 16:56:25 [INFO] [git_manager] Cloning repository: https://github.com/westinyang/java-graalvm-start
+2026-05-22 16:56:39 [INFO] [git_manager] Cloning repository: https://github.com/jonashackt/spring-boot-graalvm
+2026-05-22 16:56:47 [INFO] [git_manager] Cloning repository: https://github.com/spring-attic/spring-native
+2026-05-22 16:57:12 [INFO] [git_manager] Cloning repository: https://github.com/jdubois/azure-native-spring-function
+2026-05-22 16:57:19 [INFO] [git_manager] Cloning repository: https://github.com/graalvm/graalvm-demos/tree/master/native-image/clouds/native-aws-fargate
+2026-05-22 16:57:20 [ERROR] [git_manager] Git Clone error: Cloning into 'temp/work_dir/native-aws-fargate'...
+fatal: repository 'https://github.com/graalvm/graalvm-demos/tree/master/native-image/clouds/native-aws-fargate/' not found
+
+2026-05-22 16:57:20 [INFO] [git_manager] Cloning repository: https://github.com/graalvm/graalvm-demos/tree/master
+2026-05-22 16:57:21 [ERROR] [git_manager] Git Clone error: Cloning into 'temp/work_dir/master'...
+fatal: repository 'https://github.com/graalvm/graalvm-demos/tree/master/' not found
+
+2026-05-22 16:57:21 [INFO] [git_manager] Cloning repository: https://github.com/sqshq/piggymetrics
+2026-05-22 16:57:34 [INFO] [git_manager] Cloning repository: https://github.com/in28minutes/SpringBootForBeginners
+2026-05-22 16:57:40 [INFO] [git_manager] Cloning repository: https://github.com/spring-cloud/spring-cloud-gateway
+2026-05-22 16:58:05 [INFO] [git_manager] Cloning repository: https://github.com/kwhat/jnativehook
+2026-05-22 16:58:09 [INFO] [git_manager] Cloning repository: https://github.com/fusesource/hawtjni
+2026-05-22 16:58:14 [INFO] [git_manager] Cloning repository: https://github.com/bytedeco/javacpp
+2026-05-22 16:58:18 [INFO] [git_manager] Cloning repository: https://github.com/TheAlgorithms/Java
+2026-05-22 16:58:23 [INFO] [git_manager] Cloning repository: https://github.com/kubernetes-client/java
+2026-05-22 16:58:37 [INFO] [git_manager] Cloning repository: https://github.com/json-iterator/java
+2026-05-22 16:58:42 [INFO] [git_manager] Cloning repository: https://github.com/project-ncl/pom-manipulation-ext
+2026-05-22 16:58:47 [INFO] [git_manager] Cloning repository: https://github.com/airlift/resolver
+2026-05-22 16:58:53 [INFO] [git_manager] Cloning repository: https://github.com/MithunTechnologiesDevOps/Maven-Web-Application
+2026-05-22 17:00:04 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development
+2026-05-22 17:00:35 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development
+2026-05-22 17:00:53 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development
+2026-05-22 17:01:48 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development
+2026-05-22 17:02:38 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/Software-Development

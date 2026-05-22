@@ -276,3 +276,55 @@
 2026-05-22 16:51:44 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-05-22 16:51:44 [INFO] [data_collection] >>> Harvesting Project: jni-faiss
 2026-05-22 16:51:48 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 16:54:41 [INFO] [data_collection] *** Auto Mode ***: Fetching PENDING projects from manifest.
+2026-05-22 16:54:41 [INFO] [data_collection] --- Starting Harvester Pipeline: 29 projects ---
+2026-05-22 16:54:41 [INFO] [data_collection] >>> Harvesting Project: safetrade_client_service
+2026-05-22 16:54:46 [INFO] [data_collection] >>> Harvesting Project: algorithms-api-java
+2026-05-22 16:54:52 [INFO] [data_collection] >>> Harvesting Project: StockWise
+2026-05-22 16:54:59 [INFO] [data_collection] >>> Harvesting Project: sale-service
+2026-05-22 16:55:08 [INFO] [data_collection] >>> Harvesting Project: mini-erp
+2026-05-22 16:55:16 [INFO] [data_collection] >>> Harvesting Project: URLGeneratorApp
+2026-05-22 16:55:17 [INFO] [data_collection] >>> Harvesting Project: task-manager
+2026-05-22 16:55:23 [INFO] [data_collection] >>> Harvesting Project: serverless-graalvm-demo
+2026-05-22 16:55:40 [INFO] [data_collection] >>> Harvesting Project: Software-Development
+2026-05-22 16:55:45 [INFO] [data_collection] >>> Harvesting Project: graal
+2026-05-22 16:56:20 [INFO] [data_collection] >>> Harvesting Project: doom-graal
+2026-05-22 16:56:25 [INFO] [data_collection] >>> Harvesting Project: java-graalvm-start
+2026-05-22 16:56:39 [INFO] [data_collection] >>> Harvesting Project: spring-boot-graalvm
+2026-05-22 16:56:47 [INFO] [data_collection] >>> Harvesting Project: spring-native
+2026-05-22 16:57:12 [INFO] [data_collection] >>> Harvesting Project: azure-native-spring-function
+2026-05-22 16:57:19 [INFO] [data_collection] >>> Harvesting Project: native-aws-fargate
+2026-05-22 16:57:20 [INFO] [data_collection] >>> Harvesting Project: master
+2026-05-22 16:57:21 [INFO] [data_collection] >>> Harvesting Project: piggymetrics
+2026-05-22 16:57:34 [INFO] [data_collection] >>> Harvesting Project: SpringBootForBeginners
+2026-05-22 16:57:40 [INFO] [data_collection] >>> Harvesting Project: spring-cloud-gateway
+2026-05-22 16:58:05 [INFO] [data_collection] >>> Harvesting Project: jnativehook
+2026-05-22 16:58:09 [INFO] [data_collection] >>> Harvesting Project: hawtjni
+2026-05-22 16:58:14 [INFO] [data_collection] >>> Harvesting Project: javacpp
+2026-05-22 16:58:18 [INFO] [data_collection] >>> Harvesting Project: TheAlgorithms_java
+2026-05-22 16:58:23 [INFO] [data_collection] >>> Harvesting Project: kubernetes-client_java
+2026-05-22 16:58:37 [INFO] [data_collection] >>> Harvesting Project: json-iterator_java
+2026-05-22 16:58:42 [INFO] [data_collection] >>> Harvesting Project: pom-manipulation-ext
+2026-05-22 16:58:47 [INFO] [data_collection] >>> Harvesting Project: resolver
+2026-05-22 16:58:53 [INFO] [data_collection] >>> Harvesting Project: Maven-Web-Application
+2026-05-22 16:58:58 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 17:00:04 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'Software-Development'
+2026-05-22 17:00:04 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 17:00:04 [INFO] [data_collection] >>> Harvesting Project: Software-Development
+2026-05-22 17:00:10 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 17:00:35 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'Software-Development'
+2026-05-22 17:00:35 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 17:00:35 [INFO] [data_collection] >>> Harvesting Project: Software-Development
+2026-05-22 17:00:41 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 17:00:53 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'Software-Development'
+2026-05-22 17:00:53 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 17:00:53 [INFO] [data_collection] >>> Harvesting Project: Software-Development
+2026-05-22 17:00:58 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 17:01:48 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'Software-Development'
+2026-05-22 17:01:48 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 17:01:48 [INFO] [data_collection] >>> Harvesting Project: Software-Development
+2026-05-22 17:01:53 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-22 17:02:38 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'Software-Development'
+2026-05-22 17:02:38 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-22 17:02:38 [INFO] [data_collection] >>> Harvesting Project: Software-Development
+2026-05-22 17:02:44 [INFO] [data_collection] --- Harvester Pipeline Finished ---
