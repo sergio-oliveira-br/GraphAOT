@@ -5,6 +5,8 @@ import os
 
 from pathlib import Path
 from datetime import datetime
+
+from src.dto.metrics_dto import MetricsDTO
 from src.interfaces.stats import StatsProvider
 from src.utils.logger import setup_logger
 
@@ -36,40 +38,20 @@ class StatsManager(StatsProvider):
     def save_metrics(self, project_id: str, metrics: dict):
         try:
             df = pd.read_csv(self.output_path)
+            dto = MetricsDTO.from_metrics(project_id, metrics)
+            new_row = pd.DataFrame([dto.to_dict()])
 
-            new_data = {
-                'project_id': project_id,
-
-                # SRQ1
-                'node_count': metrics.get('node_count'),
-                'edge_count': metrics.get('edge_count'),
-                'density': metrics.get('density'),
-                'max_depth': metrics.get('max_depth'),
-                'is_dag': metrics.get('is_dag'),
-                'hubs': "|".join(metrics.get('top_hubs', [])) if isinstance(metrics.get('top_hubs'), list) else metrics.get('hubs'),
-
-                # SRQ2
-                'reflection_count': metrics.get('reflection_count', 0),
-                'dep_count': metrics.get('dep_count', 0),
-                'total_metadata': metrics.get('total_metadata', 0),
-                'metadata_density': metrics.get('metadata_density', 0),
-
-                # MDS
-                'build_status': metrics.get('build_status', 0),
-
-                'processed_at': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            }
-
-            # update
             if not df.empty and 'project_id' in df.columns:
                 df = df[df['project_id'] != project_id]
 
             # concatenate
-            df = pd.concat([df, pd.DataFrame([new_data])], ignore_index=True)
+            df = pd.concat([df, new_row], ignore_index=True)
 
             # save
-            df.to_csv(self.output_path, index=False)
-            self.logger.info(f" [CSV UPDATE] Metrics saved for {project_id} (CMV: {new_data['total_metadata']})")
+            tmp = self.output_path.with_suffix(".tmp")
+            df.to_csv(tmp, index=False)
+            tmp.replace(self.output_path)
+            self.logger.info(f"[UPDATED] Metrics saved for {project_id}")
 
         except Exception as e:
             self.logger.error(f"Error when saving statistics: {e}")
