@@ -40,7 +40,6 @@ class MetricsDTO:
             "dep_count": metrics.get("dep_count", 0),
             "total_metadata": metrics.get("total_metadata", 0),
             "metadata_density": metrics.get("metadata_density", 0.0),
-            "build_status": metrics.get("build_status", 0),
         }
         return cls(**dto_kwargs)
 
