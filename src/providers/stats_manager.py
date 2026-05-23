@@ -73,7 +73,7 @@ class StatsManager(StatsProvider):
                 master_log.write(f"\n{'=' * 60}\n")
                 master_log.write(f"PROJECT: {project_id} | DATE: {timestamp}\n")
                 master_log.write(
-                    f"SUMMARY: {aot_results['dep_analysed_count']} deps | CMV: {aot_results['reflection_count'] + aot_results['proxy_count'] + aot_results['jni_count']}\n"
+                    f"SUMMARY: Reflection: {aot_results['reflection_count']}\n"
                 )
                 master_log.write(f"{'-' * 60}\n")
 
