@@ -4108,3 +4108,20 @@ Dependency: xbean-reflect:3.4 | Refl: 11 | Proxy: 0
 Dependency: plexus-classworlds:2.4 | Refl: 3 | Proxy: 0
 Dependency: guava:24.1-jre | Refl: 71 | Proxy: 0
 Dependency: slf4j-api:1.7.25 | Refl: 2 | Proxy: 0
+
+============================================================
+PROJECT: resolver | DATE: 2026-05-23 09:59:03
+SUMMARY: 40 deps | CMV: 255
+------------------------------------------------------------
+Dependency: aether-util:1.13.1 | Refl: 1 | Proxy: 0
+Dependency: maven-plugin-api:3.0.4 | Refl: 2 | Proxy: 0
+Dependency: plexus-utils:2.0.6 | Refl: 27 | Proxy: 0
+Dependency: maven-model:3.0.4 | Refl: 1 | Proxy: 0
+Dependency: maven-artifact:3.0.4 | Refl: 14 | Proxy: 0
+Dependency: wagon-provider-api:2.2 | Refl: 3 | Proxy: 0
+Dependency: plexus-cipher:1.7 | Refl: 2 | Proxy: 0
+Dependency: plexus-container-default:1.5.5 | Refl: 118 | Proxy: 0
+Dependency: xbean-reflect:3.4 | Refl: 11 | Proxy: 0
+Dependency: plexus-classworlds:2.4 | Refl: 3 | Proxy: 0
+Dependency: guava:24.1-jre | Refl: 71 | Proxy: 0
+Dependency: slf4j-api:1.7.25 | Refl: 2 | Proxy: 0

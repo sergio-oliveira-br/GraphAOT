@@ -149,3 +149,4 @@ fatal: repository 'https://github.com/graalvm/graalvm-demos/tree/master/' not fo
 2026-05-22 18:53:40 [INFO] [git_manager] Cloning repository: https://github.com/sergio-oliveira-br/mini-erp
 2026-05-22 19:57:34 [INFO] [git_manager] Cloning repository: https://github.com/spring-attic/spring-native
 2026-05-23 09:37:18 [INFO] [git_manager] Cloning repository: https://github.com/airlift/resolver
+2026-05-23 09:58:37 [INFO] [git_manager] Cloning repository: https://github.com/airlift/resolver

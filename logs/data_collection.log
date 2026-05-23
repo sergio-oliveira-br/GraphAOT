@@ -348,3 +348,7 @@
 2026-05-23 09:37:18 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-05-23 09:37:18 [INFO] [data_collection] >>> Harvesting Project: resolver
 2026-05-23 09:37:28 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-23 09:58:37 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'resolver'
+2026-05-23 09:58:37 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-23 09:58:37 [INFO] [data_collection] >>> Harvesting Project: resolver
+2026-05-23 09:58:42 [INFO] [data_collection] --- Harvester Pipeline Finished ---
