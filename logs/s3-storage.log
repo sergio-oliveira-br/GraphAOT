@@ -210,3 +210,5 @@
 2026-05-22 19:58:23 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
 2026-05-22 19:58:23 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
 2026-05-22 19:58:23 [ERROR] [s3-storage] Error on downloading from S3: An error occurred (404) when calling the HeadObject operation: Not Found
+2026-05-23 09:37:28 [INFO] [s3-storage] [Success] temp/work_dir/resolver/target/bom.json -> s3://graphaot-research-staging/analysis/resolver/bom.json
+2026-05-23 09:37:28 [INFO] [s3-storage] [Success] temp/work_dir/resolver/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/resolver/effective-pom.xml

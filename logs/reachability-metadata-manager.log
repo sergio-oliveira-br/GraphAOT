@@ -2757,3 +2757,17 @@
 2026-05-22 19:57:15 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: spring-native] ---
 2026-05-22 19:58:23 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: spring-native] ---
 2026-05-22 20:01:52 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 518 deps processed for spring-native] ---
+2026-05-23 09:37:52 [INFO] [reachability-metadata-manager] --- [START ANALYSIS: resolver] ---
+2026-05-23 09:37:54 [INFO] [reachability-metadata-manager] [+] Dependency: aether-util:1.13.1 | Refl: 1 | Proxy: 0
+2026-05-23 09:37:56 [INFO] [reachability-metadata-manager] [+] Dependency: maven-plugin-api:3.0.4 | Refl: 2 | Proxy: 0
+2026-05-23 09:37:57 [INFO] [reachability-metadata-manager] [+] Dependency: plexus-utils:2.0.6 | Refl: 27 | Proxy: 0
+2026-05-23 09:37:59 [INFO] [reachability-metadata-manager] [+] Dependency: maven-model:3.0.4 | Refl: 1 | Proxy: 0
+2026-05-23 09:37:59 [INFO] [reachability-metadata-manager] [+] Dependency: maven-artifact:3.0.4 | Refl: 14 | Proxy: 0
+2026-05-23 09:38:00 [INFO] [reachability-metadata-manager] [+] Dependency: wagon-provider-api:2.2 | Refl: 3 | Proxy: 0
+2026-05-23 09:38:01 [INFO] [reachability-metadata-manager] [+] Dependency: plexus-cipher:1.7 | Refl: 2 | Proxy: 0
+2026-05-23 09:38:01 [INFO] [reachability-metadata-manager] [+] Dependency: plexus-container-default:1.5.5 | Refl: 118 | Proxy: 0
+2026-05-23 09:38:02 [INFO] [reachability-metadata-manager] [+] Dependency: xbean-reflect:3.4 | Refl: 11 | Proxy: 0
+2026-05-23 09:38:02 [INFO] [reachability-metadata-manager] [+] Dependency: plexus-classworlds:2.4 | Refl: 3 | Proxy: 0
+2026-05-23 09:38:04 [INFO] [reachability-metadata-manager] [+] Dependency: guava:24.1-jre | Refl: 71 | Proxy: 0
+2026-05-23 09:38:07 [INFO] [reachability-metadata-manager] [+] Dependency: slf4j-api:1.7.25 | Refl: 2 | Proxy: 0
+2026-05-23 09:38:08 [INFO] [reachability-metadata-manager] --- [END OF ANALYSIS: 40 deps processed for resolver] ---

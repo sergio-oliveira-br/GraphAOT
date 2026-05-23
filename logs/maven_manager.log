@@ -360,3 +360,5 @@
 [ERROR] After correcting the problems, you can resume the build with the command
 [ERROR]   mvn <args> -rf :spring-aot
 
+2026-05-23 09:37:19 [INFO] [maven_manager] Running Maven: org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+2026-05-23 09:37:25 [INFO] [maven_manager] Running Maven: help:effective-pom -Doutput=/Users/sergiovinicio/PycharmProjects/GraphAOT/temp/work_dir/resolver/target/effective-pom.xml

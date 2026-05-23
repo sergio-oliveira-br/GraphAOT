@@ -30,5 +30,5 @@ TheAlgorithms_java,https://github.com/TheAlgorithms/Java,,ANALYSED,s3://graphaot
 kubernetes-client_java,https://github.com/kubernetes-client/java,,ANALYSED,s3://graphaot-research-staging/analysis/kubernetes-client_java/,,2026-05-22 17:19:54
 json-iterator_java,https://github.com/json-iterator/java,,ANALYSED,s3://graphaot-research-staging/analysis/json-iterator_java/,,2026-05-22 17:19:56
 pom-manipulation-ext,https://github.com/project-ncl/pom-manipulation-ext,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-22 16:58:46
-resolver,https://github.com/airlift/resolver,,ANALYSED,s3://graphaot-research-staging/analysis/resolver/,,2026-05-22 17:20:08
+resolver,https://github.com/airlift/resolver,,ANALYSED,s3://graphaot-research-staging/analysis/resolver/,,2026-05-23 09:38:08
 Maven-Web-Application,https://github.com/MithunTechnologiesDevOps/Maven-Web-Application,,ANALYSED,s3://graphaot-research-staging/analysis/Maven-Web-Application/,,2026-05-22 17:20:11

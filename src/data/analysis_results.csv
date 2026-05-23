@@ -20,7 +20,7 @@ hawtjni,47.0,89.0,0.0411655874190564,5.0,,True,hawtjni-maven-plugin|hawtjni-gene
 TheAlgorithms_java,3.0,2.0,0.3333333333333333,1.0,,True,,2,127,0,0,127,63.5,0,2026-05-22 17:19:08,,,,,,,,,,,,,
 kubernetes-client_java,129.0,371.0,0.0224685077519379,5.0,,True,client-java-api|sts|client-java,128,1635,0,0,1635,12.7734375,0,2026-05-22 17:19:54,,,,,,,,,,,,,
 json-iterator_java,6.0,6.0,0.2,2.0,,True,jackson-databind,5,60,0,0,60,12.0,0,2026-05-22 17:19:56,,,,,,,,,,,,,
-resolver,41.0,105.0,0.0640243902439024,4.0,,True,resolver|maven-core|guava,40,255,0,0,255,6.375,0,2026-05-22 17:20:08,,,,,,,,,,,,,
 Maven-Web-Application,11.0,23.0,0.209090909090909,2.0,,True,spring-core|spring-webmvc|spring-context,10,247,0,0,247,24.7,0,2026-05-22 17:20:11,,,,,,,,,,,,,
 mini-erp,84.0,174.0,0.0249569707401032,5.0,0.2668570361322462,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,83,2526,3,0,2529,30.46987951807229,0,2026-05-22 19:15:10,19.0,0.0,2.0,0.0,0.0,False,0.0,0.0,0.0,False,0.0,0.0029938634334795,False
-spring-native,519.0,1240.0,0.004612374554571087,7.0,0.2623959956889248,True,spring-native-configuration|spring-aot-gradle-plugin|spring-aot,518,6036,5,0,6041,11.662162162162161,0,2026-05-22 20:01:52,0.0,0.0,0.0,0.0,0.0,False,0.0,0.0,0.0,False,0.0,0.0,False
+spring-native,519.0,1240.0,0.004612374554571,7.0,0.2623959956889248,True,spring-native-configuration|spring-aot-gradle-plugin|spring-aot,518,6036,5,0,6041,11.66216216216216,0,2026-05-22 20:01:52,0.0,0.0,0.0,0.0,0.0,False,0.0,0.0,0.0,False,0.0,0.0,False
+resolver,41.0,105.0,0.06402439024390244,4.0,,True,resolver|maven-core|guava,40,255,0,0,255,6.375,0,2026-05-23 09:38:08,,,,,,,,,,,,,

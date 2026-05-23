@@ -404,3 +404,9 @@
 2026-05-22 20:01:52 [INFO] [graphaot-research-staging]  [OK] spring-native completed.
 
 2026-05-22 20:01:52 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-23 09:37:51 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'resolver'
+2026-05-23 09:37:51 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-23 09:37:51 [INFO] [graphaot-research-staging] >>> Processing: resolver
+2026-05-23 09:38:08 [INFO] [graphaot-research-staging]  [OK] resolver completed.
+
+2026-05-23 09:38:08 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
