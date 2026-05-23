@@ -12,7 +12,7 @@ from src.utils.logger import setup_logger
 CSV_COLUMNS = [
     "project_id",
     # SRQ1
-    "node_count", "edge_count", "density", "max_depth", "avg_clustering", "is_dag", "hubs",
+    "node_count", "edge_count", "density", "max_depth", "is_dag", "hubs",
     # SRQ2
     "dep_count", "reflection_count","total_metadata", "metadata_density",
     "build_status", "processed_at"
@@ -44,7 +44,6 @@ class StatsManager(StatsProvider):
                 'edge_count': metrics.get('edge_count'),
                 'density': metrics.get('density'),
                 'max_depth': metrics.get('max_depth'),
-                'avg_clustering': metrics.get('avg_clustering'),
                 'is_dag': metrics.get('is_dag'),
                 'hubs': "|".join(metrics.get('top_hubs', [])) if isinstance(metrics.get('top_hubs'), list) else metrics.get('hubs'),
 
