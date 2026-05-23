@@ -36,7 +36,7 @@ class StatsManager(StatsProvider):
             ])
             os.makedirs(os.path.dirname(self.output_path), exist_ok=True)
             df.to_csv(self.output_path, index=False)
-            print(f"Dataset initialized: {self.output_path}")
+            self.logger.info(f"Dataset initialized: {self.output_path}")
 
     def save_metrics(self, project_id: str, metrics: dict):
         try:
