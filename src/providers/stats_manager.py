@@ -26,10 +26,11 @@ class StatsManager(StatsProvider):
         self._initialize_storage()
 
     def _initialize_storage(self):
-        if not os.path.exists(self.output_path):
+        if not self.output_path.exists():
             df = pd.DataFrame(columns=CSV_COLUMNS)
-            os.makedirs(os.path.dirname(self.output_path), exist_ok=True)
-            df.to_csv(self.output_path, index=False)
+            tmp = self.output_path.with_suffix(".tmp")
+            df.to_csv(tmp, index=False)
+            tmp.replace(self.output_path)
             self.logger.info(f"Dataset initialized: {self.output_path}")
 
     def save_metrics(self, project_id: str, metrics: dict):
