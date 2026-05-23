@@ -4,7 +4,7 @@ algo-struct,https://github.com/sergio-oliveira-br/algo-struct,,ANALYSED,s3://gra
 algorithms-api-java,https://github.com/sergio-oliveira-br/algorithms-api-java,,ANALYSED,s3://graphaot-research-staging/analysis/algorithms-api-java/,,2026-05-22 17:09:50
 StockWise,https://github.com/sergio-oliveira-br/StockWise,,ANALYSED,s3://graphaot-research-staging/analysis/StockWise/,,2026-05-22 17:10:26
 sale-service,https://github.com/sergio-oliveira-br/sale-service,17,ANALYSED,s3://graphaot-research-staging/analysis/sale-service/,,2026-05-22 17:11:05
-mini-erp,https://github.com/sergio-oliveira-br/mini-erp,17,ANALYSED,s3://graphaot-research-staging/analysis/mini-erp/,,2026-05-23 10:25:23
+mini-erp,https://github.com/sergio-oliveira-br/mini-erp,17,ANALYSED,s3://graphaot-research-staging/analysis/mini-erp/,,2026-05-23 10:31:40
 LabMQTT,https://github.com/sergio-oliveira-br/LabMQTT,,ANALYSED,s3://graphaot-research-staging/analysis/LabMQTT/,,2026-05-22 17:11:26
 URLGeneratorApp,https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp,,FAILED_CLONE,,Git clone failed,2026-05-22 16:55:17
 task-manager,https://github.com/sergio-oliveira-br/task-manager,,ANALYSED,s3://graphaot-research-staging/analysis/task-manager/,,2026-05-22 17:11:41

@@ -1,0 +1,2 @@
+project_id,node_count,edge_count,density,max_depth,is_dag,hubs,dep_count,reflection_count,total_metadata,metadata_density,build_status,processed_at
+mini-erp,84,174,0.02495697074010327,5,True,spring-boot-starter|spring-boot-starter-logging|spring-boot,83,2495,2495,30.06024096385542,0,2026-05-23 10:31:40
