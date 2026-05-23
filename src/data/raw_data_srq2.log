@@ -4181,3 +4181,10 @@ Dependency: spring-aop:6.2.11 | Refl: 31 | Proxy: 0
 Dependency: spring-security-crypto:6.5.5 | Refl: 21 | Proxy: 0
 Dependency: tomcat-embed-el:10.1.46 | Refl: 25 | Proxy: 0
 Dependency: hibernate-validator:8.0.3.Final | Refl: 356 | Proxy: 0
+
+============================================================
+PROJECT: LabMQTT | DATE: 2026-05-23 10:39:07
+SUMMARY: 2 deps | CMV: 23
+------------------------------------------------------------
+Dependency: amqp-client:5.21.0 | Refl: 21 | Proxy: 0
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Proxy: 0
