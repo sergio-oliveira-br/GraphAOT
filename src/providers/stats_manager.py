@@ -25,7 +25,7 @@ class StatsManager(StatsProvider):
 
                 # SRQ2 - CMV
                 'dep_count',
-                'reflection_count', 'proxy_count', 'jni_count',
+                'reflection_count',
                 'total_metadata',
                 'metadata_density',
 
@@ -56,8 +56,6 @@ class StatsManager(StatsProvider):
 
                 # SRQ2
                 'reflection_count': metrics.get('reflection_count', 0),
-                'proxy_count': metrics.get('proxy_count', 0),
-                'jni_count': metrics.get('jni_count', 0),
                 'dep_count': metrics.get('dep_count', 0),
                 'total_metadata': metrics.get('total_metadata', 0),
                 'metadata_density': metrics.get('metadata_density', 0),
@@ -96,8 +94,6 @@ class StatsManager(StatsProvider):
         return {
             **graph_metrics,
             'reflection_count': reflection,
-            'proxy_count': proxy,
-            'jni_count': jni,
             'dep_count': deps,
             'total_metadata': total_cmv,
             'metadata_density': metadata_density,
