@@ -352,3 +352,7 @@
 2026-05-23 09:58:37 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
 2026-05-23 09:58:37 [INFO] [data_collection] >>> Harvesting Project: resolver
 2026-05-23 09:58:42 [INFO] [data_collection] --- Harvester Pipeline Finished ---
+2026-05-23 10:24:30 [INFO] [data_collection] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-23 10:24:30 [INFO] [data_collection] --- Starting Harvester Pipeline: 1 projects ---
+2026-05-23 10:24:30 [INFO] [data_collection] >>> Harvesting Project: mini-erp
+2026-05-23 10:24:39 [INFO] [data_collection] --- Harvester Pipeline Finished ---

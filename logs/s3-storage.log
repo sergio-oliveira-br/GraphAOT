@@ -214,3 +214,5 @@
 2026-05-23 09:37:28 [INFO] [s3-storage] [Success] temp/work_dir/resolver/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/resolver/effective-pom.xml
 2026-05-23 09:58:42 [INFO] [s3-storage] [Success] temp/work_dir/resolver/target/bom.json -> s3://graphaot-research-staging/analysis/resolver/bom.json
 2026-05-23 09:58:42 [INFO] [s3-storage] [Success] temp/work_dir/resolver/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/resolver/effective-pom.xml
+2026-05-23 10:24:39 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/bom.json -> s3://graphaot-research-staging/analysis/mini-erp/bom.json
+2026-05-23 10:24:39 [INFO] [s3-storage] [Success] temp/work_dir/mini-erp/target/effective-pom.xml -> s3://graphaot-research-staging/audit-logs/mini-erp/effective-pom.xml

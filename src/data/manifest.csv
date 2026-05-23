@@ -4,7 +4,7 @@ algo-struct,https://github.com/sergio-oliveira-br/algo-struct,,ANALYSED,s3://gra
 algorithms-api-java,https://github.com/sergio-oliveira-br/algorithms-api-java,,ANALYSED,s3://graphaot-research-staging/analysis/algorithms-api-java/,,2026-05-22 17:09:50
 StockWise,https://github.com/sergio-oliveira-br/StockWise,,ANALYSED,s3://graphaot-research-staging/analysis/StockWise/,,2026-05-22 17:10:26
 sale-service,https://github.com/sergio-oliveira-br/sale-service,17,ANALYSED,s3://graphaot-research-staging/analysis/sale-service/,,2026-05-22 17:11:05
-mini-erp,https://github.com/sergio-oliveira-br/mini-erp,17,ANALYSED,s3://graphaot-research-staging/analysis/mini-erp/,,2026-05-22 19:15:10
+mini-erp,https://github.com/sergio-oliveira-br/mini-erp,17,ANALYSED,s3://graphaot-research-staging/analysis/mini-erp/,,2026-05-23 10:25:23
 LabMQTT,https://github.com/sergio-oliveira-br/LabMQTT,,ANALYSED,s3://graphaot-research-staging/analysis/LabMQTT/,,2026-05-22 17:11:26
 URLGeneratorApp,https://github.com/sergio-oliveira-br/Software-Development/tree/main/URLGeneratorApp,,FAILED_CLONE,,Git clone failed,2026-05-22 16:55:17
 task-manager,https://github.com/sergio-oliveira-br/task-manager,,ANALYSED,s3://graphaot-research-staging/analysis/task-manager/,,2026-05-22 17:11:41
@@ -30,5 +30,5 @@ TheAlgorithms_java,https://github.com/TheAlgorithms/Java,,ANALYSED,s3://graphaot
 kubernetes-client_java,https://github.com/kubernetes-client/java,,ANALYSED,s3://graphaot-research-staging/analysis/kubernetes-client_java/,,2026-05-22 17:19:54
 json-iterator_java,https://github.com/json-iterator/java,,ANALYSED,s3://graphaot-research-staging/analysis/json-iterator_java/,,2026-05-22 17:19:56
 pom-manipulation-ext,https://github.com/project-ncl/pom-manipulation-ext,,FAILED_MAVEN,,BOM/POM generation failed,2026-05-22 16:58:46
-resolver,https://github.com/airlift/resolver,,ANALYSED,s3://graphaot-research-staging/analysis/resolver/,,2026-05-23 09:59:03
+resolver,https://github.com/airlift/resolver,,ANALYSED,s3://graphaot-research-staging/analysis/resolver/,,2026-05-23 10:02:47
 Maven-Web-Application,https://github.com/MithunTechnologiesDevOps/Maven-Web-Application,,ANALYSED,s3://graphaot-research-staging/analysis/Maven-Web-Application/,,2026-05-22 17:20:11

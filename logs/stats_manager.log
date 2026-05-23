@@ -107,3 +107,6 @@
 2026-05-22 20:01:52 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for spring-native (CMV: 6041)
 2026-05-23 09:38:08 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for resolver (CMV: 255)
 2026-05-23 09:59:03 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for resolver (CMV: 255)
+2026-05-23 10:02:37 [INFO] [stats_manager] Dataset initialized: /Users/sergiovinicio/PycharmProjects/GraphAOT/src/data/analysis_results.csv
+2026-05-23 10:02:47 [INFO] [stats_manager]  [CSV UPDATE] Metrics saved for resolver (CMV: 255)
+2026-05-23 10:25:23 [INFO] [stats_manager] [UPDATED] Metrics saved for mini-erp

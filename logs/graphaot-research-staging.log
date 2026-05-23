@@ -416,3 +416,15 @@
 2026-05-23 09:59:03 [INFO] [graphaot-research-staging]  [OK] resolver completed.
 
 2026-05-23 09:59:03 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-23 10:02:37 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'resolver'
+2026-05-23 10:02:37 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-23 10:02:37 [INFO] [graphaot-research-staging] >>> Processing: resolver
+2026-05-23 10:02:47 [INFO] [graphaot-research-staging]  [OK] resolver completed.
+
+2026-05-23 10:02:47 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
+2026-05-23 10:24:48 [INFO] [graphaot-research-staging] *** Manual Mode ***: Targeting project 'mini-erp'
+2026-05-23 10:24:48 [INFO] [graphaot-research-staging] --- Starting Graph Processor Pipeline: 1 projects ---
+2026-05-23 10:24:48 [INFO] [graphaot-research-staging] >>> Processing: mini-erp
+2026-05-23 10:25:23 [INFO] [graphaot-research-staging]  [OK] mini-erp completed.
+
+2026-05-23 10:25:23 [INFO] [graphaot-research-staging] --- Graph Processor Pipeline Finished ---
