@@ -8,6 +8,16 @@ from datetime import datetime
 from src.interfaces.stats import StatsProvider
 from src.utils.logger import setup_logger
 
+
+CSV_COLUMNS = [
+    "project_id",
+    # SRQ1
+    "node_count", "edge_count", "density", "max_depth", "avg_clustering", "is_dag", "hubs",
+    # SRQ2
+    "dep_count", "reflection_count","total_metadata", "metadata_density",
+    "build_status", "processed_at"
+]
+
 class StatsManager(StatsProvider):
     def __init__(self, output_path: str = "data/analysis_results.csv"):
         self.output_path = Path(output_path)
@@ -17,23 +27,7 @@ class StatsManager(StatsProvider):
 
     def _initialize_storage(self):
         if not os.path.exists(self.output_path):
-            df = pd.DataFrame(columns=[
-                'project_id',
-                # SRQ1
-                'node_count', 'edge_count', 'density', 'max_depth',
-                'avg_clustering', 'is_dag', 'hubs',
-
-                # SRQ2 - CMV
-                'dep_count',
-                'reflection_count',
-                'total_metadata',
-                'metadata_density',
-
-                # MDS
-                'build_status',
-
-                'processed_at'
-            ])
+            df = pd.DataFrame(columns=CSV_COLUMNS)
             os.makedirs(os.path.dirname(self.output_path), exist_ok=True)
             df.to_csv(self.output_path, index=False)
             self.logger.info(f"Dataset initialized: {self.output_path}")
