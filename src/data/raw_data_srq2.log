@@ -5517,3 +5517,863 @@ Dependency: spring-jcl:5.1.2.RELEASE | Refl: 2 | Methods: 0 | Serializable: 0 | 
 Dependency: spring-aop:5.1.2.RELEASE | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
 Dependency: spring-expression:5.1.2.RELEASE | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
 Dependency: spring-context:5.1.2.RELEASE | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+
+============================================================
+PROJECT: LabMQTT | DATE: 2026-06-04 17:46:26
+SUMMARY: Reflection=23 | Methods=14 | Serializable=10 | Resources=3 | Dependencies=2
+------------------------------------------------------------
+Dependency: amqp-client:5.21.0 | Refl: 21 | Methods: 14 | Serializable: 10 | Resources: 2
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: LabMQTT | DATE: 2026-06-04 17:52:26
+SUMMARY: Reflection=23 | Methods=14 | Serializable=10 | Resources=3 | Dependencies=2
+------------------------------------------------------------
+Dependency: amqp-client:5.21.0 | Refl: 21 | Methods: 14 | Serializable: 10 | Resources: 2
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: LabMQTT | DATE: 2026-06-04 18:00:08
+SUMMARY: Reflection=23 | Methods=14 | Serializable=10 | Resources=3 | Dependencies=2
+------------------------------------------------------------
+Dependency: amqp-client:5.21.0 | Refl: 21 | Methods: 14 | Serializable: 10 | Resources: 2
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: LabMQTT | DATE: 2026-06-04 18:02:04
+SUMMARY: Reflection=23 | Methods=14 | Serializable=10 | Resources=3 | Dependencies=2
+------------------------------------------------------------
+Dependency: amqp-client:5.21.0 | Refl: 21 | Methods: 14 | Serializable: 10 | Resources: 2
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: LabMQTT | DATE: 2026-06-04 18:12:18
+SUMMARY: Reflection=23 | Methods=14 | Serializable=10 | Resources=3 | Dependencies=2
+------------------------------------------------------------
+Dependency: amqp-client:5.21.0 | Refl: 21 | Methods: 14 | Serializable: 10 | Resources: 2
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: json-iterator_java | DATE: 2026-06-04 18:13:04
+SUMMARY: Reflection=60 | Methods=25 | Serializable=5 | Resources=8 | Dependencies=5
+------------------------------------------------------------
+Dependency: jackson-annotations:2.9.5 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-databind:2.9.5 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: gson:2.8.3 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 0
+
+============================================================
+PROJECT: algo-struct | DATE: 2026-06-04 18:17:02
+SUMMARY: Reflection=613 | Methods=223 | Serializable=26 | Resources=46 | Dependencies=41
+------------------------------------------------------------
+Dependency: logback-classic:1.5.18 | Refl: 97 | Methods: 106 | Serializable: 0 | Resources: 4
+Dependency: logback-core:1.5.18 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: snakeyaml:2.3 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: attoparser:2.0.7.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: unbescape:1.1.6.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: slf4j-api:2.0.17 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jackson-databind:2.18.3 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.18.3 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jdk8:2.18.3 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.18.3 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: tomcat-embed-core:10.1.39 | Refl: 105 | Methods: 56 | Serializable: 0 | Resources: 10
+Dependency: tomcat-embed-el:10.1.39 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: tomcat-embed-websocket:10.1.39 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-aop:6.2.5 | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-context:6.2.5 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-expression:6.2.5 | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-jcl:6.2.5 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: algorithms-api-java | DATE: 2026-06-04 18:17:13
+SUMMARY: Reflection=920 | Methods=465 | Serializable=26 | Resources=44 | Dependencies=41
+------------------------------------------------------------
+Dependency: logback-classic:1.5.18 | Refl: 97 | Methods: 106 | Serializable: 0 | Resources: 4
+Dependency: logback-core:1.5.18 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: snakeyaml:2.4 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: jackson-databind:2.19.1 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.19.1 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jdk8:2.19.1 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.19.1 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: tomcat-embed-core:10.1.42 | Refl: 105 | Methods: 56 | Serializable: 0 | Resources: 10
+Dependency: tomcat-embed-websocket:10.1.42 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-aop:6.2.8 | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-context:6.2.8 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-expression:6.2.8 | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: tomcat-embed-el:10.1.42 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: hibernate-validator:8.0.2.Final | Refl: 356 | Methods: 240 | Serializable: 0 | Resources: 1
+Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: classmate:1.7.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: slf4j-api:2.0.17 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-jcl:6.2.8 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: StockWise | DATE: 2026-06-04 18:17:46
+SUMMARY: Reflection=2112 | Methods=2119 | Serializable=49 | Resources=134 | Dependencies=103
+------------------------------------------------------------
+Dependency: logback-classic:1.5.16 | Refl: 97 | Methods: 106 | Serializable: 0 | Resources: 4
+Dependency: logback-core:1.5.16 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: snakeyaml:2.3 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: spring-boot-actuator-autoconfigure:3.4.3 | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-databind:2.18.2 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.18.2 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.18.2 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: HdrHistogram:2.2.2 | Refl: 12 | Methods: 13 | Serializable: 0 | Resources: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: HikariCP:5.1.0 | Refl: 12 | Methods: 54 | Serializable: 0 | Resources: 0
+Dependency: hibernate-core:6.6.8.Final | Refl: 1229 | Methods: 1697 | Serializable: 0 | Resources: 12
+Dependency: jakarta.persistence-api:3.1.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: hibernate-commons-annotations:7.0.3.Final | Refl: 3 | Methods: 2 | Serializable: 0 | Resources: 1
+Dependency: classmate:1.7.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-context:6.2.3 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-aop:6.2.3 | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-tx:6.2.3 | Refl: 6 | Methods: 10 | Serializable: 1 | Resources: 0
+Dependency: slf4j-api:2.0.16 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-aspects:6.2.3 | Refl: 24 | Methods: 16 | Serializable: 0 | Resources: 9
+Dependency: aspectjweaver:1.9.22.1 | Refl: 71 | Methods: 16 | Serializable: 18 | Resources: 36
+Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: attoparser:2.0.7.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: unbescape:1.1.6.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jackson-datatype-jdk8:2.18.2 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: tomcat-embed-core:10.1.36 | Refl: 105 | Methods: 56 | Serializable: 0 | Resources: 10
+Dependency: tomcat-embed-el:10.1.36 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: tomcat-embed-websocket:10.1.36 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-expression:6.2.3 | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: postgresql:42.7.5 | Refl: 95 | Methods: 82 | Serializable: 4 | Resources: 12
+Dependency: jakarta.xml.bind-api:4.0.2 | Refl: 4 | Methods: 1 | Serializable: 0 | Resources: 14
+Dependency: spring-jcl:6.2.3 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Methods: 3 | Serializable: 0 | Resources: 1
+Dependency: jaxb-core:4.0.5 | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 2
+
+============================================================
+PROJECT: sale-service | DATE: 2026-06-04 18:18:28
+SUMMARY: Reflection=2575 | Methods=2432 | Serializable=53 | Resources=263 | Dependencies=126
+------------------------------------------------------------
+Dependency: logback-classic:1.5.11 | Refl: 97 | Methods: 106 | Serializable: 0 | Resources: 4
+Dependency: logback-core:1.5.11 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: snakeyaml:2.2 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: spring-boot-actuator-autoconfigure:3.3.5 | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-databind:2.17.2 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.17.2 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.17.2 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: HdrHistogram:2.2.2 | Refl: 12 | Methods: 13 | Serializable: 0 | Resources: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-aop:6.1.14 | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: aspectjweaver:1.9.22.1 | Refl: 71 | Methods: 16 | Serializable: 18 | Resources: 36
+Dependency: HikariCP:5.1.0 | Refl: 12 | Methods: 54 | Serializable: 0 | Resources: 0
+Dependency: hibernate-core:6.5.3.Final | Refl: 1229 | Methods: 1697 | Serializable: 0 | Resources: 12
+Dependency: jakarta.persistence-api:3.1.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: hibernate-commons-annotations:6.0.6.Final | Refl: 3 | Methods: 2 | Serializable: 0 | Resources: 1
+Dependency: classmate:1.7.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Methods: 3 | Serializable: 0 | Resources: 1
+Dependency: jaxb-core:4.0.5 | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: spring-context:6.1.14 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-tx:6.1.14 | Refl: 6 | Methods: 10 | Serializable: 1 | Resources: 0
+Dependency: spring-aspects:6.1.14 | Refl: 24 | Methods: 16 | Serializable: 0 | Resources: 9
+Dependency: tomcat-embed-el:10.1.31 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: hibernate-validator:8.0.1.Final | Refl: 356 | Methods: 240 | Serializable: 0 | Resources: 1
+Dependency: jackson-datatype-jdk8:2.17.2 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Methods: 56 | Serializable: 0 | Resources: 10
+Dependency: tomcat-embed-websocket:10.1.31 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-expression:6.1.14 | Refl: 47 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: postgresql:42.7.4 | Refl: 95 | Methods: 82 | Serializable: 4 | Resources: 12
+Dependency: jakarta.xml.bind-api:4.0.2 | Refl: 4 | Methods: 1 | Serializable: 0 | Resources: 14
+Dependency: spring-jcl:6.1.14 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-cloud-context:4.1.4 | Refl: 14 | Methods: 14 | Serializable: 0 | Resources: 0
+Dependency: commons-fileupload:1.5 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: commons-io:2.11.0 | Refl: 4 | Methods: 1 | Serializable: 2 | Resources: 0
+Dependency: spring-security-crypto:6.3.4 | Refl: 20 | Methods: 17 | Serializable: 0 | Resources: 1
+Dependency: resilience4j-core:2.1.0 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: resilience4j-spring6:2.1.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: resilience4j-circularbuffer:2.1.0 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: slf4j-api:2.0.16 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: junit:4.13.2 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: consul-api:1.4.5 | Refl: 111 | Methods: 30 | Serializable: 0 | Resources: 2
+Dependency: gson:2.10.1 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: httpclient:4.5.14 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 2
+Dependency: commons-logging:1.2 | Refl: 7 | Methods: 4 | Serializable: 0 | Resources: 0
+Dependency: commons-codec:1.16.1 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 125
+Dependency: httpcore:4.4.16 | Refl: 3 | Methods: 1 | Serializable: 2 | Resources: 1
+Dependency: reactor-core:3.6.11 | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 0
+
+============================================================
+PROJECT: mini-erp | DATE: 2026-06-04 18:18:49
+SUMMARY: Reflection=2495 | Methods=2328 | Serializable=49 | Resources=138 | Dependencies=83
+------------------------------------------------------------
+Dependency: logback-classic:1.5.18 | Refl: 97 | Methods: 106 | Serializable: 0 | Resources: 4
+Dependency: logback-core:1.5.18 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: snakeyaml:2.4 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: spring-boot-actuator-autoconfigure:3.5.6 | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-databind:2.19.2 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.19.2 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.19.2 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: HdrHistogram:2.2.2 | Refl: 12 | Methods: 13 | Serializable: 0 | Resources: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: HikariCP:6.3.3 | Refl: 18 | Methods: 6 | Serializable: 0 | Resources: 2
+Dependency: hibernate-core:6.6.29.Final | Refl: 1229 | Methods: 1697 | Serializable: 0 | Resources: 12
+Dependency: jakarta.persistence-api:3.1.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jboss-logging:3.6.1.Final | Refl: 12 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: hibernate-commons-annotations:7.0.3.Final | Refl: 3 | Methods: 2 | Serializable: 0 | Resources: 1
+Dependency: classmate:1.7.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Methods: 3 | Serializable: 0 | Resources: 1
+Dependency: jaxb-core:4.0.5 | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: spring-context:6.2.11 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-tx:6.2.11 | Refl: 6 | Methods: 10 | Serializable: 1 | Resources: 0
+Dependency: slf4j-api:2.0.17 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-aspects:6.2.11 | Refl: 24 | Methods: 16 | Serializable: 0 | Resources: 9
+Dependency: aspectjweaver:1.9.24 | Refl: 71 | Methods: 16 | Serializable: 18 | Resources: 36
+Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: attoparser:2.0.7.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: unbescape:1.1.6.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jackson-datatype-jdk8:2.19.2 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: tomcat-embed-core:10.1.46 | Refl: 105 | Methods: 56 | Serializable: 0 | Resources: 10
+Dependency: tomcat-embed-websocket:10.1.46 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-expression:6.2.11 | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: postgresql:42.7.7 | Refl: 95 | Methods: 82 | Serializable: 4 | Resources: 12
+Dependency: jakarta.xml.bind-api:4.0.2 | Refl: 4 | Methods: 1 | Serializable: 0 | Resources: 14
+Dependency: spring-jcl:6.2.11 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-aop:6.2.11 | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-security-crypto:6.5.5 | Refl: 21 | Methods: 17 | Serializable: 0 | Resources: 1
+Dependency: tomcat-embed-el:10.1.46 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: hibernate-validator:8.0.3.Final | Refl: 356 | Methods: 240 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: LabMQTT | DATE: 2026-06-04 18:18:50
+SUMMARY: Reflection=23 | Methods=14 | Serializable=10 | Resources=3 | Dependencies=2
+------------------------------------------------------------
+Dependency: amqp-client:5.21.0 | Refl: 21 | Methods: 14 | Serializable: 10 | Resources: 2
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: task-manager | DATE: 2026-06-04 18:19:07
+SUMMARY: Reflection=2072 | Methods=2138 | Serializable=49 | Resources=135 | Dependencies=77
+------------------------------------------------------------
+Dependency: aspectjweaver:1.9.22.1 | Refl: 71 | Methods: 16 | Serializable: 18 | Resources: 36
+Dependency: HikariCP:5.1.0 | Refl: 12 | Methods: 54 | Serializable: 0 | Resources: 0
+Dependency: hibernate-core:6.5.3.Final | Refl: 1229 | Methods: 1697 | Serializable: 0 | Resources: 12
+Dependency: jakarta.persistence-api:3.1.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jboss-logging:3.5.3.Final | Refl: 12 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: hibernate-commons-annotations:6.0.6.Final | Refl: 3 | Methods: 2 | Serializable: 0 | Resources: 1
+Dependency: classmate:1.7.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jaxb-runtime:4.0.5 | Refl: 10 | Methods: 3 | Serializable: 0 | Resources: 1
+Dependency: jaxb-core:4.0.5 | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: spring-context:6.1.14 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-tx:6.1.14 | Refl: 6 | Methods: 10 | Serializable: 1 | Resources: 0
+Dependency: slf4j-api:2.0.16 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-aspects:6.1.14 | Refl: 24 | Methods: 16 | Serializable: 0 | Resources: 9
+Dependency: logback-classic:1.5.11 | Refl: 97 | Methods: 106 | Serializable: 0 | Resources: 4
+Dependency: logback-core:1.5.11 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: snakeyaml:2.2 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: spring-aop:6.1.14 | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-expression:6.1.14 | Refl: 47 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jackson-datatype-jdk8:2.17.2 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.17.2 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: tomcat-embed-core:10.1.31 | Refl: 105 | Methods: 56 | Serializable: 0 | Resources: 10
+Dependency: tomcat-embed-el:10.1.31 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: tomcat-embed-websocket:10.1.31 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-cloud-context:4.1.4 | Refl: 14 | Methods: 14 | Serializable: 0 | Resources: 0
+Dependency: spring-security-crypto:6.3.4 | Refl: 20 | Methods: 17 | Serializable: 0 | Resources: 1
+Dependency: jackson-databind:2.17.2 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.17.2 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: postgresql:42.7.4 | Refl: 95 | Methods: 82 | Serializable: 4 | Resources: 12
+Dependency: spring-boot-configuration-processor:3.3.5 | Refl: 12 | Methods: 1 | Serializable: 0 | Resources: 3
+Dependency: jakarta.xml.bind-api:4.0.2 | Refl: 4 | Methods: 1 | Serializable: 0 | Resources: 14
+Dependency: spring-jcl:6.1.14 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: serverless-graalvm-demo | DATE: 2026-06-04 18:19:37
+SUMMARY: Reflection=177 | Methods=69 | Serializable=12 | Resources=154 | Dependencies=69
+------------------------------------------------------------
+Dependency: jackson-databind:2.22.0 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.22 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.22.0 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: joda-time:2.10.8 | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 1
+Dependency: dynamodb:2.28.7 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: checksums:2.28.7 | Refl: 9 | Methods: 6 | Serializable: 0 | Resources: 0
+Dependency: sdk-core:2.28.7 | Refl: 6 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: auth:2.28.7 | Refl: 22 | Methods: 4 | Serializable: 0 | Resources: 5
+Dependency: utils:2.28.7 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: slf4j-simple:2.0.13 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: slf4j-api:2.0.13 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: httpclient:4.5.13 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 2
+Dependency: httpcore:4.4.13 | Refl: 3 | Methods: 1 | Serializable: 2 | Resources: 1
+Dependency: commons-logging:1.2 | Refl: 7 | Methods: 4 | Serializable: 0 | Resources: 0
+Dependency: commons-codec:1.11 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 125
+Dependency: jackson-databind:2.12.7.1 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.12.7 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+
+============================================================
+PROJECT: doom-graal | DATE: 2026-06-04 18:19:37
+SUMMARY: Reflection=0 | Methods=0 | Serializable=0 | Resources=0 | Dependencies=1
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: java-graalvm-start | DATE: 2026-06-04 18:20:02
+SUMMARY: Reflection=1102 | Methods=306 | Serializable=52 | Resources=80 | Dependencies=102
+------------------------------------------------------------
+Dependency: javafx-base:24-ea+5 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: javafx-base:24-ea+5 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: logback-classic:1.2.11 | Refl: 42 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: logback-core:1.2.11 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: snakeyaml:1.30 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: jackson-databind:2.13.4.2 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.13.4 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jdk8:2.13.4 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.13.4 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: tomcat-embed-el:9.0.70 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: spring-aop:5.3.24 | Refl: 29 | Methods: 6 | Serializable: 8 | Resources: 0
+Dependency: spring-context:5.3.24 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-expression:5.3.24 | Refl: 47 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: thymeleaf:3.0.15.RELEASE | Refl: 90 | Methods: 16 | Serializable: 0 | Resources: 5
+Dependency: attoparser:2.0.5.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: unbescape:1.1.6.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-jcl:5.3.24 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: logback-classic:1.5.18 | Refl: 97 | Methods: 106 | Serializable: 0 | Resources: 4
+Dependency: logback-core:1.5.18 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: snakeyaml:2.4 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: thymeleaf-spring6:3.1.3.RELEASE | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: thymeleaf:3.1.3.RELEASE | Refl: 59 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: attoparser:2.0.7.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: slf4j-api:2.0.17 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jackson-databind:2.19.0 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.19.0 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jdk8:2.19.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.19.0 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: tomcat-embed-core:10.1.41 | Refl: 105 | Methods: 56 | Serializable: 0 | Resources: 10
+Dependency: tomcat-embed-el:10.1.41 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: tomcat-embed-websocket:10.1.41 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-aop:6.2.7 | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-context:6.2.7 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-expression:6.2.7 | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-jcl:6.2.7 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: picocli:4.6.2 | Refl: 4 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: jansi:1.18 | Refl: 6 | Methods: 5 | Serializable: 0 | Resources: 0
+
+============================================================
+PROJECT: spring-boot-graalvm | DATE: 2026-06-04 18:20:03
+SUMMARY: Reflection=0 | Methods=0 | Serializable=0 | Resources=0 | Dependencies=0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: spring-native | DATE: 2026-06-04 18:23:39
+SUMMARY: Reflection=5914 | Methods=2646 | Serializable=264 | Resources=677 | Dependencies=518
+------------------------------------------------------------
+Dependency: spring-jcl:5.3.24 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: tomcat-embed-core:9.0.70 | Refl: 202 | Methods: 106 | Serializable: 5 | Resources: 109
+Dependency: spring-aop:5.3.24 | Refl: 29 | Methods: 6 | Serializable: 8 | Resources: 0
+Dependency: spring-expression:5.3.24 | Refl: 47 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jackson-databind:2.13.4.2 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.13.4 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: HdrHistogram:2.1.12 | Refl: 12 | Methods: 13 | Serializable: 0 | Resources: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-boot-actuator-autoconfigure:2.7.7 | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.13.4 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-context:5.3.24 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-test:5.3.24 | Refl: 12 | Methods: 1 | Serializable: 0 | Resources: 4
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: logback-classic:1.2.11 | Refl: 42 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: logback-core:1.2.11 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: spring-tx:5.3.24 | Refl: 3 | Methods: 0 | Serializable: 1 | Resources: 0
+Dependency: mongodb-driver-core:4.6.1 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: bson:4.6.1 | Refl: 3 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: h2:2.1.214 | Refl: 20 | Methods: 14 | Serializable: 0 | Resources: 1
+Dependency: hibernate-validator:6.2.5.Final | Refl: 356 | Methods: 240 | Serializable: 0 | Resources: 1
+Dependency: jboss-logging:3.4.3.Final | Refl: 12 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: classmate:1.5.1 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: hibernate-core:5.6.14.Final | Refl: 260 | Methods: 172 | Serializable: 0 | Resources: 12
+Dependency: javax.persistence-api:2.2 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 5
+Dependency: antlr:2.7.7 | Refl: 15 | Methods: 6 | Serializable: 0 | Resources: 2
+Dependency: jandex:2.4.2.Final | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: javax.activation-api:1.2.0 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 2
+Dependency: hibernate-commons-annotations:5.1.2.Final | Refl: 3 | Methods: 2 | Serializable: 0 | Resources: 1
+Dependency: jaxb-api:2.3.1 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 3
+Dependency: jaxb-runtime:2.3.7 | Refl: 10 | Methods: 3 | Serializable: 0 | Resources: 1
+Dependency: jakarta.xml.bind-api:2.3.3 | Refl: 4 | Methods: 1 | Serializable: 0 | Resources: 14
+Dependency: jakarta.activation:1.2.2 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 2
+Dependency: httpclient:4.5.14 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 2
+Dependency: httpcore:4.4.16 | Refl: 3 | Methods: 1 | Serializable: 2 | Resources: 1
+Dependency: commons-codec:1.15 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 125
+Dependency: opentest4j:1.2.0 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: junit-platform-commons:1.8.2 | Refl: 7 | Methods: 3 | Serializable: 0 | Resources: 5
+Dependency: commons-compress:1.21 | Refl: 14 | Methods: 14 | Serializable: 0 | Resources: 0
+Dependency: picocli:4.6.1 | Refl: 4 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: asm:9.2 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: kafka-clients:3.1.2 | Refl: 116 | Methods: 111 | Serializable: 0 | Resources: 3
+Dependency: zstd-jni:1.5.0-4 | Refl: 15 | Methods: 2 | Serializable: 0 | Resources: 3
+Dependency: lz4-java:1.8.0 | Refl: 24 | Methods: 3 | Serializable: 0 | Resources: 1
+Dependency: kafka-streams:3.1.2 | Refl: 51 | Methods: 52 | Serializable: 0 | Resources: 19
+Dependency: rocksdbjni:6.22.1.1 | Refl: 4 | Methods: 2 | Serializable: 0 | Resources: 1
+Dependency: avro:1.9.2 | Refl: 31 | Methods: 0 | Serializable: 0 | Resources: 3
+Dependency: jakarta.ws.rs-api:2.1.6 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 6
+Dependency: spring-cloud-function-context:3.2.5 | Refl: 32 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: javax.servlet-api:4.0.1 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 9
+Dependency: spring-cloud-context:3.1.3 | Refl: 14 | Methods: 14 | Serializable: 0 | Resources: 0
+Dependency: spring-security-crypto:5.7.6 | Refl: 20 | Methods: 17 | Serializable: 0 | Resources: 1
+Dependency: json-smart:2.4.8 | Refl: 9 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: spring-webflux:5.3.24 | Refl: 83 | Methods: 4 | Serializable: 0 | Resources: 5
+Dependency: reactor-core:3.4.26 | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: snakeyaml:1.30 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: kotlin-stdlib:1.6.21 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: quartz:2.3.2 | Refl: 8 | Methods: 10 | Serializable: 0 | Resources: 5
+Dependency: mchange-commons-java:0.2.15 | Refl: 125 | Methods: 70 | Serializable: 16 | Resources: 24
+Dependency: commons-compress:1.19 | Refl: 14 | Methods: 14 | Serializable: 0 | Resources: 0
+Dependency: spring-integration-kafka:5.5.16 | Refl: 4 | Methods: 4 | Serializable: 0 | Resources: 0
+Dependency: spring-cloud-stream:3.2.4 | Refl: 42 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-integration-jmx:5.5.16 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: lucene-core:8.11.1 | Refl: 24 | Methods: 11 | Serializable: 0 | Resources: 2
+Dependency: jopt-simple:5.0.2 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: joda-time:2.10.10 | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 1
+Dependency: jna:5.10.0 | Refl: 50 | Methods: 69 | Serializable: 0 | Resources: 5
+Dependency: parsson:1.0.0 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jackson-datatype-jdk8:2.13.4 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: postgresql:42.3.8 | Refl: 95 | Methods: 82 | Serializable: 4 | Resources: 12
+Dependency: netty-resolver-dns-classes-macos:4.1.86.Final | Refl: 12 | Methods: 4 | Serializable: 0 | Resources: 0
+Dependency: netty-transport-native-epoll:4.1.86.Final | Refl: 13 | Methods: 5 | Serializable: 0 | Resources: 2
+Dependency: netty-transport-native-unix-common:4.1.86.Final | Refl: 26 | Methods: 9 | Serializable: 0 | Resources: 1
+Dependency: netty-transport-classes-epoll:4.1.86.Final | Refl: 27 | Methods: 5 | Serializable: 0 | Resources: 2
+Dependency: netty-handler-proxy:4.1.86.Final | Refl: 25 | Methods: 5 | Serializable: 0 | Resources: 6
+Dependency: netty-codec-socks:4.1.86.Final | Refl: 6 | Methods: 2 | Serializable: 0 | Resources: 2
+Dependency: netty-transport:4.1.86.Final | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: netty-common:4.1.86.Final | Refl: 750 | Methods: 316 | Serializable: 0 | Resources: 8
+Dependency: spring-rabbit:2.4.8 | Refl: 53 | Methods: 1 | Serializable: 0 | Resources: 2
+Dependency: spring-amqp:2.4.8 | Refl: 5 | Methods: 0 | Serializable: 1 | Resources: 0
+Dependency: amqp-client:5.14.2 | Refl: 21 | Methods: 14 | Serializable: 10 | Resources: 2
+Dependency: spring-aspects:5.3.24 | Refl: 24 | Methods: 16 | Serializable: 0 | Resources: 9
+Dependency: aspectjweaver:1.9.7 | Refl: 71 | Methods: 16 | Serializable: 18 | Resources: 36
+Dependency: HikariCP:4.0.3 | Refl: 9 | Methods: 4 | Serializable: 0 | Resources: 2
+Dependency: thymeleaf:3.0.15.RELEASE | Refl: 90 | Methods: 16 | Serializable: 0 | Resources: 5
+Dependency: ognl:3.1.26 | Refl: 19 | Methods: 4 | Serializable: 0 | Resources: 4
+Dependency: attoparser:2.0.5.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: unbescape:1.1.6.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: tomcat-embed-websocket:9.0.70 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: mysql-connector-j:8.0.31 | Refl: 24 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: mariadb-java-client:3.0.9 | Refl: 3 | Methods: 1 | Serializable: 0 | Resources: 1
+Dependency: mssql-jdbc:10.2.2.jre8 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: tomcat-embed-el:9.0.70 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: bcpkix-jdk15on:1.68 | Refl: 90 | Methods: 90 | Serializable: 0 | Resources: 0
+Dependency: org.eclipse.jgit:5.12.0.202106070339-r | Refl: 16 | Methods: 15 | Serializable: 0 | Resources: 1
+Dependency: jackson-dataformat-yaml:2.13.4 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: antlr-runtime:3.4 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: commons-math:2.2 | Refl: 10 | Methods: 0 | Serializable: 0 | Resources: 3
+Dependency: jsr311-api:1.1.1 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: commons-configuration:1.10 | Refl: 24 | Methods: 14 | Serializable: 0 | Resources: 5
+Dependency: commons-lang:2.6 | Refl: 9 | Methods: 3 | Serializable: 1 | Resources: 0
+Dependency: jettison:1.4.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: aspectjrt:1.9.7 | Refl: 21 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: protobuf-java:3.19.6 | Refl: 15 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: kotlin-reflect:1.6.21 | Refl: 10 | Methods: 11 | Serializable: 0 | Resources: 1
+Dependency: jakarta.mail:1.6.7 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 6
+Dependency: lettuce-core:6.1.10.RELEASE | Refl: 97 | Methods: 33 | Serializable: 0 | Resources: 1
+Dependency: ehcache:3.10.8 | Refl: 534 | Methods: 114 | Serializable: 0 | Resources: 11
+Dependency: hazelcast:5.1.5 | Refl: 597 | Methods: 289 | Serializable: 0 | Resources: 18
+Dependency: rxjava:3.0.4 | Refl: 6 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: caffeine:2.9.3 | Refl: 39 | Methods: 26 | Serializable: 0 | Resources: 0
+Dependency: cache-api:1.1.1 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: websocket-common:9.4.50.v20221201 | Refl: 5 | Methods: 2 | Serializable: 0 | Resources: 3
+Dependency: jetty-util:9.4.50.v20221201 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jetty-io:9.4.50.v20221201 | Refl: 5 | Methods: 3 | Serializable: 0 | Resources: 2
+Dependency: websocket-client:9.4.50.v20221201 | Refl: 4 | Methods: 2 | Serializable: 0 | Resources: 5
+Dependency: jetty-client:9.4.50.v20221201 | Refl: 49 | Methods: 49 | Serializable: 0 | Resources: 6
+Dependency: jetty-servlet:9.4.50.v20221201 | Refl: 16 | Methods: 4 | Serializable: 0 | Resources: 1
+Dependency: jetty-security:9.4.50.v20221201 | Refl: 4 | Methods: 3 | Serializable: 0 | Resources: 3
+Dependency: jetty-server:9.4.50.v20221201 | Refl: 33 | Methods: 85 | Serializable: 0 | Resources: 45
+Dependency: jetty-util-ajax:9.4.50.v20221201 | Refl: 7 | Methods: 4 | Serializable: 0 | Resources: 3
+Dependency: jetty-http:9.4.50.v20221201 | Refl: 5 | Methods: 3 | Serializable: 0 | Resources: 5
+Dependency: undertow-core:2.2.22.Final | Refl: 64 | Methods: 18 | Serializable: 0 | Resources: 4
+Dependency: wildfly-client-config:1.0.1.Final | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 3
+Dependency: jboss-threads:3.1.0.Final | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: commons-pool2:2.11.1 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: commons-io:2.11.0 | Refl: 4 | Methods: 1 | Serializable: 2 | Resources: 0
+Dependency: okhttp:4.9.3 | Refl: 7 | Methods: 4 | Serializable: 0 | Resources: 1
+Dependency: okio:2.8.0 | Refl: 1 | Methods: 0 | Serializable: 1 | Resources: 0
+Dependency: consul-api:1.4.5 | Refl: 111 | Methods: 30 | Serializable: 0 | Resources: 2
+Dependency: gson:2.9.1 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: netty-incubator-codec-classes-quic:0.0.34.Final | Refl: 23 | Methods: 8 | Serializable: 0 | Resources: 1
+Dependency: junit:4.13.2 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: guava:30.1.1-android | Refl: 71 | Methods: 20 | Serializable: 36 | Resources: 2
+Dependency: netty-codec:4.1.86.Final | Refl: 11 | Methods: 5 | Serializable: 1 | Resources: 0
+Dependency: netty-codec-dns:4.1.86.Final | Refl: 15 | Methods: 7 | Serializable: 0 | Resources: 2
+Dependency: guava:20.0 | Refl: 71 | Methods: 20 | Serializable: 36 | Resources: 2
+Dependency: maven-resolver-impl:1.0.3 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: maven-resolver-api:1.0.3 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: maven-resolver-util:1.0.3 | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: commons-io:2.5 | Refl: 4 | Methods: 1 | Serializable: 2 | Resources: 0
+Dependency: plexus-classworlds:2.5.2 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: plexus-cipher:1.4 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: commons-lang3:3.12.0 | Refl: 28 | Methods: 2 | Serializable: 11 | Resources: 0
+Dependency: maven-model:3.5.0 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: plexus-utils:2.1 | Refl: 27 | Methods: 4 | Serializable: 4 | Resources: 0
+Dependency: plexus-build-api:0.0.7 | Refl: 46 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: maven-plugin-api:3.3.9 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: maven-artifact:3.3.9 | Refl: 14 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: org.eclipse.sisu.inject:0.3.2 | Refl: 61 | Methods: 12 | Serializable: 0 | Resources: 1
+Dependency: maven-project:2.2.1 | Refl: 11 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: maven-profile:2.2.1 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: maven-artifact-manager:2.2.1 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: wagon-provider-api:1.0-beta-6 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: backport-util-concurrent:3.1 | Refl: 74 | Methods: 14 | Serializable: 40 | Resources: 0
+Dependency: plexus-container-default:1.0-alpha-9-stable-1 | Refl: 118 | Methods: 33 | Serializable: 0 | Resources: 2
+Dependency: guava:29.0-jre | Refl: 71 | Methods: 20 | Serializable: 36 | Resources: 2
+Dependency: jna:5.6.0 | Refl: 50 | Methods: 69 | Serializable: 0 | Resources: 5
+Dependency: kotlin-scripting-compiler-embeddable:1.6.10 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: kotlin-scripting-common:1.6.21 | Refl: 21 | Methods: 2 | Serializable: 5 | Resources: 1
+Dependency: kotlin-scripting-jvm:1.6.21 | Refl: 8 | Methods: 5 | Serializable: 6 | Resources: 1
+Dependency: jna:5.7.0 | Refl: 50 | Methods: 69 | Serializable: 0 | Resources: 5
+
+============================================================
+PROJECT: azure-native-spring-function | DATE: 2026-06-04 18:24:00
+SUMMARY: Reflection=1378 | Methods=419 | Serializable=17 | Resources=64 | Dependencies=59
+------------------------------------------------------------
+Dependency: spring-cloud-function-context:3.2.5 | Refl: 32 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: jackson-databind:2.13.3 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.13.3 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jdk8:2.13.3 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.13.3 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: netty-common:4.1.77.Final | Refl: 750 | Methods: 316 | Serializable: 0 | Resources: 8
+Dependency: netty-transport:4.1.77.Final | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: netty-codec:4.1.77.Final | Refl: 11 | Methods: 5 | Serializable: 1 | Resources: 0
+Dependency: netty-resolver:4.1.77.Final | Refl: 7 | Methods: 2 | Serializable: 0 | Resources: 4
+Dependency: netty-codec-dns:4.1.77.Final | Refl: 15 | Methods: 7 | Serializable: 0 | Resources: 2
+Dependency: netty-resolver-dns-classes-macos:4.1.77.Final | Refl: 12 | Methods: 4 | Serializable: 0 | Resources: 0
+Dependency: netty-transport-native-epoll:4.1.77.Final | Refl: 13 | Methods: 5 | Serializable: 0 | Resources: 2
+Dependency: netty-transport-native-unix-common:4.1.77.Final | Refl: 26 | Methods: 9 | Serializable: 0 | Resources: 1
+Dependency: netty-transport-classes-epoll:4.1.77.Final | Refl: 27 | Methods: 5 | Serializable: 0 | Resources: 2
+Dependency: netty-handler-proxy:4.1.77.Final | Refl: 25 | Methods: 5 | Serializable: 0 | Resources: 6
+Dependency: netty-codec-socks:4.1.77.Final | Refl: 9 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: spring-webflux:5.3.20 | Refl: 83 | Methods: 4 | Serializable: 0 | Resources: 5
+Dependency: reactor-core:3.4.18 | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: spring-context:5.3.20 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-aop:5.3.20 | Refl: 29 | Methods: 6 | Serializable: 8 | Resources: 0
+Dependency: spring-expression:5.3.20 | Refl: 47 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: logback-classic:1.2.11 | Refl: 42 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: logback-core:1.2.11 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: snakeyaml:1.30 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-jcl:5.3.20 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: piggymetrics | DATE: 2026-06-04 18:25:18
+SUMMARY: Reflection=2796 | Methods=1189 | Serializable=194 | Resources=386 | Dependencies=247
+------------------------------------------------------------
+Dependency: spring-cloud-context:2.0.0.RELEASE | Refl: 14 | Methods: 14 | Serializable: 0 | Resources: 0
+Dependency: jackson-annotations:2.9.0 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-databind:2.9.6 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: spring-boot-actuator-autoconfigure:2.0.3.RELEASE | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.9.6 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: HdrHistogram:2.1.10 | Refl: 12 | Methods: 13 | Serializable: 0 | Resources: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jdk8:2.9.6 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: tomcat-embed-core:8.5.31 | Refl: 202 | Methods: 106 | Serializable: 5 | Resources: 109
+Dependency: tomcat-embed-el:8.5.31 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: tomcat-embed-websocket:8.5.31 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: hibernate-validator:6.0.10.Final | Refl: 356 | Methods: 240 | Serializable: 0 | Resources: 1
+Dependency: validation-api:2.0.1.Final | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jboss-logging:3.3.2.Final | Refl: 12 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: classmate:1.3.4 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-security-crypto:5.0.6.RELEASE | Refl: 21 | Methods: 17 | Serializable: 0 | Resources: 1
+Dependency: bcpkix-jdk15on:1.56 | Refl: 90 | Methods: 90 | Serializable: 0 | Resources: 0
+Dependency: org.eclipse.jgit:4.11.0.201803080745-r | Refl: 16 | Methods: 15 | Serializable: 0 | Resources: 1
+Dependency: httpclient:4.5.5 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 2
+Dependency: commons-codec:1.11 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 125
+Dependency: slf4j-api:1.7.25 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: httpcore:4.4.9 | Refl: 3 | Methods: 1 | Serializable: 2 | Resources: 1
+Dependency: snakeyaml:1.19 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: logback-classic:1.2.3 | Refl: 116 | Methods: 106 | Serializable: 8 | Resources: 11
+Dependency: logback-core:1.2.3 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: spring-jcl:5.0.7.RELEASE | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-aop:5.0.7.RELEASE | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-context:5.0.7.RELEASE | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-expression:5.0.7.RELEASE | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: freemarker:2.3.28 | Refl: 4 | Methods: 3 | Serializable: 0 | Resources: 2
+Dependency: aspectjweaver:1.8.13 | Refl: 71 | Methods: 16 | Serializable: 18 | Resources: 36
+Dependency: HdrHistogram:2.1.9 | Refl: 12 | Methods: 13 | Serializable: 0 | Resources: 0
+Dependency: guava:16.0 | Refl: 71 | Methods: 20 | Serializable: 36 | Resources: 2
+Dependency: commons-configuration:1.8 | Refl: 24 | Methods: 14 | Serializable: 0 | Resources: 5
+Dependency: commons-lang:2.6 | Refl: 9 | Methods: 3 | Serializable: 1 | Resources: 0
+Dependency: asm:5.0.4 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: objenesis:2.6 | Refl: 1 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jettison:1.3.7 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: joda-time:2.9.9 | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 1
+Dependency: antlr-runtime:3.4 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: antlr:2.7.7 | Refl: 15 | Methods: 6 | Serializable: 0 | Resources: 2
+Dependency: gson:2.8.5 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: commons-math:2.2 | Refl: 10 | Methods: 0 | Serializable: 0 | Resources: 3
+Dependency: jsr311-api:1.1.1 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jersey-servlet:1.19.1 | Refl: 59 | Methods: 1 | Serializable: 0 | Resources: 5
+Dependency: netty-codec:4.1.25.Final | Refl: 11 | Methods: 5 | Serializable: 1 | Resources: 0
+Dependency: netty-transport-native-epoll:4.1.25.Final | Refl: 13 | Methods: 5 | Serializable: 0 | Resources: 2
+Dependency: netty-common:4.1.25.Final | Refl: 750 | Methods: 316 | Serializable: 0 | Resources: 8
+Dependency: netty-transport-native-unix-common:4.1.25.Final | Refl: 26 | Methods: 9 | Serializable: 0 | Resources: 1
+Dependency: netty-transport:4.1.25.Final | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: netty-resolver:4.1.25.Final | Refl: 7 | Methods: 2 | Serializable: 0 | Resources: 4
+Dependency: commons-lang3:3.7 | Refl: 28 | Methods: 2 | Serializable: 11 | Resources: 0
+Dependency: guava:15.0 | Refl: 71 | Methods: 20 | Serializable: 36 | Resources: 2
+Dependency: commons-io:2.4 | Refl: 4 | Methods: 1 | Serializable: 2 | Resources: 0
+Dependency: aspectjrt:1.8.13 | Refl: 21 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: zipkin-reporter:2.7.3 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 4
+Dependency: bson:3.6.4 | Refl: 3 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: mongodb-driver-core:3.6.4 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-tx:5.0.7.RELEASE | Refl: 6 | Methods: 10 | Serializable: 1 | Resources: 0
+Dependency: jackson-mapper-asl:1.9.13 | Refl: 6 | Methods: 4 | Serializable: 0 | Resources: 0
+Dependency: spring-cloud-stream-binder-rabbit:2.0.0.RELEASE | Refl: 1 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: spring-cloud-stream-binder-rabbit-core:2.0.0.RELEASE | Refl: 10 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: spring-rabbit:2.0.4.RELEASE | Refl: 53 | Methods: 1 | Serializable: 0 | Resources: 2
+Dependency: spring-amqp:2.0.4.RELEASE | Refl: 5 | Methods: 0 | Serializable: 1 | Resources: 0
+Dependency: amqp-client:5.1.2 | Refl: 21 | Methods: 14 | Serializable: 10 | Resources: 2
+Dependency: reactor-core:3.1.8.RELEASE | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: spring-cloud-stream:2.0.0.RELEASE | Refl: 42 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-integration-jmx:5.0.6.RELEASE | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: guava:19.0 | Refl: 71 | Methods: 20 | Serializable: 36 | Resources: 2
+Dependency: activation:1.1 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: netty-handler-proxy:4.1.25.Final | Refl: 25 | Methods: 5 | Serializable: 0 | Resources: 6
+Dependency: netty-codec-socks:4.1.25.Final | Refl: 6 | Methods: 2 | Serializable: 0 | Resources: 2
+Dependency: netty-transport-native-epoll:4.1.25.Final | Refl: 13 | Methods: 5 | Serializable: 0 | Resources: 2
+Dependency: spring-webflux:5.0.7.RELEASE | Refl: 83 | Methods: 4 | Serializable: 0 | Resources: 5
+Dependency: jopt-simple:4.8 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jackson-mapper-asl:1.9.2 | Refl: 6 | Methods: 4 | Serializable: 0 | Resources: 0
+
+============================================================
+PROJECT: SpringBootForBeginners | DATE: 2026-06-04 18:25:39
+SUMMARY: Reflection=1208 | Methods=494 | Serializable=62 | Resources=219 | Dependencies=63
+------------------------------------------------------------
+Dependency: logback-classic:1.1.7 | Refl: 116 | Methods: 106 | Serializable: 8 | Resources: 11
+Dependency: logback-core:1.1.7 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: log4j-over-slf4j:1.7.21 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: snakeyaml:1.17 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: tomcat-embed-core:8.5.4 | Refl: 202 | Methods: 106 | Serializable: 5 | Resources: 109
+Dependency: tomcat-embed-el:8.5.4 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: tomcat-embed-websocket:8.5.4 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: validation-api:1.1.0.Final | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jboss-logging:3.3.0.Final | Refl: 12 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: classmate:1.3.1 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-databind:2.8.1 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: spring-aop:4.3.2.RELEASE | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-context:4.3.2.RELEASE | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-expression:4.3.2.RELEASE | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: aspectjweaver:1.8.9 | Refl: 71 | Methods: 16 | Serializable: 18 | Resources: 36
+Dependency: tomcat-jdbc:8.5.4 | Refl: 5 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: tomcat-juli:8.5.4 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: hibernate-core:5.0.9.Final | Refl: 350 | Methods: 136 | Serializable: 0 | Resources: 14
+Dependency: antlr:2.7.7 | Refl: 15 | Methods: 6 | Serializable: 0 | Resources: 2
+Dependency: jandex:2.0.0.Final | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: dom4j:1.6.1 | Refl: 38 | Methods: 18 | Serializable: 4 | Resources: 0
+Dependency: hibernate-commons-annotations:5.0.1.Final | Refl: 3 | Methods: 2 | Serializable: 0 | Resources: 1
+Dependency: spring-tx:4.3.2.RELEASE | Refl: 6 | Methods: 10 | Serializable: 1 | Resources: 0
+Dependency: spring-aspects:4.3.2.RELEASE | Refl: 24 | Methods: 16 | Serializable: 0 | Resources: 9
+Dependency: jackson-annotations:2.8.1 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: h2:1.4.192 | Refl: 20 | Methods: 14 | Serializable: 0 | Resources: 1
+Dependency: slf4j-api:1.7.21 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jcl-over-slf4j:1.7.21 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: spring-cloud-gateway | DATE: 2026-06-04 18:26:58
+SUMMARY: Reflection=2596 | Methods=1159 | Serializable=76 | Resources=238 | Dependencies=215
+------------------------------------------------------------
+Dependency: logback-classic:1.5.34 | Refl: 116 | Methods: 106 | Serializable: 8 | Resources: 11
+Dependency: logback-core:1.5.34 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: snakeyaml:2.5 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: jackson-annotations:2.21 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-core:3.1.4 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: netty-transport:4.2.15.Final | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: netty-transport-native-unix-common:4.2.15.Final | Refl: 26 | Methods: 9 | Serializable: 0 | Resources: 1
+Dependency: netty-resolver:4.2.15.Final | Refl: 7 | Methods: 2 | Serializable: 0 | Resources: 4
+Dependency: netty-codec-dns:4.2.15.Final | Refl: 15 | Methods: 7 | Serializable: 0 | Resources: 2
+Dependency: netty-resolver-dns-classes-macos:4.2.15.Final | Refl: 12 | Methods: 4 | Serializable: 0 | Resources: 0
+Dependency: netty-transport-native-epoll:4.2.15.Final | Refl: 13 | Methods: 5 | Serializable: 0 | Resources: 2
+Dependency: netty-transport-classes-epoll:4.2.15.Final | Refl: 27 | Methods: 5 | Serializable: 0 | Resources: 2
+Dependency: netty-handler-proxy:4.2.15.Final | Refl: 25 | Methods: 5 | Serializable: 0 | Resources: 6
+Dependency: netty-codec-socks:4.2.15.Final | Refl: 6 | Methods: 2 | Serializable: 0 | Resources: 2
+Dependency: spring-boot-netty:4.0.7-SNAPSHOT | Refl: 11 | Methods: 11 | Serializable: 0 | Resources: 7
+Dependency: netty-common:4.2.15.Final | Refl: 750 | Methods: 316 | Serializable: 0 | Resources: 8
+Dependency: spring-boot-reactor:4.0.7-SNAPSHOT | Refl: 22 | Methods: 16 | Serializable: 0 | Resources: 4
+Dependency: reactor-core:3.8.6-SNAPSHOT | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: spring-boot-webflux:4.0.7-SNAPSHOT | Refl: 13 | Methods: 11 | Serializable: 0 | Resources: 0
+Dependency: spring-webflux:7.0.8-SNAPSHOT | Refl: 83 | Methods: 4 | Serializable: 0 | Resources: 5
+Dependency: spring-boot-web-server:4.0.7-SNAPSHOT | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 2
+Dependency: slf4j-api:2.0.18 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jakarta.xml.bind-api:4.0.5 | Refl: 4 | Methods: 1 | Serializable: 0 | Resources: 14
+Dependency: json-smart:2.6.0 | Refl: 9 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: asm:9.7.1 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: commons-logging:1.3.6 | Refl: 7 | Methods: 4 | Serializable: 0 | Resources: 0
+Dependency: spring-test:7.0.8-SNAPSHOT | Refl: 12 | Methods: 1 | Serializable: 0 | Resources: 4
+Dependency: spring-context:7.0.8-SNAPSHOT | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-aop:7.0.8-SNAPSHOT | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-expression:7.0.8-SNAPSHOT | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-boot-actuator-autoconfigure:4.0.7-SNAPSHOT | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: HdrHistogram:2.2.2 | Refl: 12 | Methods: 13 | Serializable: 0 | Resources: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-boot-configuration-processor:4.0.7-SNAPSHOT | Refl: 12 | Methods: 1 | Serializable: 0 | Resources: 3
+Dependency: tomcat-embed-core:11.0.22 | Refl: 202 | Methods: 106 | Serializable: 5 | Resources: 109
+Dependency: tomcat-embed-el:11.0.22 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: tomcat-embed-websocket:11.0.22 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-boot-validation:4.0.7-SNAPSHOT | Refl: 10 | Methods: 4 | Serializable: 0 | Resources: 7
+Dependency: hibernate-validator:9.0.1.Final | Refl: 356 | Methods: 240 | Serializable: 0 | Resources: 1
+Dependency: jboss-logging:3.6.3.Final | Refl: 12 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: classmate:1.7.3 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-security-crypto:7.0.6-SNAPSHOT | Refl: 21 | Methods: 17 | Serializable: 0 | Resources: 1
+Dependency: spring-cloud-context:5.0.2-SNAPSHOT | Refl: 14 | Methods: 14 | Serializable: 0 | Resources: 0
+Dependency: spring-cloud-function-context:5.0.3-SNAPSHOT | Refl: 32 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: joda-time:2.12.7 | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 1
+Dependency: spring-cloud-stream:5.0.2-SNAPSHOT | Refl: 42 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-boot-transaction:4.0.7-SNAPSHOT | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: spring-tx:7.0.8-SNAPSHOT | Refl: 6 | Methods: 10 | Serializable: 1 | Resources: 0
+Dependency: spring-integration-jmx:7.0.5-SNAPSHOT | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 2
+Dependency: lettuce-core:6.8.2.RELEASE | Refl: 97 | Methods: 33 | Serializable: 0 | Resources: 1
+Dependency: kotlin-stdlib:2.2.21 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: kotlin-reflect:2.2.21 | Refl: 10 | Methods: 11 | Serializable: 0 | Resources: 1
+Dependency: grpc-netty:1.77.1 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: grpc-core:1.77.1 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: grpc-context:1.77.1 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: guava:33.4.8-android | Refl: 71 | Methods: 20 | Serializable: 36 | Resources: 2
+Dependency: grpc-protobuf:1.77.1 | Refl: 4 | Methods: 11 | Serializable: 0 | Resources: 0
+Dependency: protobuf-java:3.25.8 | Refl: 15 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: proto-google-common-protos:2.59.2 | Refl: 14 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: protobuf-java-util:4.33.6 | Refl: 58 | Methods: 57 | Serializable: 0 | Resources: 0
+Dependency: gson:2.13.2 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: jackson-databind:2.21.4 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: resilience4j-spring6:2.3.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: resilience4j-circularbuffer:2.3.0 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: resilience4j-core:2.3.0 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: caffeine:3.2.4 | Refl: 60 | Methods: 31 | Serializable: 0 | Resources: 0
+Dependency: asm:9.9.1 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: jnativehook | DATE: 2026-06-04 18:26:58
+SUMMARY: Reflection=0 | Methods=0 | Serializable=0 | Resources=0 | Dependencies=0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: hawtjni | DATE: 2026-06-04 18:27:16
+SUMMARY: Reflection=293 | Methods=73 | Serializable=7 | Resources=6 | Dependencies=46
+------------------------------------------------------------
+Dependency: slf4j-api:1.5.11 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: asm:8.0.1 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: commons-cli:1.0 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: commons-logging:1.0 | Refl: 7 | Methods: 4 | Serializable: 0 | Resources: 0
+Dependency: commons-lang:1.0 | Refl: 8 | Methods: 3 | Serializable: 1 | Resources: 0
+Dependency: junit:3.7 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: maven-plugin-api:3.6.3 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: maven-model:3.6.3 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: org.eclipse.sisu.inject:0.3.4 | Refl: 61 | Methods: 12 | Serializable: 0 | Resources: 1
+Dependency: plexus-classworlds:2.6.0 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: maven-project:2.0.11 | Refl: 11 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: maven-profile:2.0.11 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: plexus-container-default:1.0-alpha-9-stable-1 | Refl: 118 | Methods: 33 | Serializable: 0 | Resources: 2
+Dependency: junit:3.8.1 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: plexus-utils:3.3.0 | Refl: 28 | Methods: 4 | Serializable: 4 | Resources: 0
+Dependency: maven-artifact-manager:2.0.11 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: wagon-provider-api:1.0-beta-2 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: maven-artifact:2.0.11 | Refl: 14 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: maven-archiver:2.4 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: plexus-archiver:4.2.2 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: commons-compress:1.20 | Refl: 14 | Methods: 14 | Serializable: 0 | Resources: 0
+Dependency: snappy:0.4 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: plexus-io:3.2.0 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: commons-io:2.6 | Refl: 4 | Methods: 1 | Serializable: 2 | Resources: 0
+
+============================================================
+PROJECT: whisper-jni | DATE: 2026-06-04 18:27:16
+SUMMARY: Reflection=0 | Methods=0 | Serializable=0 | Resources=0 | Dependencies=0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: jni-faiss | DATE: 2026-06-04 18:27:18
+SUMMARY: Reflection=71 | Methods=20 | Serializable=36 | Resources=2 | Dependencies=6
+------------------------------------------------------------
+Dependency: guava:21.0 | Refl: 71 | Methods: 20 | Serializable: 36 | Resources: 2
+
+============================================================
+PROJECT: TheAlgorithms_java | DATE: 2026-06-04 18:27:19
+SUMMARY: Reflection=127 | Methods=12 | Serializable=101 | Resources=0 | Dependencies=2
+------------------------------------------------------------
+Dependency: commons-lang3:3.20.0 | Refl: 28 | Methods: 2 | Serializable: 11 | Resources: 0
+Dependency: commons-collections4:4.5.0 | Refl: 99 | Methods: 10 | Serializable: 90 | Resources: 0
+
+============================================================
+PROJECT: kubernetes-client_java | DATE: 2026-06-04 18:28:09
+SUMMARY: Reflection=1633 | Methods=611 | Serializable=176 | Resources=178 | Dependencies=127
+------------------------------------------------------------
+Dependency: kotlin-stdlib:2.2.21 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: okio-jvm:3.16.4 | Refl: 1 | Methods: 0 | Serializable: 1 | Resources: 0
+Dependency: gson:2.14.0 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: jackson-databind:2.21.3 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.21 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: commons-lang3:3.20.0 | Refl: 28 | Methods: 2 | Serializable: 11 | Resources: 0
+Dependency: protobuf-java:4.35.0 | Refl: 15 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: snakeyaml:2.6 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: commons-codec:1.22.0 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 125
+Dependency: commons-compress:1.28.0 | Refl: 14 | Methods: 14 | Serializable: 0 | Resources: 0
+Dependency: commons-io:2.22.0 | Refl: 4 | Methods: 1 | Serializable: 2 | Resources: 0
+Dependency: slf4j-api:2.0.18 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: bcpkix-jdk18on:1.84 | Refl: 97 | Methods: 97 | Serializable: 0 | Resources: 0
+Dependency: commons-collections4:4.5.0 | Refl: 99 | Methods: 10 | Serializable: 90 | Resources: 0
+Dependency: google-auth-library-oauth2-http:1.47.0 | Refl: 59 | Methods: 14 | Serializable: 20 | Resources: 1
+Dependency: guava:33.5.0-jre | Refl: 71 | Methods: 20 | Serializable: 36 | Resources: 2
+Dependency: google-http-client:2.1.0 | Refl: 4 | Methods: 4 | Serializable: 0 | Resources: 0
+Dependency: httpclient:4.5.14 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 2
+Dependency: httpcore:4.4.16 | Refl: 3 | Methods: 1 | Serializable: 2 | Resources: 1
+Dependency: grpc-context:1.70.0 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: checksums:2.44.8 | Refl: 9 | Methods: 6 | Serializable: 0 | Resources: 0
+Dependency: sdk-core:2.44.8 | Refl: 6 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: auth:2.44.8 | Refl: 22 | Methods: 4 | Serializable: 0 | Resources: 5
+Dependency: utils:2.44.8 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: apache-client:2.44.8 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: netty-codec:4.1.133.Final | Refl: 11 | Methods: 5 | Serializable: 1 | Resources: 0
+Dependency: netty-transport:4.1.133.Final | Refl: 3 | Methods: 3 | Serializable: 0 | Resources: 0
+Dependency: netty-common:4.1.133.Final | Refl: 750 | Methods: 316 | Serializable: 0 | Resources: 8
+Dependency: netty-transport-native-unix-common:4.1.133.Final | Refl: 26 | Methods: 9 | Serializable: 0 | Resources: 1
+Dependency: netty-transport-classes-epoll:4.1.133.Final | Refl: 27 | Methods: 5 | Serializable: 0 | Resources: 2
+Dependency: netty-resolver:4.1.133.Final | Refl: 7 | Methods: 2 | Serializable: 0 | Resources: 4
+Dependency: caffeine:3.0.0 | Refl: 60 | Methods: 31 | Serializable: 0 | Resources: 0
+Dependency: spring-context:7.0.7 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-aop:7.0.7 | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-expression:7.0.7 | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: commons-logging:1.3.5 | Refl: 7 | Methods: 4 | Serializable: 0 | Resources: 0
+Dependency: commons-cli:1.11.0 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 0
+Dependency: httpclient:4.5.13 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 2
+
+============================================================
+PROJECT: json-iterator_java | DATE: 2026-06-04 18:28:11
+SUMMARY: Reflection=60 | Methods=25 | Serializable=5 | Resources=8 | Dependencies=5
+------------------------------------------------------------
+Dependency: jackson-annotations:2.9.5 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-databind:2.9.5 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: gson:2.8.3 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 0
+
+============================================================
+PROJECT: resolver | DATE: 2026-06-04 18:28:26
+SUMMARY: Reflection=255 | Methods=62 | Serializable=40 | Resources=6 | Dependencies=40
+------------------------------------------------------------
+Dependency: aether-util:1.13.1 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: maven-plugin-api:3.0.4 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: plexus-utils:2.0.6 | Refl: 27 | Methods: 4 | Serializable: 4 | Resources: 0
+Dependency: maven-model:3.0.4 | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: maven-artifact:3.0.4 | Refl: 14 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: wagon-provider-api:2.2 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: plexus-cipher:1.7 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: plexus-container-default:1.5.5 | Refl: 118 | Methods: 33 | Serializable: 0 | Resources: 2
+Dependency: xbean-reflect:3.4 | Refl: 11 | Methods: 5 | Serializable: 0 | Resources: 1
+Dependency: plexus-classworlds:2.4 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: guava:24.1-jre | Refl: 71 | Methods: 20 | Serializable: 36 | Resources: 2
+Dependency: slf4j-api:1.7.25 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: Maven-Web-Application | DATE: 2026-06-04 18:28:30
+SUMMARY: Reflection=247 | Methods=47 | Serializable=8 | Resources=22 | Dependencies=10
+------------------------------------------------------------
+Dependency: json:20160212 | Refl: 11 | Methods: 17 | Serializable: 0 | Resources: 0
+Dependency: javax.servlet-api:3.1.0 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 9
+Dependency: spring-jcl:5.1.2.RELEASE | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-aop:5.1.2.RELEASE | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-expression:5.1.2.RELEASE | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-context:5.1.2.RELEASE | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
