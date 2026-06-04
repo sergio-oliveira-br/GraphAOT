@@ -4,11 +4,6 @@ from dataclasses import dataclass, asdict, field
 from datetime import datetime
 from typing import Optional, List, Dict, Any
 
-def _serialize_hubs(metrics: Dict[str, Any]) -> Optional[str]:
-    hubs = metrics.get("top_hubs")
-    if isinstance(hubs, list):
-        return "|".join(map(str, hubs))
-    return metrics.get("hubs")
 
 @dataclass
 class MetricsDTO:
