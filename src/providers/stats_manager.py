@@ -16,7 +16,8 @@ CSV_COLUMNS = [
     # SRQ1
     "node_count", "edge_count", "density", "max_depth", "is_dag", "hubs",
     # SRQ2
-    "dep_count", "reflection_count","total_metadata", "metadata_density",
+    "dep_count", "reflection_count", "method_count", "serializable_count", "resources_count",
+    "total_metadata", "metadata_density",
     "build_status", "processed_at"
 ]
 
@@ -38,8 +39,27 @@ class StatsManager(StatsProvider):
     def save_metrics(self, project_id: str, metrics: dict):
         try:
             df = pd.read_csv(self.output_path)
-            dto = MetricsDTO.from_metrics(project_id, metrics)
-            new_row = pd.DataFrame([dto.to_dict()])
+
+            row = {
+                "project_id": project_id,
+                "node_count": metrics.get("node_count", 0),
+                "edge_count": metrics.get("edge_count", 0),
+                "density": metrics.get("density", 0.0),
+                "max_depth": metrics.get("max_depth", 0),
+                "is_dag": metrics.get("is_dag", False),
+                "hubs": metrics.get("hubs", ""),
+                "dep_count": metrics.get("dep_count", 0),
+                "reflection_count": metrics.get("reflection_count", 0),
+                "method_count": metrics.get("method_count", 0),
+                "serializable_count": metrics.get("serializable_count", 0),
+                "resources_count": metrics.get("resources_count", 0),
+                "total_metadata": metrics.get("total_metadata", 0),
+                "metadata_density": metrics.get("metadata_density", 0.0),
+                "build_status": metrics.get("build_status", 0),
+                "processed_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            }
+
+            new_row = pd.DataFrame([row])
 
             if not df.empty and 'project_id' in df.columns:
                 df = df[df['project_id'] != project_id]
@@ -58,10 +78,14 @@ class StatsManager(StatsProvider):
 
 
     def compute_migration_metrics(self, graph_metrics: dict, aot_results: dict) -> dict:
-        reflection = aot_results.get('reflection_count', 0)
+
         return {
             **graph_metrics,
-            'reflection_count': reflection
+            'dep_count': aot_results.get('dep_analysed_count', 0),
+            'reflection_count': aot_results.get('reflection_total', 0),
+            'method_count': aot_results.get('method_total', 0),
+            'serializable_count': aot_results.get('serializable_total', 0),
+            'resources_count': aot_results.get('resources_total', 0)
         }
 
     def save_raw_log(self, project_id, aot_results):
@@ -73,7 +97,11 @@ class StatsManager(StatsProvider):
                 master_log.write(f"\n{'=' * 60}\n")
                 master_log.write(f"PROJECT: {project_id} | DATE: {timestamp}\n")
                 master_log.write(
-                    f"SUMMARY: Reflection: {aot_results['reflection_count']}\n"
+                    f"SUMMARY: Reflection={aot_results.get('reflection_total', 0)} | "
+                    f"Methods={aot_results.get('method_total', 0)} | "
+                    f"Serializable={aot_results.get('serializable_total', 0)} | "
+                    f"Resources={aot_results.get('resources_total', 0)} | "
+                    f"Dependencies={aot_results.get('dep_analysed_count', 0)}\n"
                 )
                 master_log.write(f"{'-' * 60}\n")
 
