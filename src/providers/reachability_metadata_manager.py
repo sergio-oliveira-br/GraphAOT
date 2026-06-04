@@ -19,7 +19,7 @@ class ReachabilityMetadataManager(MetadataProvider):
         a = artifact.split('@')[0].split('?')[0]
         v = str(version).strip()
 
-        res_default = {"reflection": 0, "proxy": 0, "jni": 0}
+        res_default = {"reflection": 0}
 
         try:
             resp = requests.get(f"{self.base_url}/{g}/{a}/index.json", timeout=5)
@@ -37,12 +37,11 @@ class ReachabilityMetadataManager(MetadataProvider):
                 return res_default
 
             meta_resp = requests.get(f"{self.base_url}/{g}/{a}/{target}/reachability-metadata.json", timeout=5)
+            print(f"{self.base_url}/{g}/{a}/{target}/reachability-metadata.json")
             if meta_resp.status_code == 200:
                 data = meta_resp.json()
                 return {
                     "reflection": len(data.get("reflection", [])),
-                    "jni": len(data.get("jni", [])),
-                    "proxy": len(data.get("proxy", []))
                 }
 
         except requests.exceptions.RequestException as e:
@@ -57,8 +56,6 @@ class ReachabilityMetadataManager(MetadataProvider):
     def analyze_reachability_effort(self, graph, project_id):
 
         total_refl = 0
-        total_proxy = 0
-        total_jni = 0
         dep_count = 0
         details = []
 
@@ -75,11 +72,9 @@ class ReachabilityMetadataManager(MetadataProvider):
                 meta = self.get_metadata_volume(group, artifact, version)
 
                 total_refl += meta.get('reflection', 0)
-                total_proxy += meta.get('proxy', 0)
-                total_jni += meta.get('jni', 0)
 
                 if any(v > 0 for v in meta.values()):
-                    line = f"Dependency: {artifact}:{version} | Refl: {meta['reflection']} | Proxy: {meta['proxy']}"
+                    line = f"Dependency: {artifact}:{version} | Refl: {meta['reflection']}"
                     self.logger.info(f"[+] {line}")
                     details.append(line)
 
@@ -87,8 +82,6 @@ class ReachabilityMetadataManager(MetadataProvider):
 
         return {
             "reflection_count": total_refl,
-            "proxy_count": total_proxy,
-            "jni_count": total_jni,
             "dep_analysed_count": dep_count,
             "log_details": details
         }
