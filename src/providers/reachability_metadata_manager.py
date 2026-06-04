@@ -10,6 +10,7 @@ class ReachabilityMetadataManager(MetadataProvider):
     def __init__(self):
         self.base_url = "https://raw.githubusercontent.com/oracle/graalvm-reachability-metadata/master/metadata"
         self.logger = setup_logger('reachability-metadata-manager')
+        self.timeout = 8
 
     def get_metadata_volume(self, group: str, artifact: str, version: str) -> dict:
         """Fetches the official Oracle repository"""
@@ -22,7 +23,7 @@ class ReachabilityMetadataManager(MetadataProvider):
         res_default = {"reflection": 0}
 
         try:
-            resp = requests.get(f"{self.base_url}/{g}/{a}/index.json", timeout=5)
+            resp = requests.get(f"{self.base_url}/{g}/{a}/index.json", timeout=self.timeout)
             if resp.status_code != 200:
                 self.logger.debug(f"Metadata index not found for {g}:{a}")
                 return res_default
@@ -36,7 +37,7 @@ class ReachabilityMetadataManager(MetadataProvider):
             if not target:
                 return res_default
 
-            meta_resp = requests.get(f"{self.base_url}/{g}/{a}/{target}/reachability-metadata.json", timeout=5)
+            meta_resp = requests.get(f"{self.base_url}/{g}/{a}/{target}/reachability-metadata.json", timeout=self.timeout)
             print(f"{self.base_url}/{g}/{a}/{target}/reachability-metadata.json")
             if meta_resp.status_code == 200:
                 data = meta_resp.json()
