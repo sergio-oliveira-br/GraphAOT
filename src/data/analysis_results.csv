@@ -1,0 +1,3 @@
+project_id,node_count,edge_count,density,max_depth,is_dag,hubs,dep_count,reflection_count,method_count,serializable_count,resources_count,total_metadata,metadata_density,build_status,processed_at
+LabMQTT,3,2,0.3333333333333333,2,True,,2,23,14.0,10.0,3.0,0,0.0,0,2026-06-04 14:59:49
+spring-native,519,1240,0.004612374554571087,7,True,,518,5914,2646.0,264.0,677.0,0,0.0,0,2026-06-04 15:10:16
