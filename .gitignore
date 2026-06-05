@@ -35,3 +35,4 @@ terraform/modules/s3_bucket/.terraform.lock.hcl
 # logs
 *.log
 /temp
+.idea/vcs.xml
