@@ -32,3 +32,20 @@ json-iterator_java,https://github.com/json-iterator/java,,ANALYSED,s3://graphaot
 pom-manipulation-ext,https://github.com/project-ncl/pom-manipulation-ext,,FAILED_MAVEN,,BOM/POM generation failed,2026-06-04 16:00:51
 resolver,https://github.com/airlift/resolver,,ANALYSED,s3://graphaot-research-staging/analysis/resolver/,,2026-06-04 18:28:26
 Maven-Web-Application,https://github.com/MithunTechnologiesDevOps/Maven-Web-Application,,ANALYSED,s3://graphaot-research-staging/analysis/Maven-Web-Application/,,2026-06-04 18:28:30
+maven-project,https://github.com/jleetutorial/maven-project,,ANALYSED,s3://graphaot-research-staging/analysis/maven-project/,,2026-06-05 11:16:58
+spring5webapp,https://github.com/springframeworkguru/spring5webapp,,ANALYSED,s3://graphaot-research-staging/analysis/spring5webapp/,,2026-06-05 11:17:34
+guava,https://github.com/google/guava,,FAILED_MAVEN,,BOM/POM generation failed,2026-06-05 11:09:56
+HelloWorld,https://github.com/NanowarOfSteel/HelloWorld,,ANALYSED,s3://graphaot-research-staging/analysis/HelloWorld/,,2026-06-05 11:17:35
+hello-design-pattern,https://github.com/code4craft/hello-design-pattern,,ANALYSED,s3://graphaot-research-staging/analysis/hello-design-pattern/,,2026-06-05 11:17:36
+hello-world,https://github.com/yankils/hello-world,,ANALYSED,s3://graphaot-research-staging/analysis/hello-world/,,2026-06-05 11:17:37
+hello-ebpf,https://github.com/parttimenerd/hello-ebpf,,FAILED_MAVEN,,BOM/POM generation failed,2026-06-05 11:10:14
+samza-hello-samza,https://github.com/apache/samza-hello-samza,,FAILED_MAVEN,,BOM/POM generation failed,2026-06-05 11:15:18
+Hello,https://github.com/Sunagatov/Hello,,ANALYSED,s3://graphaot-research-staging/analysis/Hello/,,2026-06-05 11:17:46
+libsodium-jni,https://github.com/joshjdevl/libsodium-jni,,ANALYSED,s3://graphaot-research-staging/analysis/libsodium-jni/,,2026-06-05 12:39:12
+JFastText,https://github.com/vinhkhuc/JFastText,,ANALYSED,s3://graphaot-research-staging/analysis/JFastText/,,2026-06-05 12:39:12
+JVips,https://github.com/criteo/JVips,,ANALYSED,s3://graphaot-research-staging/analysis/JVips/,,2026-06-05 12:39:12
+jni-maven,https://github.com/gkubisa/jni-maven,,ANALYSED,s3://graphaot-research-staging/analysis/jni-maven/,,2026-06-05 12:39:12
+leveldb-jna,https://github.com/protonail/leveldb-jna,,ANALYSED,s3://graphaot-research-staging/analysis/leveldb-jna/,,2026-06-05 12:39:14
+datafusion-java,https://github.com/apache/datafusion-java,,ANALYSED,s3://graphaot-research-staging/analysis/datafusion-java/,,2026-06-05 12:39:23
+hikarikeeper,https://github.com/blentle/hikarikeeper,,ANALYSED,s3://graphaot-research-staging/analysis/hikarikeeper/,,2026-06-05 12:39:30
+zksnark-java-sdk,https://github.com/tronprotocol/zksnark-java-sdk,,ANALYSED,s3://graphaot-research-staging/analysis/zksnark-java-sdk/,,2026-06-05 12:39:32

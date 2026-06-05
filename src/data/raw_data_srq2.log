@@ -6377,3 +6377,158 @@ Dependency: spring-jcl:5.1.2.RELEASE | Refl: 2 | Methods: 0 | Serializable: 0 | 
 Dependency: spring-aop:5.1.2.RELEASE | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
 Dependency: spring-expression:5.1.2.RELEASE | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
 Dependency: spring-context:5.1.2.RELEASE | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+
+============================================================
+PROJECT: maven-project | DATE: 2026-06-05 11:16:58
+SUMMARY: Reflection=6 | Methods=1 | Serializable=0 | Resources=4 | Dependencies=4
+------------------------------------------------------------
+Dependency: servlet-api:2.5 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 4
+Dependency: jsp-api:2.2 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+
+============================================================
+PROJECT: spring5webapp | DATE: 2026-06-05 11:17:34
+SUMMARY: Reflection=1687 | Methods=764 | Serializable=60 | Resources=233 | Dependencies=71
+------------------------------------------------------------
+Dependency: logback-classic:1.2.3 | Refl: 116 | Methods: 106 | Serializable: 8 | Resources: 11
+Dependency: logback-core:1.2.3 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: snakeyaml:1.23 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: spring-boot-actuator-autoconfigure:2.1.2.RELEASE | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-databind:2.9.8 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.9.0 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: spring-context:5.1.4.RELEASE | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: jackson-datatype-jsr310:2.9.8 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: HdrHistogram:2.1.9 | Refl: 12 | Methods: 13 | Serializable: 0 | Resources: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-aop:5.1.4.RELEASE | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: aspectjweaver:1.9.2 | Refl: 71 | Methods: 16 | Serializable: 18 | Resources: 36
+Dependency: HikariCP:3.2.0 | Refl: 18 | Methods: 6 | Serializable: 0 | Resources: 2
+Dependency: jaxb-api:2.3.1 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 3
+Dependency: javax.activation-api:1.2.0 | Refl: 1 | Methods: 1 | Serializable: 0 | Resources: 2
+Dependency: hibernate-core:5.3.7.Final | Refl: 350 | Methods: 136 | Serializable: 0 | Resources: 14
+Dependency: jboss-logging:3.3.2.Final | Refl: 12 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: javax.persistence-api:2.2 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 5
+Dependency: antlr:2.7.7 | Refl: 15 | Methods: 6 | Serializable: 0 | Resources: 2
+Dependency: jandex:2.0.5.Final | Refl: 1 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: classmate:1.4.0 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: dom4j:2.1.1 | Refl: 26 | Methods: 13 | Serializable: 2 | Resources: 0
+Dependency: hibernate-commons-annotations:5.0.4.Final | Refl: 3 | Methods: 2 | Serializable: 0 | Resources: 1
+Dependency: spring-tx:5.1.4.RELEASE | Refl: 6 | Methods: 10 | Serializable: 1 | Resources: 0
+Dependency: slf4j-api:1.7.25 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-aspects:5.1.4.RELEASE | Refl: 24 | Methods: 16 | Serializable: 0 | Resources: 9
+Dependency: thymeleaf:3.0.11.RELEASE | Refl: 90 | Methods: 16 | Serializable: 0 | Resources: 5
+Dependency: attoparser:2.0.5.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: unbescape:1.1.6.RELEASE | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: jackson-datatype-jdk8:2.9.8 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: tomcat-embed-core:9.0.14 | Refl: 202 | Methods: 106 | Serializable: 5 | Resources: 109
+Dependency: tomcat-embed-el:9.0.14 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: tomcat-embed-websocket:9.0.14 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: hibernate-validator:6.0.14.Final | Refl: 356 | Methods: 240 | Serializable: 0 | Resources: 1
+Dependency: validation-api:2.0.1.Final | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: spring-expression:5.1.4.RELEASE | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: h2:1.4.197 | Refl: 20 | Methods: 14 | Serializable: 0 | Resources: 1
+Dependency: spring-jcl:5.1.4.RELEASE | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: HelloWorld | DATE: 2026-06-05 11:17:35
+SUMMARY: Reflection=0 | Methods=0 | Serializable=0 | Resources=2 | Dependencies=2
+------------------------------------------------------------
+Dependency: jakarta.servlet-api:5.0.0 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 2
+
+============================================================
+PROJECT: hello-design-pattern | DATE: 2026-06-05 11:17:36
+SUMMARY: Reflection=28 | Methods=2 | Serializable=11 | Resources=0 | Dependencies=2
+------------------------------------------------------------
+Dependency: commons-lang3:3.1 | Refl: 28 | Methods: 2 | Serializable: 11 | Resources: 0
+
+============================================================
+PROJECT: hello-world | DATE: 2026-06-05 11:17:37
+SUMMARY: Reflection=6 | Methods=1 | Serializable=0 | Resources=4 | Dependencies=4
+------------------------------------------------------------
+Dependency: servlet-api:2.5 | Refl: 2 | Methods: 1 | Serializable: 0 | Resources: 4
+Dependency: jsp-api:2.2 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+
+============================================================
+PROJECT: Hello | DATE: 2026-06-05 11:17:46
+SUMMARY: Reflection=688 | Methods=286 | Serializable=39 | Resources=149 | Dependencies=41
+------------------------------------------------------------
+Dependency: logback-classic:1.2.5 | Refl: 116 | Methods: 106 | Serializable: 8 | Resources: 11
+Dependency: logback-core:1.2.5 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: slf4j-api:1.7.32 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-jcl:5.3.9 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: snakeyaml:1.28 | Refl: 8 | Methods: 0 | Serializable: 0 | Resources: 4
+Dependency: jackson-databind:2.12.4 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-annotations:2.12.4 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jdk8:2.12.4 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: jackson-datatype-jsr310:2.12.4 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: tomcat-embed-core:9.0.52 | Refl: 202 | Methods: 106 | Serializable: 5 | Resources: 109
+Dependency: tomcat-embed-el:9.0.52 | Refl: 25 | Methods: 8 | Serializable: 10 | Resources: 0
+Dependency: tomcat-embed-websocket:9.0.52 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-aop:5.3.9 | Refl: 31 | Methods: 8 | Serializable: 8 | Resources: 0
+Dependency: spring-context:5.3.9 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-expression:5.3.9 | Refl: 48 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-boot-actuator-autoconfigure:2.5.4 | Refl: 7 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: HdrHistogram:2.1.12 | Refl: 12 | Methods: 13 | Serializable: 0 | Resources: 0
+Dependency: LatencyUtils:2.0.3 | Refl: 3 | Methods: 0 | Serializable: 0 | Resources: 0
+
+============================================================
+PROJECT: libsodium-jni | DATE: 2026-06-05 12:39:12
+SUMMARY: Reflection=0 | Methods=0 | Serializable=0 | Resources=0 | Dependencies=0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: JFastText | DATE: 2026-06-05 12:39:12
+SUMMARY: Reflection=0 | Methods=0 | Serializable=0 | Resources=0 | Dependencies=1
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: JVips | DATE: 2026-06-05 12:39:12
+SUMMARY: Reflection=0 | Methods=0 | Serializable=0 | Resources=0 | Dependencies=0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: jni-maven | DATE: 2026-06-05 12:39:12
+SUMMARY: Reflection=0 | Methods=0 | Serializable=0 | Resources=0 | Dependencies=0
+------------------------------------------------------------
+No reachability metadata found for this topology.
+
+============================================================
+PROJECT: leveldb-jna | DATE: 2026-06-05 12:39:14
+SUMMARY: Reflection=50 | Methods=69 | Serializable=0 | Resources=5 | Dependencies=3
+------------------------------------------------------------
+Dependency: jna:4.5.1 | Refl: 50 | Methods: 69 | Serializable: 0 | Resources: 5
+
+============================================================
+PROJECT: datafusion-java | DATE: 2026-06-05 12:39:23
+SUMMARY: Reflection=846 | Methods=349 | Serializable=5 | Resources=144 | Dependencies=17
+------------------------------------------------------------
+Dependency: arrow-vector:19.0.0 | Refl: 13 | Methods: 4 | Serializable: 0 | Resources: 1
+Dependency: arrow-memory-core:19.0.0 | Refl: 4 | Methods: 2 | Serializable: 0 | Resources: 1
+Dependency: jackson-annotations:2.21 | Refl: 2 | Methods: 2 | Serializable: 0 | Resources: 0
+Dependency: jackson-databind:2.21.0 | Refl: 56 | Methods: 22 | Serializable: 5 | Resources: 8
+Dependency: jackson-datatype-jsr310:2.21.0 | Refl: 4 | Methods: 0 | Serializable: 0 | Resources: 0
+Dependency: commons-codec:1.21.0 | Refl: 0 | Methods: 0 | Serializable: 0 | Resources: 125
+Dependency: slf4j-api:2.0.17 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: netty-common:4.2.9.Final | Refl: 750 | Methods: 316 | Serializable: 0 | Resources: 8
+Dependency: protobuf-java:3.25.5 | Refl: 15 | Methods: 3 | Serializable: 0 | Resources: 0
+
+============================================================
+PROJECT: hikarikeeper | DATE: 2026-06-05 12:39:30
+SUMMARY: Reflection=369 | Methods=136 | Serializable=19 | Resources=28 | Dependencies=20
+------------------------------------------------------------
+Dependency: slf4j-api:2.0.6 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: rocksdbjni:7.9.2 | Refl: 5 | Methods: 3 | Serializable: 0 | Resources: 1
+Dependency: logback-classic:1.4.5 | Refl: 116 | Methods: 106 | Serializable: 8 | Resources: 11
+Dependency: logback-core:1.4.5 | Refl: 14 | Methods: 0 | Serializable: 3 | Resources: 2
+Dependency: spring-jcl:5.3.22 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
+Dependency: spring-context:5.3.22 | Refl: 154 | Methods: 21 | Serializable: 0 | Resources: 11
+Dependency: spring-aop:5.3.22 | Refl: 29 | Methods: 6 | Serializable: 8 | Resources: 0
+Dependency: spring-expression:5.3.22 | Refl: 47 | Methods: 0 | Serializable: 0 | Resources: 1
+
+============================================================
+PROJECT: zksnark-java-sdk | DATE: 2026-06-05 12:39:32
+SUMMARY: Reflection=4 | Methods=1 | Serializable=2 | Resources=0 | Dependencies=2
+------------------------------------------------------------
+Dependency: commons-io:2.11.0 | Refl: 4 | Methods: 1 | Serializable: 2 | Resources: 0
