@@ -6532,3 +6532,10 @@ PROJECT: zksnark-java-sdk | DATE: 2026-06-05 12:39:32
 SUMMARY: Reflection=4 | Methods=1 | Serializable=2 | Resources=0 | Dependencies=2
 ------------------------------------------------------------
 Dependency: commons-io:2.11.0 | Refl: 4 | Methods: 1 | Serializable: 2 | Resources: 0
+
+============================================================
+PROJECT: LabMQTT | DATE: 2026-06-08 12:24:23
+SUMMARY: Reflection=23 | Methods=14 | Serializable=10 | Resources=3 | Dependencies=2
+------------------------------------------------------------
+Dependency: amqp-client:5.21.0 | Refl: 21 | Methods: 14 | Serializable: 10 | Resources: 2
+Dependency: slf4j-api:1.7.36 | Refl: 2 | Methods: 0 | Serializable: 0 | Resources: 1
